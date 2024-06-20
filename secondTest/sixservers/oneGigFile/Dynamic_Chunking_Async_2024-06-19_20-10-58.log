@@ -1,0 +1,879 @@
+2024-06-19 20:10:58,634:INFO:Downloading file from URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,634:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=0, end_byte=5242879
+2024-06-19 20:10:58,634:INFO:Fetching range::::: 0-5242879 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,635:INFO:Downloading file from URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,635:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=5242880, end_byte=10485759
+2024-06-19 20:10:58,635:INFO:Fetching range::::: 5242880-10485759 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,635:INFO:Downloading file from URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,635:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=10485760, end_byte=15728639
+2024-06-19 20:10:58,635:INFO:Fetching range::::: 10485760-15728639 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,892:INFO:Delay 0.2577648162841797
+2024-06-19 20:10:58,892:INFO:Successfully fetched range 0-5242879 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,892:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 20339777.45907668}
+2024-06-19 20:10:58,892:INFO:number_of_chunk: 1
+2024-06-19 20:10:58,892:INFO:Fetched range: start_byte=0, end_byte=5242879, delay=0.2578, throughput=20339777.45907668
+2024-06-19 20:10:58,893:INFO:Geometric mean of throughput: 20339777.459076658
+2024-06-19 20:10:58,893:INFO:start and end byte are: 15728640 and 15728639
+2024-06-19 20:10:58,893:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 20339777.45907668
+2024-06-19 20:10:58,893:INFO:Fast server throughput: 20339777.45907668
+2024-06-19 20:10:58,893:INFO:Fast download time: 1.0310594617957043
+2024-06-19 20:10:58,893:INFO:Large chunk start byte: 15728640
+2024-06-19 20:10:58,893:INFO:Large chunk end byte: 36700161
+2024-06-19 20:10:58,893:INFO:Large_start_byte, Large_end_byte: 15728640 and 36700161
+2024-06-19 20:10:58,893:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=15728640, end_byte=36700161
+2024-06-19 20:10:58,894:INFO:Fetching range::::: 15728640-36700161 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,971:INFO:Delay 0.3362600803375244
+2024-06-19 20:10:58,971:INFO:Successfully fetched range 10485760-15728639 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:58,972:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 20339777.45907668, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 15591737.784447704}
+2024-06-19 20:10:58,972:INFO:number_of_chunk: 2
+2024-06-19 20:10:58,972:INFO:Fetched range: start_byte=10485760, end_byte=15728639, delay=0.3363, throughput=15591737.784447704
+2024-06-19 20:10:58,972:INFO:Geometric mean of throughput: 17808213.743549444
+2024-06-19 20:10:58,972:INFO:start and end byte are: 36700162 and 36700161
+2024-06-19 20:10:58,972:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 15591737.784447704
+2024-06-19 20:10:58,972:INFO:Slow server throughput: 15591737.784447704
+2024-06-19 20:10:58,972:INFO:Small chunk size: 16076008
+2024-06-19 20:10:58,972:INFO:small_start_byte, small_end_byte: 36700162 and 52776171
+2024-06-19 20:10:58,972:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=36700162, end_byte=52776171
+2024-06-19 20:10:58,973:INFO:Fetching range::::: 36700162-52776171 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,073:INFO:Delay 0.4377875328063965
+2024-06-19 20:10:59,073:INFO:Successfully fetched range 5242880-10485759 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,073:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 20339777.45907668, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 15591737.784447704, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 11975852.684499737}
+2024-06-19 20:10:59,073:INFO:number_of_chunk: 3
+2024-06-19 20:10:59,073:INFO:Fetched range: start_byte=5242880, end_byte=10485759, delay=0.4378, throughput=11975852.684499737
+2024-06-19 20:10:59,073:INFO:Geometric mean of throughput: 15602075.96586721
+2024-06-19 20:10:59,074:INFO:start and end byte are: 52776172 and 52776171
+2024-06-19 20:10:59,074:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 11975852.684499737
+2024-06-19 20:10:59,074:INFO:Slow server throughput: 11975852.684499737
+2024-06-19 20:10:59,074:INFO:Small chunk size: 12347816
+2024-06-19 20:10:59,074:INFO:small_start_byte, small_end_byte: 52776172 and 65123989
+2024-06-19 20:10:59,074:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=52776172, end_byte=65123989
+2024-06-19 20:10:59,074:INFO:Fetching range::::: 52776172-65123989 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,108:INFO:Delay 0.21388912200927734
+2024-06-19 20:10:59,108:INFO:Successfully fetched range 15728640-36700161 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,108:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98048562.74593697, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 15591737.784447704, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 11975852.684499737}
+2024-06-19 20:10:59,108:INFO:number_of_chunk: 4
+2024-06-19 20:10:59,108:INFO:Fetched range: start_byte=15728640, end_byte=36700161, delay=0.2139, throughput=98048562.74593697
+2024-06-19 20:10:59,109:INFO:Geometric mean of throughput: 26356074.90297732
+2024-06-19 20:10:59,109:INFO:start and end byte are: 65123990 and 65123989
+2024-06-19 20:10:59,109:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 98048562.74593697
+2024-06-19 20:10:59,109:INFO:Fast server throughput: 98048562.74593697
+2024-06-19 20:10:59,109:INFO:Fast download time: 0.21388911181024972
+2024-06-19 20:10:59,109:INFO:Large chunk start byte: 65123990
+2024-06-19 20:10:59,109:INFO:Large chunk end byte: 86095511
+2024-06-19 20:10:59,109:INFO:Large_start_byte, Large_end_byte: 65123990 and 86095511
+2024-06-19 20:10:59,109:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=65123990, end_byte=86095511
+2024-06-19 20:10:59,109:INFO:Fetching range::::: 65123990-86095511 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,184:INFO:Delay 0.21135997772216797
+2024-06-19 20:10:59,184:INFO:Successfully fetched range 36700162-52776171 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,184:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98048562.74593697, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76059853.77767149, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 11975852.684499737}
+2024-06-19 20:10:59,184:INFO:number_of_chunk: 5
+2024-06-19 20:10:59,184:INFO:Fetched range: start_byte=36700162, end_byte=52776171, delay=0.2114, throughput=76059853.77767149
+2024-06-19 20:10:59,185:INFO:Geometric mean of throughput: 44699334.20566283
+2024-06-19 20:10:59,185:INFO:start and end byte are: 86095512 and 86095511
+2024-06-19 20:10:59,185:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 76059853.77767149
+2024-06-19 20:10:59,185:INFO:Fast server throughput: 76059853.77767149
+2024-06-19 20:10:59,185:INFO:Fast download time: 0.27572390635013955
+2024-06-19 20:10:59,186:INFO:Large chunk start byte: 86095512
+2024-06-19 20:10:59,186:INFO:Large chunk end byte: 107067033
+2024-06-19 20:10:59,186:INFO:Large_start_byte, Large_end_byte: 86095512 and 107067033
+2024-06-19 20:10:59,186:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=86095512, end_byte=107067033
+2024-06-19 20:10:59,186:INFO:Fetching range::::: 86095512-107067033 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,296:INFO:Delay 0.22229766845703125
+2024-06-19 20:10:59,296:INFO:Successfully fetched range 52776172-65123989 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,296:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98048562.74593697, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76059853.77767149, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 55546318.07749597}
+2024-06-19 20:10:59,297:INFO:number_of_chunk: 6
+2024-06-19 20:10:59,297:INFO:Fetched range: start_byte=52776172, end_byte=65123989, delay=0.2223, throughput=55546318.07749597
+2024-06-19 20:10:59,297:INFO:Geometric mean of throughput: 74544796.1745824
+2024-06-19 20:10:59,297:INFO:start and end byte are: 107067034 and 107067033
+2024-06-19 20:10:59,297:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 55546318.07749597
+2024-06-19 20:10:59,297:INFO:Slow server throughput: 55546318.07749597
+2024-06-19 20:10:59,297:INFO:Small chunk size: 15315447
+2024-06-19 20:10:59,297:INFO:small_start_byte, small_end_byte: 107067034 and 122382482
+2024-06-19 20:10:59,298:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=107067034, end_byte=122382482
+2024-06-19 20:10:59,298:INFO:Fetching range::::: 107067034-122382482 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,321:INFO:Delay 0.21170735359191895
+2024-06-19 20:10:59,321:INFO:Successfully fetched range 65123990-86095511 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,321:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99059010.67765509, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76059853.77767149, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 55546318.07749597}
+2024-06-19 20:10:59,321:INFO:number_of_chunk: 7
+2024-06-19 20:10:59,321:INFO:Fetched range: start_byte=65123990, end_byte=86095511, delay=0.2117, throughput=99059010.67765509
+2024-06-19 20:10:59,322:INFO:Geometric mean of throughput: 74799997.45082751
+2024-06-19 20:10:59,322:INFO:start and end byte are: 122382483 and 122382482
+2024-06-19 20:10:59,322:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99059010.67765509
+2024-06-19 20:10:59,322:INFO:Fast server throughput: 99059010.67765509
+2024-06-19 20:10:59,322:INFO:Fast download time: 0.21170734349692613
+2024-06-19 20:10:59,322:INFO:Large chunk start byte: 122382483
+2024-06-19 20:10:59,322:INFO:Large chunk end byte: 143354004
+2024-06-19 20:10:59,322:INFO:Large_start_byte, Large_end_byte: 122382483 and 143354004
+2024-06-19 20:10:59,322:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=122382483, end_byte=143354004
+2024-06-19 20:10:59,322:INFO:Fetching range::::: 122382483-143354004 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,460:INFO:Delay 0.27386474609375
+2024-06-19 20:10:59,460:INFO:Successfully fetched range 86095512-107067033 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,460:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99059010.67765509, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76576197.91932249, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 55546318.07749597}
+2024-06-19 20:10:59,460:INFO:number_of_chunk: 8
+2024-06-19 20:10:59,460:INFO:Fetched range: start_byte=86095512, end_byte=107067033, delay=0.2739, throughput=76576197.91932249
+2024-06-19 20:10:59,461:INFO:Geometric mean of throughput: 74968879.66804722
+2024-06-19 20:10:59,461:INFO:start and end byte are: 143354005 and 143354004
+2024-06-19 20:10:59,461:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 76576197.91932249
+2024-06-19 20:10:59,461:INFO:Fast server throughput: 76576197.91932249
+2024-06-19 20:10:59,461:INFO:Fast download time: 0.27386473303486186
+2024-06-19 20:10:59,461:INFO:Large chunk start byte: 143354005
+2024-06-19 20:10:59,461:INFO:Large chunk end byte: 164325526
+2024-06-19 20:10:59,461:INFO:Large_start_byte, Large_end_byte: 143354005 and 164325526
+2024-06-19 20:10:59,461:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=143354005, end_byte=164325526
+2024-06-19 20:10:59,461:INFO:Fetching range::::: 143354005-164325526 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,533:INFO:Delay 0.21042943000793457
+2024-06-19 20:10:59,533:INFO:Successfully fetched range 122382483-143354004 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,533:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99660589.29689272, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76576197.91932249, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 55546318.07749597}
+2024-06-19 20:10:59,533:INFO:number_of_chunk: 9
+2024-06-19 20:10:59,533:INFO:Fetched range: start_byte=122382483, end_byte=143354004, delay=0.2104, throughput=99660589.29689272
+2024-06-19 20:10:59,534:INFO:Geometric mean of throughput: 75120333.78896101
+2024-06-19 20:10:59,534:INFO:start and end byte are: 164325527 and 164325526
+2024-06-19 20:10:59,534:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99660589.29689272
+2024-06-19 20:10:59,534:INFO:Fast server throughput: 99660589.29689272
+2024-06-19 20:10:59,534:INFO:Fast download time: 0.21042941997387793
+2024-06-19 20:10:59,534:INFO:Large chunk start byte: 164325527
+2024-06-19 20:10:59,534:INFO:Large chunk end byte: 185297048
+2024-06-19 20:10:59,535:INFO:Large_start_byte, Large_end_byte: 164325527 and 185297048
+2024-06-19 20:10:59,535:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=164325527, end_byte=185297048
+2024-06-19 20:10:59,535:INFO:Fetching range::::: 164325527-185297048 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,564:INFO:Delay 0.2667527198791504
+2024-06-19 20:10:59,565:INFO:Successfully fetched range 107067034-122382482 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,565:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99660589.29689272, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76576197.91932249, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 57414402.39836545}
+2024-06-19 20:10:59,565:INFO:number_of_chunk: 10
+2024-06-19 20:10:59,565:INFO:Fetched range: start_byte=107067034, end_byte=122382482, delay=0.2668, throughput=57414402.39836545
+2024-06-19 20:10:59,565:INFO:Geometric mean of throughput: 75953192.49458578
+2024-06-19 20:10:59,566:INFO:start and end byte are: 185297049 and 185297048
+2024-06-19 20:10:59,566:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 57414402.39836545
+2024-06-19 20:10:59,566:INFO:Slow server throughput: 57414402.39836545
+2024-06-19 20:10:59,566:INFO:Small chunk size: 12081679
+2024-06-19 20:10:59,566:INFO:small_start_byte, small_end_byte: 185297049 and 197378729
+2024-06-19 20:10:59,566:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=185297049, end_byte=197378729
+2024-06-19 20:10:59,566:INFO:Fetching range::::: 185297049-197378729 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,713:INFO:Delay 0.2510356903076172
+2024-06-19 20:10:59,713:INFO:Successfully fetched range 143354005-164325526 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,713:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99660589.29689272, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 83539997.73618509, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 57414402.39836545}
+2024-06-19 20:10:59,713:INFO:number_of_chunk: 11
+2024-06-19 20:10:59,713:INFO:Fetched range: start_byte=143354005, end_byte=164325526, delay=0.2510, throughput=83539997.73618509
+2024-06-19 20:10:59,714:INFO:Geometric mean of throughput: 78189106.97589417
+2024-06-19 20:10:59,714:INFO:start and end byte are: 197378730 and 197378729
+2024-06-19 20:10:59,714:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 83539997.73618509
+2024-06-19 20:10:59,714:INFO:Fast server throughput: 83539997.73618509
+2024-06-19 20:10:59,714:INFO:Fast download time: 0.2510356783373032
+2024-06-19 20:10:59,714:INFO:Large chunk start byte: 197378730
+2024-06-19 20:10:59,714:INFO:Large chunk end byte: 218350251
+2024-06-19 20:10:59,714:INFO:Large_start_byte, Large_end_byte: 197378730 and 218350251
+2024-06-19 20:10:59,714:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=197378730, end_byte=218350251
+2024-06-19 20:10:59,714:INFO:Fetching range::::: 197378730-218350251 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,752:INFO:Delay 0.21735930442810059
+2024-06-19 20:10:59,752:INFO:Successfully fetched range 164325527-185297048 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,752:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 96483198.89124915, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 83539997.73618509, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 57414402.39836545}
+2024-06-19 20:10:59,752:INFO:number_of_chunk: 12
+2024-06-19 20:10:59,752:INFO:Fetched range: start_byte=164325527, end_byte=185297048, delay=0.2174, throughput=96483198.89124915
+2024-06-19 20:10:59,753:INFO:Geometric mean of throughput: 77349171.69066548
+2024-06-19 20:10:59,753:INFO:start and end byte are: 218350252 and 218350251
+2024-06-19 20:10:59,753:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 96483198.89124915
+2024-06-19 20:10:59,753:INFO:Fast server throughput: 96483198.89124915
+2024-06-19 20:10:59,754:INFO:Fast download time: 0.21735929406360177
+2024-06-19 20:10:59,754:INFO:Large chunk start byte: 218350252
+2024-06-19 20:10:59,754:INFO:Large chunk end byte: 239321773
+2024-06-19 20:10:59,754:INFO:Large_start_byte, Large_end_byte: 218350252 and 239321773
+2024-06-19 20:10:59,754:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=218350252, end_byte=239321773
+2024-06-19 20:10:59,754:INFO:Fetching range::::: 218350252-239321773 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,788:INFO:Delay 0.22182869911193848
+2024-06-19 20:10:59,788:INFO:Successfully fetched range 185297049-197378729 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,788:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 96483198.89124915, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 83539997.73618509, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54464007.80587629}
+2024-06-19 20:10:59,788:INFO:number_of_chunk: 13
+2024-06-19 20:10:59,788:INFO:Fetched range: start_byte=185297049, end_byte=197378729, delay=0.2218, throughput=54464007.80587629
+2024-06-19 20:10:59,789:INFO:Geometric mean of throughput: 76000873.3923868
+2024-06-19 20:10:59,789:INFO:start and end byte are: 239321774 and 239321773
+2024-06-19 20:10:59,789:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 54464007.80587629
+2024-06-19 20:10:59,789:INFO:Slow server throughput: 54464007.80587629
+2024-06-19 20:10:59,789:INFO:Small chunk size: 11838258
+2024-06-19 20:10:59,789:INFO:small_start_byte, small_end_byte: 239321774 and 251160033
+2024-06-19 20:10:59,789:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=239321774, end_byte=251160033
+2024-06-19 20:10:59,789:INFO:Fetching range::::: 239321774-251160033 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,965:INFO:Delay 0.21095037460327148
+2024-06-19 20:10:59,965:INFO:Successfully fetched range 218350252-239321773 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,965:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99414476.22191028, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 83539997.73618509, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54464007.80587629}
+2024-06-19 20:10:59,965:INFO:number_of_chunk: 14
+2024-06-19 20:10:59,965:INFO:Fetched range: start_byte=218350252, end_byte=239321773, delay=0.2110, throughput=99414476.22191028
+2024-06-19 20:10:59,966:INFO:Geometric mean of throughput: 76762874.30434279
+2024-06-19 20:10:59,966:INFO:start and end byte are: 251160034 and 251160033
+2024-06-19 20:10:59,966:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99414476.22191028
+2024-06-19 20:10:59,966:INFO:Fast server throughput: 99414476.22191028
+2024-06-19 20:10:59,966:INFO:Fast download time: 0.21095036454437424
+2024-06-19 20:10:59,967:INFO:Large chunk start byte: 251160034
+2024-06-19 20:10:59,967:INFO:Large chunk end byte: 272131555
+2024-06-19 20:10:59,967:INFO:Large_start_byte, Large_end_byte: 251160034 and 272131555
+2024-06-19 20:10:59,967:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=251160034, end_byte=272131555
+2024-06-19 20:10:59,967:INFO:Fetching range::::: 251160034-272131555 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,996:INFO:Delay 0.2816352844238281
+2024-06-19 20:10:59,996:INFO:Successfully fetched range 197378730-218350251 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:10:59,996:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99414476.22191028, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 74463400.57462515, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54464007.80587629}
+2024-06-19 20:10:59,996:INFO:number_of_chunk: 15
+2024-06-19 20:10:59,996:INFO:Fetched range: start_byte=197378730, end_byte=218350251, delay=0.2816, throughput=74463400.57462515
+2024-06-19 20:10:59,996:INFO:Slow server throughput: 74463400.57462515
+2024-06-19 20:10:59,996:INFO:Small chunk size: 15708081
+2024-06-19 20:10:59,996:INFO:small_start_byte, small_end_byte: 272131556 and 287839638
+2024-06-19 20:10:59,996:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=272131556, end_byte=287839638
+2024-06-19 20:10:59,996:INFO:Fetching range::::: 272131556-287839638 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,012:INFO:Delay 0.2224891185760498
+2024-06-19 20:11:00,012:INFO:Successfully fetched range 239321774-251160033 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,012:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99414476.22191028, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 74463400.57462515, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 53208260.59164562}
+2024-06-19 20:11:00,012:INFO:number_of_chunk: 16
+2024-06-19 20:11:00,012:INFO:Fetched range: start_byte=239321774, end_byte=251160033, delay=0.2225, throughput=53208260.59164562
+2024-06-19 20:11:00,013:INFO:Geometric mean of throughput: 73303354.97400244
+2024-06-19 20:11:00,013:INFO:start and end byte are: 287839639 and 287839638
+2024-06-19 20:11:00,013:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 53208260.59164562
+2024-06-19 20:11:00,013:INFO:Slow server throughput: 53208260.59164562
+2024-06-19 20:11:00,013:INFO:Small chunk size: 11224301
+2024-06-19 20:11:00,013:INFO:small_start_byte, small_end_byte: 287839639 and 299063941
+2024-06-19 20:11:00,013:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=287839639, end_byte=299063941
+2024-06-19 20:11:00,013:INFO:Fetching range::::: 287839639-299063941 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,183:INFO:Delay 0.21594762802124023
+2024-06-19 20:11:00,183:INFO:Successfully fetched range 251160034-272131555 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,183:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97113921.51960696, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 74463400.57462515, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 53208260.59164562}
+2024-06-19 20:11:00,183:INFO:number_of_chunk: 17
+2024-06-19 20:11:00,183:INFO:Fetched range: start_byte=251160034, end_byte=272131555, delay=0.2159, throughput=97113921.51960696
+2024-06-19 20:11:00,184:INFO:Geometric mean of throughput: 72733497.70196685
+2024-06-19 20:11:00,184:INFO:start and end byte are: 299063942 and 299063941
+2024-06-19 20:11:00,184:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 97113921.51960696
+2024-06-19 20:11:00,184:INFO:Fast server throughput: 97113921.51960696
+2024-06-19 20:11:00,184:INFO:Fast download time: 0.21594761772405538
+2024-06-19 20:11:00,184:INFO:Large chunk start byte: 299063942
+2024-06-19 20:11:00,184:INFO:Large chunk end byte: 320035463
+2024-06-19 20:11:00,184:INFO:Large_start_byte, Large_end_byte: 299063942 and 320035463
+2024-06-19 20:11:00,184:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=299063942, end_byte=320035463
+2024-06-19 20:11:00,184:INFO:Fetching range::::: 299063942-320035463 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,194:INFO:Delay 0.18065953254699707
+2024-06-19 20:11:00,194:INFO:Successfully fetched range 287839639-299063941 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,194:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97113921.51960696, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 74463400.57462515, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 62129586.198724896}
+2024-06-19 20:11:00,194:INFO:number_of_chunk: 18
+2024-06-19 20:11:00,194:INFO:Fetched range: start_byte=287839639, end_byte=299063941, delay=0.1807, throughput=62129586.198724896
+2024-06-19 20:11:00,195:INFO:Geometric mean of throughput: 76590388.54953796
+2024-06-19 20:11:00,195:INFO:start and end byte are: 320035464 and 320035463
+2024-06-19 20:11:00,195:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 62129586.198724896
+2024-06-19 20:11:00,195:INFO:Slow server throughput: 62129586.198724896
+2024-06-19 20:11:00,195:INFO:Small chunk size: 13416736
+2024-06-19 20:11:00,195:INFO:small_start_byte, small_end_byte: 320035464 and 333452201
+2024-06-19 20:11:00,195:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=320035464, end_byte=333452201
+2024-06-19 20:11:00,196:INFO:Fetching range::::: 320035464-333452201 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,202:INFO:Delay 0.20516633987426758
+2024-06-19 20:11:00,202:INFO:Successfully fetched range 272131556-287839638 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,202:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97113921.51960696, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76562666.22305788, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 62129586.198724896}
+2024-06-19 20:11:00,202:INFO:number_of_chunk: 19
+2024-06-19 20:11:00,202:INFO:Fetched range: start_byte=272131556, end_byte=287839638, delay=0.2052, throughput=76562666.22305788
+2024-06-19 20:11:00,203:INFO:Geometric mean of throughput: 77303472.05569376
+2024-06-19 20:11:00,203:INFO:start and end byte are: 333452202 and 333452201
+2024-06-19 20:11:00,203:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 76562666.22305788
+2024-06-19 20:11:00,203:INFO:Slow server throughput: 76562666.22305788
+2024-06-19 20:11:00,203:INFO:Small chunk size: 16533525
+2024-06-19 20:11:00,203:INFO:small_start_byte, small_end_byte: 333452202 and 349985728
+2024-06-19 20:11:00,203:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=333452202, end_byte=349985728
+2024-06-19 20:11:00,203:INFO:Fetching range::::: 333452202-349985728 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,395:INFO:Delay 0.2104172706604004
+2024-06-19 20:11:00,395:INFO:Successfully fetched range 299063942-320035463 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,395:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99666348.36665405, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76562666.22305788, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 62129586.198724896}
+2024-06-19 20:11:00,395:INFO:number_of_chunk: 20
+2024-06-19 20:11:00,395:INFO:Fetched range: start_byte=299063942, end_byte=320035463, delay=0.2104, throughput=99666348.36665405
+2024-06-19 20:11:00,396:INFO:Geometric mean of throughput: 77974874.69968124
+2024-06-19 20:11:00,396:INFO:start and end byte are: 349985729 and 349985728
+2024-06-19 20:11:00,396:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99666348.36665405
+2024-06-19 20:11:00,396:INFO:Fast server throughput: 99666348.36665405
+2024-06-19 20:11:00,396:INFO:Fast download time: 0.21041726062692354
+2024-06-19 20:11:00,396:INFO:Large chunk start byte: 349985729
+2024-06-19 20:11:00,396:INFO:Large chunk end byte: 370957250
+2024-06-19 20:11:00,396:INFO:Large_start_byte, Large_end_byte: 349985729 and 370957250
+2024-06-19 20:11:00,396:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=349985729, end_byte=370957250
+2024-06-19 20:11:00,396:INFO:Fetching range::::: 349985729-370957250 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,420:INFO:Delay 0.22469377517700195
+2024-06-19 20:11:00,421:INFO:Successfully fetched range 320035464-333452201 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,421:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99666348.36665405, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76562666.22305788, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 59711209.130876005}
+2024-06-19 20:11:00,421:INFO:number_of_chunk: 21
+2024-06-19 20:11:00,421:INFO:Fetched range: start_byte=320035464, end_byte=333452201, delay=0.2247, throughput=59711209.130876005
+2024-06-19 20:11:00,421:INFO:Geometric mean of throughput: 76949739.45905195
+2024-06-19 20:11:00,421:INFO:start and end byte are: 370957251 and 370957250
+2024-06-19 20:11:00,422:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 59711209.130876005
+2024-06-19 20:11:00,422:INFO:Slow server throughput: 59711209.130876005
+2024-06-19 20:11:00,422:INFO:Small chunk size: 12564269
+2024-06-19 20:11:00,422:INFO:small_start_byte, small_end_byte: 370957251 and 383521521
+2024-06-19 20:11:00,422:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=370957251, end_byte=383521521
+2024-06-19 20:11:00,422:INFO:Fetching range::::: 370957251-383521521 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,446:INFO:Delay 0.24285125732421875
+2024-06-19 20:11:00,446:INFO:Successfully fetched range 333452202-349985728 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,446:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99666348.36665405, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 68080874.61506079, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 59711209.130876005}
+2024-06-19 20:11:00,447:INFO:number_of_chunk: 22
+2024-06-19 20:11:00,447:INFO:Fetched range: start_byte=333452202, end_byte=349985728, delay=0.2429, throughput=68080874.61506079
+2024-06-19 20:11:00,447:INFO:Geometric mean of throughput: 73996273.03266302
+2024-06-19 20:11:00,447:INFO:start and end byte are: 383521522 and 383521521
+2024-06-19 20:11:00,447:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 68080874.61506079
+2024-06-19 20:11:00,447:INFO:Slow server throughput: 68080874.61506079
+2024-06-19 20:11:00,448:INFO:Small chunk size: 14325391
+2024-06-19 20:11:00,448:INFO:small_start_byte, small_end_byte: 383521522 and 397846914
+2024-06-19 20:11:00,448:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=383521522, end_byte=397846914
+2024-06-19 20:11:00,448:INFO:Fetching range::::: 383521522-397846914 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,608:INFO:Delay 0.21205377578735352
+2024-06-19 20:11:00,609:INFO:Successfully fetched range 349985729-370957250 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,609:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98897182.67044741, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 68080874.61506079, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 59711209.130876005}
+2024-06-19 20:11:00,609:INFO:number_of_chunk: 23
+2024-06-19 20:11:00,609:INFO:Fetched range: start_byte=349985729, end_byte=370957250, delay=0.2121, throughput=98897182.67044741
+2024-06-19 20:11:00,609:INFO:Geometric mean of throughput: 73805428.1458331
+2024-06-19 20:11:00,610:INFO:start and end byte are: 397846915 and 397846914
+2024-06-19 20:11:00,610:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 98897182.67044741
+2024-06-19 20:11:00,610:INFO:Fast server throughput: 98897182.67044741
+2024-06-19 20:11:00,610:INFO:Fast download time: 0.21205376567584203
+2024-06-19 20:11:00,610:INFO:Large chunk start byte: 397846915
+2024-06-19 20:11:00,610:INFO:Large chunk end byte: 418818436
+2024-06-19 20:11:00,610:INFO:Large_start_byte, Large_end_byte: 397846915 and 418818436
+2024-06-19 20:11:00,610:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=397846915, end_byte=418818436
+2024-06-19 20:11:00,610:INFO:Fetching range::::: 397846915-418818436 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,622:INFO:Delay 0.1736288070678711
+2024-06-19 20:11:00,622:INFO:Successfully fetched range 383521522-397846914 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,622:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98897182.67044741, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 82505848.20524764, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 59711209.130876005}
+2024-06-19 20:11:00,622:INFO:number_of_chunk: 24
+2024-06-19 20:11:00,622:INFO:Fetched range: start_byte=383521522, end_byte=397846914, delay=0.1736, throughput=82505848.20524764
+2024-06-19 20:11:00,622:INFO:Geometric mean of throughput: 78687939.46397828
+2024-06-19 20:11:00,623:INFO:start and end byte are: 418818437 and 418818436
+2024-06-19 20:11:00,623:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 82505848.20524764
+2024-06-19 20:11:00,623:INFO:Fast server throughput: 82505848.20524764
+2024-06-19 20:11:00,623:INFO:Fast download time: 0.2541822241234306
+2024-06-19 20:11:00,623:INFO:Large chunk start byte: 418818437
+2024-06-19 20:11:00,623:INFO:Large chunk end byte: 439789958
+2024-06-19 20:11:00,623:INFO:Large_start_byte, Large_end_byte: 418818437 and 439789958
+2024-06-19 20:11:00,623:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=418818437, end_byte=439789958
+2024-06-19 20:11:00,623:INFO:Fetching range::::: 418818437-439789958 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,644:INFO:Delay 0.2221689224243164
+2024-06-19 20:11:00,644:INFO:Successfully fetched range 370957251-383521521 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,644:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98897182.67044741, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 82505848.20524764, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 56552779.13264452}
+2024-06-19 20:11:00,644:INFO:number_of_chunk: 25
+2024-06-19 20:11:00,644:INFO:Fetched range: start_byte=370957251, end_byte=383521521, delay=0.2222, throughput=56552779.13264452
+2024-06-19 20:11:00,645:INFO:Geometric mean of throughput: 77275330.00968093
+2024-06-19 20:11:00,645:INFO:start and end byte are: 439789959 and 439789958
+2024-06-19 20:11:00,645:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 56552779.13264452
+2024-06-19 20:11:00,645:INFO:Slow server throughput: 56552779.13264452
+2024-06-19 20:11:00,645:INFO:Small chunk size: 14374711
+2024-06-19 20:11:00,645:INFO:small_start_byte, small_end_byte: 439789959 and 454164671
+2024-06-19 20:11:00,645:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=439789959, end_byte=454164671
+2024-06-19 20:11:00,646:INFO:Fetching range::::: 439789959-454164671 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,821:INFO:Delay 0.21036648750305176
+2024-06-19 20:11:00,821:INFO:Successfully fetched range 397846915-418818436 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,821:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99690408.14875881, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 82505848.20524764, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 56552779.13264452}
+2024-06-19 20:11:00,821:INFO:number_of_chunk: 26
+2024-06-19 20:11:00,821:INFO:Fetched range: start_byte=397846915, end_byte=418818436, delay=0.2104, throughput=99690408.14875881
+2024-06-19 20:11:00,822:INFO:Geometric mean of throughput: 77481381.06247278
+2024-06-19 20:11:00,822:INFO:start and end byte are: 454164672 and 454164671
+2024-06-19 20:11:00,822:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99690408.14875881
+2024-06-19 20:11:00,822:INFO:Fast server throughput: 99690408.14875881
+2024-06-19 20:11:00,822:INFO:Fast download time: 0.21036647747199644
+2024-06-19 20:11:00,822:INFO:Large chunk start byte: 454164672
+2024-06-19 20:11:00,822:INFO:Large chunk end byte: 475136193
+2024-06-19 20:11:00,822:INFO:Large_start_byte, Large_end_byte: 454164672 and 475136193
+2024-06-19 20:11:00,822:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=454164672, end_byte=475136193
+2024-06-19 20:11:00,822:INFO:Fetching range::::: 454164672-475136193 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,897:INFO:Delay 0.2735145092010498
+2024-06-19 20:11:00,897:INFO:Successfully fetched range 418818437-439789958 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,897:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99690408.14875881, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76674254.17854033, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 56552779.13264452}
+2024-06-19 20:11:00,897:INFO:number_of_chunk: 27
+2024-06-19 20:11:00,897:INFO:Fetched range: start_byte=418818437, end_byte=439789958, delay=0.2735, throughput=76674254.17854033
+2024-06-19 20:11:00,897:INFO:Slow server throughput: 76674254.17854033
+2024-06-19 20:11:00,897:INFO:Small chunk size: 16129692
+2024-06-19 20:11:00,897:INFO:small_start_byte, small_end_byte: 475136194 and 491265887
+2024-06-19 20:11:00,897:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=475136194, end_byte=491265887
+2024-06-19 20:11:00,898:INFO:Fetching range::::: 475136194-491265887 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,911:INFO:Delay 0.2657773494720459
+2024-06-19 20:11:00,912:INFO:Successfully fetched range 439789959-454164671 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:00,912:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99690408.14875881, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76674254.17854033, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54085542.00933482}
+2024-06-19 20:11:00,912:INFO:number_of_chunk: 28
+2024-06-19 20:11:00,912:INFO:Fetched range: start_byte=439789959, end_byte=454164671, delay=0.2658, throughput=54085542.00933482
+2024-06-19 20:11:00,912:INFO:Geometric mean of throughput: 74495157.07187042
+2024-06-19 20:11:00,913:INFO:start and end byte are: 491265888 and 491265887
+2024-06-19 20:11:00,913:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 54085542.00933482
+2024-06-19 20:11:00,913:INFO:Slow server throughput: 54085542.00933482
+2024-06-19 20:11:00,913:INFO:Small chunk size: 11377784
+2024-06-19 20:11:00,913:INFO:small_start_byte, small_end_byte: 491265888 and 502643673
+2024-06-19 20:11:00,913:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=491265888, end_byte=502643673
+2024-06-19 20:11:00,913:INFO:Fetching range::::: 491265888-502643673 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,011:INFO:Delay 0.18845295906066895
+2024-06-19 20:11:01,011:INFO:Successfully fetched range 454164672-475136193 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,011:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111282524.32082325, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76674254.17854033, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54085542.00933482}
+2024-06-19 20:11:01,011:INFO:number_of_chunk: 29
+2024-06-19 20:11:01,011:INFO:Fetched range: start_byte=454164672, end_byte=475136193, delay=0.1885, throughput=111282524.32082325
+2024-06-19 20:11:01,012:INFO:Geometric mean of throughput: 77277412.4364822
+2024-06-19 20:11:01,012:INFO:start and end byte are: 502643674 and 502643673
+2024-06-19 20:11:01,012:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 111282524.32082325
+2024-06-19 20:11:01,012:INFO:Fast server throughput: 111282524.32082325
+2024-06-19 20:11:01,012:INFO:Fast download time: 0.18845295007453203
+2024-06-19 20:11:01,012:INFO:Large chunk start byte: 502643674
+2024-06-19 20:11:01,012:INFO:Large chunk end byte: 523615195
+2024-06-19 20:11:01,012:INFO:Large_start_byte, Large_end_byte: 502643674 and 523615195
+2024-06-19 20:11:01,012:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=502643674, end_byte=523615195
+2024-06-19 20:11:01,013:INFO:Fetching range::::: 502643674-523615195 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,094:INFO:Delay 0.18145322799682617
+2024-06-19 20:11:01,095:INFO:Successfully fetched range 491265888-502643673 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,095:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111282524.32082325, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 76674254.17854033, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 62703679.21037487}
+2024-06-19 20:11:01,095:INFO:number_of_chunk: 30
+2024-06-19 20:11:01,095:INFO:Fetched range: start_byte=491265888, end_byte=502643673, delay=0.1815, throughput=62703679.21037487
+2024-06-19 20:11:01,095:INFO:Geometric mean of throughput: 81181396.46890035
+2024-06-19 20:11:01,095:INFO:start and end byte are: 523615196 and 523615195
+2024-06-19 20:11:01,095:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 62703679.21037487
+2024-06-19 20:11:01,096:INFO:Slow server throughput: 62703679.21037487
+2024-06-19 20:11:01,096:INFO:Small chunk size: 11816693
+2024-06-19 20:11:01,096:INFO:small_start_byte, small_end_byte: 523615196 and 535431890
+2024-06-19 20:11:01,096:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=523615196, end_byte=535431890
+2024-06-19 20:11:01,096:INFO:Fetching range::::: 523615196-535431890 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,104:INFO:Delay 0.20624542236328125
+2024-06-19 20:11:01,104:INFO:Successfully fetched range 475136194-491265887 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,104:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111282524.32082325, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 78206307.87911072, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 62703679.21037487}
+2024-06-19 20:11:01,104:INFO:number_of_chunk: 31
+2024-06-19 20:11:01,104:INFO:Fetched range: start_byte=475136194, end_byte=491265887, delay=0.2062, throughput=78206307.87911072
+2024-06-19 20:11:01,105:INFO:Geometric mean of throughput: 81718538.7270578
+2024-06-19 20:11:01,105:INFO:start and end byte are: 535431891 and 535431890
+2024-06-19 20:11:01,105:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 78206307.87911072
+2024-06-19 20:11:01,105:INFO:Slow server throughput: 78206307.87911072
+2024-06-19 20:11:01,105:INFO:Small chunk size: 14738209
+2024-06-19 20:11:01,105:INFO:small_start_byte, small_end_byte: 535431891 and 550170101
+2024-06-19 20:11:01,105:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=535431891, end_byte=550170101
+2024-06-19 20:11:01,105:INFO:Fetching range::::: 535431891-550170101 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,252:INFO:Delay 0.2395949363708496
+2024-06-19 20:11:01,252:INFO:Successfully fetched range 502643674-523615195 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,253:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 87529066.00471672, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 78206307.87911072, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 62703679.21037487}
+2024-06-19 20:11:01,253:INFO:number_of_chunk: 32
+2024-06-19 20:11:01,253:INFO:Fetched range: start_byte=502643674, end_byte=523615195, delay=0.2396, throughput=87529066.00471672
+2024-06-19 20:11:01,253:INFO:Geometric mean of throughput: 75433171.46419543
+2024-06-19 20:11:01,253:INFO:start and end byte are: 550170102 and 550170101
+2024-06-19 20:11:01,253:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 87529066.00471672
+2024-06-19 20:11:01,254:INFO:Fast server throughput: 87529066.00471672
+2024-06-19 20:11:01,254:INFO:Fast download time: 0.23959492494607332
+2024-06-19 20:11:01,254:INFO:Large chunk start byte: 550170102
+2024-06-19 20:11:01,254:INFO:Large chunk end byte: 571141623
+2024-06-19 20:11:01,254:INFO:Large_start_byte, Large_end_byte: 550170102 and 571141623
+2024-06-19 20:11:01,254:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=550170102, end_byte=571141623
+2024-06-19 20:11:01,254:INFO:Fetching range::::: 550170102-571141623 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,319:INFO:Delay 0.2228381633758545
+2024-06-19 20:11:01,319:INFO:Successfully fetched range 523615196-535431890 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,319:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 87529066.00471672, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 78206307.87911072, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 53028143.02983253}
+2024-06-19 20:11:01,319:INFO:number_of_chunk: 33
+2024-06-19 20:11:01,319:INFO:Fetched range: start_byte=523615196, end_byte=535431890, delay=0.2228, throughput=53028143.02983253
+2024-06-19 20:11:01,320:INFO:Geometric mean of throughput: 71334589.35677768
+2024-06-19 20:11:01,320:INFO:start and end byte are: 571141624 and 571141623
+2024-06-19 20:11:01,320:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 53028143.02983253
+2024-06-19 20:11:01,320:INFO:Slow server throughput: 53028143.02983253
+2024-06-19 20:11:01,320:INFO:Small chunk size: 12705273
+2024-06-19 20:11:01,320:INFO:small_start_byte, small_end_byte: 571141624 and 583846898
+2024-06-19 20:11:01,320:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=571141624, end_byte=583846898
+2024-06-19 20:11:01,320:INFO:Fetching range::::: 571141624-583846898 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,346:INFO:Delay 0.24062466621398926
+2024-06-19 20:11:01,346:INFO:Successfully fetched range 535431891-550170101 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,346:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 87529066.00471672, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 61249788.859522834, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 53028143.02983253}
+2024-06-19 20:11:01,346:INFO:number_of_chunk: 34
+2024-06-19 20:11:01,346:INFO:Fetched range: start_byte=535431891, end_byte=550170101, delay=0.2406, throughput=61249788.859522834
+2024-06-19 20:11:01,347:INFO:Geometric mean of throughput: 65753837.35543938
+2024-06-19 20:11:01,347:INFO:start and end byte are: 583846899 and 583846898
+2024-06-19 20:11:01,347:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 61249788.859522834
+2024-06-19 20:11:01,347:INFO:Slow server throughput: 61249788.859522834
+2024-06-19 20:11:01,348:INFO:Small chunk size: 14675138
+2024-06-19 20:11:01,348:INFO:small_start_byte, small_end_byte: 583846899 and 598522038
+2024-06-19 20:11:01,348:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=583846899, end_byte=598522038
+2024-06-19 20:11:01,348:INFO:Fetching range::::: 583846899-598522038 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,469:INFO:Delay 0.21473073959350586
+2024-06-19 20:11:01,469:INFO:Successfully fetched range 550170102-571141623 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,469:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97664270.33083364, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 61249788.859522834, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 53028143.02983253}
+2024-06-19 20:11:01,469:INFO:number_of_chunk: 35
+2024-06-19 20:11:01,469:INFO:Fetched range: start_byte=550170102, end_byte=571141623, delay=0.2147, throughput=97664270.33083364
+2024-06-19 20:11:01,470:INFO:Geometric mean of throughput: 68199665.02628021
+2024-06-19 20:11:01,470:INFO:start and end byte are: 598522039 and 598522038
+2024-06-19 20:11:01,470:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 97664270.33083364
+2024-06-19 20:11:01,470:INFO:Fast server throughput: 97664270.33083364
+2024-06-19 20:11:01,470:INFO:Fast download time: 0.21473072935434678
+2024-06-19 20:11:01,470:INFO:Large chunk start byte: 598522039
+2024-06-19 20:11:01,470:INFO:Large chunk end byte: 619493560
+2024-06-19 20:11:01,470:INFO:Large_start_byte, Large_end_byte: 598522039 and 619493560
+2024-06-19 20:11:01,470:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=598522039, end_byte=619493560
+2024-06-19 20:11:01,470:INFO:Fetching range::::: 598522039-619493560 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,544:INFO:Delay 0.22364211082458496
+2024-06-19 20:11:01,544:INFO:Successfully fetched range 571141624-583846898 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,544:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97664270.33083364, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 61249788.859522834, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 56810740.844623215}
+2024-06-19 20:11:01,544:INFO:number_of_chunk: 36
+2024-06-19 20:11:01,544:INFO:Fetched range: start_byte=571141624, end_byte=583846898, delay=0.2236, throughput=56810740.844623215
+2024-06-19 20:11:01,545:INFO:Geometric mean of throughput: 69784170.32546155
+2024-06-19 20:11:01,545:INFO:start and end byte are: 619493561 and 619493560
+2024-06-19 20:11:01,545:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 56810740.844623215
+2024-06-19 20:11:01,545:INFO:Slow server throughput: 56810740.844623215
+2024-06-19 20:11:01,545:INFO:Small chunk size: 12199011
+2024-06-19 20:11:01,545:INFO:small_start_byte, small_end_byte: 619493561 and 631692573
+2024-06-19 20:11:01,545:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=619493561, end_byte=631692573
+2024-06-19 20:11:01,545:INFO:Fetching range::::: 619493561-631692573 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,587:INFO:Delay 0.23955297470092773
+2024-06-19 20:11:01,588:INFO:Successfully fetched range 583846899-598522038 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,588:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97664270.33083364, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 61260516.66994043, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 56810740.844623215}
+2024-06-19 20:11:01,588:INFO:number_of_chunk: 37
+2024-06-19 20:11:01,588:INFO:Fetched range: start_byte=583846899, end_byte=598522038, delay=0.2396, throughput=61260516.66994043
+2024-06-19 20:11:01,588:INFO:Geometric mean of throughput: 69788244.28588048
+2024-06-19 20:11:01,589:INFO:start and end byte are: 631692574 and 631692573
+2024-06-19 20:11:01,589:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 61260516.66994043
+2024-06-19 20:11:01,589:INFO:Slow server throughput: 61260516.66994043
+2024-06-19 20:11:01,589:INFO:Small chunk size: 13154515
+2024-06-19 20:11:01,589:INFO:small_start_byte, small_end_byte: 631692574 and 644847090
+2024-06-19 20:11:01,589:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=631692574, end_byte=644847090
+2024-06-19 20:11:01,589:INFO:Fetching range::::: 631692574-644847090 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,683:INFO:Delay 0.21251249313354492
+2024-06-19 20:11:01,683:INFO:Successfully fetched range 598522039-619493560 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,683:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98683708.85292514, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 61260516.66994043, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 56810740.844623215}
+2024-06-19 20:11:01,683:INFO:number_of_chunk: 38
+2024-06-19 20:11:01,683:INFO:Fetched range: start_byte=598522039, end_byte=619493560, delay=0.2125, throughput=98683708.85292514
+2024-06-19 20:11:01,684:INFO:Geometric mean of throughput: 70030225.33930372
+2024-06-19 20:11:01,684:INFO:start and end byte are: 644847091 and 644847090
+2024-06-19 20:11:01,684:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 98683708.85292514
+2024-06-19 20:11:01,684:INFO:Fast server throughput: 98683708.85292514
+2024-06-19 20:11:01,684:INFO:Fast download time: 0.21251248300016007
+2024-06-19 20:11:01,684:INFO:Large chunk start byte: 644847091
+2024-06-19 20:11:01,685:INFO:Large chunk end byte: 665818612
+2024-06-19 20:11:01,685:INFO:Large_start_byte, Large_end_byte: 644847091 and 665818612
+2024-06-19 20:11:01,685:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=644847091, end_byte=665818612
+2024-06-19 20:11:01,685:INFO:Fetching range::::: 644847091-665818612 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,768:INFO:Delay 0.22211098670959473
+2024-06-19 20:11:01,768:INFO:Successfully fetched range 619493561-631692573 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,768:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98683708.85292514, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 61260516.66994043, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54923046.269430794}
+2024-06-19 20:11:01,768:INFO:number_of_chunk: 39
+2024-06-19 20:11:01,768:INFO:Fetched range: start_byte=619493561, end_byte=631692573, delay=0.2221, throughput=54923046.269430794
+2024-06-19 20:11:01,769:INFO:Geometric mean of throughput: 69245822.5638257
+2024-06-19 20:11:01,769:INFO:start and end byte are: 665818613 and 665818612
+2024-06-19 20:11:01,769:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 54923046.269430794
+2024-06-19 20:11:01,769:INFO:Slow server throughput: 54923046.269430794
+2024-06-19 20:11:01,769:INFO:Small chunk size: 11671832
+2024-06-19 20:11:01,769:INFO:small_start_byte, small_end_byte: 665818613 and 677490446
+2024-06-19 20:11:01,769:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=665818613, end_byte=677490446
+2024-06-19 20:11:01,769:INFO:Fetching range::::: 665818613-677490446 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,795:INFO:Delay 0.20566797256469727
+2024-06-19 20:11:01,795:INFO:Successfully fetched range 631692574-644847090 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,795:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 98683708.85292514, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 63959963.4107443, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54923046.269430794}
+2024-06-19 20:11:01,795:INFO:number_of_chunk: 40
+2024-06-19 20:11:01,795:INFO:Fetched range: start_byte=631692574, end_byte=644847090, delay=0.2057, throughput=63959963.4107443
+2024-06-19 20:11:01,796:INFO:Geometric mean of throughput: 70248344.78008102
+2024-06-19 20:11:01,796:INFO:start and end byte are: 677490447 and 677490446
+2024-06-19 20:11:01,796:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 63959963.4107443
+2024-06-19 20:11:01,796:INFO:Slow server throughput: 63959963.4107443
+2024-06-19 20:11:01,796:INFO:Small chunk size: 13592290
+2024-06-19 20:11:01,796:INFO:small_start_byte, small_end_byte: 677490447 and 691082738
+2024-06-19 20:11:01,796:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=677490447, end_byte=691082738
+2024-06-19 20:11:01,796:INFO:Fetching range::::: 677490447-691082738 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,895:INFO:Delay 0.2105240821838379
+2024-06-19 20:11:01,896:INFO:Successfully fetched range 644847091-665818612 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,896:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99615781.63626356, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 63959963.4107443, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 54923046.269430794}
+2024-06-19 20:11:01,896:INFO:number_of_chunk: 41
+2024-06-19 20:11:01,896:INFO:Fetched range: start_byte=644847091, end_byte=665818612, delay=0.2105, throughput=99615781.63626356
+2024-06-19 20:11:01,896:INFO:Geometric mean of throughput: 70468818.52971803
+2024-06-19 20:11:01,896:INFO:start and end byte are: 691082739 and 691082738
+2024-06-19 20:11:01,896:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99615781.63626356
+2024-06-19 20:11:01,897:INFO:Fast server throughput: 99615781.63626356
+2024-06-19 20:11:01,897:INFO:Fast download time: 0.21052407214526786
+2024-06-19 20:11:01,897:INFO:Large chunk start byte: 691082739
+2024-06-19 20:11:01,897:INFO:Large chunk end byte: 712054260
+2024-06-19 20:11:01,897:INFO:Large_start_byte, Large_end_byte: 691082739 and 712054260
+2024-06-19 20:11:01,897:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=691082739, end_byte=712054260
+2024-06-19 20:11:01,897:INFO:Fetching range::::: 691082739-712054260 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,991:INFO:Delay 0.22146987915039062
+2024-06-19 20:11:01,991:INFO:Successfully fetched range 665818613-677490446 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:01,991:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99615781.63626356, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 63959963.4107443, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 52701672.32120158}
+2024-06-19 20:11:01,991:INFO:number_of_chunk: 42
+2024-06-19 20:11:01,991:INFO:Fetched range: start_byte=665818613, end_byte=677490446, delay=0.2215, throughput=52701672.32120158
+2024-06-19 20:11:01,992:INFO:Geometric mean of throughput: 69505672.55007577
+2024-06-19 20:11:01,992:INFO:start and end byte are: 712054261 and 712054260
+2024-06-19 20:11:01,992:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 52701672.32120158
+2024-06-19 20:11:01,992:INFO:Slow server throughput: 52701672.32120158
+2024-06-19 20:11:01,992:INFO:Small chunk size: 11094970
+2024-06-19 20:11:01,992:INFO:small_start_byte, small_end_byte: 712054261 and 723149232
+2024-06-19 20:11:01,992:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=712054261, end_byte=723149232
+2024-06-19 20:11:01,992:INFO:Fetching range::::: 712054261-723149232 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,003:INFO:Delay 0.2071666717529297
+2024-06-19 20:11:02,004:INFO:Successfully fetched range 677490447-691082738 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,004:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99615781.63626356, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 65610413.51386088, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 52701672.32120158}
+2024-06-19 20:11:02,004:INFO:number_of_chunk: 43
+2024-06-19 20:11:02,004:INFO:Fetched range: start_byte=677490447, end_byte=691082738, delay=0.2072, throughput=65610413.51386088
+2024-06-19 20:11:02,004:INFO:Geometric mean of throughput: 70098453.9362057
+2024-06-19 20:11:02,004:INFO:start and end byte are: 723149233 and 723149232
+2024-06-19 20:11:02,004:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 65610413.51386088
+2024-06-19 20:11:02,005:INFO:Slow server throughput: 65610413.51386088
+2024-06-19 20:11:02,005:INFO:Small chunk size: 13812571
+2024-06-19 20:11:02,005:INFO:small_start_byte, small_end_byte: 723149233 and 736961805
+2024-06-19 20:11:02,005:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=723149233, end_byte=736961805
+2024-06-19 20:11:02,005:INFO:Fetching range::::: 723149233-736961805 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,114:INFO:Delay 0.21686434745788574
+2024-06-19 20:11:02,114:INFO:Successfully fetched range 691082739-712054260 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,114:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 96703405.81949548, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 65610413.51386088, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 52701672.32120158}
+2024-06-19 20:11:02,114:INFO:number_of_chunk: 44
+2024-06-19 20:11:02,114:INFO:Fetched range: start_byte=691082739, end_byte=712054260, delay=0.2169, throughput=96703405.81949548
+2024-06-19 20:11:02,115:INFO:Geometric mean of throughput: 69408551.3842284
+2024-06-19 20:11:02,115:INFO:start and end byte are: 736961806 and 736961805
+2024-06-19 20:11:02,115:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 96703405.81949548
+2024-06-19 20:11:02,115:INFO:Fast server throughput: 96703405.81949548
+2024-06-19 20:11:02,115:INFO:Fast download time: 0.21686433711698833
+2024-06-19 20:11:02,115:INFO:Large chunk start byte: 736961806
+2024-06-19 20:11:02,115:INFO:Large chunk end byte: 757933327
+2024-06-19 20:11:02,115:INFO:Large_start_byte, Large_end_byte: 736961806 and 757933327
+2024-06-19 20:11:02,115:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=736961806, end_byte=757933327
+2024-06-19 20:11:02,115:INFO:Fetching range::::: 736961806-757933327 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,173:INFO:Delay 0.18087506294250488
+2024-06-19 20:11:02,173:INFO:Successfully fetched range 712054261-723149232 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,173:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 96703405.81949548, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 65610413.51386088, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 61340523.22915725}
+2024-06-19 20:11:02,173:INFO:number_of_chunk: 45
+2024-06-19 20:11:02,173:INFO:Fetched range: start_byte=712054261, end_byte=723149232, delay=0.1809, throughput=61340523.22915725
+2024-06-19 20:11:02,174:INFO:Geometric mean of throughput: 73010839.19829628
+2024-06-19 20:11:02,174:INFO:start and end byte are: 757933328 and 757933327
+2024-06-19 20:11:02,174:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 61340523.22915725
+2024-06-19 20:11:02,174:INFO:Slow server throughput: 61340523.22915725
+2024-06-19 20:11:02,175:INFO:Small chunk size: 13302571
+2024-06-19 20:11:02,175:INFO:small_start_byte, small_end_byte: 757933328 and 771235900
+2024-06-19 20:11:02,175:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=757933328, end_byte=771235900
+2024-06-19 20:11:02,175:INFO:Fetching range::::: 757933328-771235900 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,247:INFO:Delay 0.24208903312683105
+2024-06-19 20:11:02,247:INFO:Successfully fetched range 723149233-736961805 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,247:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 96703405.81949548, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 57055752.67741913, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 61340523.22915725}
+2024-06-19 20:11:02,247:INFO:number_of_chunk: 46
+2024-06-19 20:11:02,247:INFO:Fetched range: start_byte=723149233, end_byte=736961805, delay=0.2421, throughput=57055752.67741913
+2024-06-19 20:11:02,248:INFO:Geometric mean of throughput: 69688785.34938824
+2024-06-19 20:11:02,248:INFO:start and end byte are: 771235901 and 771235900
+2024-06-19 20:11:02,248:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 57055752.67741913
+2024-06-19 20:11:02,248:INFO:Slow server throughput: 57055752.67741913
+2024-06-19 20:11:02,248:INFO:Small chunk size: 12373357
+2024-06-19 20:11:02,248:INFO:small_start_byte, small_end_byte: 771235901 and 783609259
+2024-06-19 20:11:02,248:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=771235901, end_byte=783609259
+2024-06-19 20:11:02,248:INFO:Fetching range::::: 771235901-783609259 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,310:INFO:Delay 0.19465279579162598
+2024-06-19 20:11:02,310:INFO:Successfully fetched range 736961806-757933327 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,310:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 107738092.9193014, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 57055752.67741913, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 61340523.22915725}
+2024-06-19 20:11:02,310:INFO:number_of_chunk: 47
+2024-06-19 20:11:02,311:INFO:Fetched range: start_byte=736961806, end_byte=757933327, delay=0.1947, throughput=107738092.9193014
+2024-06-19 20:11:02,311:INFO:Geometric mean of throughput: 72244601.46303853
+2024-06-19 20:11:02,311:INFO:start and end byte are: 783609260 and 783609259
+2024-06-19 20:11:02,311:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 107738092.9193014
+2024-06-19 20:11:02,311:INFO:Fast server throughput: 107738092.9193014
+2024-06-19 20:11:02,312:INFO:Fast download time: 0.19465278650985782
+2024-06-19 20:11:02,312:INFO:Large chunk start byte: 783609260
+2024-06-19 20:11:02,312:INFO:Large chunk end byte: 804580781
+2024-06-19 20:11:02,312:INFO:Large_start_byte, Large_end_byte: 783609260 and 804580781
+2024-06-19 20:11:02,312:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=783609260, end_byte=804580781
+2024-06-19 20:11:02,312:INFO:Fetching range::::: 783609260-804580781 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,406:INFO:Delay 0.23116803169250488
+2024-06-19 20:11:02,406:INFO:Successfully fetched range 757933328-771235900 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,406:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 107738092.9193014, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 57055752.67741913, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 57545032.94683418}
+2024-06-19 20:11:02,406:INFO:number_of_chunk: 48
+2024-06-19 20:11:02,406:INFO:Fetched range: start_byte=757933328, end_byte=771235900, delay=0.2312, throughput=57545032.94683418
+2024-06-19 20:11:02,407:INFO:Geometric mean of throughput: 70722703.70646524
+2024-06-19 20:11:02,407:INFO:start and end byte are: 804580782 and 804580781
+2024-06-19 20:11:02,407:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 57545032.94683418
+2024-06-19 20:11:02,407:INFO:Slow server throughput: 57545032.94683418
+2024-06-19 20:11:02,407:INFO:Small chunk size: 11201301
+2024-06-19 20:11:02,407:INFO:small_start_byte, small_end_byte: 804580782 and 815782084
+2024-06-19 20:11:02,407:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=804580782, end_byte=815782084
+2024-06-19 20:11:02,408:INFO:Fetching range::::: 804580782-815782084 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,454:INFO:Delay 0.20514583587646484
+2024-06-19 20:11:02,454:INFO:Successfully fetched range 771235901-783609259 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,454:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 107738092.9193014, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 60314936.18740092, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 57545032.94683418}
+2024-06-19 20:11:02,454:INFO:number_of_chunk: 49
+2024-06-19 20:11:02,454:INFO:Fetched range: start_byte=771235901, end_byte=783609259, delay=0.2051, throughput=60314936.18740092
+2024-06-19 20:11:02,455:INFO:Geometric mean of throughput: 72044472.60760315
+2024-06-19 20:11:02,455:INFO:start and end byte are: 815782085 and 815782084
+2024-06-19 20:11:02,455:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 60314936.18740092
+2024-06-19 20:11:02,455:INFO:Slow server throughput: 60314936.18740092
+2024-06-19 20:11:02,455:INFO:Small chunk size: 11740470
+2024-06-19 20:11:02,455:INFO:small_start_byte, small_end_byte: 815782085 and 827522556
+2024-06-19 20:11:02,455:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=815782085, end_byte=827522556
+2024-06-19 20:11:02,455:INFO:Fetching range::::: 815782085-827522556 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,501:INFO:Delay 0.18877744674682617
+2024-06-19 20:11:02,501:INFO:Successfully fetched range 783609260-804580781 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,501:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111091241.89038002, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 60314936.18740092, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 57545032.94683418}
+2024-06-19 20:11:02,501:INFO:number_of_chunk: 50
+2024-06-19 20:11:02,501:INFO:Fetched range: start_byte=783609260, end_byte=804580781, delay=0.1888, throughput=111091241.89038002
+2024-06-19 20:11:02,502:INFO:Geometric mean of throughput: 72784266.97642808
+2024-06-19 20:11:02,502:INFO:start and end byte are: 827522557 and 827522556
+2024-06-19 20:11:02,502:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 111091241.89038002
+2024-06-19 20:11:02,502:INFO:Fast server throughput: 111091241.89038002
+2024-06-19 20:11:02,502:INFO:Fast download time: 0.18877743774521646
+2024-06-19 20:11:02,502:INFO:Large chunk start byte: 827522557
+2024-06-19 20:11:02,502:INFO:Large chunk end byte: 848494078
+2024-06-19 20:11:02,502:INFO:Large_start_byte, Large_end_byte: 827522557 and 848494078
+2024-06-19 20:11:02,503:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=827522557, end_byte=848494078
+2024-06-19 20:11:02,503:INFO:Fetching range::::: 827522557-848494078 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,628:INFO:Delay 0.1728510856628418
+2024-06-19 20:11:02,629:INFO:Successfully fetched range 815782085-827522556 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,629:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111091241.89038002, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 67922460.2783266, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 57545032.94683418}
+2024-06-19 20:11:02,629:INFO:number_of_chunk: 51
+2024-06-19 20:11:02,629:INFO:Fetched range: start_byte=815782085, end_byte=827522556, delay=0.1729, throughput=67922460.2783266
+2024-06-19 20:11:02,629:INFO:Geometric mean of throughput: 75724025.1583548
+2024-06-19 20:11:02,630:INFO:start and end byte are: 848494079 and 848494078
+2024-06-19 20:11:02,630:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 67922460.2783266
+2024-06-19 20:11:02,630:INFO:Slow server throughput: 67922460.2783266
+2024-06-19 20:11:02,630:INFO:Small chunk size: 12822228
+2024-06-19 20:11:02,630:INFO:small_start_byte, small_end_byte: 848494079 and 861316308
+2024-06-19 20:11:02,630:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=848494079, end_byte=861316308
+2024-06-19 20:11:02,630:INFO:Fetching range::::: 848494079-861316308 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,635:INFO:Delay 0.22765254974365234
+2024-06-19 20:11:02,635:INFO:Successfully fetched range 804580782-815782084 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,635:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111091241.89038002, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 67922460.2783266, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 49203498.98392617}
+2024-06-19 20:11:02,636:INFO:number_of_chunk: 52
+2024-06-19 20:11:02,636:INFO:Fetched range: start_byte=804580782, end_byte=815782084, delay=0.2277, throughput=49203498.98392617
+2024-06-19 20:11:02,636:INFO:Geometric mean of throughput: 71872553.13804497
+2024-06-19 20:11:02,636:INFO:start and end byte are: 861316309 and 861316308
+2024-06-19 20:11:02,636:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 49203498.98392617
+2024-06-19 20:11:02,636:INFO:Slow server throughput: 49203498.98392617
+2024-06-19 20:11:02,636:INFO:Small chunk size: 9288510
+2024-06-19 20:11:02,636:INFO:small_start_byte, small_end_byte: 861316309 and 870604820
+2024-06-19 20:11:02,637:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=861316309, end_byte=870604820
+2024-06-19 20:11:02,637:INFO:Fetching range::::: 861316309-870604820 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,715:INFO:Delay 0.21180295944213867
+2024-06-19 20:11:02,715:INFO:Successfully fetched range 827522557-848494078 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,715:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99014296.37827653, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 67922460.2783266, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 49203498.98392617}
+2024-06-19 20:11:02,715:INFO:number_of_chunk: 53
+2024-06-19 20:11:02,715:INFO:Fetched range: start_byte=827522557, end_byte=848494078, delay=0.2118, throughput=99014296.37827653
+2024-06-19 20:11:02,715:INFO:Geometric mean of throughput: 69167556.56190369
+2024-06-19 20:11:02,716:INFO:start and end byte are: 870604821 and 870604820
+2024-06-19 20:11:02,716:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99014296.37827653
+2024-06-19 20:11:02,716:INFO:Fast server throughput: 99014296.37827653
+2024-06-19 20:11:02,716:INFO:Fast download time: 0.211802949342587
+2024-06-19 20:11:02,716:INFO:Large chunk start byte: 870604821
+2024-06-19 20:11:02,716:INFO:Large chunk end byte: 891576342
+2024-06-19 20:11:02,716:INFO:Large_start_byte, Large_end_byte: 870604821 and 891576342
+2024-06-19 20:11:02,716:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=870604821, end_byte=891576342
+2024-06-19 20:11:02,716:INFO:Fetching range::::: 870604821-891576342 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,813:INFO:Delay 0.17611312866210938
+2024-06-19 20:11:02,813:INFO:Successfully fetched range 861316309-870604820 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,813:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99014296.37827653, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 67922460.2783266, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 52741729.53806832}
+2024-06-19 20:11:02,813:INFO:number_of_chunk: 54
+2024-06-19 20:11:02,813:INFO:Fetched range: start_byte=861316309, end_byte=870604820, delay=0.1761, throughput=52741729.53806832
+2024-06-19 20:11:02,814:INFO:Geometric mean of throughput: 70787280.36636807
+2024-06-19 20:11:02,814:INFO:start and end byte are: 891576343 and 891576342
+2024-06-19 20:11:02,814:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 52741729.53806832
+2024-06-19 20:11:02,814:INFO:Slow server throughput: 52741729.53806832
+2024-06-19 20:11:02,814:INFO:Small chunk size: 11170853
+2024-06-19 20:11:02,814:INFO:small_start_byte, small_end_byte: 891576343 and 902747197
+2024-06-19 20:11:02,814:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=891576343, end_byte=902747197
+2024-06-19 20:11:02,814:INFO:Fetching range::::: 891576343-902747197 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,835:INFO:Delay 0.20491790771484375
+2024-06-19 20:11:02,835:INFO:Successfully fetched range 848494079-861316308 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,835:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99014296.37827653, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 62572515.71123274, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 52741729.53806832}
+2024-06-19 20:11:02,835:INFO:number_of_chunk: 55
+2024-06-19 20:11:02,835:INFO:Fetched range: start_byte=848494079, end_byte=861316308, delay=0.2049, throughput=62572515.71123274
+2024-06-19 20:11:02,836:INFO:Geometric mean of throughput: 68877698.91418172
+2024-06-19 20:11:02,836:INFO:start and end byte are: 902747198 and 902747197
+2024-06-19 20:11:02,836:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 62572515.71123274
+2024-06-19 20:11:02,836:INFO:Slow server throughput: 62572515.71123274
+2024-06-19 20:11:02,836:INFO:Small chunk size: 13253043
+2024-06-19 20:11:02,836:INFO:small_start_byte, small_end_byte: 902747198 and 916000242
+2024-06-19 20:11:02,836:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=902747198, end_byte=916000242
+2024-06-19 20:11:02,837:INFO:Fetching range::::: 902747198-916000242 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,927:INFO:Delay 0.21099162101745605
+2024-06-19 20:11:02,927:INFO:Successfully fetched range 870604821-891576342 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,927:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99395041.8451212, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 62572515.71123274, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 52741729.53806832}
+2024-06-19 20:11:02,927:INFO:number_of_chunk: 56
+2024-06-19 20:11:02,928:INFO:Fetched range: start_byte=870604821, end_byte=891576342, delay=0.2110, throughput=99395041.8451212
+2024-06-19 20:11:02,928:INFO:Geometric mean of throughput: 68965872.47273655
+2024-06-19 20:11:02,928:INFO:start and end byte are: 916000243 and 916000242
+2024-06-19 20:11:02,928:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 99395041.8451212
+2024-06-19 20:11:02,928:INFO:Fast server throughput: 99395041.8451212
+2024-06-19 20:11:02,928:INFO:Fast download time: 0.21099161095659205
+2024-06-19 20:11:02,928:INFO:Large chunk start byte: 916000243
+2024-06-19 20:11:02,928:INFO:Large chunk end byte: 936971764
+2024-06-19 20:11:02,928:INFO:Large_start_byte, Large_end_byte: 916000243 and 936971764
+2024-06-19 20:11:02,929:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=916000243, end_byte=936971764
+2024-06-19 20:11:02,929:INFO:Fetching range::::: 916000243-936971764 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,995:INFO:Delay 0.18070554733276367
+2024-06-19 20:11:02,995:INFO:Successfully fetched range 891576343-902747197 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:02,995:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99395041.8451212, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 62572515.71123274, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 61817991.560763866}
+2024-06-19 20:11:02,995:INFO:number_of_chunk: 57
+2024-06-19 20:11:02,995:INFO:Fetched range: start_byte=891576343, end_byte=902747197, delay=0.1807, throughput=61817991.560763866
+2024-06-19 20:11:02,996:INFO:Geometric mean of throughput: 72714509.00379486
+2024-06-19 20:11:02,996:INFO:start and end byte are: 936971765 and 936971764
+2024-06-19 20:11:02,996:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 61817991.560763866
+2024-06-19 20:11:02,996:INFO:Slow server throughput: 61817991.560763866
+2024-06-19 20:11:02,996:INFO:Small chunk size: 13043077
+2024-06-19 20:11:02,996:INFO:small_start_byte, small_end_byte: 936971765 and 950014843
+2024-06-19 20:11:02,996:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=936971765, end_byte=950014843
+2024-06-19 20:11:02,996:INFO:Fetching range::::: 936971765-950014843 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,043:INFO:Delay 0.20608997344970703
+2024-06-19 20:11:03,043:INFO:Successfully fetched range 902747198-916000242 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,043:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 99395041.8451212, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 64307078.01141133, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 61817991.560763866}
+2024-06-19 20:11:03,043:INFO:number_of_chunk: 58
+2024-06-19 20:11:03,043:INFO:Fetched range: start_byte=902747198, end_byte=916000242, delay=0.2061, throughput=64307078.01141133
+2024-06-19 20:11:03,044:INFO:Geometric mean of throughput: 73380296.59277931
+2024-06-19 20:11:03,044:INFO:start and end byte are: 950014844 and 950014843
+2024-06-19 20:11:03,044:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 64307078.01141133
+2024-06-19 20:11:03,044:INFO:Slow server throughput: 64307078.01141133
+2024-06-19 20:11:03,044:INFO:Small chunk size: 13568253
+2024-06-19 20:11:03,044:INFO:small_start_byte, small_end_byte: 950014844 and 963583098
+2024-06-19 20:11:03,044:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=950014844, end_byte=963583098
+2024-06-19 20:11:03,044:INFO:Fetching range::::: 950014844-963583098 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,117:INFO:Delay 0.18853425979614258
+2024-06-19 20:11:03,117:INFO:Successfully fetched range 916000243-936971764 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,117:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111234536.48517774, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 64307078.01141133, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 61817991.560763866}
+2024-06-19 20:11:03,117:INFO:number_of_chunk: 59
+2024-06-19 20:11:03,117:INFO:Fetched range: start_byte=916000243, end_byte=936971764, delay=0.1885, throughput=111234536.48517774
+2024-06-19 20:11:03,118:INFO:Geometric mean of throughput: 76185286.59662865
+2024-06-19 20:11:03,118:INFO:start and end byte are: 963583099 and 963583098
+2024-06-19 20:11:03,118:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 111234536.48517774
+2024-06-19 20:11:03,118:INFO:Fast server throughput: 111234536.48517774
+2024-06-19 20:11:03,118:INFO:Fast download time: 0.18853425080612893
+2024-06-19 20:11:03,118:INFO:Large chunk start byte: 963583099
+2024-06-19 20:11:03,119:INFO:Large chunk end byte: 984554620
+2024-06-19 20:11:03,119:INFO:Large_start_byte, Large_end_byte: 963583099 and 984554620
+2024-06-19 20:11:03,119:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=963583099, end_byte=984554620
+2024-06-19 20:11:03,119:INFO:Fetching range::::: 963583099-984554620 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,221:INFO:Delay 0.22474169731140137
+2024-06-19 20:11:03,222:INFO:Successfully fetched range 936971765-950014843 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,222:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111234536.48517774, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 64307078.01141133, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 58035861.417952865}
+2024-06-19 20:11:03,222:INFO:number_of_chunk: 60
+2024-06-19 20:11:03,222:INFO:Fetched range: start_byte=936971765, end_byte=950014843, delay=0.2247, throughput=58035861.417952865
+2024-06-19 20:11:03,223:INFO:Geometric mean of throughput: 74598762.0178148
+2024-06-19 20:11:03,223:INFO:start and end byte are: 984554621 and 984554620
+2024-06-19 20:11:03,223:INFO:Current throughput for http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso: 58035861.417952865
+2024-06-19 20:11:03,223:INFO:Slow server throughput: 58035861.417952865
+2024-06-19 20:11:03,223:INFO:Small chunk size: 10941747
+2024-06-19 20:11:03,223:INFO:small_start_byte, small_end_byte: 984554621 and 995496369
+2024-06-19 20:11:03,223:INFO:Fetching range for URL: http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=984554621, end_byte=995496369
+2024-06-19 20:11:03,223:INFO:Fetching range::::: 984554621-995496369 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,281:INFO:Delay 0.23700761795043945
+2024-06-19 20:11:03,282:INFO:Successfully fetched range 950014844-963583098 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,282:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 111234536.48517774, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 57248176.73513453, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 58035861.417952865}
+2024-06-19 20:11:03,282:INFO:number_of_chunk: 61
+2024-06-19 20:11:03,282:INFO:Fetched range: start_byte=950014844, end_byte=963583098, delay=0.2370, throughput=57248176.73513453
+2024-06-19 20:11:03,283:INFO:Geometric mean of throughput: 71762778.94881879
+2024-06-19 20:11:03,283:INFO:start and end byte are: 995496370 and 995496369
+2024-06-19 20:11:03,283:INFO:Current throughput for http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso: 57248176.73513453
+2024-06-19 20:11:03,283:INFO:Slow server throughput: 57248176.73513453
+2024-06-19 20:11:03,283:INFO:Small chunk size: 10793242
+2024-06-19 20:11:03,283:INFO:small_start_byte, small_end_byte: 995496370 and 1006289613
+2024-06-19 20:11:03,283:INFO:Fetching range for URL: http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=995496370, end_byte=1006289613
+2024-06-19 20:11:03,283:INFO:Fetching range::::: 995496370-1006289613 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,334:INFO:Delay 0.21468734741210938
+2024-06-19 20:11:03,334:INFO:Successfully fetched range 963583099-984554620 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,334:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97684010.03969508, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 57248176.73513453, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 58035861.417952865}
+2024-06-19 20:11:03,334:INFO:number_of_chunk: 62
+2024-06-19 20:11:03,334:INFO:Fetched range: start_byte=963583099, end_byte=984554620, delay=0.2147, throughput=97684010.03969508
+2024-06-19 20:11:03,335:INFO:Geometric mean of throughput: 68721694.26775517
+2024-06-19 20:11:03,335:INFO:start and end byte are: 1006289614 and 1006289613
+2024-06-19 20:11:03,335:INFO:Current throughput for http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso: 97684010.03969508
+2024-06-19 20:11:03,335:INFO:Fast server throughput: 97684010.03969508
+2024-06-19 20:11:03,335:INFO:Fast download time: 0.21468733717501942
+2024-06-19 20:11:03,335:INFO:Large chunk start byte: 1006289614
+2024-06-19 20:11:03,335:INFO:Large chunk end byte: 1027261135
+2024-06-19 20:11:03,335:INFO:Large_start_byte, Large_end_byte: 1006289614 and 1020264448
+2024-06-19 20:11:03,335:INFO:Fetching range for URL: http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso, start_byte=1006289614, end_byte=1020264448
+2024-06-19 20:11:03,335:INFO:Fetching range::::: 1006289614-1020264448 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,404:INFO:Delay 0.17997956275939941
+2024-06-19 20:11:03,404:INFO:Successfully fetched range 984554621-995496369 from http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,404:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97684010.03969508, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 57248176.73513453, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 60794391.49781226}
+2024-06-19 20:11:03,404:INFO:number_of_chunk: 63
+2024-06-19 20:11:03,404:INFO:Fetched range: start_byte=984554621, end_byte=995496369, delay=0.1800, throughput=60794391.49781226
+2024-06-19 20:11:03,454:INFO:Delay 0.17130661010742188
+2024-06-19 20:11:03,455:INFO:Successfully fetched range 995496370-1006289613 from http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,455:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 97684010.03969508, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 63005408.80023159, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 60794391.49781226}
+2024-06-19 20:11:03,455:INFO:number_of_chunk: 64
+2024-06-19 20:11:03,455:INFO:Fetched range: start_byte=995496370, end_byte=1006289613, delay=0.1713, throughput=63005408.80023159
+2024-06-19 20:11:03,470:INFO:Delay 0.13443946838378906
+2024-06-19 20:11:03,470:INFO:Successfully fetched range 1006289614-1020264448 from http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso
+2024-06-19 20:11:03,470:INFO:Throughput: {'http://10.137.132.2/CentOS-7-x86_64-Minimal-2009.iso': 103948893.63966802, 'http://10.134.48.2/CentOS-7-x86_64-Minimal-2009.iso': 63005408.80023159, 'http://10.135.163.2/CentOS-7-x86_64-Minimal-2009.iso': 60794391.49781226}
+2024-06-19 20:11:03,470:INFO:number_of_chunk: 65
+2024-06-19 20:11:03,470:INFO:Fetched range: start_byte=1006289614, end_byte=1020264448, delay=0.1344, throughput=103948893.63966802
+2024-06-19 20:11:03,470:INFO:All chunks downloaded, writing to disk.
+2024-06-19 20:11:04,458:INFO:Total download delay: 5.824146509170532
+2024-06-19 20:11:04,458:INFO:Total download throughput: 175178362.42503878
