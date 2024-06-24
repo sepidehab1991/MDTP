@@ -1,0 +1,1405 @@
+2024-06-24 03:22:32,157:INFO:Downloading file from URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,158:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=0, end_byte=5242879
+2024-06-24 03:22:32,158:INFO:Fetching range::::: 0-5242879 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,158:INFO:Downloading file from URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,158:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=5242880, end_byte=10485759
+2024-06-24 03:22:32,158:INFO:Fetching range::::: 5242880-10485759 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,159:INFO:Downloading file from URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,159:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=10485760, end_byte=15728639
+2024-06-24 03:22:32,159:INFO:Fetching range::::: 10485760-15728639 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,417:INFO:Delay 0.2590649127960205
+2024-06-24 03:22:32,417:INFO:Successfully fetched range 0-5242879 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199352.4174364
+2024-06-24 03:22:32,417:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 20237703.91526573}
+2024-06-24 03:22:32,417:INFO:number_of_chunk: 1
+2024-06-24 03:22:32,417:INFO:Fetched range: start_byte=0, end_byte=5242879, delay=0.2591, throughput=20237703.91526573
+2024-06-24 03:22:32,418:INFO:Geometric mean of throughput: 20237703.915265746
+2024-06-24 03:22:32,418:INFO:start and end byte are: 15728640 and 15728639
+2024-06-24 03:22:32,418:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 20237703.91526573
+2024-06-24 03:22:32,418:INFO:Fast server throughput: 20237703.91526573
+2024-06-24 03:22:32,418:INFO:Fast download time: 3.108779546504888
+2024-06-24 03:22:32,418:INFO:Large chunk start byte: 15728640
+2024-06-24 03:22:32,418:INFO:Large chunk end byte: 78643201
+2024-06-24 03:22:32,418:INFO:Large_start_byte, Large_end_byte: 15728640 and 78643201
+2024-06-24 03:22:32,418:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=15728640, end_byte=78643201
+2024-06-24 03:22:32,418:INFO:Fetching range::::: 15728640-78643201 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,496:INFO:Delay 0.33769989013671875
+2024-06-24 03:22:32,497:INFO:Successfully fetched range 10485760-15728639 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199352.4970675
+2024-06-24 03:22:32,497:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 20237703.91526573, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 15525261.195309853}
+2024-06-24 03:22:32,497:INFO:number_of_chunk: 2
+2024-06-24 03:22:32,497:INFO:Fetched range: start_byte=10485760, end_byte=15728639, delay=0.3377, throughput=15525261.195309853
+2024-06-24 03:22:32,498:INFO:Geometric mean of throughput: 17725564.568663165
+2024-06-24 03:22:32,498:INFO:start and end byte are: 78643202 and 78643201
+2024-06-24 03:22:32,498:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 15525261.195309853
+2024-06-24 03:22:32,498:INFO:Slow server throughput: 15525261.195309853
+2024-06-24 03:22:32,498:INFO:Small chunk size: 48264614
+2024-06-24 03:22:32,498:INFO:small_start_byte, small_end_byte: 78643202 and 126907817
+2024-06-24 03:22:32,498:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=78643202, end_byte=126907817
+2024-06-24 03:22:32,498:INFO:Fetching range::::: 78643202-126907817 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:32,597:INFO:Delay 0.4390416145324707
+2024-06-24 03:22:32,598:INFO:Successfully fetched range 5242880-10485759 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199352.5981262
+2024-06-24 03:22:32,598:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 20237703.91526573, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 15525261.195309853, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 11941644.770013588}
+2024-06-24 03:22:32,598:INFO:number_of_chunk: 3
+2024-06-24 03:22:32,598:INFO:Fetched range: start_byte=5242880, end_byte=10485759, delay=0.4390, throughput=11941644.770013588
+2024-06-24 03:22:32,599:INFO:Geometric mean of throughput: 15538941.573009422
+2024-06-24 03:22:32,599:INFO:start and end byte are: 126907818 and 126907817
+2024-06-24 03:22:32,599:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 11941644.770013588
+2024-06-24 03:22:32,599:INFO:Slow server throughput: 11941644.770013588
+2024-06-24 03:22:32,599:INFO:Small chunk size: 37123941
+2024-06-24 03:22:32,599:INFO:small_start_byte, small_end_byte: 126907818 and 164031760
+2024-06-24 03:22:32,599:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=126907818, end_byte=164031760
+2024-06-24 03:22:32,599:INFO:Fetching range::::: 126907818-164031760 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:33,002:INFO:Delay 0.5833783149719238
+2024-06-24 03:22:33,002:INFO:Successfully fetched range 15728640-78643201 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199353.0026608
+2024-06-24 03:22:33,002:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107845217.04929653, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 15525261.195309853, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 11941644.770013588}
+2024-06-24 03:22:33,002:INFO:number_of_chunk: 4
+2024-06-24 03:22:33,002:INFO:Fetched range: start_byte=15728640, end_byte=78643201, delay=0.5834, throughput=107845217.04929653
+2024-06-24 03:22:33,003:INFO:Geometric mean of throughput: 27141550.314719643
+2024-06-24 03:22:33,003:INFO:start and end byte are: 164031761 and 164031760
+2024-06-24 03:22:33,003:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 107845217.04929653
+2024-06-24 03:22:33,003:INFO:Fast server throughput: 107845217.04929653
+2024-06-24 03:22:33,003:INFO:Fast download time: 0.5833783056993754
+2024-06-24 03:22:33,003:INFO:Large chunk start byte: 164031761
+2024-06-24 03:22:33,003:INFO:Large chunk end byte: 226946322
+2024-06-24 03:22:33,003:INFO:Large_start_byte, Large_end_byte: 164031761 and 226946322
+2024-06-24 03:22:33,003:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=164031761, end_byte=226946322
+2024-06-24 03:22:33,003:INFO:Fetching range::::: 164031761-226946322 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:33,124:INFO:Delay 0.6256327629089355
+2024-06-24 03:22:33,124:INFO:Successfully fetched range 78643202-126907817 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199353.1242826
+2024-06-24 03:22:33,124:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107845217.04929653, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 77145280.52461535, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 11941644.770013588}
+2024-06-24 03:22:33,124:INFO:number_of_chunk: 5
+2024-06-24 03:22:33,124:INFO:Fetched range: start_byte=78643202, end_byte=126907817, delay=0.6256, throughput=77145280.52461535
+2024-06-24 03:22:33,125:INFO:Geometric mean of throughput: 46315333.95066282
+2024-06-24 03:22:33,125:INFO:start and end byte are: 226946323 and 226946322
+2024-06-24 03:22:33,125:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 77145280.52461535
+2024-06-24 03:22:33,125:INFO:Fast server throughput: 77145280.52461535
+2024-06-24 03:22:33,125:INFO:Fast download time: 0.8155334917723885
+2024-06-24 03:22:33,125:INFO:Large chunk start byte: 226946323
+2024-06-24 03:22:33,125:INFO:Large chunk end byte: 289860884
+2024-06-24 03:22:33,125:INFO:Large_start_byte, Large_end_byte: 226946323 and 289860884
+2024-06-24 03:22:33,125:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=226946323, end_byte=289860884
+2024-06-24 03:22:33,125:INFO:Fetching range::::: 226946323-289860884 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:33,290:INFO:Delay 0.6910536289215088
+2024-06-24 03:22:33,290:INFO:Successfully fetched range 126907818-164031760 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199353.290784
+2024-06-24 03:22:33,290:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107845217.04929653, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 77145280.52461535, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 53720782.941169694}
+2024-06-24 03:22:33,290:INFO:number_of_chunk: 6
+2024-06-24 03:22:33,290:INFO:Fetched range: start_byte=126907818, end_byte=164031760, delay=0.6911, throughput=53720782.941169694
+2024-06-24 03:22:33,291:INFO:Geometric mean of throughput: 76457048.42367673
+2024-06-24 03:22:33,291:INFO:start and end byte are: 289860885 and 289860884
+2024-06-24 03:22:33,291:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 53720782.941169694
+2024-06-24 03:22:33,291:INFO:Slow server throughput: 53720782.941169694
+2024-06-24 03:22:33,291:INFO:Small chunk size: 43811097
+2024-06-24 03:22:33,292:INFO:small_start_byte, small_end_byte: 289860885 and 333671983
+2024-06-24 03:22:33,292:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=289860885, end_byte=333671983
+2024-06-24 03:22:33,292:INFO:Fetching range::::: 289860885-333671983 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:33,621:INFO:Delay 0.6172506809234619
+2024-06-24 03:22:33,621:INFO:Successfully fetched range 164031761-226946322 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199353.6216543
+2024-06-24 03:22:33,621:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 101927082.37417288, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 77145280.52461535, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 53720782.941169694}
+2024-06-24 03:22:33,621:INFO:number_of_chunk: 7
+2024-06-24 03:22:33,621:INFO:Fetched range: start_byte=164031761, end_byte=226946322, delay=0.6173, throughput=101927082.37417288
+2024-06-24 03:22:33,622:INFO:Geometric mean of throughput: 75032099.08183464
+2024-06-24 03:22:33,622:INFO:start and end byte are: 333671984 and 333671983
+2024-06-24 03:22:33,622:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 101927082.37417288
+2024-06-24 03:22:33,622:INFO:Fast server throughput: 101927082.37417288
+2024-06-24 03:22:33,622:INFO:Fast download time: 0.6172506711125266
+2024-06-24 03:22:33,622:INFO:Large chunk start byte: 333671984
+2024-06-24 03:22:33,622:INFO:Large chunk end byte: 396586545
+2024-06-24 03:22:33,622:INFO:Large_start_byte, Large_end_byte: 333671984 and 396586545
+2024-06-24 03:22:33,622:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=333671984, end_byte=396586545
+2024-06-24 03:22:33,622:INFO:Fetching range::::: 333671984-396586545 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:33,882:INFO:Delay 0.7564499378204346
+2024-06-24 03:22:33,882:INFO:Successfully fetched range 226946323-289860884 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199353.8824284
+2024-06-24 03:22:33,882:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 101927082.37417288, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83170819.18372053, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 53720782.941169694}
+2024-06-24 03:22:33,882:INFO:number_of_chunk: 8
+2024-06-24 03:22:33,882:INFO:Fetched range: start_byte=226946323, end_byte=289860884, delay=0.7564, throughput=83170819.18372053
+2024-06-24 03:22:33,883:INFO:Geometric mean of throughput: 76936832.40314521
+2024-06-24 03:22:33,883:INFO:start and end byte are: 396586546 and 396586545
+2024-06-24 03:22:33,883:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83170819.18372053
+2024-06-24 03:22:33,883:INFO:Fast server throughput: 83170819.18372053
+2024-06-24 03:22:33,883:INFO:Fast download time: 0.7564499257969868
+2024-06-24 03:22:33,883:INFO:Large chunk start byte: 396586546
+2024-06-24 03:22:33,883:INFO:Large chunk end byte: 459501107
+2024-06-24 03:22:33,883:INFO:Large_start_byte, Large_end_byte: 396586546 and 459501107
+2024-06-24 03:22:33,883:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=396586546, end_byte=459501107
+2024-06-24 03:22:33,883:INFO:Fetching range::::: 396586546-459501107 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:34,005:INFO:Delay 0.7135329246520996
+2024-06-24 03:22:34,005:INFO:Successfully fetched range 289860885-333671983 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199354.0059528
+2024-06-24 03:22:34,005:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 101927082.37417288, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83170819.18372053, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 61400247.257491544}
+2024-06-24 03:22:34,006:INFO:number_of_chunk: 9
+2024-06-24 03:22:34,006:INFO:Fetched range: start_byte=289860885, end_byte=333671983, delay=0.7135, throughput=61400247.257491544
+2024-06-24 03:22:34,006:INFO:Geometric mean of throughput: 80440895.61645094
+2024-06-24 03:22:34,007:INFO:start and end byte are: 459501108 and 459501107
+2024-06-24 03:22:34,007:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 61400247.257491544
+2024-06-24 03:22:34,007:INFO:Slow server throughput: 61400247.257491544
+2024-06-24 03:22:34,007:INFO:Small chunk size: 46446212
+2024-06-24 03:22:34,007:INFO:small_start_byte, small_end_byte: 459501108 and 505947321
+2024-06-24 03:22:34,007:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=459501108, end_byte=505947321
+2024-06-24 03:22:34,007:INFO:Fetching range::::: 459501108-505947321 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:34,215:INFO:Delay 0.592034101486206
+2024-06-24 03:22:34,215:INFO:Successfully fetched range 333671984-396586545 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199354.215318
+2024-06-24 03:22:34,215:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106268474.8092435, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83170819.18372053, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 61400247.257491544}
+2024-06-24 03:22:34,215:INFO:number_of_chunk: 10
+2024-06-24 03:22:34,215:INFO:Fetched range: start_byte=333671984, end_byte=396586545, delay=0.5920, throughput=106268474.8092435
+2024-06-24 03:22:34,216:INFO:Geometric mean of throughput: 81567130.11311226
+2024-06-24 03:22:34,216:INFO:start and end byte are: 505947322 and 505947321
+2024-06-24 03:22:34,216:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 106268474.8092435
+2024-06-24 03:22:34,216:INFO:Fast server throughput: 106268474.8092435
+2024-06-24 03:22:34,216:INFO:Fast download time: 0.5920340920760776
+2024-06-24 03:22:34,216:INFO:Large chunk start byte: 505947322
+2024-06-24 03:22:34,216:INFO:Large chunk end byte: 568861883
+2024-06-24 03:22:34,216:INFO:Large_start_byte, Large_end_byte: 505947322 and 568861883
+2024-06-24 03:22:34,216:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=505947322, end_byte=568861883
+2024-06-24 03:22:34,216:INFO:Fetching range::::: 505947322-568861883 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:34,642:INFO:Delay 0.7586424350738525
+2024-06-24 03:22:34,642:INFO:Successfully fetched range 396586546-459501107 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199354.6426954
+2024-06-24 03:22:34,642:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106268474.8092435, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82930453.25611845, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 61400247.257491544}
+2024-06-24 03:22:34,642:INFO:number_of_chunk: 11
+2024-06-24 03:22:34,642:INFO:Fetched range: start_byte=396586546, end_byte=459501107, delay=0.7586, throughput=82930453.25611845
+2024-06-24 03:22:34,643:INFO:Geometric mean of throughput: 81488477.22051193
+2024-06-24 03:22:34,643:INFO:start and end byte are: 568861884 and 568861883
+2024-06-24 03:22:34,643:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 82930453.25611845
+2024-06-24 03:22:34,643:INFO:Fast server throughput: 82930453.25611845
+2024-06-24 03:22:34,643:INFO:Fast download time: 0.758642423015556
+2024-06-24 03:22:34,643:INFO:Large chunk start byte: 568861884
+2024-06-24 03:22:34,643:INFO:Large chunk end byte: 631776445
+2024-06-24 03:22:34,643:INFO:Large_start_byte, Large_end_byte: 568861884 and 631776445
+2024-06-24 03:22:34,643:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=568861884, end_byte=631776445
+2024-06-24 03:22:34,643:INFO:Fetching range::::: 568861884-631776445 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:34,801:INFO:Delay 0.5847244262695312
+2024-06-24 03:22:34,801:INFO:Successfully fetched range 505947322-568861883 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199354.8016648
+2024-06-24 03:22:34,801:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107596943.40355684, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82930453.25611845, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 61400247.257491544}
+2024-06-24 03:22:34,801:INFO:number_of_chunk: 12
+2024-06-24 03:22:34,801:INFO:Fetched range: start_byte=505947322, end_byte=568861883, delay=0.5847, throughput=107596943.40355684
+2024-06-24 03:22:34,802:INFO:Geometric mean of throughput: 81826636.11396977
+2024-06-24 03:22:34,802:INFO:start and end byte are: 631776446 and 631776445
+2024-06-24 03:22:34,802:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 107596943.40355684
+2024-06-24 03:22:34,802:INFO:Fast server throughput: 107596943.40355684
+2024-06-24 03:22:34,802:INFO:Fast download time: 0.584724416975587
+2024-06-24 03:22:34,802:INFO:Large chunk start byte: 631776446
+2024-06-24 03:22:34,802:INFO:Large chunk end byte: 694691007
+2024-06-24 03:22:34,802:INFO:Large_start_byte, Large_end_byte: 631776446 and 694691007
+2024-06-24 03:22:34,802:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=631776446, end_byte=694691007
+2024-06-24 03:22:34,802:INFO:Fetching range::::: 631776446-694691007 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:34,835:INFO:Delay 0.8282842636108398
+2024-06-24 03:22:34,835:INFO:Successfully fetched range 459501108-505947321 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199354.8358128
+2024-06-24 03:22:34,835:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107596943.40355684, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82930453.25611845, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 56075208.76651864}
+2024-06-24 03:22:34,835:INFO:number_of_chunk: 13
+2024-06-24 03:22:34,835:INFO:Fetched range: start_byte=459501108, end_byte=505947321, delay=0.8283, throughput=56075208.76651864
+2024-06-24 03:22:34,836:INFO:Geometric mean of throughput: 79389236.28363562
+2024-06-24 03:22:34,836:INFO:start and end byte are: 694691008 and 694691007
+2024-06-24 03:22:34,836:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 56075208.76651864
+2024-06-24 03:22:34,836:INFO:Slow server throughput: 56075208.76651864
+2024-06-24 03:22:34,836:INFO:Small chunk size: 32788543
+2024-06-24 03:22:34,836:INFO:small_start_byte, small_end_byte: 694691008 and 727479552
+2024-06-24 03:22:34,836:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=694691008, end_byte=727479552
+2024-06-24 03:22:34,837:INFO:Fetching range::::: 694691008-727479552 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:35,379:INFO:Delay 0.5763986110687256
+2024-06-24 03:22:35,379:INFO:Successfully fetched range 631776446-694691007 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199355.379644
+2024-06-24 03:22:35,379:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109151132.2057966, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82930453.25611845, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 56075208.76651864}
+2024-06-24 03:22:35,379:INFO:number_of_chunk: 14
+2024-06-24 03:22:35,379:INFO:Fetched range: start_byte=631776446, end_byte=694691007, delay=0.5764, throughput=109151132.2057966
+2024-06-24 03:22:35,380:INFO:Geometric mean of throughput: 79769657.56059551
+2024-06-24 03:22:35,380:INFO:start and end byte are: 727479553 and 727479552
+2024-06-24 03:22:35,380:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 109151132.2057966
+2024-06-24 03:22:35,380:INFO:Fast server throughput: 109151132.2057966
+2024-06-24 03:22:35,380:INFO:Fast download time: 0.5763986019071166
+2024-06-24 03:22:35,380:INFO:Large chunk start byte: 727479553
+2024-06-24 03:22:35,380:INFO:Large chunk end byte: 790394114
+2024-06-24 03:22:35,380:INFO:Large_start_byte, Large_end_byte: 727479553 and 790394114
+2024-06-24 03:22:35,380:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=727479553, end_byte=790394114
+2024-06-24 03:22:35,380:INFO:Fetching range::::: 727479553-790394114 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:35,406:INFO:Delay 0.7625279426574707
+2024-06-24 03:22:35,406:INFO:Successfully fetched range 568861884-631776445 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199355.406849
+2024-06-24 03:22:35,406:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109151132.2057966, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82507876.07958043, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 56075208.76651864}
+2024-06-24 03:22:35,406:INFO:number_of_chunk: 15
+2024-06-24 03:22:35,406:INFO:Fetched range: start_byte=568861884, end_byte=631776445, delay=0.7625, throughput=82507876.07958043
+2024-06-24 03:22:35,407:INFO:Geometric mean of throughput: 79633936.39055666
+2024-06-24 03:22:35,407:INFO:start and end byte are: 790394115 and 790394114
+2024-06-24 03:22:35,407:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 82507876.07958043
+2024-06-24 03:22:35,407:INFO:Fast server throughput: 82507876.07958043
+2024-06-24 03:22:35,407:INFO:Fast download time: 0.7625279305374156
+2024-06-24 03:22:35,407:INFO:Large chunk start byte: 790394115
+2024-06-24 03:22:35,408:INFO:Large chunk end byte: 853308676
+2024-06-24 03:22:35,408:INFO:Large_start_byte, Large_end_byte: 790394115 and 853308676
+2024-06-24 03:22:35,408:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=790394115, end_byte=853308676
+2024-06-24 03:22:35,408:INFO:Fetching range::::: 790394115-853308676 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:35,441:INFO:Delay 0.6045842170715332
+2024-06-24 03:22:35,441:INFO:Successfully fetched range 694691008-727479552 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199355.4419203
+2024-06-24 03:22:35,441:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109151132.2057966, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82507876.07958043, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 54233211.973048456}
+2024-06-24 03:22:35,441:INFO:number_of_chunk: 16
+2024-06-24 03:22:35,442:INFO:Fetched range: start_byte=694691008, end_byte=727479552, delay=0.6046, throughput=54233211.973048456
+2024-06-24 03:22:35,442:INFO:Geometric mean of throughput: 78752254.04062769
+2024-06-24 03:22:35,442:INFO:start and end byte are: 853308677 and 853308676
+2024-06-24 03:22:35,442:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 54233211.973048456
+2024-06-24 03:22:35,442:INFO:Slow server throughput: 54233211.973048456
+2024-06-24 03:22:35,443:INFO:Small chunk size: 41354338
+2024-06-24 03:22:35,443:INFO:small_start_byte, small_end_byte: 853308677 and 894663016
+2024-06-24 03:22:35,443:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=853308677, end_byte=894663016
+2024-06-24 03:22:35,443:INFO:Fetching range::::: 853308677-894663016 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:35,955:INFO:Delay 0.5747888088226318
+2024-06-24 03:22:35,956:INFO:Successfully fetched range 727479553-790394114 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199355.9560196
+2024-06-24 03:22:35,956:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109456830.11621432, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82507876.07958043, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 54233211.973048456}
+2024-06-24 03:22:35,956:INFO:number_of_chunk: 17
+2024-06-24 03:22:35,956:INFO:Fetched range: start_byte=727479553, end_byte=790394114, delay=0.5748, throughput=109456830.11621432
+2024-06-24 03:22:35,957:INFO:Geometric mean of throughput: 78825705.5904339
+2024-06-24 03:22:35,957:INFO:start and end byte are: 894663017 and 894663016
+2024-06-24 03:22:35,957:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 109456830.11621432
+2024-06-24 03:22:35,957:INFO:Fast server throughput: 109456830.11621432
+2024-06-24 03:22:35,957:INFO:Fast download time: 0.5747887996866099
+2024-06-24 03:22:35,957:INFO:Large chunk start byte: 894663017
+2024-06-24 03:22:35,957:INFO:Large chunk end byte: 957577578
+2024-06-24 03:22:35,957:INFO:Large_start_byte, Large_end_byte: 894663017 and 957577578
+2024-06-24 03:22:35,957:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=894663017, end_byte=957577578
+2024-06-24 03:22:35,957:INFO:Fetching range::::: 894663017-957577578 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:36,179:INFO:Delay 0.7716152667999268
+2024-06-24 03:22:36,180:INFO:Successfully fetched range 790394115-853308676 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199356.1800752
+2024-06-24 03:22:36,180:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109456830.11621432, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81536179.63123222, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 54233211.973048456}
+2024-06-24 03:22:36,180:INFO:number_of_chunk: 18
+2024-06-24 03:22:36,180:INFO:Fetched range: start_byte=790394115, end_byte=853308676, delay=0.7716, throughput=81536179.63123222
+2024-06-24 03:22:36,181:INFO:Geometric mean of throughput: 78515038.9802421
+2024-06-24 03:22:36,181:INFO:start and end byte are: 957577579 and 957577578
+2024-06-24 03:22:36,181:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81536179.63123222
+2024-06-24 03:22:36,181:INFO:Fast server throughput: 81536179.63123222
+2024-06-24 03:22:36,181:INFO:Fast download time: 0.7716152545354326
+2024-06-24 03:22:36,181:INFO:Large chunk start byte: 957577579
+2024-06-24 03:22:36,181:INFO:Large chunk end byte: 1020492140
+2024-06-24 03:22:36,181:INFO:Large_start_byte, Large_end_byte: 957577579 and 1020492140
+2024-06-24 03:22:36,181:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=957577579, end_byte=1020492140
+2024-06-24 03:22:36,181:INFO:Fetching range::::: 957577579-1020492140 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:36,292:INFO:Delay 0.8490395545959473
+2024-06-24 03:22:36,292:INFO:Successfully fetched range 853308677-894663016 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199356.2924697
+2024-06-24 03:22:36,292:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109456830.11621432, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81536179.63123222, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 48707199.53639884}
+2024-06-24 03:22:36,292:INFO:number_of_chunk: 19
+2024-06-24 03:22:36,292:INFO:Fetched range: start_byte=853308677, end_byte=894663016, delay=0.8490, throughput=48707199.53639884
+2024-06-24 03:22:36,293:INFO:Geometric mean of throughput: 75752236.93109024
+2024-06-24 03:22:36,293:INFO:start and end byte are: 1020492141 and 1020492140
+2024-06-24 03:22:36,293:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 48707199.53639884
+2024-06-24 03:22:36,293:INFO:Slow server throughput: 48707199.53639884
+2024-06-24 03:22:36,293:INFO:Small chunk size: 37583218
+2024-06-24 03:22:36,293:INFO:small_start_byte, small_end_byte: 1020492141 and 1058075360
+2024-06-24 03:22:36,293:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1020492141, end_byte=1058075360
+2024-06-24 03:22:36,293:INFO:Fetching range::::: 1020492141-1058075360 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:36,550:INFO:Delay 0.5926711559295654
+2024-06-24 03:22:36,550:INFO:Successfully fetched range 894663017-957577578 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199356.5502782
+2024-06-24 03:22:36,550:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106154248.22104372, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81536179.63123222, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 48707199.53639884}
+2024-06-24 03:22:36,550:INFO:number_of_chunk: 20
+2024-06-24 03:22:36,550:INFO:Fetched range: start_byte=894663017, end_byte=957577578, delay=0.5927, throughput=106154248.22104372
+2024-06-24 03:22:36,551:INFO:Geometric mean of throughput: 74982566.1477381
+2024-06-24 03:22:36,551:INFO:start and end byte are: 1058075361 and 1058075360
+2024-06-24 03:22:36,551:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 106154248.22104372
+2024-06-24 03:22:36,551:INFO:Fast server throughput: 106154248.22104372
+2024-06-24 03:22:36,551:INFO:Fast download time: 0.5926711465093113
+2024-06-24 03:22:36,551:INFO:Large chunk start byte: 1058075361
+2024-06-24 03:22:36,551:INFO:Large chunk end byte: 1120989922
+2024-06-24 03:22:36,551:INFO:Large_start_byte, Large_end_byte: 1058075361 and 1120989922
+2024-06-24 03:22:36,551:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1058075361, end_byte=1120989922
+2024-06-24 03:22:36,551:INFO:Fetching range::::: 1058075361-1120989922 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:36,951:INFO:Delay 0.7702875137329102
+2024-06-24 03:22:36,952:INFO:Successfully fetched range 957577579-1020492140 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199356.9522402
+2024-06-24 03:22:36,952:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106154248.22104372, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81676724.44164144, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 48707199.53639884}
+2024-06-24 03:22:36,952:INFO:number_of_chunk: 21
+2024-06-24 03:22:36,952:INFO:Fetched range: start_byte=957577579, end_byte=1020492140, delay=0.7703, throughput=81676724.44164144
+2024-06-24 03:22:36,953:INFO:Geometric mean of throughput: 75025624.17557548
+2024-06-24 03:22:36,953:INFO:start and end byte are: 1120989923 and 1120989922
+2024-06-24 03:22:36,953:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81676724.44164144
+2024-06-24 03:22:36,953:INFO:Fast server throughput: 81676724.44164144
+2024-06-24 03:22:36,953:INFO:Fast download time: 0.7702875014895201
+2024-06-24 03:22:36,953:INFO:Large chunk start byte: 1120989923
+2024-06-24 03:22:36,953:INFO:Large chunk end byte: 1183904484
+2024-06-24 03:22:36,953:INFO:Large_start_byte, Large_end_byte: 1120989923 and 1183904484
+2024-06-24 03:22:36,953:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1120989923, end_byte=1183904484
+2024-06-24 03:22:36,953:INFO:Fetching range::::: 1120989923-1183904484 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:37,048:INFO:Delay 0.7544307708740234
+2024-06-24 03:22:37,048:INFO:Successfully fetched range 1020492141-1058075360 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199357.0484366
+2024-06-24 03:22:37,048:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106154248.22104372, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81676724.44164144, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 49816657.075716935}
+2024-06-24 03:22:37,048:INFO:number_of_chunk: 22
+2024-06-24 03:22:37,048:INFO:Fetched range: start_byte=1020492141, end_byte=1058075360, delay=0.7544, throughput=49816657.075716935
+2024-06-24 03:22:37,049:INFO:Geometric mean of throughput: 75591000.0275053
+2024-06-24 03:22:37,049:INFO:start and end byte are: 1183904485 and 1183904484
+2024-06-24 03:22:37,049:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 49816657.075716935
+2024-06-24 03:22:37,049:INFO:Slow server throughput: 49816657.075716935
+2024-06-24 03:22:37,049:INFO:Small chunk size: 38373148
+2024-06-24 03:22:37,049:INFO:small_start_byte, small_end_byte: 1183904485 and 1222277634
+2024-06-24 03:22:37,049:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1183904485, end_byte=1222277634
+2024-06-24 03:22:37,049:INFO:Fetching range::::: 1183904485-1222277634 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:37,154:INFO:Delay 0.6031162738800049
+2024-06-24 03:22:37,154:INFO:Successfully fetched range 1058075361-1120989922 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199357.1549356
+2024-06-24 03:22:37,154:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 104315807.2907802, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81676724.44164144, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 49816657.075716935}
+2024-06-24 03:22:37,155:INFO:number_of_chunk: 23
+2024-06-24 03:22:37,155:INFO:Fetched range: start_byte=1058075361, end_byte=1120989922, delay=0.6031, throughput=104315807.2907802
+2024-06-24 03:22:37,155:INFO:Geometric mean of throughput: 75152080.08521585
+2024-06-24 03:22:37,155:INFO:start and end byte are: 1222277635 and 1222277634
+2024-06-24 03:22:37,155:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 104315807.2907802
+2024-06-24 03:22:37,155:INFO:Fast server throughput: 104315807.2907802
+2024-06-24 03:22:37,156:INFO:Fast download time: 0.60311626429373
+2024-06-24 03:22:37,156:INFO:Large chunk start byte: 1222277635
+2024-06-24 03:22:37,156:INFO:Large chunk end byte: 1285192196
+2024-06-24 03:22:37,156:INFO:Large_start_byte, Large_end_byte: 1222277635 and 1285192196
+2024-06-24 03:22:37,156:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1222277635, end_byte=1285192196
+2024-06-24 03:22:37,156:INFO:Fetching range::::: 1222277635-1285192196 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:37,685:INFO:Delay 0.7320692539215088
+2024-06-24 03:22:37,685:INFO:Successfully fetched range 1120989923-1183904484 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199357.68597
+2024-06-24 03:22:37,686:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 104315807.2907802, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 85940723.04359554, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 49816657.075716935}
+2024-06-24 03:22:37,686:INFO:number_of_chunk: 24
+2024-06-24 03:22:37,686:INFO:Fetched range: start_byte=1120989923, end_byte=1183904484, delay=0.7321, throughput=85940723.04359554
+2024-06-24 03:22:37,686:INFO:Geometric mean of throughput: 76437751.36214396
+2024-06-24 03:22:37,686:INFO:start and end byte are: 1285192197 and 1285192196
+2024-06-24 03:22:37,686:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 85940723.04359554
+2024-06-24 03:22:37,687:INFO:Fast server throughput: 85940723.04359554
+2024-06-24 03:22:37,687:INFO:Fast download time: 0.7320692422855816
+2024-06-24 03:22:37,687:INFO:Large chunk start byte: 1285192197
+2024-06-24 03:22:37,687:INFO:Large chunk end byte: 1348106758
+2024-06-24 03:22:37,687:INFO:Large_start_byte, Large_end_byte: 1285192197 and 1348106758
+2024-06-24 03:22:37,687:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1285192197, end_byte=1348106758
+2024-06-24 03:22:37,687:INFO:Fetching range::::: 1285192197-1348106758 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:37,804:INFO:Delay 0.7541923522949219
+2024-06-24 03:22:37,804:INFO:Successfully fetched range 1183904485-1222277634 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199357.8041887
+2024-06-24 03:22:37,804:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 104315807.2907802, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 85940723.04359554, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 50879790.65716439}
+2024-06-24 03:22:37,804:INFO:number_of_chunk: 25
+2024-06-24 03:22:37,804:INFO:Fetched range: start_byte=1183904485, end_byte=1222277634, delay=0.7542, throughput=50879790.65716439
+2024-06-24 03:22:37,805:INFO:Geometric mean of throughput: 76977679.32410601
+2024-06-24 03:22:37,805:INFO:start and end byte are: 1348106759 and 1348106758
+2024-06-24 03:22:37,805:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 50879790.65716439
+2024-06-24 03:22:37,805:INFO:Slow server throughput: 50879790.65716439
+2024-06-24 03:22:37,805:INFO:Small chunk size: 37247529
+2024-06-24 03:22:37,805:INFO:small_start_byte, small_end_byte: 1348106759 and 1385354289
+2024-06-24 03:22:37,805:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1348106759, end_byte=1385354289
+2024-06-24 03:22:37,805:INFO:Fetching range::::: 1348106759-1385354289 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:37,828:INFO:Delay 0.6721897125244141
+2024-06-24 03:22:37,828:INFO:Successfully fetched range 1222277635-1285192196 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199357.8286905
+2024-06-24 03:22:37,828:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 93596435.39280577, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 85940723.04359554, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 50879790.65716439}
+2024-06-24 03:22:37,828:INFO:number_of_chunk: 26
+2024-06-24 03:22:37,828:INFO:Fetched range: start_byte=1222277635, end_byte=1285192196, delay=0.6722, throughput=93596435.39280577
+2024-06-24 03:22:37,829:INFO:Geometric mean of throughput: 74245113.58379704
+2024-06-24 03:22:37,829:INFO:start and end byte are: 1385354290 and 1385354289
+2024-06-24 03:22:37,829:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 93596435.39280577
+2024-06-24 03:22:37,829:INFO:Fast server throughput: 93596435.39280577
+2024-06-24 03:22:37,829:INFO:Fast download time: 0.6721897018402464
+2024-06-24 03:22:37,829:INFO:Large chunk start byte: 1385354290
+2024-06-24 03:22:37,829:INFO:Large chunk end byte: 1448268851
+2024-06-24 03:22:37,829:INFO:Large_start_byte, Large_end_byte: 1385354290 and 1448268851
+2024-06-24 03:22:37,829:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1385354290, end_byte=1448268851
+2024-06-24 03:22:37,829:INFO:Fetching range::::: 1385354290-1448268851 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:38,394:INFO:Delay 0.5649077892303467
+2024-06-24 03:22:38,395:INFO:Successfully fetched range 1385354290-1448268851 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199358.3951929
+2024-06-24 03:22:38,395:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 111371381.66516937, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 85940723.04359554, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 50879790.65716439}
+2024-06-24 03:22:38,395:INFO:number_of_chunk: 27
+2024-06-24 03:22:38,395:INFO:Fetched range: start_byte=1385354290, end_byte=1448268851, delay=0.5649, throughput=111371381.66516937
+2024-06-24 03:22:38,396:INFO:Geometric mean of throughput: 78675463.26081692
+2024-06-24 03:22:38,396:INFO:start and end byte are: 1448268852 and 1448268851
+2024-06-24 03:22:38,396:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 111371381.66516937
+2024-06-24 03:22:38,396:INFO:Fast server throughput: 111371381.66516937
+2024-06-24 03:22:38,396:INFO:Fast download time: 0.5649077802513793
+2024-06-24 03:22:38,396:INFO:Large chunk start byte: 1448268852
+2024-06-24 03:22:38,396:INFO:Large chunk end byte: 1511183413
+2024-06-24 03:22:38,396:INFO:Large_start_byte, Large_end_byte: 1448268852 and 1511183413
+2024-06-24 03:22:38,396:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1448268852, end_byte=1511183413
+2024-06-24 03:22:38,396:INFO:Fetching range::::: 1448268852-1511183413 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:38,452:INFO:Delay 0.7650058269500732
+2024-06-24 03:22:38,452:INFO:Successfully fetched range 1285192197-1348106758 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199358.4525194
+2024-06-24 03:22:38,452:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 111371381.66516937, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82240629.78817809, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 50879790.65716439}
+2024-06-24 03:22:38,452:INFO:number_of_chunk: 28
+2024-06-24 03:22:38,452:INFO:Fetched range: start_byte=1285192197, end_byte=1348106758, delay=0.7650, throughput=82240629.78817809
+2024-06-24 03:22:38,453:INFO:Geometric mean of throughput: 77529761.90326509
+2024-06-24 03:22:38,453:INFO:start and end byte are: 1511183414 and 1511183413
+2024-06-24 03:22:38,453:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 82240629.78817809
+2024-06-24 03:22:38,453:INFO:Fast server throughput: 82240629.78817809
+2024-06-24 03:22:38,453:INFO:Fast download time: 0.7650058147906332
+2024-06-24 03:22:38,453:INFO:Large chunk start byte: 1511183414
+2024-06-24 03:22:38,453:INFO:Large chunk end byte: 1574097975
+2024-06-24 03:22:38,453:INFO:Large_start_byte, Large_end_byte: 1511183414 and 1574097975
+2024-06-24 03:22:38,453:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1511183414, end_byte=1574097975
+2024-06-24 03:22:38,453:INFO:Fetching range::::: 1511183414-1574097975 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:38,514:INFO:Delay 0.7087738513946533
+2024-06-24 03:22:38,514:INFO:Successfully fetched range 1348106759-1385354289 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199358.5144372
+2024-06-24 03:22:38,514:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 111371381.66516937, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82240629.78817809, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 52552065.69303888}
+2024-06-24 03:22:38,514:INFO:number_of_chunk: 29
+2024-06-24 03:22:38,514:INFO:Fetched range: start_byte=1348106759, end_byte=1385354289, delay=0.7088, throughput=52552065.69303888
+2024-06-24 03:22:38,515:INFO:Geometric mean of throughput: 78370017.22753109
+2024-06-24 03:22:38,515:INFO:start and end byte are: 1574097976 and 1574097975
+2024-06-24 03:22:38,515:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 52552065.69303888
+2024-06-24 03:22:38,515:INFO:Slow server throughput: 52552065.69303888
+2024-06-24 03:22:38,515:INFO:Small chunk size: 40202635
+2024-06-24 03:22:38,515:INFO:small_start_byte, small_end_byte: 1574097976 and 1614300612
+2024-06-24 03:22:38,515:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1574097976, end_byte=1614300612
+2024-06-24 03:22:38,515:INFO:Fetching range::::: 1574097976-1614300612 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:38,973:INFO:Delay 0.5765445232391357
+2024-06-24 03:22:38,973:INFO:Successfully fetched range 1448268852-1511183413 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199358.9733007
+2024-06-24 03:22:38,973:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109123508.1837811, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82240629.78817809, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 52552065.69303888}
+2024-06-24 03:22:38,973:INFO:number_of_chunk: 30
+2024-06-24 03:22:38,973:INFO:Fetched range: start_byte=1448268852, end_byte=1511183413, delay=0.5765, throughput=109123508.1837811
+2024-06-24 03:22:38,974:INFO:Geometric mean of throughput: 77839166.98615557
+2024-06-24 03:22:38,974:INFO:start and end byte are: 1614300613 and 1614300612
+2024-06-24 03:22:38,974:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 109123508.1837811
+2024-06-24 03:22:38,974:INFO:Fast server throughput: 109123508.1837811
+2024-06-24 03:22:38,974:INFO:Fast download time: 0.5765445140752075
+2024-06-24 03:22:38,974:INFO:Large chunk start byte: 1614300613
+2024-06-24 03:22:38,974:INFO:Large chunk end byte: 1677215174
+2024-06-24 03:22:38,974:INFO:Large_start_byte, Large_end_byte: 1614300613 and 1677215174
+2024-06-24 03:22:38,974:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1614300613, end_byte=1677215174
+2024-06-24 03:22:38,974:INFO:Fetching range::::: 1614300613-1677215174 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:39,229:INFO:Delay 0.7753283977508545
+2024-06-24 03:22:39,229:INFO:Successfully fetched range 1511183414-1574097975 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199359.2293987
+2024-06-24 03:22:39,229:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109123508.1837811, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81145694.11169316, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 52552065.69303888}
+2024-06-24 03:22:39,229:INFO:number_of_chunk: 31
+2024-06-24 03:22:39,229:INFO:Fetched range: start_byte=1511183414, end_byte=1574097975, delay=0.7753, throughput=81145694.11169316
+2024-06-24 03:22:39,230:INFO:Geometric mean of throughput: 77492177.32846023
+2024-06-24 03:22:39,230:INFO:start and end byte are: 1677215175 and 1677215174
+2024-06-24 03:22:39,230:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81145694.11169316
+2024-06-24 03:22:39,230:INFO:Fast server throughput: 81145694.11169316
+2024-06-24 03:22:39,230:INFO:Fast download time: 0.7753283854273416
+2024-06-24 03:22:39,230:INFO:Large chunk start byte: 1677215175
+2024-06-24 03:22:39,230:INFO:Large chunk end byte: 1740129736
+2024-06-24 03:22:39,230:INFO:Large_start_byte, Large_end_byte: 1677215175 and 1740129736
+2024-06-24 03:22:39,230:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1677215175, end_byte=1740129736
+2024-06-24 03:22:39,230:INFO:Fetching range::::: 1677215175-1740129736 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:39,249:INFO:Delay 0.7334601879119873
+2024-06-24 03:22:39,249:INFO:Successfully fetched range 1574097976-1614300612 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199359.249379
+2024-06-24 03:22:39,249:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 109123508.1837811, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81145694.11169316, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 54812294.7401532}
+2024-06-24 03:22:39,249:INFO:number_of_chunk: 32
+2024-06-24 03:22:39,249:INFO:Fetched range: start_byte=1574097976, end_byte=1614300612, delay=0.7335, throughput=54812294.7401532
+2024-06-24 03:22:39,250:INFO:Geometric mean of throughput: 78587582.23634934
+2024-06-24 03:22:39,250:INFO:start and end byte are: 1740129737 and 1740129736
+2024-06-24 03:22:39,250:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 54812294.7401532
+2024-06-24 03:22:39,250:INFO:Slow server throughput: 54812294.7401532
+2024-06-24 03:22:39,250:INFO:Small chunk size: 42497527
+2024-06-24 03:22:39,250:INFO:small_start_byte, small_end_byte: 1740129737 and 1782627265
+2024-06-24 03:22:39,250:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1740129737, end_byte=1782627265
+2024-06-24 03:22:39,250:INFO:Fetching range::::: 1740129737-1782627265 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:39,538:INFO:Delay 0.5642049312591553
+2024-06-24 03:22:39,539:INFO:Successfully fetched range 1614300613-1677215174 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199359.5391223
+2024-06-24 03:22:39,539:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 111510122.50033236, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81145694.11169316, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 54812294.7401532}
+2024-06-24 03:22:39,539:INFO:number_of_chunk: 33
+2024-06-24 03:22:39,539:INFO:Fetched range: start_byte=1614300613, end_byte=1677215174, delay=0.5642, throughput=111510122.50033236
+2024-06-24 03:22:39,540:INFO:Geometric mean of throughput: 79156378.94539042
+2024-06-24 03:22:39,540:INFO:start and end byte are: 1782627266 and 1782627265
+2024-06-24 03:22:39,540:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 111510122.50033236
+2024-06-24 03:22:39,540:INFO:Fast server throughput: 111510122.50033236
+2024-06-24 03:22:39,540:INFO:Fast download time: 0.5642049222913595
+2024-06-24 03:22:39,540:INFO:Large chunk start byte: 1782627266
+2024-06-24 03:22:39,540:INFO:Large chunk end byte: 1845541827
+2024-06-24 03:22:39,540:INFO:Large_start_byte, Large_end_byte: 1782627266 and 1845541827
+2024-06-24 03:22:39,540:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1782627266, end_byte=1845541827
+2024-06-24 03:22:39,540:INFO:Fetching range::::: 1782627266-1845541827 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:39,983:INFO:Delay 0.7531681060791016
+2024-06-24 03:22:39,984:INFO:Successfully fetched range 1677215175-1740129736 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199359.9841561
+2024-06-24 03:22:39,984:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 111510122.50033236, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83533225.17535333, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 54812294.7401532}
+2024-06-24 03:22:39,984:INFO:number_of_chunk: 34
+2024-06-24 03:22:39,984:INFO:Fetched range: start_byte=1677215175, end_byte=1740129736, delay=0.7532, throughput=83533225.17535333
+2024-06-24 03:22:39,985:INFO:Geometric mean of throughput: 79925220.35525522
+2024-06-24 03:22:39,985:INFO:start and end byte are: 1845541828 and 1845541827
+2024-06-24 03:22:39,985:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83533225.17535333
+2024-06-24 03:22:39,985:INFO:Fast server throughput: 83533225.17535333
+2024-06-24 03:22:39,985:INFO:Fast download time: 0.7531680941078172
+2024-06-24 03:22:39,985:INFO:Large chunk start byte: 1845541828
+2024-06-24 03:22:39,985:INFO:Large chunk end byte: 1908456389
+2024-06-24 03:22:39,985:INFO:Large_start_byte, Large_end_byte: 1845541828 and 1908456389
+2024-06-24 03:22:39,985:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1845541828, end_byte=1908456389
+2024-06-24 03:22:39,985:INFO:Fetching range::::: 1845541828-1908456389 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:40,005:INFO:Delay 0.7551088333129883
+2024-06-24 03:22:40,006:INFO:Successfully fetched range 1740129737-1782627265 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199360.0060205
+2024-06-24 03:22:40,006:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 111510122.50033236, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83533225.17535333, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 56280003.789049864}
+2024-06-24 03:22:40,006:INFO:number_of_chunk: 35
+2024-06-24 03:22:40,006:INFO:Fetched range: start_byte=1740129737, end_byte=1782627265, delay=0.7551, throughput=56280003.789049864
+2024-06-24 03:22:40,006:INFO:Geometric mean of throughput: 80632331.96139163
+2024-06-24 03:22:40,007:INFO:start and end byte are: 1908456390 and 1908456389
+2024-06-24 03:22:40,007:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 56280003.789049864
+2024-06-24 03:22:40,007:INFO:Slow server throughput: 56280003.789049864
+2024-06-24 03:22:40,007:INFO:Small chunk size: 42388303
+2024-06-24 03:22:40,007:INFO:small_start_byte, small_end_byte: 1908456390 and 1950844694
+2024-06-24 03:22:40,007:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1908456390, end_byte=1950844694
+2024-06-24 03:22:40,007:INFO:Fetching range::::: 1908456390-1950844694 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:40,134:INFO:Delay 0.5940008163452148
+2024-06-24 03:22:40,134:INFO:Successfully fetched range 1782627266-1845541827 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199360.1346323
+2024-06-24 03:22:40,134:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 105916623.7970892, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83533225.17535333, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 56280003.789049864}
+2024-06-24 03:22:40,134:INFO:number_of_chunk: 36
+2024-06-24 03:22:40,134:INFO:Fetched range: start_byte=1782627266, end_byte=1845541827, delay=0.5940, throughput=105916623.7970892
+2024-06-24 03:22:40,135:INFO:Geometric mean of throughput: 79260930.30497362
+2024-06-24 03:22:40,135:INFO:start and end byte are: 1950844695 and 1950844694
+2024-06-24 03:22:40,135:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 105916623.7970892
+2024-06-24 03:22:40,135:INFO:Fast server throughput: 105916623.7970892
+2024-06-24 03:22:40,135:INFO:Fast download time: 0.5940008069038263
+2024-06-24 03:22:40,135:INFO:Large chunk start byte: 1950844695
+2024-06-24 03:22:40,135:INFO:Large chunk end byte: 2013759256
+2024-06-24 03:22:40,135:INFO:Large_start_byte, Large_end_byte: 1950844695 and 2013759256
+2024-06-24 03:22:40,135:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=1950844695, end_byte=2013759256
+2024-06-24 03:22:40,135:INFO:Fetching range::::: 1950844695-2013759256 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:40,718:INFO:Delay 0.5828120708465576
+2024-06-24 03:22:40,718:INFO:Successfully fetched range 1950844695-2013759256 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199360.718949
+2024-06-24 03:22:40,718:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107949996.48619856, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83533225.17535333, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 56280003.789049864}
+2024-06-24 03:22:40,719:INFO:number_of_chunk: 37
+2024-06-24 03:22:40,719:INFO:Fetched range: start_byte=1950844695, end_byte=2013759256, delay=0.5828, throughput=107949996.48619856
+2024-06-24 03:22:40,719:INFO:Geometric mean of throughput: 79764932.13935922
+2024-06-24 03:22:40,719:INFO:start and end byte are: 2013759257 and 2013759256
+2024-06-24 03:22:40,719:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 107949996.48619856
+2024-06-24 03:22:40,719:INFO:Fast server throughput: 107949996.48619856
+2024-06-24 03:22:40,720:INFO:Fast download time: 0.5828120615830094
+2024-06-24 03:22:40,720:INFO:Large chunk start byte: 2013759257
+2024-06-24 03:22:40,720:INFO:Large chunk end byte: 2076673818
+2024-06-24 03:22:40,720:INFO:Large_start_byte, Large_end_byte: 2013759257 and 2076673818
+2024-06-24 03:22:40,720:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2013759257, end_byte=2076673818
+2024-06-24 03:22:40,720:INFO:Fetching range::::: 2013759257-2076673818 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:40,745:INFO:Delay 0.760364294052124
+2024-06-24 03:22:40,746:INFO:Successfully fetched range 1845541828-1908456389 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199360.7460268
+2024-06-24 03:22:40,746:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107949996.48619856, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82742655.71403478, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 56280003.789049864}
+2024-06-24 03:22:40,746:INFO:number_of_chunk: 38
+2024-06-24 03:22:40,746:INFO:Fetched range: start_byte=1845541828, end_byte=1908456389, delay=0.7604, throughput=82742655.71403478
+2024-06-24 03:22:40,747:INFO:Geometric mean of throughput: 79512498.82281417
+2024-06-24 03:22:40,747:INFO:start and end byte are: 2076673819 and 2076673818
+2024-06-24 03:22:40,747:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 82742655.71403478
+2024-06-24 03:22:40,747:INFO:Fast server throughput: 82742655.71403478
+2024-06-24 03:22:40,747:INFO:Fast download time: 0.7603642819664592
+2024-06-24 03:22:40,747:INFO:Large chunk start byte: 2076673819
+2024-06-24 03:22:40,747:INFO:Large chunk end byte: 2139588380
+2024-06-24 03:22:40,747:INFO:Large_start_byte, Large_end_byte: 2076673819 and 2139588380
+2024-06-24 03:22:40,747:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2076673819, end_byte=2139588380
+2024-06-24 03:22:40,747:INFO:Fetching range::::: 2076673819-2139588380 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:41,101:INFO:Delay 1.093874216079712
+2024-06-24 03:22:41,101:INFO:Successfully fetched range 1908456390-1950844694 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199361.1014495
+2024-06-24 03:22:41,101:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 107949996.48619856, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82742655.71403478, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 38750619.93134238}
+2024-06-24 03:22:41,101:INFO:number_of_chunk: 39
+2024-06-24 03:22:41,101:INFO:Fetched range: start_byte=1908456390, end_byte=1950844694, delay=1.0939, throughput=38750619.93134238
+2024-06-24 03:22:41,102:INFO:Geometric mean of throughput: 70211822.74173914
+2024-06-24 03:22:41,102:INFO:start and end byte are: 2139588381 and 2139588380
+2024-06-24 03:22:41,102:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 38750619.93134238
+2024-06-24 03:22:41,102:INFO:Slow server throughput: 38750619.93134238
+2024-06-24 03:22:41,102:INFO:Small chunk size: 29464587
+2024-06-24 03:22:41,102:INFO:small_start_byte, small_end_byte: 2139588381 and 2169052969
+2024-06-24 03:22:41,102:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2139588381, end_byte=2169052969
+2024-06-24 03:22:41,102:INFO:Fetching range::::: 2139588381-2169052969 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:41,310:INFO:Delay 0.5903027057647705
+2024-06-24 03:22:41,310:INFO:Successfully fetched range 2013759257-2076673818 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199361.3107588
+2024-06-24 03:22:41,310:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106580167.0661337, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82742655.71403478, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 38750619.93134238}
+2024-06-24 03:22:41,310:INFO:number_of_chunk: 40
+2024-06-24 03:22:41,310:INFO:Fetched range: start_byte=2013759257, end_byte=2076673818, delay=0.5903, throughput=106580167.0661337
+2024-06-24 03:22:41,311:INFO:Geometric mean of throughput: 69913573.75845407
+2024-06-24 03:22:41,311:INFO:start and end byte are: 2169052970 and 2169052969
+2024-06-24 03:22:41,311:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 106580167.0661337
+2024-06-24 03:22:41,311:INFO:Fast server throughput: 106580167.0661337
+2024-06-24 03:22:41,311:INFO:Fast download time: 0.5903026963821618
+2024-06-24 03:22:41,311:INFO:Large chunk start byte: 2169052970
+2024-06-24 03:22:41,311:INFO:Large chunk end byte: 2231967531
+2024-06-24 03:22:41,311:INFO:Large_start_byte, Large_end_byte: 2169052970 and 2231967531
+2024-06-24 03:22:41,311:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2169052970, end_byte=2231967531
+2024-06-24 03:22:41,311:INFO:Fetching range::::: 2169052970-2231967531 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:41,473:INFO:Delay 0.7265479564666748
+2024-06-24 03:22:41,474:INFO:Successfully fetched range 2076673819-2139588380 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199361.4741404
+2024-06-24 03:22:41,474:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106580167.0661337, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86593817.29729737, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 38750619.93134238}
+2024-06-24 03:22:41,474:INFO:number_of_chunk: 41
+2024-06-24 03:22:41,474:INFO:Fetched range: start_byte=2076673819, end_byte=2139588380, delay=0.7265, throughput=86593817.29729737
+2024-06-24 03:22:41,475:INFO:Geometric mean of throughput: 70981849.66482045
+2024-06-24 03:22:41,475:INFO:start and end byte are: 2231967532 and 2231967531
+2024-06-24 03:22:41,475:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 86593817.29729737
+2024-06-24 03:22:41,475:INFO:Fast server throughput: 86593817.29729737
+2024-06-24 03:22:41,475:INFO:Fast download time: 0.7265479449185062
+2024-06-24 03:22:41,475:INFO:Large chunk start byte: 2231967532
+2024-06-24 03:22:41,475:INFO:Large chunk end byte: 2294882093
+2024-06-24 03:22:41,475:INFO:Large_start_byte, Large_end_byte: 2231967532 and 2294882093
+2024-06-24 03:22:41,475:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2231967532, end_byte=2294882093
+2024-06-24 03:22:41,475:INFO:Fetching range::::: 2231967532-2294882093 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:41,810:INFO:Delay 0.7072899341583252
+2024-06-24 03:22:41,810:INFO:Successfully fetched range 2139588381-2169052969 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199361.810219
+2024-06-24 03:22:41,810:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 106580167.0661337, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86593817.29729737, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41658429.70049171}
+2024-06-24 03:22:41,810:INFO:number_of_chunk: 42
+2024-06-24 03:22:41,810:INFO:Fetched range: start_byte=2139588381, end_byte=2169052969, delay=0.7073, throughput=41658429.70049171
+2024-06-24 03:22:41,811:INFO:Geometric mean of throughput: 72714673.59823157
+2024-06-24 03:22:41,811:INFO:start and end byte are: 2294882094 and 2294882093
+2024-06-24 03:22:41,811:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 41658429.70049171
+2024-06-24 03:22:41,811:INFO:Slow server throughput: 41658429.70049171
+2024-06-24 03:22:41,811:INFO:Small chunk size: 30266846
+2024-06-24 03:22:41,811:INFO:small_start_byte, small_end_byte: 2294882094 and 2325148941
+2024-06-24 03:22:41,811:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2294882094, end_byte=2325148941
+2024-06-24 03:22:41,811:INFO:Fetching range::::: 2294882094-2325148941 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:42,089:INFO:Delay 0.7777590751647949
+2024-06-24 03:22:42,090:INFO:Successfully fetched range 2169052970-2231967531 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199362.090326
+2024-06-24 03:22:42,090:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80892095.00598806, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86593817.29729737, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41658429.70049171}
+2024-06-24 03:22:42,090:INFO:number_of_chunk: 43
+2024-06-24 03:22:42,090:INFO:Fetched range: start_byte=2169052970, end_byte=2231967531, delay=0.7778, throughput=80892095.00598806
+2024-06-24 03:22:42,091:INFO:Geometric mean of throughput: 66328262.544954084
+2024-06-24 03:22:42,091:INFO:start and end byte are: 2325148942 and 2325148941
+2024-06-24 03:22:42,091:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 80892095.00598806
+2024-06-24 03:22:42,091:INFO:Fast server throughput: 80892095.00598806
+2024-06-24 03:22:42,091:INFO:Fast download time: 0.7777590628026475
+2024-06-24 03:22:42,091:INFO:Large chunk start byte: 2325148942
+2024-06-24 03:22:42,091:INFO:Large chunk end byte: 2388063503
+2024-06-24 03:22:42,091:INFO:Large_start_byte, Large_end_byte: 2325148942 and 2388063503
+2024-06-24 03:22:42,091:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2325148942, end_byte=2388063503
+2024-06-24 03:22:42,091:INFO:Fetching range::::: 2325148942-2388063503 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:42,247:INFO:Delay 0.7719912528991699
+2024-06-24 03:22:42,247:INFO:Successfully fetched range 2231967532-2294882093 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199362.2476745
+2024-06-24 03:22:42,247:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80892095.00598806, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81496468.72775811, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41658429.70049171}
+2024-06-24 03:22:42,247:INFO:number_of_chunk: 44
+2024-06-24 03:22:42,247:INFO:Fetched range: start_byte=2231967532, end_byte=2294882093, delay=0.7720, throughput=81496468.72775811
+2024-06-24 03:22:42,248:INFO:Geometric mean of throughput: 65000384.13312492
+2024-06-24 03:22:42,248:INFO:start and end byte are: 2388063504 and 2388063503
+2024-06-24 03:22:42,248:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81496468.72775811
+2024-06-24 03:22:42,248:INFO:Fast server throughput: 81496468.72775811
+2024-06-24 03:22:42,248:INFO:Fast download time: 0.7719912406286996
+2024-06-24 03:22:42,248:INFO:Large chunk start byte: 2388063504
+2024-06-24 03:22:42,248:INFO:Large chunk end byte: 2450978065
+2024-06-24 03:22:42,248:INFO:Large_start_byte, Large_end_byte: 2388063504 and 2450978065
+2024-06-24 03:22:42,248:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2388063504, end_byte=2450978065
+2024-06-24 03:22:42,248:INFO:Fetching range::::: 2388063504-2450978065 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:42,521:INFO:Delay 0.7097249031066895
+2024-06-24 03:22:42,521:INFO:Successfully fetched range 2294882094-2325148941 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199362.5214117
+2024-06-24 03:22:42,521:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80892095.00598806, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81496468.72775811, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 42645885.564269304}
+2024-06-24 03:22:42,521:INFO:number_of_chunk: 45
+2024-06-24 03:22:42,521:INFO:Fetched range: start_byte=2294882094, end_byte=2325148941, delay=0.7097, throughput=42645885.564269304
+2024-06-24 03:22:42,522:INFO:Geometric mean of throughput: 65509960.43708699
+2024-06-24 03:22:42,522:INFO:start and end byte are: 2450978066 and 2450978065
+2024-06-24 03:22:42,522:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 42645885.564269304
+2024-06-24 03:22:42,522:INFO:Slow server throughput: 42645885.564269304
+2024-06-24 03:22:42,522:INFO:Small chunk size: 32922250
+2024-06-24 03:22:42,522:INFO:small_start_byte, small_end_byte: 2450978066 and 2483900317
+2024-06-24 03:22:42,522:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2450978066, end_byte=2483900317
+2024-06-24 03:22:42,522:INFO:Fetching range::::: 2450978066-2483900317 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:42,831:INFO:Delay 0.7396039962768555
+2024-06-24 03:22:42,831:INFO:Successfully fetched range 2325148942-2388063503 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199362.8315108
+2024-06-24 03:22:42,831:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 85065198.83168565, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81496468.72775811, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 42645885.564269304}
+2024-06-24 03:22:42,831:INFO:number_of_chunk: 46
+2024-06-24 03:22:42,831:INFO:Fetched range: start_byte=2325148942, end_byte=2388063503, delay=0.7396, throughput=85065198.83168565
+2024-06-24 03:22:42,832:INFO:Geometric mean of throughput: 66617646.12539726
+2024-06-24 03:22:42,832:INFO:start and end byte are: 2483900318 and 2483900317
+2024-06-24 03:22:42,832:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 85065198.83168565
+2024-06-24 03:22:42,832:INFO:Fast server throughput: 85065198.83168565
+2024-06-24 03:22:42,832:INFO:Fast download time: 0.7396039845211667
+2024-06-24 03:22:42,832:INFO:Large chunk start byte: 2483900318
+2024-06-24 03:22:42,832:INFO:Large chunk end byte: 2546814879
+2024-06-24 03:22:42,832:INFO:Large_start_byte, Large_end_byte: 2483900318 and 2546814879
+2024-06-24 03:22:42,832:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2483900318, end_byte=2546814879
+2024-06-24 03:22:42,832:INFO:Fetching range::::: 2483900318-2546814879 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:43,022:INFO:Delay 0.7731459140777588
+2024-06-24 03:22:43,022:INFO:Successfully fetched range 2388063504-2450978065 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199363.0223489
+2024-06-24 03:22:43,022:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 85065198.83168565, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81374757.15052721, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 42645885.564269304}
+2024-06-24 03:22:43,022:INFO:number_of_chunk: 47
+2024-06-24 03:22:43,022:INFO:Fetched range: start_byte=2388063504, end_byte=2450978065, delay=0.7731, throughput=81374757.15052721
+2024-06-24 03:22:43,023:INFO:Geometric mean of throughput: 66584466.04348938
+2024-06-24 03:22:43,023:INFO:start and end byte are: 2546814880 and 2546814879
+2024-06-24 03:22:43,023:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81374757.15052721
+2024-06-24 03:22:43,023:INFO:Fast server throughput: 81374757.15052721
+2024-06-24 03:22:43,023:INFO:Fast download time: 0.7731459017889357
+2024-06-24 03:22:43,023:INFO:Large chunk start byte: 2546814880
+2024-06-24 03:22:43,023:INFO:Large chunk end byte: 2609729441
+2024-06-24 03:22:43,023:INFO:Large_start_byte, Large_end_byte: 2546814880 and 2609729441
+2024-06-24 03:22:43,023:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2546814880, end_byte=2609729441
+2024-06-24 03:22:43,023:INFO:Fetching range::::: 2546814880-2609729441 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:43,273:INFO:Delay 0.7506711483001709
+2024-06-24 03:22:43,273:INFO:Successfully fetched range 2450978066-2483900317 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199363.2736213
+2024-06-24 03:22:43,273:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 85065198.83168565, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81374757.15052721, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 43857088.51945297}
+2024-06-24 03:22:43,273:INFO:number_of_chunk: 48
+2024-06-24 03:22:43,273:INFO:Fetched range: start_byte=2450978066, end_byte=2483900317, delay=0.7507, throughput=43857088.51945297
+2024-06-24 03:22:43,274:INFO:Geometric mean of throughput: 67208954.78855403
+2024-06-24 03:22:43,274:INFO:start and end byte are: 2609729442 and 2609729441
+2024-06-24 03:22:43,274:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 43857088.51945297
+2024-06-24 03:22:43,274:INFO:Slow server throughput: 43857088.51945297
+2024-06-24 03:22:43,274:INFO:Small chunk size: 33907928
+2024-06-24 03:22:43,274:INFO:small_start_byte, small_end_byte: 2609729442 and 2643637371
+2024-06-24 03:22:43,274:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2609729442, end_byte=2643637371
+2024-06-24 03:22:43,274:INFO:Fetching range::::: 2609729442-2643637371 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:43,557:INFO:Delay 0.7245588302612305
+2024-06-24 03:22:43,557:INFO:Successfully fetched range 2483900318-2546814879 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199363.5575829
+2024-06-24 03:22:43,557:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 86831542.6882824, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81374757.15052721, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 43857088.51945297}
+2024-06-24 03:22:43,557:INFO:number_of_chunk: 49
+2024-06-24 03:22:43,557:INFO:Fetched range: start_byte=2483900318, end_byte=2546814879, delay=0.7246, throughput=86831542.6882824
+2024-06-24 03:22:43,558:INFO:Geometric mean of throughput: 67670960.37287183
+2024-06-24 03:22:43,558:INFO:start and end byte are: 2643637372 and 2643637371
+2024-06-24 03:22:43,558:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 86831542.6882824
+2024-06-24 03:22:43,558:INFO:Fast server throughput: 86831542.6882824
+2024-06-24 03:22:43,558:INFO:Fast download time: 0.7245588187446782
+2024-06-24 03:22:43,558:INFO:Large chunk start byte: 2643637372
+2024-06-24 03:22:43,558:INFO:Large chunk end byte: 2706551933
+2024-06-24 03:22:43,558:INFO:Large_start_byte, Large_end_byte: 2643637372 and 2706551933
+2024-06-24 03:22:43,558:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2643637372, end_byte=2706551933
+2024-06-24 03:22:43,558:INFO:Fetching range::::: 2643637372-2706551933 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:43,751:INFO:Delay 0.7282001972198486
+2024-06-24 03:22:43,752:INFO:Successfully fetched range 2546814880-2609729441 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199363.7520537
+2024-06-24 03:22:43,752:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 86831542.6882824, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86397341.33579981, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 43857088.51945297}
+2024-06-24 03:22:43,752:INFO:number_of_chunk: 50
+2024-06-24 03:22:43,752:INFO:Fetched range: start_byte=2546814880, end_byte=2609729441, delay=0.7282, throughput=86397341.33579981
+2024-06-24 03:22:43,752:INFO:Geometric mean of throughput: 69035514.24126972
+2024-06-24 03:22:43,753:INFO:start and end byte are: 2706551934 and 2706551933
+2024-06-24 03:22:43,753:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 86397341.33579981
+2024-06-24 03:22:43,753:INFO:Fast server throughput: 86397341.33579981
+2024-06-24 03:22:43,753:INFO:Fast download time: 0.7282001856454183
+2024-06-24 03:22:43,753:INFO:Large chunk start byte: 2706551934
+2024-06-24 03:22:43,753:INFO:Large chunk end byte: 2769466495
+2024-06-24 03:22:43,753:INFO:Large_start_byte, Large_end_byte: 2706551934 and 2769466495
+2024-06-24 03:22:43,753:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2706551934, end_byte=2769466495
+2024-06-24 03:22:43,753:INFO:Fetching range::::: 2706551934-2769466495 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:44,027:INFO:Delay 0.7527227401733398
+2024-06-24 03:22:44,027:INFO:Successfully fetched range 2609729442-2643637371 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199364.0278273
+2024-06-24 03:22:44,027:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 86831542.6882824, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86397341.33579981, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 45047036.830841}
+2024-06-24 03:22:44,027:INFO:number_of_chunk: 51
+2024-06-24 03:22:44,027:INFO:Fetched range: start_byte=2609729442, end_byte=2643637371, delay=0.7527, throughput=45047036.830841
+2024-06-24 03:22:44,028:INFO:Geometric mean of throughput: 69654317.51755224
+2024-06-24 03:22:44,028:INFO:start and end byte are: 2769466496 and 2769466495
+2024-06-24 03:22:44,028:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 45047036.830841
+2024-06-24 03:22:44,028:INFO:Slow server throughput: 45047036.830841
+2024-06-24 03:22:44,028:INFO:Small chunk size: 32803260
+2024-06-24 03:22:44,028:INFO:small_start_byte, small_end_byte: 2769466496 and 2802269757
+2024-06-24 03:22:44,028:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2769466496, end_byte=2802269757
+2024-06-24 03:22:44,028:INFO:Fetching range::::: 2769466496-2802269757 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:44,263:INFO:Delay 0.7042970657348633
+2024-06-24 03:22:44,263:INFO:Successfully fetched range 2643637372-2706551933 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199364.2633812
+2024-06-24 03:22:44,263:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 89329579.8902058, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86397341.33579981, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 45047036.830841}
+2024-06-24 03:22:44,263:INFO:number_of_chunk: 52
+2024-06-24 03:22:44,263:INFO:Fetched range: start_byte=2643637372, end_byte=2706551933, delay=0.7043, throughput=89329579.8902058
+2024-06-24 03:22:44,264:INFO:Geometric mean of throughput: 70315969.02636789
+2024-06-24 03:22:44,264:INFO:start and end byte are: 2802269758 and 2802269757
+2024-06-24 03:22:44,264:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 89329579.8902058
+2024-06-24 03:22:44,264:INFO:Fast server throughput: 89329579.8902058
+2024-06-24 03:22:44,264:INFO:Fast download time: 0.7042970545403632
+2024-06-24 03:22:44,264:INFO:Large chunk start byte: 2802269758
+2024-06-24 03:22:44,264:INFO:Large chunk end byte: 2865184319
+2024-06-24 03:22:44,264:INFO:Large_start_byte, Large_end_byte: 2802269758 and 2865184319
+2024-06-24 03:22:44,264:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2802269758, end_byte=2865184319
+2024-06-24 03:22:44,264:INFO:Fetching range::::: 2802269758-2865184319 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:44,522:INFO:Delay 0.7695221900939941
+2024-06-24 03:22:44,523:INFO:Successfully fetched range 2706551934-2769466495 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199364.5230818
+2024-06-24 03:22:44,523:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 89329579.8902058, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81757955.53382967, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 45047036.830841}
+2024-06-24 03:22:44,523:INFO:number_of_chunk: 53
+2024-06-24 03:22:44,523:INFO:Fetched range: start_byte=2706551934, end_byte=2769466495, delay=0.7695, throughput=81757955.53382967
+2024-06-24 03:22:44,524:INFO:Geometric mean of throughput: 69034128.66674653
+2024-06-24 03:22:44,524:INFO:start and end byte are: 2865184320 and 2865184319
+2024-06-24 03:22:44,524:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81757955.53382967
+2024-06-24 03:22:44,524:INFO:Fast server throughput: 81757955.53382967
+2024-06-24 03:22:44,524:INFO:Fast download time: 0.7695221778627686
+2024-06-24 03:22:44,524:INFO:Large chunk start byte: 2865184320
+2024-06-24 03:22:44,524:INFO:Large chunk end byte: 2928098881
+2024-06-24 03:22:44,524:INFO:Large_start_byte, Large_end_byte: 2865184320 and 2928098881
+2024-06-24 03:22:44,524:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2865184320, end_byte=2928098881
+2024-06-24 03:22:44,524:INFO:Fetching range::::: 2865184320-2928098881 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:44,741:INFO:Delay 0.7121670246124268
+2024-06-24 03:22:44,741:INFO:Successfully fetched range 2769466496-2802269757 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199364.7415385
+2024-06-24 03:22:44,741:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 89329579.8902058, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81757955.53382967, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 46061190.51616029}
+2024-06-24 03:22:44,741:INFO:number_of_chunk: 54
+2024-06-24 03:22:44,741:INFO:Fetched range: start_byte=2769466496, end_byte=2802269757, delay=0.7122, throughput=46061190.51616029
+2024-06-24 03:22:44,742:INFO:Geometric mean of throughput: 69548348.93202578
+2024-06-24 03:22:44,742:INFO:start and end byte are: 2928098882 and 2928098881
+2024-06-24 03:22:44,742:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 46061190.51616029
+2024-06-24 03:22:44,742:INFO:Slow server throughput: 46061190.51616029
+2024-06-24 03:22:44,742:INFO:Small chunk size: 35445107
+2024-06-24 03:22:44,742:INFO:small_start_byte, small_end_byte: 2928098882 and 2963543990
+2024-06-24 03:22:44,742:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2928098882, end_byte=2963543990
+2024-06-24 03:22:44,742:INFO:Fetching range::::: 2928098882-2963543990 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:44,969:INFO:Delay 0.7052011489868164
+2024-06-24 03:22:44,970:INFO:Successfully fetched range 2802269758-2865184319 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199364.9700894
+2024-06-24 03:22:44,970:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 89215057.42069654, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81757955.53382967, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 46061190.51616029}
+2024-06-24 03:22:44,970:INFO:number_of_chunk: 55
+2024-06-24 03:22:44,970:INFO:Fetched range: start_byte=2802269758, end_byte=2865184319, delay=0.7052, throughput=89215057.42069654
+2024-06-24 03:22:44,971:INFO:Geometric mean of throughput: 69518615.38870873
+2024-06-24 03:22:44,971:INFO:start and end byte are: 2963543991 and 2963543990
+2024-06-24 03:22:44,971:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 89215057.42069654
+2024-06-24 03:22:44,971:INFO:Fast server throughput: 89215057.42069654
+2024-06-24 03:22:44,971:INFO:Fast download time: 0.7052011377779461
+2024-06-24 03:22:44,971:INFO:Large chunk start byte: 2963543991
+2024-06-24 03:22:44,971:INFO:Large chunk end byte: 3026458552
+2024-06-24 03:22:44,971:INFO:Large_start_byte, Large_end_byte: 2963543991 and 3026458552
+2024-06-24 03:22:44,971:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=2963543991, end_byte=3026458552
+2024-06-24 03:22:44,971:INFO:Fetching range::::: 2963543991-3026458552 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:45,299:INFO:Delay 0.7753551006317139
+2024-06-24 03:22:45,299:INFO:Successfully fetched range 2865184320-2928098881 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199365.2999878
+2024-06-24 03:22:45,300:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 89215057.42069654, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81142899.49049269, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 46061190.51616029}
+2024-06-24 03:22:45,300:INFO:number_of_chunk: 56
+2024-06-24 03:22:45,300:INFO:Fetched range: start_byte=2865184320, end_byte=2928098881, delay=0.7754, throughput=81142899.49049269
+2024-06-24 03:22:45,300:INFO:Geometric mean of throughput: 69343849.45733275
+2024-06-24 03:22:45,300:INFO:start and end byte are: 3026458553 and 3026458552
+2024-06-24 03:22:45,300:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81142899.49049269
+2024-06-24 03:22:45,301:INFO:Fast server throughput: 81142899.49049269
+2024-06-24 03:22:45,301:INFO:Fast download time: 0.7753550883077767
+2024-06-24 03:22:45,301:INFO:Large chunk start byte: 3026458553
+2024-06-24 03:22:45,301:INFO:Large chunk end byte: 3089373114
+2024-06-24 03:22:45,301:INFO:Large_start_byte, Large_end_byte: 3026458553 and 3089373114
+2024-06-24 03:22:45,301:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3026458553, end_byte=3089373114
+2024-06-24 03:22:45,301:INFO:Fetching range::::: 3026458553-3089373114 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:45,496:INFO:Delay 0.7532527446746826
+2024-06-24 03:22:45,496:INFO:Successfully fetched range 2928098882-2963543990 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199365.4962883
+2024-06-24 03:22:45,496:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 89215057.42069654, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81142899.49049269, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47056062.19238956}
+2024-06-24 03:22:45,496:INFO:number_of_chunk: 57
+2024-06-24 03:22:45,496:INFO:Fetched range: start_byte=2928098882, end_byte=2963543990, delay=0.7533, throughput=47056062.19238956
+2024-06-24 03:22:45,497:INFO:Geometric mean of throughput: 69839548.15865211
+2024-06-24 03:22:45,497:INFO:start and end byte are: 3089373115 and 3089373114
+2024-06-24 03:22:45,497:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 47056062.19238956
+2024-06-24 03:22:45,497:INFO:Slow server throughput: 47056062.19238956
+2024-06-24 03:22:45,497:INFO:Small chunk size: 36485157
+2024-06-24 03:22:45,497:INFO:small_start_byte, small_end_byte: 3089373115 and 3125858273
+2024-06-24 03:22:45,497:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3089373115, end_byte=3125858273
+2024-06-24 03:22:45,497:INFO:Fetching range::::: 3089373115-3125858273 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:45,657:INFO:Delay 0.6860992908477783
+2024-06-24 03:22:45,657:INFO:Successfully fetched range 2963543991-3026458552 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199365.6577122
+2024-06-24 03:22:45,657:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 91698915.6514936, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81142899.49049269, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47056062.19238956}
+2024-06-24 03:22:45,657:INFO:number_of_chunk: 58
+2024-06-24 03:22:45,657:INFO:Fetched range: start_byte=2963543991, end_byte=3026458552, delay=0.6861, throughput=91698915.6514936
+2024-06-24 03:22:45,658:INFO:Geometric mean of throughput: 70481764.4744664
+2024-06-24 03:22:45,658:INFO:start and end byte are: 3125858274 and 3125858273
+2024-06-24 03:22:45,658:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 91698915.6514936
+2024-06-24 03:22:45,658:INFO:Fast server throughput: 91698915.6514936
+2024-06-24 03:22:45,658:INFO:Fast download time: 0.6860992799425241
+2024-06-24 03:22:45,658:INFO:Large chunk start byte: 3125858274
+2024-06-24 03:22:45,658:INFO:Large chunk end byte: 3188772835
+2024-06-24 03:22:45,658:INFO:Large_start_byte, Large_end_byte: 3125858274 and 3188772835
+2024-06-24 03:22:45,658:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3125858274, end_byte=3188772835
+2024-06-24 03:22:45,658:INFO:Fetching range::::: 3125858274-3188772835 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:46,057:INFO:Delay 0.7564353942871094
+2024-06-24 03:22:46,058:INFO:Successfully fetched range 3026458553-3089373114 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199366.0580194
+2024-06-24 03:22:46,058:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 91698915.6514936, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83172418.25958295, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47056062.19238956}
+2024-06-24 03:22:46,058:INFO:number_of_chunk: 59
+2024-06-24 03:22:46,058:INFO:Fetched range: start_byte=3026458553, end_byte=3089373114, delay=0.7564, throughput=83172418.25958295
+2024-06-24 03:22:46,058:INFO:Geometric mean of throughput: 71064554.32207127
+2024-06-24 03:22:46,058:INFO:start and end byte are: 3188772836 and 3188772835
+2024-06-24 03:22:46,058:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83172418.25958295
+2024-06-24 03:22:46,059:INFO:Fast server throughput: 83172418.25958295
+2024-06-24 03:22:46,059:INFO:Fast download time: 0.7564353822638927
+2024-06-24 03:22:46,059:INFO:Large chunk start byte: 3188772836
+2024-06-24 03:22:46,059:INFO:Large chunk end byte: 3251687397
+2024-06-24 03:22:46,059:INFO:Large_start_byte, Large_end_byte: 3188772836 and 3251687397
+2024-06-24 03:22:46,059:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3188772836, end_byte=3251687397
+2024-06-24 03:22:46,059:INFO:Fetching range::::: 3188772836-3251687397 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:46,251:INFO:Delay 0.754380464553833
+2024-06-24 03:22:46,252:INFO:Successfully fetched range 3089373115-3125858273 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199366.2521312
+2024-06-24 03:22:46,252:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 91698915.6514936, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83172418.25958295, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 48364399.2843566}
+2024-06-24 03:22:46,252:INFO:number_of_chunk: 60
+2024-06-24 03:22:46,252:INFO:Fetched range: start_byte=3089373115, end_byte=3125858273, delay=0.7544, throughput=48364399.2843566
+2024-06-24 03:22:46,253:INFO:Geometric mean of throughput: 71717164.26358412
+2024-06-24 03:22:46,253:INFO:start and end byte are: 3251687398 and 3251687397
+2024-06-24 03:22:46,253:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 48364399.2843566
+2024-06-24 03:22:46,253:INFO:Slow server throughput: 48364399.2843566
+2024-06-24 03:22:46,253:INFO:Small chunk size: 36584542
+2024-06-24 03:22:46,253:INFO:small_start_byte, small_end_byte: 3251687398 and 3288271941
+2024-06-24 03:22:46,253:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3251687398, end_byte=3288271941
+2024-06-24 03:22:46,253:INFO:Fetching range::::: 3251687398-3288271941 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:46,337:INFO:Delay 0.6782276630401611
+2024-06-24 03:22:46,337:INFO:Successfully fetched range 3125858274-3188772835 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199366.3375733
+2024-06-24 03:22:46,337:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 92763189.15979475, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83172418.25958295, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 48364399.2843566}
+2024-06-24 03:22:46,337:INFO:number_of_chunk: 61
+2024-06-24 03:22:46,337:INFO:Fetched range: start_byte=3125858274, end_byte=3188772835, delay=0.6782, throughput=92763189.15979475
+2024-06-24 03:22:46,338:INFO:Geometric mean of throughput: 71993551.68487585
+2024-06-24 03:22:46,338:INFO:start and end byte are: 3288271942 and 3288271941
+2024-06-24 03:22:46,338:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 92763189.15979475
+2024-06-24 03:22:46,338:INFO:Fast server throughput: 92763189.15979475
+2024-06-24 03:22:46,338:INFO:Fast download time: 0.6782276522600229
+2024-06-24 03:22:46,338:INFO:Large chunk start byte: 3288271942
+2024-06-24 03:22:46,338:INFO:Large chunk end byte: 3351186503
+2024-06-24 03:22:46,338:INFO:Large_start_byte, Large_end_byte: 3288271942 and 3351186503
+2024-06-24 03:22:46,338:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3288271942, end_byte=3351186503
+2024-06-24 03:22:46,338:INFO:Fetching range::::: 3288271942-3351186503 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:46,828:INFO:Delay 0.7690436840057373
+2024-06-24 03:22:46,828:INFO:Successfully fetched range 3188772836-3251687397 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199366.8285367
+2024-06-24 03:22:46,828:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 92763189.15979475, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81808826.0894301, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 48364399.2843566}
+2024-06-24 03:22:46,828:INFO:number_of_chunk: 62
+2024-06-24 03:22:46,828:INFO:Fetched range: start_byte=3188772836, end_byte=3251687397, delay=0.7690, throughput=81808826.0894301
+2024-06-24 03:22:46,829:INFO:Geometric mean of throughput: 71597942.6739445
+2024-06-24 03:22:46,829:INFO:start and end byte are: 3351186504 and 3351186503
+2024-06-24 03:22:46,829:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81808826.0894301
+2024-06-24 03:22:46,829:INFO:Fast server throughput: 81808826.0894301
+2024-06-24 03:22:46,829:INFO:Fast download time: 0.7690436717821174
+2024-06-24 03:22:46,829:INFO:Large chunk start byte: 3351186504
+2024-06-24 03:22:46,829:INFO:Large chunk end byte: 3414101065
+2024-06-24 03:22:46,829:INFO:Large_start_byte, Large_end_byte: 3351186504 and 3414101065
+2024-06-24 03:22:46,829:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3351186504, end_byte=3414101065
+2024-06-24 03:22:46,829:INFO:Fetching range::::: 3351186504-3414101065 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:47,004:INFO:Delay 0.6660029888153076
+2024-06-24 03:22:47,005:INFO:Successfully fetched range 3288271942-3351186503 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199367.0051234
+2024-06-24 03:22:47,005:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 94465883.8722526, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81808826.0894301, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 48364399.2843566}
+2024-06-24 03:22:47,005:INFO:number_of_chunk: 63
+2024-06-24 03:22:47,005:INFO:Fetched range: start_byte=3288271942, end_byte=3351186503, delay=0.6660, throughput=94465883.8722526
+2024-06-24 03:22:47,006:INFO:Geometric mean of throughput: 72033356.26023933
+2024-06-24 03:22:47,006:INFO:start and end byte are: 3414101066 and 3414101065
+2024-06-24 03:22:47,006:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 94465883.8722526
+2024-06-24 03:22:47,006:INFO:Fast server throughput: 94465883.8722526
+2024-06-24 03:22:47,006:INFO:Fast download time: 0.6660029782294754
+2024-06-24 03:22:47,006:INFO:Large chunk start byte: 3414101066
+2024-06-24 03:22:47,006:INFO:Large chunk end byte: 3477015627
+2024-06-24 03:22:47,006:INFO:Large_start_byte, Large_end_byte: 3414101066 and 3477015627
+2024-06-24 03:22:47,006:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3414101066, end_byte=3477015627
+2024-06-24 03:22:47,006:INFO:Fetching range::::: 3414101066-3477015627 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:47,022:INFO:Delay 0.7686893939971924
+2024-06-24 03:22:47,022:INFO:Successfully fetched range 3251687398-3288271941 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199367.0222836
+2024-06-24 03:22:47,022:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 94465883.8722526, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81808826.0894301, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47593401.55554901}
+2024-06-24 03:22:47,022:INFO:number_of_chunk: 64
+2024-06-24 03:22:47,022:INFO:Fetched range: start_byte=3251687398, end_byte=3288271941, delay=0.7687, throughput=47593401.55554901
+2024-06-24 03:22:47,023:INFO:Geometric mean of throughput: 71648532.48707414
+2024-06-24 03:22:47,023:INFO:start and end byte are: 3477015628 and 3477015627
+2024-06-24 03:22:47,023:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 47593401.55554901
+2024-06-24 03:22:47,023:INFO:Slow server throughput: 47593401.55554901
+2024-06-24 03:22:47,023:INFO:Small chunk size: 31697347
+2024-06-24 03:22:47,023:INFO:small_start_byte, small_end_byte: 3477015628 and 3508712976
+2024-06-24 03:22:47,023:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3477015628, end_byte=3508712976
+2024-06-24 03:22:47,023:INFO:Fetching range::::: 3477015628-3508712976 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:47,584:INFO:Delay 0.7546091079711914
+2024-06-24 03:22:47,585:INFO:Successfully fetched range 3351186504-3414101065 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199367.5850737
+2024-06-24 03:22:47,585:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 94465883.8722526, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83373710.09097584, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47593401.55554901}
+2024-06-24 03:22:47,585:INFO:number_of_chunk: 65
+2024-06-24 03:22:47,585:INFO:Fetched range: start_byte=3351186504, end_byte=3414101065, delay=0.7546, throughput=83373710.09097584
+2024-06-24 03:22:47,586:INFO:Geometric mean of throughput: 72102494.24672309
+2024-06-24 03:22:47,586:INFO:start and end byte are: 3508712977 and 3508712976
+2024-06-24 03:22:47,586:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83373710.09097584
+2024-06-24 03:22:47,586:INFO:Fast server throughput: 83373710.09097584
+2024-06-24 03:22:47,586:INFO:Fast download time: 0.7546090959770029
+2024-06-24 03:22:47,586:INFO:Large chunk start byte: 3508712977
+2024-06-24 03:22:47,586:INFO:Large chunk end byte: 3571627538
+2024-06-24 03:22:47,586:INFO:Large_start_byte, Large_end_byte: 3508712977 and 3571627538
+2024-06-24 03:22:47,586:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3508712977, end_byte=3571627538
+2024-06-24 03:22:47,586:INFO:Fetching range::::: 3508712977-3571627538 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:47,662:INFO:Delay 0.6559669971466064
+2024-06-24 03:22:47,662:INFO:Successfully fetched range 3414101066-3477015627 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199367.662634
+2024-06-24 03:22:47,662:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 95911168.20460832, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83373710.09097584, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47593401.55554901}
+2024-06-24 03:22:47,662:INFO:number_of_chunk: 66
+2024-06-24 03:22:47,662:INFO:Fetched range: start_byte=3414101066, end_byte=3477015627, delay=0.6560, throughput=95911168.20460832
+2024-06-24 03:22:47,663:INFO:Geometric mean of throughput: 72468346.35753962
+2024-06-24 03:22:47,663:INFO:start and end byte are: 3571627539 and 3571627538
+2024-06-24 03:22:47,663:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 95911168.20460832
+2024-06-24 03:22:47,663:INFO:Fast server throughput: 95911168.20460832
+2024-06-24 03:22:47,663:INFO:Fast download time: 0.655966986720292
+2024-06-24 03:22:47,663:INFO:Large chunk start byte: 3571627539
+2024-06-24 03:22:47,663:INFO:Large chunk end byte: 3634542100
+2024-06-24 03:22:47,663:INFO:Large_start_byte, Large_end_byte: 3571627539 and 3634542100
+2024-06-24 03:22:47,663:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3571627539, end_byte=3634542100
+2024-06-24 03:22:47,663:INFO:Fetching range::::: 3571627539-3634542100 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:47,687:INFO:Delay 0.6638712882995605
+2024-06-24 03:22:47,687:INFO:Successfully fetched range 3477015628-3508712976 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199367.6876502
+2024-06-24 03:22:47,687:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 95911168.20460832, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83373710.09097584, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47746225.147331744}
+2024-06-24 03:22:47,687:INFO:number_of_chunk: 67
+2024-06-24 03:22:47,687:INFO:Fetched range: start_byte=3477015628, end_byte=3508712976, delay=0.6639, throughput=47746225.147331744
+2024-06-24 03:22:47,688:INFO:Geometric mean of throughput: 72545829.36865172
+2024-06-24 03:22:47,688:INFO:start and end byte are: 3634542101 and 3634542100
+2024-06-24 03:22:47,688:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 47746225.147331744
+2024-06-24 03:22:47,688:INFO:Slow server throughput: 47746225.147331744
+2024-06-24 03:22:47,688:INFO:Small chunk size: 31319947
+2024-06-24 03:22:47,688:INFO:small_start_byte, small_end_byte: 3634542101 and 3665862049
+2024-06-24 03:22:47,688:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3634542101, end_byte=3665862049
+2024-06-24 03:22:47,688:INFO:Fetching range::::: 3634542101-3665862049 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:48,302:INFO:Delay 0.6387851238250732
+2024-06-24 03:22:48,302:INFO:Successfully fetched range 3571627539-3634542100 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199368.302927
+2024-06-24 03:22:48,302:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 98490961.44140749, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83373710.09097584, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47746225.147331744}
+2024-06-24 03:22:48,303:INFO:number_of_chunk: 68
+2024-06-24 03:22:48,303:INFO:Fetched range: start_byte=3571627539, end_byte=3634542100, delay=0.6388, throughput=98490961.44140749
+2024-06-24 03:22:48,303:INFO:Geometric mean of throughput: 73190522.70901555
+2024-06-24 03:22:48,303:INFO:start and end byte are: 3665862050 and 3665862049
+2024-06-24 03:22:48,303:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 98490961.44140749
+2024-06-24 03:22:48,303:INFO:Fast server throughput: 98490961.44140749
+2024-06-24 03:22:48,303:INFO:Fast download time: 0.6387851136718573
+2024-06-24 03:22:48,303:INFO:Large chunk start byte: 3665862050
+2024-06-24 03:22:48,303:INFO:Large chunk end byte: 3728776611
+2024-06-24 03:22:48,303:INFO:Large_start_byte, Large_end_byte: 3665862050 and 3728776611
+2024-06-24 03:22:48,304:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3665862050, end_byte=3728776611
+2024-06-24 03:22:48,304:INFO:Fetching range::::: 3665862050-3728776611 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:48,327:INFO:Delay 0.7413952350616455
+2024-06-24 03:22:48,328:INFO:Successfully fetched range 3508712977-3571627538 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199368.3279989
+2024-06-24 03:22:48,328:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 98490961.44140749, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 84859678.11051387, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47746225.147331744}
+2024-06-24 03:22:48,328:INFO:number_of_chunk: 69
+2024-06-24 03:22:48,328:INFO:Fetched range: start_byte=3508712977, end_byte=3571627538, delay=0.7414, throughput=84859678.11051387
+2024-06-24 03:22:48,328:INFO:Geometric mean of throughput: 73622789.12147063
+2024-06-24 03:22:48,328:INFO:start and end byte are: 3728776612 and 3728776611
+2024-06-24 03:22:48,328:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 84859678.11051387
+2024-06-24 03:22:48,329:INFO:Fast server throughput: 84859678.11051387
+2024-06-24 03:22:48,329:INFO:Fast download time: 0.7413952232774857
+2024-06-24 03:22:48,329:INFO:Large chunk start byte: 3728776612
+2024-06-24 03:22:48,329:INFO:Large chunk end byte: 3791691173
+2024-06-24 03:22:48,329:INFO:Large_start_byte, Large_end_byte: 3728776612 and 3791691173
+2024-06-24 03:22:48,329:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3728776612, end_byte=3791691173
+2024-06-24 03:22:48,329:INFO:Fetching range::::: 3728776612-3791691173 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:48,352:INFO:Delay 0.6631410121917725
+2024-06-24 03:22:48,352:INFO:Successfully fetched range 3634542101-3665862049 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199368.352258
+2024-06-24 03:22:48,352:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 98490961.44140749, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 84859678.11051387, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47229695.38029816}
+2024-06-24 03:22:48,352:INFO:number_of_chunk: 70
+2024-06-24 03:22:48,352:INFO:Fetched range: start_byte=3634542101, end_byte=3665862049, delay=0.6631, throughput=47229695.38029816
+2024-06-24 03:22:48,353:INFO:Geometric mean of throughput: 73356336.46545987
+2024-06-24 03:22:48,353:INFO:start and end byte are: 3791691174 and 3791691173
+2024-06-24 03:22:48,353:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 47229695.38029816
+2024-06-24 03:22:48,353:INFO:Slow server throughput: 47229695.38029816
+2024-06-24 03:22:48,353:INFO:Small chunk size: 35015870
+2024-06-24 03:22:48,353:INFO:small_start_byte, small_end_byte: 3791691174 and 3826707045
+2024-06-24 03:22:48,353:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3791691174, end_byte=3826707045
+2024-06-24 03:22:48,353:INFO:Fetching range::::: 3791691174-3826707045 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:49,085:INFO:Delay 0.7557008266448975
+2024-06-24 03:22:49,085:INFO:Successfully fetched range 3728776612-3791691173 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199369.0852256
+2024-06-24 03:22:49,085:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 98490961.44140749, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83253264.75997551, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47229695.38029816}
+2024-06-24 03:22:49,085:INFO:number_of_chunk: 71
+2024-06-24 03:22:49,085:INFO:Fetched range: start_byte=3728776612, end_byte=3791691173, delay=0.7557, throughput=83253264.75997551
+2024-06-24 03:22:49,086:INFO:Geometric mean of throughput: 72890500.37641
+2024-06-24 03:22:49,086:INFO:start and end byte are: 3826707046 and 3826707045
+2024-06-24 03:22:49,086:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83253264.75997551
+2024-06-24 03:22:49,086:INFO:Fast server throughput: 83253264.75997551
+2024-06-24 03:22:49,086:INFO:Fast download time: 0.7557008146333565
+2024-06-24 03:22:49,086:INFO:Large chunk start byte: 3826707046
+2024-06-24 03:22:49,086:INFO:Large chunk end byte: 3889621607
+2024-06-24 03:22:49,086:INFO:Large_start_byte, Large_end_byte: 3826707046 and 3889621607
+2024-06-24 03:22:49,086:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3826707046, end_byte=3889621607
+2024-06-24 03:22:49,086:INFO:Fetching range::::: 3826707046-3889621607 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:49,135:INFO:Delay 0.8308887481689453
+2024-06-24 03:22:49,135:INFO:Successfully fetched range 3665862050-3728776611 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199369.1352708
+2024-06-24 03:22:49,135:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 75719596.80359943, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83253264.75997551, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 47229695.38029816}
+2024-06-24 03:22:49,135:INFO:number_of_chunk: 72
+2024-06-24 03:22:49,135:INFO:Fetched range: start_byte=3665862050, end_byte=3728776611, delay=0.8309, throughput=75719596.80359943
+2024-06-24 03:22:49,136:INFO:Geometric mean of throughput: 66774129.774111934
+2024-06-24 03:22:49,136:INFO:start and end byte are: 3889621608 and 3889621607
+2024-06-24 03:22:49,136:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 75719596.80359943
+2024-06-24 03:22:49,136:INFO:Fast server throughput: 75719596.80359943
+2024-06-24 03:22:49,136:INFO:Fast download time: 0.8308887349623245
+2024-06-24 03:22:49,136:INFO:Large chunk start byte: 3889621608
+2024-06-24 03:22:49,136:INFO:Large chunk end byte: 3952536169
+2024-06-24 03:22:49,136:INFO:Large_start_byte, Large_end_byte: 3889621608 and 3952536169
+2024-06-24 03:22:49,136:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3889621608, end_byte=3952536169
+2024-06-24 03:22:49,136:INFO:Fetching range::::: 3889621608-3952536169 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:49,280:INFO:Delay 0.9272189140319824
+2024-06-24 03:22:49,281:INFO:Successfully fetched range 3791691174-3826707045 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199369.281007
+2024-06-24 03:22:49,281:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 75719596.80359943, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83253264.75997551, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37764405.438770205}
+2024-06-24 03:22:49,281:INFO:number_of_chunk: 73
+2024-06-24 03:22:49,281:INFO:Fetched range: start_byte=3791691174, end_byte=3826707045, delay=0.9272, throughput=37764405.438770205
+2024-06-24 03:22:49,281:INFO:Geometric mean of throughput: 61977026.947999895
+2024-06-24 03:22:49,281:INFO:start and end byte are: 3952536170 and 3952536169
+2024-06-24 03:22:49,282:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 37764405.438770205
+2024-06-24 03:22:49,282:INFO:Slow server throughput: 37764405.438770205
+2024-06-24 03:22:49,282:INFO:Small chunk size: 31378019
+2024-06-24 03:22:49,282:INFO:small_start_byte, small_end_byte: 3952536170 and 3983914190
+2024-06-24 03:22:49,282:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3952536170, end_byte=3983914190
+2024-06-24 03:22:49,282:INFO:Fetching range::::: 3952536170-3983914190 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:49,859:INFO:Delay 0.7731871604919434
+2024-06-24 03:22:49,860:INFO:Successfully fetched range 3826707046-3889621607 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199369.8600042
+2024-06-24 03:22:49,860:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 75719596.80359943, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81370416.13568746, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37764405.438770205}
+2024-06-24 03:22:49,860:INFO:number_of_chunk: 74
+2024-06-24 03:22:49,860:INFO:Fetched range: start_byte=3826707046, end_byte=3889621607, delay=0.7732, throughput=81370416.13568746
+2024-06-24 03:22:49,860:INFO:Geometric mean of throughput: 61506237.437167205
+2024-06-24 03:22:49,860:INFO:start and end byte are: 3983914191 and 3983914190
+2024-06-24 03:22:49,860:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 81370416.13568746
+2024-06-24 03:22:49,861:INFO:Fast server throughput: 81370416.13568746
+2024-06-24 03:22:49,861:INFO:Fast download time: 0.7731871482024647
+2024-06-24 03:22:49,861:INFO:Large chunk start byte: 3983914191
+2024-06-24 03:22:49,861:INFO:Large chunk end byte: 4046828752
+2024-06-24 03:22:49,861:INFO:Large_start_byte, Large_end_byte: 3983914191 and 4046828752
+2024-06-24 03:22:49,861:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=3983914191, end_byte=4046828752
+2024-06-24 03:22:49,861:INFO:Fetching range::::: 3983914191-4046828752 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:49,986:INFO:Delay 0.8503985404968262
+2024-06-24 03:22:49,987:INFO:Successfully fetched range 3889621608-3952536169 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199369.9871602
+2024-06-24 03:22:49,987:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 73982442.35372698, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81370416.13568746, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37764405.438770205}
+2024-06-24 03:22:49,987:INFO:number_of_chunk: 75
+2024-06-24 03:22:49,987:INFO:Fetched range: start_byte=3889621608, end_byte=3952536169, delay=0.8504, throughput=73982442.35372698
+2024-06-24 03:22:49,988:INFO:Geometric mean of throughput: 61032236.43723661
+2024-06-24 03:22:49,988:INFO:start and end byte are: 4046828753 and 4046828752
+2024-06-24 03:22:49,988:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 73982442.35372698
+2024-06-24 03:22:49,988:INFO:Fast server throughput: 73982442.35372698
+2024-06-24 03:22:49,988:INFO:Fast download time: 0.8503985269801055
+2024-06-24 03:22:49,988:INFO:Large chunk start byte: 4046828753
+2024-06-24 03:22:49,988:INFO:Large chunk end byte: 4109743314
+2024-06-24 03:22:49,988:INFO:Large_start_byte, Large_end_byte: 4046828753 and 4109743314
+2024-06-24 03:22:49,988:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4046828753, end_byte=4109743314
+2024-06-24 03:22:49,988:INFO:Fetching range::::: 4046828753-4109743314 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:50,122:INFO:Delay 0.8401045799255371
+2024-06-24 03:22:50,122:INFO:Successfully fetched range 3952536170-3983914190 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199370.1225636
+2024-06-24 03:22:50,122:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 73982442.35372698, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81370416.13568746, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37350135.62571126}
+2024-06-24 03:22:50,122:INFO:number_of_chunk: 76
+2024-06-24 03:22:50,122:INFO:Fetched range: start_byte=3952536170, end_byte=3983914190, delay=0.8401, throughput=37350135.62571126
+2024-06-24 03:22:50,123:INFO:Geometric mean of throughput: 60808243.90879383
+2024-06-24 03:22:50,123:INFO:start and end byte are: 4109743315 and 4109743314
+2024-06-24 03:22:50,123:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 37350135.62571126
+2024-06-24 03:22:50,123:INFO:Slow server throughput: 37350135.62571126
+2024-06-24 03:22:50,123:INFO:Small chunk size: 31762500
+2024-06-24 03:22:50,123:INFO:small_start_byte, small_end_byte: 4109743315 and 4141505816
+2024-06-24 03:22:50,123:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4109743315, end_byte=4141505816
+2024-06-24 03:22:50,123:INFO:Fetching range::::: 4109743315-4141505816 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:50,588:INFO:Delay 0.7268087863922119
+2024-06-24 03:22:50,588:INFO:Successfully fetched range 3983914191-4046828752 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199370.588296
+2024-06-24 03:22:50,588:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 73982442.35372698, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86562741.36736847, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37350135.62571126}
+2024-06-24 03:22:50,588:INFO:number_of_chunk: 77
+2024-06-24 03:22:50,588:INFO:Fetched range: start_byte=3983914191, end_byte=4046828752, delay=0.7268, throughput=86562741.36736847
+2024-06-24 03:22:50,589:INFO:Geometric mean of throughput: 62075079.30912663
+2024-06-24 03:22:50,589:INFO:start and end byte are: 4141505817 and 4141505816
+2024-06-24 03:22:50,589:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 86562741.36736847
+2024-06-24 03:22:50,589:INFO:Fast server throughput: 86562741.36736847
+2024-06-24 03:22:50,589:INFO:Fast download time: 0.7268087748398976
+2024-06-24 03:22:50,589:INFO:Large chunk start byte: 4141505817
+2024-06-24 03:22:50,589:INFO:Large chunk end byte: 4204420378
+2024-06-24 03:22:50,589:INFO:Large_start_byte, Large_end_byte: 4141505817 and 4204420378
+2024-06-24 03:22:50,589:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4141505817, end_byte=4204420378
+2024-06-24 03:22:50,589:INFO:Fetching range::::: 4141505817-4204420378 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:50,816:INFO:Delay 0.8277401924133301
+2024-06-24 03:22:50,816:INFO:Successfully fetched range 4046828753-4109743314 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199370.816408
+2024-06-24 03:22:50,816:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 76007618.78744648, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86562741.36736847, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37350135.62571126}
+2024-06-24 03:22:50,816:INFO:number_of_chunk: 78
+2024-06-24 03:22:50,816:INFO:Fetched range: start_byte=4046828753, end_byte=4109743314, delay=0.8277, throughput=76007618.78744648
+2024-06-24 03:22:50,817:INFO:Geometric mean of throughput: 62636397.362698555
+2024-06-24 03:22:50,817:INFO:start and end byte are: 4204420379 and 4204420378
+2024-06-24 03:22:50,817:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 76007618.78744648
+2024-06-24 03:22:50,817:INFO:Fast server throughput: 76007618.78744648
+2024-06-24 03:22:50,817:INFO:Fast download time: 0.8277401792567544
+2024-06-24 03:22:50,817:INFO:Large chunk start byte: 4204420379
+2024-06-24 03:22:50,817:INFO:Large chunk end byte: 4267334940
+2024-06-24 03:22:50,817:INFO:Large_start_byte, Large_end_byte: 4204420379 and 4267334940
+2024-06-24 03:22:50,817:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4204420379, end_byte=4267334940
+2024-06-24 03:22:50,817:INFO:Fetching range::::: 4204420379-4267334940 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:50,961:INFO:Delay 0.837921142578125
+2024-06-24 03:22:50,961:INFO:Successfully fetched range 4109743315-4141505816 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199370.9618988
+2024-06-24 03:22:50,961:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 76007618.78744648, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 86562741.36736847, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37906312.88079543}
+2024-06-24 03:22:50,961:INFO:number_of_chunk: 79
+2024-06-24 03:22:50,962:INFO:Fetched range: start_byte=4109743315, end_byte=4141505816, delay=0.8379, throughput=37906312.88079543
+2024-06-24 03:22:50,962:INFO:Geometric mean of throughput: 62945770.96643313
+2024-06-24 03:22:50,962:INFO:start and end byte are: 4267334941 and 4267334940
+2024-06-24 03:22:50,962:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 37906312.88079543
+2024-06-24 03:22:50,962:INFO:Slow server throughput: 37906312.88079543
+2024-06-24 03:22:50,962:INFO:Small chunk size: 31376578
+2024-06-24 03:22:50,962:INFO:small_start_byte, small_end_byte: 4267334941 and 4298711520
+2024-06-24 03:22:50,962:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4267334941, end_byte=4298711520
+2024-06-24 03:22:50,962:INFO:Fetching range::::: 4267334941-4298711520 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:51,351:INFO:Delay 0.7621586322784424
+2024-06-24 03:22:51,351:INFO:Successfully fetched range 4141505817-4204420378 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199371.3519123
+2024-06-24 03:22:51,351:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 76007618.78744648, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82547855.96525945, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37906312.88079543}
+2024-06-24 03:22:51,351:INFO:number_of_chunk: 80
+2024-06-24 03:22:51,352:INFO:Fetched range: start_byte=4141505817, end_byte=4204420378, delay=0.7622, throughput=82547855.96525945
+2024-06-24 03:22:51,352:INFO:Geometric mean of throughput: 61957158.13103277
+2024-06-24 03:22:51,352:INFO:start and end byte are: 4298711521 and 4298711520
+2024-06-24 03:22:51,352:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 82547855.96525945
+2024-06-24 03:22:51,352:INFO:Fast server throughput: 82547855.96525945
+2024-06-24 03:22:51,352:INFO:Fast download time: 0.7621586201642574
+2024-06-24 03:22:51,352:INFO:Large chunk start byte: 4298711521
+2024-06-24 03:22:51,352:INFO:Large chunk end byte: 4361626082
+2024-06-24 03:22:51,352:INFO:Large_start_byte, Large_end_byte: 4298711521 and 4361626082
+2024-06-24 03:22:51,353:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4298711521, end_byte=4361626082
+2024-06-24 03:22:51,353:INFO:Fetching range::::: 4298711521-4361626082 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:51,631:INFO:Delay 0.8137774467468262
+2024-06-24 03:22:51,631:INFO:Successfully fetched range 4204420379-4267334940 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199371.631724
+2024-06-24 03:22:51,631:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 77311753.04932396, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82547855.96525945, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 37906312.88079543}
+2024-06-24 03:22:51,631:INFO:number_of_chunk: 81
+2024-06-24 03:22:51,631:INFO:Fetched range: start_byte=4204420379, end_byte=4267334940, delay=0.8138, throughput=77311753.04932396
+2024-06-24 03:22:51,632:INFO:Geometric mean of throughput: 62309503.00606342
+2024-06-24 03:22:51,632:INFO:start and end byte are: 4361626083 and 4361626082
+2024-06-24 03:22:51,632:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 77311753.04932396
+2024-06-24 03:22:51,632:INFO:Fast server throughput: 77311753.04932396
+2024-06-24 03:22:51,632:INFO:Fast download time: 0.8137774338121821
+2024-06-24 03:22:51,632:INFO:Large chunk start byte: 4361626083
+2024-06-24 03:22:51,632:INFO:Large chunk end byte: 4424540644
+2024-06-24 03:22:51,632:INFO:Large_start_byte, Large_end_byte: 4361626083 and 4424540644
+2024-06-24 03:22:51,632:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4361626083, end_byte=4424540644
+2024-06-24 03:22:51,632:INFO:Fetching range::::: 4361626083-4424540644 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:51,758:INFO:Delay 0.7957468032836914
+2024-06-24 03:22:51,759:INFO:Successfully fetched range 4267334941-4298711520 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199371.7590835
+2024-06-24 03:22:51,759:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 77311753.04932396, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82547855.96525945, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 39430355.070887975}
+2024-06-24 03:22:51,759:INFO:number_of_chunk: 82
+2024-06-24 03:22:51,759:INFO:Fetched range: start_byte=4267334941, end_byte=4298711520, delay=0.7957, throughput=39430355.070887975
+2024-06-24 03:22:51,760:INFO:Geometric mean of throughput: 63133616.65154546
+2024-06-24 03:22:51,760:INFO:start and end byte are: 4424540645 and 4424540644
+2024-06-24 03:22:51,760:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 39430355.070887975
+2024-06-24 03:22:51,760:INFO:Slow server throughput: 39430355.070887975
+2024-06-24 03:22:51,760:INFO:Small chunk size: 32087533
+2024-06-24 03:22:51,760:INFO:small_start_byte, small_end_byte: 4424540645 and 4456628179
+2024-06-24 03:22:51,760:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4424540645, end_byte=4456628179
+2024-06-24 03:22:51,760:INFO:Fetching range::::: 4424540645-4456628179 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:52,094:INFO:Delay 0.7410752773284912
+2024-06-24 03:22:52,094:INFO:Successfully fetched range 4298711521-4361626082 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199372.0944765
+2024-06-24 03:22:52,094:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 77311753.04932396, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 84896316.10273285, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 39430355.070887975}
+2024-06-24 03:22:52,094:INFO:number_of_chunk: 83
+2024-06-24 03:22:52,094:INFO:Fetched range: start_byte=4298711521, end_byte=4361626082, delay=0.7411, throughput=84896316.10273285
+2024-06-24 03:22:52,095:INFO:Geometric mean of throughput: 63726737.425809376
+2024-06-24 03:22:52,095:INFO:start and end byte are: 4456628180 and 4456628179
+2024-06-24 03:22:52,095:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 84896316.10273285
+2024-06-24 03:22:52,095:INFO:Fast server throughput: 84896316.10273285
+2024-06-24 03:22:52,095:INFO:Fast download time: 0.741075265549417
+2024-06-24 03:22:52,095:INFO:Large chunk start byte: 4456628180
+2024-06-24 03:22:52,095:INFO:Large chunk end byte: 4519542741
+2024-06-24 03:22:52,095:INFO:Large_start_byte, Large_end_byte: 4456628180 and 4519542741
+2024-06-24 03:22:52,095:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4456628180, end_byte=4519542741
+2024-06-24 03:22:52,095:INFO:Fetching range::::: 4456628180-4519542741 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:52,424:INFO:Delay 0.791562557220459
+2024-06-24 03:22:52,424:INFO:Successfully fetched range 4361626083-4424540644 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199372.424812
+2024-06-24 03:22:52,424:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 79481476.76530081, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 84896316.10273285, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 39430355.070887975}
+2024-06-24 03:22:52,424:INFO:number_of_chunk: 84
+2024-06-24 03:22:52,424:INFO:Fetched range: start_byte=4361626083, end_byte=4424540644, delay=0.7916, throughput=79481476.76530081
+2024-06-24 03:22:52,425:INFO:Geometric mean of throughput: 64317401.0429861
+2024-06-24 03:22:52,425:INFO:start and end byte are: 4519542742 and 4519542741
+2024-06-24 03:22:52,425:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 79481476.76530081
+2024-06-24 03:22:52,425:INFO:Fast server throughput: 79481476.76530081
+2024-06-24 03:22:52,425:INFO:Fast download time: 0.7915625446389111
+2024-06-24 03:22:52,425:INFO:Large chunk start byte: 4519542742
+2024-06-24 03:22:52,425:INFO:Large chunk end byte: 4582457303
+2024-06-24 03:22:52,425:INFO:Large_start_byte, Large_end_byte: 4519542742 and 4582457303
+2024-06-24 03:22:52,425:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4519542742, end_byte=4582457303
+2024-06-24 03:22:52,426:INFO:Fetching range::::: 4519542742-4582457303 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:52,556:INFO:Delay 0.795849084854126
+2024-06-24 03:22:52,556:INFO:Successfully fetched range 4424540645-4456628179 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199372.556485
+2024-06-24 03:22:52,556:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 79481476.76530081, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 84896316.10273285, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 40318616.44457559}
+2024-06-24 03:22:52,556:INFO:number_of_chunk: 85
+2024-06-24 03:22:52,556:INFO:Fetched range: start_byte=4424540645, end_byte=4456628179, delay=0.7958, throughput=40318616.44457559
+2024-06-24 03:22:52,557:INFO:Geometric mean of throughput: 64796785.95517674
+2024-06-24 03:22:52,557:INFO:start and end byte are: 4582457304 and 4582457303
+2024-06-24 03:22:52,557:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 40318616.44457559
+2024-06-24 03:22:52,557:INFO:Slow server throughput: 40318616.44457559
+2024-06-24 03:22:52,557:INFO:Small chunk size: 31914706
+2024-06-24 03:22:52,557:INFO:small_start_byte, small_end_byte: 4582457304 and 4614372011
+2024-06-24 03:22:52,557:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4582457304, end_byte=4614372011
+2024-06-24 03:22:52,557:INFO:Fetching range::::: 4582457304-4614372011 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:52,853:INFO:Delay 0.7575399875640869
+2024-06-24 03:22:52,853:INFO:Successfully fetched range 4456628180-4519542741 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199372.853944
+2024-06-24 03:22:52,853:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 79481476.76530081, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83051141.8972157, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 40318616.44457559}
+2024-06-24 03:22:52,854:INFO:number_of_chunk: 86
+2024-06-24 03:22:52,854:INFO:Fetched range: start_byte=4456628180, end_byte=4519542741, delay=0.7575, throughput=83051141.8972157
+2024-06-24 03:22:52,854:INFO:Geometric mean of throughput: 64323902.574033275
+2024-06-24 03:22:52,854:INFO:start and end byte are: 4614372012 and 4614372011
+2024-06-24 03:22:52,854:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83051141.8972157
+2024-06-24 03:22:52,855:INFO:Fast server throughput: 83051141.8972157
+2024-06-24 03:22:52,855:INFO:Fast download time: 0.7575399755233133
+2024-06-24 03:22:52,855:INFO:Large chunk start byte: 4614372012
+2024-06-24 03:22:52,855:INFO:Large chunk end byte: 4677286573
+2024-06-24 03:22:52,855:INFO:Large_start_byte, Large_end_byte: 4614372012 and 4677286573
+2024-06-24 03:22:52,855:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4614372012, end_byte=4677286573
+2024-06-24 03:22:52,855:INFO:Fetching range::::: 4614372012-4677286573 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:53,210:INFO:Delay 0.7846460342407227
+2024-06-24 03:22:53,211:INFO:Successfully fetched range 4519542742-4582457303 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199373.2110279
+2024-06-24 03:22:53,211:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80182092.63095358, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83051141.8972157, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 40318616.44457559}
+2024-06-24 03:22:53,211:INFO:number_of_chunk: 87
+2024-06-24 03:22:53,211:INFO:Fetched range: start_byte=4519542742, end_byte=4582457303, delay=0.7846, throughput=80182092.63095358
+2024-06-24 03:22:53,211:INFO:Geometric mean of throughput: 64512351.40415326
+2024-06-24 03:22:53,211:INFO:start and end byte are: 4677286574 and 4677286573
+2024-06-24 03:22:53,212:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 80182092.63095358
+2024-06-24 03:22:53,212:INFO:Fast server throughput: 80182092.63095358
+2024-06-24 03:22:53,212:INFO:Fast download time: 0.78464602176911
+2024-06-24 03:22:53,212:INFO:Large chunk start byte: 4677286574
+2024-06-24 03:22:53,212:INFO:Large chunk end byte: 4740201135
+2024-06-24 03:22:53,212:INFO:Large_start_byte, Large_end_byte: 4677286574 and 4740201135
+2024-06-24 03:22:53,212:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4677286574, end_byte=4740201135
+2024-06-24 03:22:53,212:INFO:Fetching range::::: 4677286574-4740201135 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:53,351:INFO:Delay 0.7940044403076172
+2024-06-24 03:22:53,351:INFO:Successfully fetched range 4582457304-4614372011 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199373.351969
+2024-06-24 03:22:53,352:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80182092.63095358, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83051141.8972157, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 40194620.30670187}
+2024-06-24 03:22:53,352:INFO:number_of_chunk: 88
+2024-06-24 03:22:53,352:INFO:Fetched range: start_byte=4582457304, end_byte=4614372011, delay=0.7940, throughput=40194620.30670187
+2024-06-24 03:22:53,352:INFO:Geometric mean of throughput: 64446149.58876774
+2024-06-24 03:22:53,352:INFO:start and end byte are: 4740201136 and 4740201135
+2024-06-24 03:22:53,352:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 40194620.30670187
+2024-06-24 03:22:53,352:INFO:Slow server throughput: 40194620.30670187
+2024-06-24 03:22:53,352:INFO:Small chunk size: 31538548
+2024-06-24 03:22:53,353:INFO:small_start_byte, small_end_byte: 4740201136 and 4771739685
+2024-06-24 03:22:53,353:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4740201136, end_byte=4771739685
+2024-06-24 03:22:53,353:INFO:Fetching range::::: 4740201136-4771739685 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:53,611:INFO:Delay 0.7562546730041504
+2024-06-24 03:22:53,611:INFO:Successfully fetched range 4614372012-4677286573 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199373.6117575
+2024-06-24 03:22:53,611:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80182092.63095358, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83192293.87380555, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 40194620.30670187}
+2024-06-24 03:22:53,611:INFO:number_of_chunk: 89
+2024-06-24 03:22:53,611:INFO:Fetched range: start_byte=4614372012, end_byte=4677286573, delay=0.7563, throughput=83192293.87380555
+2024-06-24 03:22:53,612:INFO:Geometric mean of throughput: 64482639.364946604
+2024-06-24 03:22:53,612:INFO:start and end byte are: 4771739686 and 4771739685
+2024-06-24 03:22:53,612:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83192293.87380555
+2024-06-24 03:22:53,612:INFO:Fast server throughput: 83192293.87380555
+2024-06-24 03:22:53,612:INFO:Fast download time: 0.7562546609838062
+2024-06-24 03:22:53,612:INFO:Large chunk start byte: 4771739686
+2024-06-24 03:22:53,612:INFO:Large chunk end byte: 4834654247
+2024-06-24 03:22:53,612:INFO:Large_start_byte, Large_end_byte: 4771739686 and 4834654247
+2024-06-24 03:22:53,612:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4771739686, end_byte=4834654247
+2024-06-24 03:22:53,612:INFO:Fetching range::::: 4771739686-4834654247 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:53,994:INFO:Delay 0.7821564674377441
+2024-06-24 03:22:53,994:INFO:Successfully fetched range 4677286574-4740201135 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199373.9946969
+2024-06-24 03:22:53,994:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80437308.4149019, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83192293.87380555, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 40194620.30670187}
+2024-06-24 03:22:53,994:INFO:number_of_chunk: 90
+2024-06-24 03:22:53,994:INFO:Fetched range: start_byte=4677286574, end_byte=4740201135, delay=0.7822, throughput=80437308.4149019
+2024-06-24 03:22:53,995:INFO:Geometric mean of throughput: 64550981.96292184
+2024-06-24 03:22:53,995:INFO:start and end byte are: 4834654248 and 4834654247
+2024-06-24 03:22:53,995:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 80437308.4149019
+2024-06-24 03:22:53,995:INFO:Fast server throughput: 80437308.4149019
+2024-06-24 03:22:53,995:INFO:Fast download time: 0.7821564550057021
+2024-06-24 03:22:53,995:INFO:Large chunk start byte: 4834654248
+2024-06-24 03:22:53,995:INFO:Large chunk end byte: 4897568809
+2024-06-24 03:22:53,995:INFO:Large_start_byte, Large_end_byte: 4834654248 and 4897568809
+2024-06-24 03:22:53,995:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4834654248, end_byte=4897568809
+2024-06-24 03:22:53,995:INFO:Fetching range::::: 4834654248-4897568809 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:54,105:INFO:Delay 0.7526051998138428
+2024-06-24 03:22:54,106:INFO:Successfully fetched range 4740201136-4771739685 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199374.1060064
+2024-06-24 03:22:54,106:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80437308.4149019, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83192293.87380555, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41905834.57010538}
+2024-06-24 03:22:54,106:INFO:number_of_chunk: 91
+2024-06-24 03:22:54,106:INFO:Fetched range: start_byte=4740201136, end_byte=4771739685, delay=0.7526, throughput=41905834.57010538
+2024-06-24 03:22:54,106:INFO:Geometric mean of throughput: 65454328.90672928
+2024-06-24 03:22:54,106:INFO:start and end byte are: 4897568810 and 4897568809
+2024-06-24 03:22:54,106:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 41905834.57010538
+2024-06-24 03:22:54,107:INFO:Slow server throughput: 41905834.57010538
+2024-06-24 03:22:54,107:INFO:Small chunk size: 32776919
+2024-06-24 03:22:54,107:INFO:small_start_byte, small_end_byte: 4897568810 and 4930345730
+2024-06-24 03:22:54,107:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4897568810, end_byte=4930345730
+2024-06-24 03:22:54,107:INFO:Fetching range::::: 4897568810-4930345730 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:54,367:INFO:Delay 0.7541840076446533
+2024-06-24 03:22:54,367:INFO:Successfully fetched range 4771739686-4834654247 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199374.367405
+2024-06-24 03:22:54,367:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80437308.4149019, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83420704.18131071, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41905834.57010538}
+2024-06-24 03:22:54,367:INFO:number_of_chunk: 92
+2024-06-24 03:22:54,367:INFO:Fetched range: start_byte=4771739686, end_byte=4834654247, delay=0.7542, throughput=83420704.18131071
+2024-06-24 03:22:54,368:INFO:Geometric mean of throughput: 65514177.32549861
+2024-06-24 03:22:54,368:INFO:start and end byte are: 4930345731 and 4930345730
+2024-06-24 03:22:54,368:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 83420704.18131071
+2024-06-24 03:22:54,368:INFO:Fast server throughput: 83420704.18131071
+2024-06-24 03:22:54,368:INFO:Fast download time: 0.7541839956572215
+2024-06-24 03:22:54,368:INFO:Large chunk start byte: 4930345731
+2024-06-24 03:22:54,368:INFO:Large chunk end byte: 4993260292
+2024-06-24 03:22:54,368:INFO:Large_start_byte, Large_end_byte: 4930345731 and 4993260292
+2024-06-24 03:22:54,368:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4930345731, end_byte=4993260292
+2024-06-24 03:22:54,368:INFO:Fetching range::::: 4930345731-4993260292 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:54,775:INFO:Delay 0.7794101238250732
+2024-06-24 03:22:54,775:INFO:Successfully fetched range 4834654248-4897568809 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199374.7755907
+2024-06-24 03:22:54,775:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80720738.7700294, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83420704.18131071, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41905834.57010538}
+2024-06-24 03:22:54,775:INFO:number_of_chunk: 93
+2024-06-24 03:22:54,775:INFO:Fetched range: start_byte=4834654248, end_byte=4897568809, delay=0.7794, throughput=80720738.7700294
+2024-06-24 03:22:54,776:INFO:Geometric mean of throughput: 65591036.10255041
+2024-06-24 03:22:54,776:INFO:start and end byte are: 4993260293 and 4993260292
+2024-06-24 03:22:54,776:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 80720738.7700294
+2024-06-24 03:22:54,776:INFO:Fast server throughput: 80720738.7700294
+2024-06-24 03:22:54,776:INFO:Fast download time: 0.7794101114366832
+2024-06-24 03:22:54,776:INFO:Large chunk start byte: 4993260293
+2024-06-24 03:22:54,776:INFO:Large chunk end byte: 5056174854
+2024-06-24 03:22:54,776:INFO:Large_start_byte, Large_end_byte: 4993260293 and 5056174854
+2024-06-24 03:22:54,776:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=4993260293, end_byte=5056174854
+2024-06-24 03:22:54,776:INFO:Fetching range::::: 4993260293-5056174854 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:54,903:INFO:Delay 0.7959856986999512
+2024-06-24 03:22:54,903:INFO:Successfully fetched range 4897568810-4930345730 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199374.9034514
+2024-06-24 03:22:54,903:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80720738.7700294, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 83420704.18131071, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41177774.994617514}
+2024-06-24 03:22:54,903:INFO:number_of_chunk: 94
+2024-06-24 03:22:54,903:INFO:Fetched range: start_byte=4897568810, end_byte=4930345730, delay=0.7960, throughput=41177774.994617514
+2024-06-24 03:22:54,904:INFO:Geometric mean of throughput: 65208961.71506589
+2024-06-24 03:22:54,904:INFO:start and end byte are: 5056174855 and 5056174854
+2024-06-24 03:22:54,904:INFO:Current throughput for http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso: 41177774.994617514
+2024-06-24 03:22:54,904:INFO:Slow server throughput: 41177774.994617514
+2024-06-24 03:22:54,904:INFO:Small chunk size: 32094374
+2024-06-24 03:22:54,904:INFO:small_start_byte, small_end_byte: 5056174855 and 5088269230
+2024-06-24 03:22:54,904:INFO:Fetching range for URL: http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=5056174855, end_byte=5088269230
+2024-06-24 03:22:54,904:INFO:Fetching range::::: 5056174855-5088269230 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:55,134:INFO:Delay 0.7655925750732422
+2024-06-24 03:22:55,134:INFO:Successfully fetched range 4930345731-4993260292 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199375.1343637
+2024-06-24 03:22:55,134:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 80720738.7700294, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82177600.78718257, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41177774.994617514}
+2024-06-24 03:22:55,134:INFO:number_of_chunk: 95
+2024-06-24 03:22:55,134:INFO:Fetched range: start_byte=4930345731, end_byte=4993260292, delay=0.7656, throughput=82177600.78718257
+2024-06-24 03:22:55,135:INFO:Geometric mean of throughput: 64883433.02538748
+2024-06-24 03:22:55,135:INFO:start and end byte are: 5088269231 and 5088269230
+2024-06-24 03:22:55,135:INFO:Current throughput for http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso: 82177600.78718257
+2024-06-24 03:22:55,135:INFO:Fast server throughput: 82177600.78718257
+2024-06-24 03:22:55,135:INFO:Fast download time: 0.7655925629044762
+2024-06-24 03:22:55,135:INFO:Large chunk start byte: 5088269231
+2024-06-24 03:22:55,135:INFO:Large chunk end byte: 5151183792
+2024-06-24 03:22:55,135:INFO:Large_start_byte, Large_end_byte: 5088269231 and 5151183792
+2024-06-24 03:22:55,135:INFO:Fetching range for URL: http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=5088269231, end_byte=5151183792
+2024-06-24 03:22:55,135:INFO:Fetching range::::: 5088269231-5151183792 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:55,540:INFO:Delay 0.7640001773834229
+2024-06-24 03:22:55,541:INFO:Successfully fetched range 4993260293-5056174854 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199375.5410683
+2024-06-24 03:22:55,541:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 82348882.71292318, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82177600.78718257, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41177774.994617514}
+2024-06-24 03:22:55,541:INFO:number_of_chunk: 96
+2024-06-24 03:22:55,541:INFO:Fetched range: start_byte=4993260293, end_byte=5056174854, delay=0.7640, throughput=82348882.71292318
+2024-06-24 03:22:55,541:INFO:Geometric mean of throughput: 65316767.2196879
+2024-06-24 03:22:55,542:INFO:start and end byte are: 5151183793 and 5151183792
+2024-06-24 03:22:55,542:INFO:Current throughput for http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso: 82348882.71292318
+2024-06-24 03:22:55,542:INFO:Fast server throughput: 82348882.71292318
+2024-06-24 03:22:55,542:INFO:Fast download time: 0.7640001652399673
+2024-06-24 03:22:55,542:INFO:Large chunk start byte: 5151183793
+2024-06-24 03:22:55,542:INFO:Large chunk end byte: 5214098354
+2024-06-24 03:22:55,542:INFO:Large_start_byte, Large_end_byte: 5151183793 and 5173995520
+2024-06-24 03:22:55,542:INFO:Fetching range for URL: http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso, start_byte=5151183793, end_byte=5173995520
+2024-06-24 03:22:55,542:INFO:Fetching range::::: 5151183793-5173995520 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso
+2024-06-24 03:22:55,684:INFO:Delay 0.7794442176818848
+2024-06-24 03:22:55,684:INFO:Successfully fetched range 5056174855-5088269230 from http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199375.684308
+2024-06-24 03:22:55,684:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 82348882.71292318, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82177600.78718257, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41175974.20306825}
+2024-06-24 03:22:55,684:INFO:number_of_chunk: 97
+2024-06-24 03:22:55,684:INFO:Fetched range: start_byte=5056174855, end_byte=5088269230, delay=0.7794, throughput=41175974.20306825
+2024-06-24 03:22:55,845:INFO:Delay 0.3034639358520508
+2024-06-24 03:22:55,846:INFO:Successfully fetched range 5151183793-5173995520 from http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199375.8460124
+2024-06-24 03:22:55,846:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 75171130.09145677, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 82177600.78718257, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41175974.20306825}
+2024-06-24 03:22:55,846:INFO:number_of_chunk: 98
+2024-06-24 03:22:55,846:INFO:Fetched range: start_byte=5151183793, end_byte=5173995520, delay=0.3035, throughput=75171130.09145677
+2024-06-24 03:22:55,906:INFO:Delay 0.771003246307373
+2024-06-24 03:22:55,906:INFO:Successfully fetched range 5088269231-5151183792 from http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso at 1719199375.9068062
+2024-06-24 03:22:55,906:INFO:Throughput: {'http://10.137.132.2/ubuntu-23.10.1-desktop-amd64.iso': 75171130.09145677, 'http://10.134.48.2/ubuntu-23.10.1-desktop-amd64.iso': 81600902.85134555, 'http://10.135.163.2/ubuntu-23.10.1-desktop-amd64.iso': 41175974.20306825}
+2024-06-24 03:22:55,906:INFO:number_of_chunk: 99
+2024-06-24 03:22:55,906:INFO:Fetched range: start_byte=5088269231, end_byte=5151183792, delay=0.7710, throughput=81600902.85134555
+2024-06-24 03:22:55,907:INFO:All chunks downloaded, writing to disk.
+2024-06-24 03:23:12,506:INFO:Total download delay: 40.3485152721405
+2024-06-24 03:23:12,506:INFO:Total download throughput: 128232612.40476167

@@ -1,0 +1,1710 @@
+2024-06-23 22:02:05,014:INFO:Downloading file from URL: http://10.137.132.2/large
+2024-06-23 22:02:05,014:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=0, end_byte=5242879
+2024-06-23 22:02:05,014:INFO:Fetching range::::: 0-5242879 from http://10.137.132.2/large
+2024-06-23 22:02:05,014:INFO:Downloading file from URL: http://10.135.163.2/large
+2024-06-23 22:02:05,014:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=5242880, end_byte=10485759
+2024-06-23 22:02:05,014:INFO:Fetching range::::: 5242880-10485759 from http://10.135.163.2/large
+2024-06-23 22:02:05,014:INFO:Downloading file from URL: http://10.134.48.2/large
+2024-06-23 22:02:05,014:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=10485760, end_byte=15728639
+2024-06-23 22:02:05,014:INFO:Fetching range::::: 10485760-15728639 from http://10.134.48.2/large
+2024-06-23 22:02:05,272:INFO:Delay 0.2582821846008301
+2024-06-23 22:02:05,272:INFO:Successfully fetched range 0-5242879 from http://10.137.132.2/large at 1719180125.272653
+2024-06-23 22:02:05,272:INFO:Throughput: {'http://10.137.132.2/large': 20299034.59312443}
+2024-06-23 22:02:05,272:INFO:number_of_chunk: 1
+2024-06-23 22:02:05,272:INFO:Fetched range: start_byte=0, end_byte=5242879, delay=0.2583, throughput=20299034.59312443
+2024-06-23 22:02:05,273:INFO:Geometric mean of throughput: 20299034.59312445
+2024-06-23 22:02:05,273:INFO:start and end byte are: 15728640 and 15728639
+2024-06-23 22:02:05,273:INFO:Current throughput for http://10.137.132.2/large: 20299034.59312443
+2024-06-23 22:02:05,273:INFO:Fast server throughput: 20299034.59312443
+2024-06-23 22:02:05,273:INFO:Fast download time: 1.0331289354570266
+2024-06-23 22:02:05,273:INFO:Large chunk start byte: 15728640
+2024-06-23 22:02:05,273:INFO:Large chunk end byte: 36700161
+2024-06-23 22:02:05,273:INFO:Large_start_byte, Large_end_byte: 15728640 and 36700161
+2024-06-23 22:02:05,273:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=15728640, end_byte=36700161
+2024-06-23 22:02:05,273:INFO:Fetching range::::: 15728640-36700161 from http://10.137.132.2/large
+2024-06-23 22:02:05,351:INFO:Delay 0.336472749710083
+2024-06-23 22:02:05,351:INFO:Successfully fetched range 10485760-15728639 from http://10.134.48.2/large at 1719180125.3516192
+2024-06-23 22:02:05,351:INFO:Throughput: {'http://10.137.132.2/large': 20299034.59312443, 'http://10.134.48.2/large': 15581882.944510225}
+2024-06-23 22:02:05,351:INFO:number_of_chunk: 2
+2024-06-23 22:02:05,351:INFO:Fetched range: start_byte=10485760, end_byte=15728639, delay=0.3365, throughput=15581882.944510225
+2024-06-23 22:02:05,352:INFO:Geometric mean of throughput: 17784745.736631393
+2024-06-23 22:02:05,352:INFO:start and end byte are: 36700162 and 36700161
+2024-06-23 22:02:05,352:INFO:Current throughput for http://10.134.48.2/large: 15581882.944510225
+2024-06-23 22:02:05,352:INFO:Slow server throughput: 15581882.944510225
+2024-06-23 22:02:05,352:INFO:Small chunk size: 16098094
+2024-06-23 22:02:05,352:INFO:small_start_byte, small_end_byte: 36700162 and 52798257
+2024-06-23 22:02:05,352:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=36700162, end_byte=52798257
+2024-06-23 22:02:05,352:INFO:Fetching range::::: 36700162-52798257 from http://10.134.48.2/large
+2024-06-23 22:02:05,452:INFO:Delay 0.4378318786621094
+2024-06-23 22:02:05,452:INFO:Successfully fetched range 5242880-10485759 from http://10.135.163.2/large at 1719180125.45268
+2024-06-23 22:02:05,452:INFO:Throughput: {'http://10.137.132.2/large': 20299034.59312443, 'http://10.134.48.2/large': 15581882.944510225, 'http://10.135.163.2/large': 11974639.708786756}
+2024-06-23 22:02:05,452:INFO:number_of_chunk: 3
+2024-06-23 22:02:05,452:INFO:Fetched range: start_byte=5242880, end_byte=10485759, delay=0.4378, throughput=11974639.708786756
+2024-06-23 22:02:05,453:INFO:Geometric mean of throughput: 15587839.501839194
+2024-06-23 22:02:05,453:INFO:start and end byte are: 52798258 and 52798257
+2024-06-23 22:02:05,453:INFO:Current throughput for http://10.135.163.2/large: 11974639.708786756
+2024-06-23 22:02:05,453:INFO:Slow server throughput: 11974639.708786756
+2024-06-23 22:02:05,453:INFO:Small chunk size: 12371346
+2024-06-23 22:02:05,453:INFO:small_start_byte, small_end_byte: 52798258 and 65169605
+2024-06-23 22:02:05,453:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=52798258, end_byte=65169605
+2024-06-23 22:02:05,453:INFO:Fetching range::::: 52798258-65169605 from http://10.135.163.2/large
+2024-06-23 22:02:05,464:INFO:Delay 0.19098377227783203
+2024-06-23 22:02:05,465:INFO:Successfully fetched range 15728640-36700161 from http://10.137.132.2/large at 1719180125.4649997
+2024-06-23 22:02:05,465:INFO:Throughput: {'http://10.137.132.2/large': 109807868.75175895, 'http://10.134.48.2/large': 15581882.944510225, 'http://10.135.163.2/large': 11974639.708786756}
+2024-06-23 22:02:05,465:INFO:number_of_chunk: 4
+2024-06-23 22:02:05,465:INFO:Fetched range: start_byte=15728640, end_byte=36700161, delay=0.1910, throughput=109807868.75175895
+2024-06-23 22:02:05,465:INFO:Geometric mean of throughput: 27363519.253113404
+2024-06-23 22:02:05,465:INFO:start and end byte are: 65169606 and 65169605
+2024-06-23 22:02:05,465:INFO:Current throughput for http://10.137.132.2/large: 109807868.75175895
+2024-06-23 22:02:05,465:INFO:Fast server throughput: 109807868.75175895
+2024-06-23 22:02:05,465:INFO:Fast download time: 0.19098376317101656
+2024-06-23 22:02:05,465:INFO:Large chunk start byte: 65169606
+2024-06-23 22:02:05,465:INFO:Large chunk end byte: 86141127
+2024-06-23 22:02:05,465:INFO:Large_start_byte, Large_end_byte: 65169606 and 86141127
+2024-06-23 22:02:05,466:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=65169606, end_byte=86141127
+2024-06-23 22:02:05,466:INFO:Fetching range::::: 65169606-86141127 from http://10.137.132.2/large
+2024-06-23 22:02:05,561:INFO:Delay 0.20857787132263184
+2024-06-23 22:02:05,561:INFO:Successfully fetched range 36700162-52798257 from http://10.134.48.2/large at 1719180125.5613313
+2024-06-23 22:02:05,561:INFO:Throughput: {'http://10.137.132.2/large': 109807868.75175895, 'http://10.134.48.2/large': 77180263.16942888, 'http://10.135.163.2/large': 11974639.708786756}
+2024-06-23 22:02:05,561:INFO:number_of_chunk: 5
+2024-06-23 22:02:05,561:INFO:Fetched range: start_byte=36700162, end_byte=52798257, delay=0.2086, throughput=77180263.16942888
+2024-06-23 22:02:05,562:INFO:Geometric mean of throughput: 46644530.31034461
+2024-06-23 22:02:05,562:INFO:start and end byte are: 86141128 and 86141127
+2024-06-23 22:02:05,562:INFO:Current throughput for http://10.134.48.2/large: 77180263.16942888
+2024-06-23 22:02:05,562:INFO:Fast server throughput: 77180263.16942888
+2024-06-23 22:02:05,562:INFO:Fast download time: 0.27172128130688755
+2024-06-23 22:02:05,562:INFO:Large chunk start byte: 86141128
+2024-06-23 22:02:05,562:INFO:Large chunk end byte: 107112649
+2024-06-23 22:02:05,562:INFO:Large_start_byte, Large_end_byte: 86141128 and 107112649
+2024-06-23 22:02:05,562:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=86141128, end_byte=107112649
+2024-06-23 22:02:05,562:INFO:Fetching range::::: 86141128-107112649 from http://10.134.48.2/large
+2024-06-23 22:02:05,637:INFO:Delay 0.18334364891052246
+2024-06-23 22:02:05,637:INFO:Successfully fetched range 52798258-65169605 from http://10.135.163.2/large at 1719180125.6372313
+2024-06-23 22:02:05,637:INFO:Throughput: {'http://10.137.132.2/large': 109807868.75175895, 'http://10.134.48.2/large': 77180263.16942888, 'http://10.135.163.2/large': 67476277.8722573}
+2024-06-23 22:02:05,637:INFO:number_of_chunk: 6
+2024-06-23 22:02:05,637:INFO:Fetched range: start_byte=52798258, end_byte=65169605, delay=0.1833, throughput=67476277.8722573
+2024-06-23 22:02:05,638:INFO:Geometric mean of throughput: 83003603.12538579
+2024-06-23 22:02:05,638:INFO:start and end byte are: 107112650 and 107112649
+2024-06-23 22:02:05,638:INFO:Current throughput for http://10.135.163.2/large: 67476277.8722573
+2024-06-23 22:02:05,638:INFO:Slow server throughput: 67476277.8722573
+2024-06-23 22:02:05,638:INFO:Small chunk size: 18334740
+2024-06-23 22:02:05,638:INFO:small_start_byte, small_end_byte: 107112650 and 125447391
+2024-06-23 22:02:05,638:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=107112650, end_byte=125447391
+2024-06-23 22:02:05,638:INFO:Fetching range::::: 107112650-125447391 from http://10.135.163.2/large
+2024-06-23 22:02:05,657:INFO:Delay 0.19162392616271973
+2024-06-23 22:02:05,657:INFO:Successfully fetched range 65169606-86141127 from http://10.137.132.2/large at 1719180125.65793
+2024-06-23 22:02:05,657:INFO:Throughput: {'http://10.137.132.2/large': 109441035.99146478, 'http://10.134.48.2/large': 77180263.16942888, 'http://10.135.163.2/large': 67476277.8722573}
+2024-06-23 22:02:05,657:INFO:number_of_chunk: 7
+2024-06-23 22:02:05,658:INFO:Fetched range: start_byte=65169606, end_byte=86141127, delay=0.1916, throughput=109441035.99146478
+2024-06-23 22:02:05,658:INFO:Geometric mean of throughput: 82911070.56400841
+2024-06-23 22:02:05,658:INFO:start and end byte are: 125447392 and 125447391
+2024-06-23 22:02:05,658:INFO:Current throughput for http://10.137.132.2/large: 109441035.99146478
+2024-06-23 22:02:05,658:INFO:Fast server throughput: 109441035.99146478
+2024-06-23 22:02:05,658:INFO:Fast download time: 0.19162391702537934
+2024-06-23 22:02:05,658:INFO:Large chunk start byte: 125447392
+2024-06-23 22:02:05,658:INFO:Large chunk end byte: 146418913
+2024-06-23 22:02:05,658:INFO:Large_start_byte, Large_end_byte: 125447392 and 146418913
+2024-06-23 22:02:05,658:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=125447392, end_byte=146418913
+2024-06-23 22:02:05,658:INFO:Fetching range::::: 125447392-146418913 from http://10.137.132.2/large
+2024-06-23 22:02:05,837:INFO:Delay 0.2746291160583496
+2024-06-23 22:02:05,837:INFO:Successfully fetched range 86141128-107112649 from http://10.134.48.2/large at 1719180125.8372815
+2024-06-23 22:02:05,837:INFO:Throughput: {'http://10.137.132.2/large': 109441035.99146478, 'http://10.134.48.2/large': 76363064.85268752, 'http://10.135.163.2/large': 67476277.8722573}
+2024-06-23 22:02:05,837:INFO:number_of_chunk: 8
+2024-06-23 22:02:05,837:INFO:Fetched range: start_byte=86141128, end_byte=107112649, delay=0.2746, throughput=76363064.85268752
+2024-06-23 22:02:05,837:INFO:Slow server throughput: 76363064.85268752
+2024-06-23 22:02:05,837:INFO:Small chunk size: 14632989
+2024-06-23 22:02:05,837:INFO:small_start_byte, small_end_byte: 146418914 and 161051904
+2024-06-23 22:02:05,837:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=146418914, end_byte=161051904
+2024-06-23 22:02:05,837:INFO:Fetching range::::: 146418914-161051904 from http://10.134.48.2/large
+2024-06-23 22:02:05,850:INFO:Delay 0.1913466453552246
+2024-06-23 22:02:05,850:INFO:Successfully fetched range 125447392-146418913 from http://10.137.132.2/large at 1719180125.8505323
+2024-06-23 22:02:05,850:INFO:Throughput: {'http://10.137.132.2/large': 109599627.2161841, 'http://10.134.48.2/large': 76363064.85268752, 'http://10.135.163.2/large': 67476277.8722573}
+2024-06-23 22:02:05,850:INFO:number_of_chunk: 9
+2024-06-23 22:02:05,850:INFO:Fetched range: start_byte=125447392, end_byte=146418913, delay=0.1913, throughput=109599627.2161841
+2024-06-23 22:02:05,851:INFO:Geometric mean of throughput: 82657293.70256114
+2024-06-23 22:02:05,851:INFO:start and end byte are: 161051905 and 161051904
+2024-06-23 22:02:05,851:INFO:Current throughput for http://10.137.132.2/large: 109599627.2161841
+2024-06-23 22:02:05,851:INFO:Fast server throughput: 109599627.2161841
+2024-06-23 22:02:05,851:INFO:Fast download time: 0.19134663623110598
+2024-06-23 22:02:05,851:INFO:Large chunk start byte: 161051905
+2024-06-23 22:02:05,851:INFO:Large chunk end byte: 182023426
+2024-06-23 22:02:05,851:INFO:Large_start_byte, Large_end_byte: 161051905 and 182023426
+2024-06-23 22:02:05,851:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=161051905, end_byte=182023426
+2024-06-23 22:02:05,851:INFO:Fetching range::::: 161051905-182023426 from http://10.137.132.2/large
+2024-06-23 22:02:05,948:INFO:Delay 0.3105349540710449
+2024-06-23 22:02:05,949:INFO:Successfully fetched range 107112650-125447391 from http://10.135.163.2/large at 1719180125.949035
+2024-06-23 22:02:05,949:INFO:Throughput: {'http://10.137.132.2/large': 109599627.2161841, 'http://10.134.48.2/large': 76363064.85268752, 'http://10.135.163.2/large': 59042438.732373215}
+2024-06-23 22:02:05,949:INFO:number_of_chunk: 10
+2024-06-23 22:02:05,949:INFO:Fetched range: start_byte=107112650, end_byte=125447391, delay=0.3105, throughput=59042438.732373215
+2024-06-23 22:02:05,949:INFO:Geometric mean of throughput: 79059167.77694814
+2024-06-23 22:02:05,949:INFO:start and end byte are: 182023427 and 182023426
+2024-06-23 22:02:05,949:INFO:Current throughput for http://10.135.163.2/large: 59042438.732373215
+2024-06-23 22:02:05,949:INFO:Slow server throughput: 59042438.732373215
+2024-06-23 22:02:05,949:INFO:Small chunk size: 11297572
+2024-06-23 22:02:05,949:INFO:small_start_byte, small_end_byte: 182023427 and 193321000
+2024-06-23 22:02:05,949:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=182023427, end_byte=193321000
+2024-06-23 22:02:05,950:INFO:Fetching range::::: 182023427-193321000 from http://10.135.163.2/large
+2024-06-23 22:02:06,012:INFO:Delay 0.17489862442016602
+2024-06-23 22:02:06,012:INFO:Successfully fetched range 146418914-161051904 from http://10.134.48.2/large at 1719180126.0128038
+2024-06-23 22:02:06,012:INFO:Throughput: {'http://10.137.132.2/large': 109599627.2161841, 'http://10.134.48.2/large': 83665552.25069454, 'http://10.135.163.2/large': 59042438.732373215}
+2024-06-23 22:02:06,012:INFO:number_of_chunk: 11
+2024-06-23 22:02:06,012:INFO:Fetched range: start_byte=146418914, end_byte=161051904, delay=0.1749, throughput=83665552.25069454
+2024-06-23 22:02:06,013:INFO:Geometric mean of throughput: 81502953.85801199
+2024-06-23 22:02:06,013:INFO:start and end byte are: 193321001 and 193321000
+2024-06-23 22:02:06,013:INFO:Current throughput for http://10.134.48.2/large: 83665552.25069454
+2024-06-23 22:02:06,013:INFO:Fast server throughput: 83665552.25069454
+2024-06-23 22:02:06,013:INFO:Fast download time: 0.25065895623519185
+2024-06-23 22:02:06,013:INFO:Large chunk start byte: 193321001
+2024-06-23 22:02:06,013:INFO:Large chunk end byte: 214292522
+2024-06-23 22:02:06,013:INFO:Large_start_byte, Large_end_byte: 193321001 and 214292522
+2024-06-23 22:02:06,013:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=193321001, end_byte=214292522
+2024-06-23 22:02:06,013:INFO:Fetching range::::: 193321001-214292522 from http://10.134.48.2/large
+2024-06-23 22:02:06,062:INFO:Delay 0.21040797233581543
+2024-06-23 22:02:06,062:INFO:Successfully fetched range 161051905-182023426 from http://10.137.132.2/large at 1719180126.062194
+2024-06-23 22:02:06,062:INFO:Throughput: {'http://10.137.132.2/large': 99670752.81030238, 'http://10.134.48.2/large': 83665552.25069454, 'http://10.135.163.2/large': 59042438.732373215}
+2024-06-23 22:02:06,062:INFO:number_of_chunk: 12
+2024-06-23 22:02:06,062:INFO:Fetched range: start_byte=161051905, end_byte=182023426, delay=0.2104, throughput=99670752.81030238
+2024-06-23 22:02:06,062:INFO:Geometric mean of throughput: 78963472.03036533
+2024-06-23 22:02:06,062:INFO:start and end byte are: 214292523 and 214292522
+2024-06-23 22:02:06,062:INFO:Current throughput for http://10.137.132.2/large: 99670752.81030238
+2024-06-23 22:02:06,063:INFO:Fast server throughput: 99670752.81030238
+2024-06-23 22:02:06,063:INFO:Fast download time: 0.21040796230278194
+2024-06-23 22:02:06,063:INFO:Large chunk start byte: 214292523
+2024-06-23 22:02:06,063:INFO:Large chunk end byte: 235264044
+2024-06-23 22:02:06,063:INFO:Large_start_byte, Large_end_byte: 214292523 and 235264044
+2024-06-23 22:02:06,063:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=214292523, end_byte=235264044
+2024-06-23 22:02:06,063:INFO:Fetching range::::: 214292523-235264044 from http://10.137.132.2/large
+2024-06-23 22:02:06,130:INFO:Delay 0.18042492866516113
+2024-06-23 22:02:06,130:INFO:Successfully fetched range 182023427-193321000 from http://10.135.163.2/large at 1719180126.1307225
+2024-06-23 22:02:06,130:INFO:Throughput: {'http://10.137.132.2/large': 99670752.81030238, 'http://10.134.48.2/large': 83665552.25069454, 'http://10.135.163.2/large': 62616474.805243954}
+2024-06-23 22:02:06,130:INFO:number_of_chunk: 13
+2024-06-23 22:02:06,130:INFO:Fetched range: start_byte=182023427, end_byte=193321000, delay=0.1804, throughput=62616474.805243954
+2024-06-23 22:02:06,131:INFO:Geometric mean of throughput: 80525669.60233419
+2024-06-23 22:02:06,131:INFO:start and end byte are: 235264045 and 235264044
+2024-06-23 22:02:06,131:INFO:Current throughput for http://10.135.163.2/large: 62616474.805243954
+2024-06-23 22:02:06,131:INFO:Slow server throughput: 62616474.805243954
+2024-06-23 22:02:06,131:INFO:Small chunk size: 13175004
+2024-06-23 22:02:06,131:INFO:small_start_byte, small_end_byte: 235264045 and 248439050
+2024-06-23 22:02:06,131:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=235264045, end_byte=248439050
+2024-06-23 22:02:06,131:INFO:Fetching range::::: 235264045-248439050 from http://10.135.163.2/large
+2024-06-23 22:02:06,254:INFO:Delay 0.19098258018493652
+2024-06-23 22:02:06,254:INFO:Successfully fetched range 214292523-235264044 from http://10.137.132.2/large at 1719180126.2544303
+2024-06-23 22:02:06,254:INFO:Throughput: {'http://10.137.132.2/large': 109808554.16076371, 'http://10.134.48.2/large': 83665552.25069454, 'http://10.135.163.2/large': 62616474.805243954}
+2024-06-23 22:02:06,254:INFO:number_of_chunk: 14
+2024-06-23 22:02:06,254:INFO:Fetched range: start_byte=214292523, end_byte=235264044, delay=0.1910, throughput=109808554.16076371
+2024-06-23 22:02:06,255:INFO:Geometric mean of throughput: 83168172.08464642
+2024-06-23 22:02:06,255:INFO:start and end byte are: 248439051 and 248439050
+2024-06-23 22:02:06,255:INFO:Current throughput for http://10.137.132.2/large: 109808554.16076371
+2024-06-23 22:02:06,255:INFO:Fast server throughput: 109808554.16076371
+2024-06-23 22:02:06,255:INFO:Fast download time: 0.19098257107817787
+2024-06-23 22:02:06,255:INFO:Large chunk start byte: 248439051
+2024-06-23 22:02:06,255:INFO:Large chunk end byte: 269410572
+2024-06-23 22:02:06,255:INFO:Large_start_byte, Large_end_byte: 248439051 and 269410572
+2024-06-23 22:02:06,255:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=248439051, end_byte=269410572
+2024-06-23 22:02:06,255:INFO:Fetching range::::: 248439051-269410572 from http://10.137.132.2/large
+2024-06-23 22:02:06,296:INFO:Delay 0.282534122467041
+2024-06-23 22:02:06,296:INFO:Successfully fetched range 193321001-214292522 from http://10.134.48.2/large at 1719180126.2966518
+2024-06-23 22:02:06,296:INFO:Throughput: {'http://10.137.132.2/large': 109808554.16076371, 'http://10.134.48.2/large': 74226506.9326146, 'http://10.135.163.2/large': 62616474.805243954}
+2024-06-23 22:02:06,296:INFO:number_of_chunk: 15
+2024-06-23 22:02:06,296:INFO:Fetched range: start_byte=193321001, end_byte=214292522, delay=0.2825, throughput=74226506.9326146
+2024-06-23 22:02:06,296:INFO:Slow server throughput: 74226506.9326146
+2024-06-23 22:02:06,296:INFO:Small chunk size: 14175969
+2024-06-23 22:02:06,296:INFO:small_start_byte, small_end_byte: 269410573 and 283586543
+2024-06-23 22:02:06,296:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=269410573, end_byte=283586543
+2024-06-23 22:02:06,296:INFO:Fetching range::::: 269410573-283586543 from http://10.134.48.2/large
+2024-06-23 22:02:06,354:INFO:Delay 0.22237348556518555
+2024-06-23 22:02:06,354:INFO:Successfully fetched range 235264045-248439050 from http://10.135.163.2/large at 1719180126.354316
+2024-06-23 22:02:06,354:INFO:Throughput: {'http://10.137.132.2/large': 109808554.16076371, 'http://10.134.48.2/large': 74226506.9326146, 'http://10.135.163.2/large': 59247193.821306266}
+2024-06-23 22:02:06,354:INFO:number_of_chunk: 16
+2024-06-23 22:02:06,354:INFO:Fetched range: start_byte=235264045, end_byte=248439050, delay=0.2224, throughput=59247193.821306266
+2024-06-23 22:02:06,355:INFO:Geometric mean of throughput: 78455066.33766432
+2024-06-23 22:02:06,355:INFO:start and end byte are: 283586544 and 283586543
+2024-06-23 22:02:06,355:INFO:Current throughput for http://10.135.163.2/large: 59247193.821306266
+2024-06-23 22:02:06,355:INFO:Slow server throughput: 59247193.821306266
+2024-06-23 22:02:06,355:INFO:Small chunk size: 11315181
+2024-06-23 22:02:06,355:INFO:small_start_byte, small_end_byte: 283586544 and 294901726
+2024-06-23 22:02:06,355:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=283586544, end_byte=294901726
+2024-06-23 22:02:06,355:INFO:Fetching range::::: 283586544-294901726 from http://10.135.163.2/large
+2024-06-23 22:02:06,447:INFO:Delay 0.19178318977355957
+2024-06-23 22:02:06,447:INFO:Successfully fetched range 248439051-269410572 from http://10.137.132.2/large at 1719180126.447479
+2024-06-23 22:02:06,447:INFO:Throughput: {'http://10.137.132.2/large': 109350152.24619684, 'http://10.134.48.2/large': 74226506.9326146, 'http://10.135.163.2/large': 59247193.821306266}
+2024-06-23 22:02:06,447:INFO:number_of_chunk: 17
+2024-06-23 22:02:06,447:INFO:Fetched range: start_byte=248439051, end_byte=269410572, delay=0.1918, throughput=109350152.24619684
+2024-06-23 22:02:06,448:INFO:Geometric mean of throughput: 78345742.39113583
+2024-06-23 22:02:06,448:INFO:start and end byte are: 294901727 and 294901726
+2024-06-23 22:02:06,448:INFO:Current throughput for http://10.137.132.2/large: 109350152.24619684
+2024-06-23 22:02:06,448:INFO:Fast server throughput: 109350152.24619684
+2024-06-23 22:02:06,448:INFO:Fast download time: 0.1917831806286249
+2024-06-23 22:02:06,448:INFO:Large chunk start byte: 294901727
+2024-06-23 22:02:06,448:INFO:Large chunk end byte: 315873248
+2024-06-23 22:02:06,448:INFO:Large_start_byte, Large_end_byte: 294901727 and 315873248
+2024-06-23 22:02:06,448:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=294901727, end_byte=315873248
+2024-06-23 22:02:06,448:INFO:Fetching range::::: 294901727-315873248 from http://10.137.132.2/large
+2024-06-23 22:02:06,471:INFO:Delay 0.17409658432006836
+2024-06-23 22:02:06,471:INFO:Successfully fetched range 269410573-283586543 from http://10.134.48.2/large at 1719180126.47129
+2024-06-23 22:02:06,471:INFO:Throughput: {'http://10.137.132.2/large': 109350152.24619684, 'http://10.134.48.2/large': 81425893.88162921, 'http://10.135.163.2/large': 59247193.821306266}
+2024-06-23 22:02:06,471:INFO:number_of_chunk: 18
+2024-06-23 22:02:06,471:INFO:Fetched range: start_byte=269410573, end_byte=283586543, delay=0.1741, throughput=81425893.88162921
+2024-06-23 22:02:06,472:INFO:Geometric mean of throughput: 80800969.31302927
+2024-06-23 22:02:06,472:INFO:start and end byte are: 315873249 and 315873248
+2024-06-23 22:02:06,472:INFO:Current throughput for http://10.134.48.2/large: 81425893.88162921
+2024-06-23 22:02:06,472:INFO:Fast server throughput: 81425893.88162921
+2024-06-23 22:02:06,472:INFO:Fast download time: 0.25755345136875996
+2024-06-23 22:02:06,472:INFO:Large chunk start byte: 315873249
+2024-06-23 22:02:06,472:INFO:Large chunk end byte: 336844770
+2024-06-23 22:02:06,472:INFO:Large_start_byte, Large_end_byte: 315873249 and 336844770
+2024-06-23 22:02:06,472:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=315873249, end_byte=336844770
+2024-06-23 22:02:06,472:INFO:Fetching range::::: 315873249-336844770 from http://10.134.48.2/large
+2024-06-23 22:02:06,578:INFO:Delay 0.22306442260742188
+2024-06-23 22:02:06,578:INFO:Successfully fetched range 283586544-294901726 from http://10.135.163.2/large at 1719180126.5786078
+2024-06-23 22:02:06,578:INFO:Throughput: {'http://10.137.132.2/large': 109350152.24619684, 'http://10.134.48.2/large': 81425893.88162921, 'http://10.135.163.2/large': 50726072.171150066}
+2024-06-23 22:02:06,578:INFO:number_of_chunk: 19
+2024-06-23 22:02:06,578:INFO:Fetched range: start_byte=283586544, end_byte=294901726, delay=0.2231, throughput=50726072.171150066
+2024-06-23 22:02:06,579:INFO:Geometric mean of throughput: 76725145.50631282
+2024-06-23 22:02:06,579:INFO:start and end byte are: 336844771 and 336844770
+2024-06-23 22:02:06,579:INFO:Current throughput for http://10.135.163.2/large: 50726072.171150066
+2024-06-23 22:02:06,579:INFO:Slow server throughput: 50726072.171150066
+2024-06-23 22:02:06,579:INFO:Small chunk size: 13064674
+2024-06-23 22:02:06,579:INFO:small_start_byte, small_end_byte: 336844771 and 349909446
+2024-06-23 22:02:06,579:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=336844771, end_byte=349909446
+2024-06-23 22:02:06,579:INFO:Fetching range::::: 336844771-349909446 from http://10.135.163.2/large
+2024-06-23 22:02:06,664:INFO:Delay 0.2154548168182373
+2024-06-23 22:02:06,664:INFO:Successfully fetched range 294901727-315873248 from http://10.137.132.2/large at 1719180126.6642432
+2024-06-23 22:02:06,664:INFO:Throughput: {'http://10.137.132.2/large': 97336050.8235565, 'http://10.134.48.2/large': 81425893.88162921, 'http://10.135.163.2/large': 50726072.171150066}
+2024-06-23 22:02:06,664:INFO:number_of_chunk: 20
+2024-06-23 22:02:06,664:INFO:Fetched range: start_byte=294901727, end_byte=315873248, delay=0.2155, throughput=97336050.8235565
+2024-06-23 22:02:06,664:INFO:Geometric mean of throughput: 73805574.3076443
+2024-06-23 22:02:06,665:INFO:start and end byte are: 349909447 and 349909446
+2024-06-23 22:02:06,665:INFO:Current throughput for http://10.137.132.2/large: 97336050.8235565
+2024-06-23 22:02:06,665:INFO:Fast server throughput: 97336050.8235565
+2024-06-23 22:02:06,665:INFO:Fast download time: 0.2154548065445515
+2024-06-23 22:02:06,665:INFO:Large chunk start byte: 349909447
+2024-06-23 22:02:06,665:INFO:Large chunk end byte: 370880968
+2024-06-23 22:02:06,665:INFO:Large_start_byte, Large_end_byte: 349909447 and 370880968
+2024-06-23 22:02:06,665:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=349909447, end_byte=370880968
+2024-06-23 22:02:06,665:INFO:Fetching range::::: 349909447-370880968 from http://10.137.132.2/large
+2024-06-23 22:02:06,746:INFO:Delay 0.274395227432251
+2024-06-23 22:02:06,746:INFO:Successfully fetched range 315873249-336844770 from http://10.134.48.2/large at 1719180126.746934
+2024-06-23 22:02:06,746:INFO:Throughput: {'http://10.137.132.2/large': 97336050.8235565, 'http://10.134.48.2/large': 76428155.09674975, 'http://10.135.163.2/large': 50726072.171150066}
+2024-06-23 22:02:06,747:INFO:number_of_chunk: 21
+2024-06-23 22:02:06,747:INFO:Fetched range: start_byte=315873249, end_byte=336844770, delay=0.2744, throughput=76428155.09674975
+2024-06-23 22:02:06,747:INFO:Geometric mean of throughput: 72263575.2336352
+2024-06-23 22:02:06,747:INFO:start and end byte are: 370880969 and 370880968
+2024-06-23 22:02:06,747:INFO:Current throughput for http://10.134.48.2/large: 76428155.09674975
+2024-06-23 22:02:06,747:INFO:Fast server throughput: 76428155.09674975
+2024-06-23 22:02:06,747:INFO:Fast download time: 0.2743952143480676
+2024-06-23 22:02:06,747:INFO:Large chunk start byte: 370880969
+2024-06-23 22:02:06,747:INFO:Large chunk end byte: 391852490
+2024-06-23 22:02:06,747:INFO:Large_start_byte, Large_end_byte: 370880969 and 391852490
+2024-06-23 22:02:06,747:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=370880969, end_byte=391852490
+2024-06-23 22:02:06,747:INFO:Fetching range::::: 370880969-391852490 from http://10.134.48.2/large
+2024-06-23 22:02:06,802:INFO:Delay 0.22289419174194336
+2024-06-23 22:02:06,802:INFO:Successfully fetched range 336844771-349909446 from http://10.135.163.2/large at 1719180126.8027341
+2024-06-23 22:02:06,802:INFO:Throughput: {'http://10.137.132.2/large': 97336050.8235565, 'http://10.134.48.2/large': 76428155.09674975, 'http://10.135.163.2/large': 58613797.416155554}
+2024-06-23 22:02:06,802:INFO:number_of_chunk: 22
+2024-06-23 22:02:06,802:INFO:Fetched range: start_byte=336844771, end_byte=349909446, delay=0.2229, throughput=58613797.416155554
+2024-06-23 22:02:06,803:INFO:Geometric mean of throughput: 75830220.53018904
+2024-06-23 22:02:06,803:INFO:start and end byte are: 391852491 and 391852490
+2024-06-23 22:02:06,803:INFO:Current throughput for http://10.135.163.2/large: 58613797.416155554
+2024-06-23 22:02:06,803:INFO:Slow server throughput: 58613797.416155554
+2024-06-23 22:02:06,803:INFO:Small chunk size: 16083345
+2024-06-23 22:02:06,803:INFO:small_start_byte, small_end_byte: 391852491 and 407935837
+2024-06-23 22:02:06,803:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=391852491, end_byte=407935837
+2024-06-23 22:02:06,803:INFO:Fetching range::::: 391852491-407935837 from http://10.135.163.2/large
+2024-06-23 22:02:06,882:INFO:Delay 0.2173748016357422
+2024-06-23 22:02:06,882:INFO:Successfully fetched range 349909447-370880968 from http://10.137.132.2/large at 1719180126.8828819
+2024-06-23 22:02:06,882:INFO:Throughput: {'http://10.137.132.2/large': 96476320.35631368, 'http://10.134.48.2/large': 76428155.09674975, 'http://10.135.163.2/large': 58613797.416155554}
+2024-06-23 22:02:06,882:INFO:number_of_chunk: 23
+2024-06-23 22:02:06,882:INFO:Fetched range: start_byte=349909447, end_byte=370880968, delay=0.2174, throughput=96476320.35631368
+2024-06-23 22:02:06,883:INFO:Geometric mean of throughput: 75606300.61327112
+2024-06-23 22:02:06,883:INFO:start and end byte are: 407935838 and 407935837
+2024-06-23 22:02:06,883:INFO:Current throughput for http://10.137.132.2/large: 96476320.35631368
+2024-06-23 22:02:06,883:INFO:Fast server throughput: 96476320.35631368
+2024-06-23 22:02:06,883:INFO:Fast download time: 0.2173747912705044
+2024-06-23 22:02:06,883:INFO:Large chunk start byte: 407935838
+2024-06-23 22:02:06,883:INFO:Large chunk end byte: 428907359
+2024-06-23 22:02:06,883:INFO:Large_start_byte, Large_end_byte: 407935838 and 428907359
+2024-06-23 22:02:06,883:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=407935838, end_byte=428907359
+2024-06-23 22:02:06,883:INFO:Fetching range::::: 407935838-428907359 from http://10.137.132.2/large
+2024-06-23 22:02:07,024:INFO:Delay 0.27680015563964844
+2024-06-23 22:02:07,025:INFO:Successfully fetched range 370880969-391852490 from http://10.134.48.2/large at 1719180127.0249975
+2024-06-23 22:02:07,025:INFO:Throughput: {'http://10.137.132.2/large': 96476320.35631368, 'http://10.134.48.2/large': 75764122.86162773, 'http://10.135.163.2/large': 58613797.416155554}
+2024-06-23 22:02:07,025:INFO:number_of_chunk: 24
+2024-06-23 22:02:07,025:INFO:Fetched range: start_byte=370880969, end_byte=391852490, delay=0.2768, throughput=75764122.86162773
+2024-06-23 22:02:07,025:INFO:Geometric mean of throughput: 75386699.4914951
+2024-06-23 22:02:07,025:INFO:start and end byte are: 428907360 and 428907359
+2024-06-23 22:02:07,025:INFO:Current throughput for http://10.134.48.2/large: 75764122.86162773
+2024-06-23 22:02:07,025:INFO:Fast server throughput: 75764122.86162773
+2024-06-23 22:02:07,025:INFO:Fast download time: 0.2768001424407891
+2024-06-23 22:02:07,025:INFO:Large chunk start byte: 428907360
+2024-06-23 22:02:07,025:INFO:Large chunk end byte: 449878881
+2024-06-23 22:02:07,025:INFO:Large_start_byte, Large_end_byte: 428907360 and 449878881
+2024-06-23 22:02:07,026:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=428907360, end_byte=449878881
+2024-06-23 22:02:07,026:INFO:Fetching range::::: 428907360-449878881 from http://10.134.48.2/large
+2024-06-23 22:02:07,075:INFO:Delay 0.1913602352142334
+2024-06-23 22:02:07,075:INFO:Successfully fetched range 407935838-428907359 from http://10.137.132.2/large at 1719180127.0755124
+2024-06-23 22:02:07,075:INFO:Throughput: {'http://10.137.132.2/large': 109591843.7627429, 'http://10.134.48.2/large': 75764122.86162773, 'http://10.135.163.2/large': 58613797.416155554}
+2024-06-23 22:02:07,075:INFO:number_of_chunk: 25
+2024-06-23 22:02:07,075:INFO:Fetched range: start_byte=407935838, end_byte=428907359, delay=0.1914, throughput=109591843.7627429
+2024-06-23 22:02:07,076:INFO:Geometric mean of throughput: 78658784.43960373
+2024-06-23 22:02:07,076:INFO:start and end byte are: 449878882 and 449878881
+2024-06-23 22:02:07,076:INFO:Current throughput for http://10.137.132.2/large: 109591843.7627429
+2024-06-23 22:02:07,076:INFO:Fast server throughput: 109591843.7627429
+2024-06-23 22:02:07,076:INFO:Fast download time: 0.19136022608946676
+2024-06-23 22:02:07,076:INFO:Large chunk start byte: 449878882
+2024-06-23 22:02:07,076:INFO:Large chunk end byte: 470850403
+2024-06-23 22:02:07,076:INFO:Large_start_byte, Large_end_byte: 449878882 and 470850403
+2024-06-23 22:02:07,076:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=449878882, end_byte=470850403
+2024-06-23 22:02:07,076:INFO:Fetching range::::: 449878882-470850403 from http://10.137.132.2/large
+2024-06-23 22:02:07,082:INFO:Delay 0.2789955139160156
+2024-06-23 22:02:07,082:INFO:Successfully fetched range 391852491-407935837 from http://10.135.163.2/large at 1719180127.082967
+2024-06-23 22:02:07,083:INFO:Throughput: {'http://10.137.132.2/large': 109591843.7627429, 'http://10.134.48.2/large': 75764122.86162773, 'http://10.135.163.2/large': 57647328.35396584}
+2024-06-23 22:02:07,083:INFO:number_of_chunk: 26
+2024-06-23 22:02:07,083:INFO:Fetched range: start_byte=391852491, end_byte=407935837, delay=0.2790, throughput=57647328.35396584
+2024-06-23 22:02:07,083:INFO:Geometric mean of throughput: 78224057.53552864
+2024-06-23 22:02:07,083:INFO:start and end byte are: 470850404 and 470850403
+2024-06-23 22:02:07,083:INFO:Current throughput for http://10.135.163.2/large: 57647328.35396584
+2024-06-23 22:02:07,083:INFO:Slow server throughput: 57647328.35396584
+2024-06-23 22:02:07,083:INFO:Small chunk size: 11031405
+2024-06-23 22:02:07,083:INFO:small_start_byte, small_end_byte: 470850404 and 481881810
+2024-06-23 22:02:07,083:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=470850404, end_byte=481881810
+2024-06-23 22:02:07,083:INFO:Fetching range::::: 470850404-481881810 from http://10.135.163.2/large
+2024-06-23 22:02:07,270:INFO:Delay 0.19411849975585938
+2024-06-23 22:02:07,270:INFO:Successfully fetched range 449878882-470850403 from http://10.137.132.2/large at 1719180127.2709482
+2024-06-23 22:02:07,270:INFO:Throughput: {'http://10.137.132.2/large': 108034633.62006013, 'http://10.134.48.2/large': 75764122.86162773, 'http://10.135.163.2/large': 57647328.35396584}
+2024-06-23 22:02:07,271:INFO:number_of_chunk: 27
+2024-06-23 22:02:07,271:INFO:Fetched range: start_byte=449878882, end_byte=470850403, delay=0.1941, throughput=108034633.62006013
+2024-06-23 22:02:07,271:INFO:Geometric mean of throughput: 77851788.83446136
+2024-06-23 22:02:07,271:INFO:start and end byte are: 481881811 and 481881810
+2024-06-23 22:02:07,271:INFO:Current throughput for http://10.137.132.2/large: 108034633.62006013
+2024-06-23 22:02:07,271:INFO:Fast server throughput: 108034633.62006013
+2024-06-23 22:02:07,271:INFO:Fast download time: 0.19411849049956845
+2024-06-23 22:02:07,271:INFO:Large chunk start byte: 481881811
+2024-06-23 22:02:07,271:INFO:Large chunk end byte: 502853332
+2024-06-23 22:02:07,271:INFO:Large_start_byte, Large_end_byte: 481881811 and 502853332
+2024-06-23 22:02:07,271:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=481881811, end_byte=502853332
+2024-06-23 22:02:07,272:INFO:Fetching range::::: 481881811-502853332 from http://10.137.132.2/large
+2024-06-23 22:02:07,301:INFO:Delay 0.27507448196411133
+2024-06-23 22:02:07,301:INFO:Successfully fetched range 428907360-449878881 from http://10.134.48.2/large at 1719180127.301404
+2024-06-23 22:02:07,301:INFO:Throughput: {'http://10.137.132.2/large': 108034633.62006013, 'http://10.134.48.2/large': 76239427.40983197, 'http://10.135.163.2/large': 57647328.35396584}
+2024-06-23 22:02:07,301:INFO:number_of_chunk: 28
+2024-06-23 22:02:07,301:INFO:Fetched range: start_byte=428907360, end_byte=449878881, delay=0.2751, throughput=76239427.40983197
+2024-06-23 22:02:07,301:INFO:Slow server throughput: 76239427.40983197
+2024-06-23 22:02:07,301:INFO:Small chunk size: 14799482
+2024-06-23 22:02:07,301:INFO:small_start_byte, small_end_byte: 502853333 and 517652816
+2024-06-23 22:02:07,301:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=502853333, end_byte=517652816
+2024-06-23 22:02:07,301:INFO:Fetching range::::: 502853333-517652816 from http://10.134.48.2/large
+2024-06-23 22:02:07,306:INFO:Delay 0.22280597686767578
+2024-06-23 22:02:07,306:INFO:Successfully fetched range 470850404-481881810 from http://10.135.163.2/large at 1719180127.3069854
+2024-06-23 22:02:07,307:INFO:Throughput: {'http://10.137.132.2/large': 108034633.62006013, 'http://10.134.48.2/large': 76239427.40983197, 'http://10.135.163.2/large': 49511266.05796369}
+2024-06-23 22:02:07,307:INFO:number_of_chunk: 29
+2024-06-23 22:02:07,307:INFO:Fetched range: start_byte=470850404, end_byte=481881810, delay=0.2228, throughput=49511266.05796369
+2024-06-23 22:02:07,307:INFO:Geometric mean of throughput: 74156442.46633016
+2024-06-23 22:02:07,307:INFO:start and end byte are: 517652817 and 517652816
+2024-06-23 22:02:07,307:INFO:Current throughput for http://10.135.163.2/large: 49511266.05796369
+2024-06-23 22:02:07,307:INFO:Slow server throughput: 49511266.05796369
+2024-06-23 22:02:07,307:INFO:Small chunk size: 9611052
+2024-06-23 22:02:07,307:INFO:small_start_byte, small_end_byte: 517652817 and 527263870
+2024-06-23 22:02:07,307:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=517652817, end_byte=527263870
+2024-06-23 22:02:07,307:INFO:Fetching range::::: 517652817-527263870 from http://10.135.163.2/large
+2024-06-23 22:02:07,487:INFO:Delay 0.21572446823120117
+2024-06-23 22:02:07,488:INFO:Successfully fetched range 481881811-502853332 from http://10.137.132.2/large at 1719180127.4879932
+2024-06-23 22:02:07,488:INFO:Throughput: {'http://10.137.132.2/large': 97214382.64260279, 'http://10.134.48.2/large': 76239427.40983197, 'http://10.135.163.2/large': 49511266.05796369}
+2024-06-23 22:02:07,488:INFO:number_of_chunk: 30
+2024-06-23 22:02:07,488:INFO:Fetched range: start_byte=481881811, end_byte=502853332, delay=0.2157, throughput=97214382.64260279
+2024-06-23 22:02:07,488:INFO:Geometric mean of throughput: 71593137.1814869
+2024-06-23 22:02:07,488:INFO:start and end byte are: 527263871 and 527263870
+2024-06-23 22:02:07,488:INFO:Current throughput for http://10.137.132.2/large: 97214382.64260279
+2024-06-23 22:02:07,488:INFO:Fast server throughput: 97214382.64260279
+2024-06-23 22:02:07,488:INFO:Fast download time: 0.21572445794465742
+2024-06-23 22:02:07,488:INFO:Large chunk start byte: 527263871
+2024-06-23 22:02:07,488:INFO:Large chunk end byte: 548235392
+2024-06-23 22:02:07,488:INFO:Large_start_byte, Large_end_byte: 527263871 and 548235392
+2024-06-23 22:02:07,488:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=527263871, end_byte=548235392
+2024-06-23 22:02:07,488:INFO:Fetching range::::: 527263871-548235392 from http://10.137.132.2/large
+2024-06-23 22:02:07,493:INFO:Delay 0.18507099151611328
+2024-06-23 22:02:07,493:INFO:Successfully fetched range 517652817-527263870 from http://10.135.163.2/large at 1719180127.493272
+2024-06-23 22:02:07,493:INFO:Throughput: {'http://10.137.132.2/large': 97214382.64260279, 'http://10.134.48.2/large': 76239427.40983197, 'http://10.135.163.2/large': 51931709.67133015}
+2024-06-23 22:02:07,493:INFO:number_of_chunk: 31
+2024-06-23 22:02:07,493:INFO:Fetched range: start_byte=517652817, end_byte=527263870, delay=0.1851, throughput=51931709.67133015
+2024-06-23 22:02:07,493:INFO:Geometric mean of throughput: 72741277.3328669
+2024-06-23 22:02:07,494:INFO:start and end byte are: 548235393 and 548235392
+2024-06-23 22:02:07,494:INFO:Current throughput for http://10.135.163.2/large: 51931709.67133015
+2024-06-23 22:02:07,494:INFO:Slow server throughput: 51931709.67133015
+2024-06-23 22:02:07,494:INFO:Small chunk size: 11202939
+2024-06-23 22:02:07,494:INFO:small_start_byte, small_end_byte: 548235393 and 559438333
+2024-06-23 22:02:07,494:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=548235393, end_byte=559438333
+2024-06-23 22:02:07,494:INFO:Fetching range::::: 548235393-559438333 from http://10.135.163.2/large
+2024-06-23 22:02:07,508:INFO:Delay 0.2061469554901123
+2024-06-23 22:02:07,508:INFO:Successfully fetched range 502853333-517652816 from http://10.134.48.2/large at 1719180127.5081472
+2024-06-23 22:02:07,508:INFO:Throughput: {'http://10.137.132.2/large': 97214382.64260279, 'http://10.134.48.2/large': 71790936.5424019, 'http://10.135.163.2/large': 51931709.67133015}
+2024-06-23 22:02:07,508:INFO:number_of_chunk: 32
+2024-06-23 22:02:07,508:INFO:Fetched range: start_byte=502853333, end_byte=517652816, delay=0.2061, throughput=71790936.5424019
+2024-06-23 22:02:07,508:INFO:Geometric mean of throughput: 71298039.36840238
+2024-06-23 22:02:07,508:INFO:start and end byte are: 559438334 and 559438333
+2024-06-23 22:02:07,508:INFO:Current throughput for http://10.134.48.2/large: 71790936.5424019
+2024-06-23 22:02:07,508:INFO:Fast server throughput: 71790936.5424019
+2024-06-23 22:02:07,509:INFO:Fast download time: 0.29211932606024144
+2024-06-23 22:02:07,509:INFO:Large chunk start byte: 559438334
+2024-06-23 22:02:07,509:INFO:Large chunk end byte: 580409855
+2024-06-23 22:02:07,509:INFO:Large_start_byte, Large_end_byte: 559438334 and 580409855
+2024-06-23 22:02:07,509:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=559438334, end_byte=580409855
+2024-06-23 22:02:07,509:INFO:Fetching range::::: 559438334-580409855 from http://10.134.48.2/large
+2024-06-23 22:02:07,674:INFO:Delay 0.1803579330444336
+2024-06-23 22:02:07,674:INFO:Successfully fetched range 548235393-559438333 from http://10.135.163.2/large at 1719180127.674817
+2024-06-23 22:02:07,674:INFO:Throughput: {'http://10.137.132.2/large': 97214382.64260279, 'http://10.134.48.2/large': 71790936.5424019, 'http://10.135.163.2/large': 62115038.750416405}
+2024-06-23 22:02:07,674:INFO:number_of_chunk: 33
+2024-06-23 22:02:07,674:INFO:Fetched range: start_byte=548235393, end_byte=559438333, delay=0.1804, throughput=62115038.750416405
+2024-06-23 22:02:07,675:INFO:Geometric mean of throughput: 75683109.53975867
+2024-06-23 22:02:07,675:INFO:start and end byte are: 580409856 and 580409855
+2024-06-23 22:02:07,675:INFO:Current throughput for http://10.135.163.2/large: 62115038.750416405
+2024-06-23 22:02:07,675:INFO:Slow server throughput: 62115038.750416405
+2024-06-23 22:02:07,675:INFO:Small chunk size: 18145003
+2024-06-23 22:02:07,675:INFO:small_start_byte, small_end_byte: 580409856 and 598554860
+2024-06-23 22:02:07,675:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=580409856, end_byte=598554860
+2024-06-23 22:02:07,675:INFO:Fetching range::::: 580409856-598554860 from http://10.135.163.2/large
+2024-06-23 22:02:07,684:INFO:Delay 0.1949024200439453
+2024-06-23 22:02:07,684:INFO:Successfully fetched range 527263871-548235392 from http://10.137.132.2/large at 1719180127.6841526
+2024-06-23 22:02:07,684:INFO:Throughput: {'http://10.137.132.2/large': 107600105.71070118, 'http://10.134.48.2/large': 71790936.5424019, 'http://10.135.163.2/large': 62115038.750416405}
+2024-06-23 22:02:07,684:INFO:number_of_chunk: 34
+2024-06-23 22:02:07,684:INFO:Fetched range: start_byte=527263871, end_byte=548235392, delay=0.1949, throughput=107600105.71070118
+2024-06-23 22:02:07,684:INFO:Geometric mean of throughput: 78287608.35559501
+2024-06-23 22:02:07,684:INFO:start and end byte are: 598554861 and 598554860
+2024-06-23 22:02:07,684:INFO:Current throughput for http://10.137.132.2/large: 107600105.71070118
+2024-06-23 22:02:07,684:INFO:Fast server throughput: 107600105.71070118
+2024-06-23 22:02:07,685:INFO:Fast download time: 0.19490241075027415
+2024-06-23 22:02:07,685:INFO:Large chunk start byte: 598554861
+2024-06-23 22:02:07,685:INFO:Large chunk end byte: 619526382
+2024-06-23 22:02:07,685:INFO:Large_start_byte, Large_end_byte: 598554861 and 619526382
+2024-06-23 22:02:07,685:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=598554861, end_byte=619526382
+2024-06-23 22:02:07,685:INFO:Fetching range::::: 598554861-619526382 from http://10.137.132.2/large
+2024-06-23 22:02:07,793:INFO:Delay 0.28449392318725586
+2024-06-23 22:02:07,793:INFO:Successfully fetched range 559438334-580409855 from http://10.134.48.2/large at 1719180127.7939193
+2024-06-23 22:02:07,793:INFO:Throughput: {'http://10.137.132.2/large': 107600105.71070118, 'http://10.134.48.2/large': 73715180.8553619, 'http://10.135.163.2/large': 62115038.750416405}
+2024-06-23 22:02:07,794:INFO:number_of_chunk: 35
+2024-06-23 22:02:07,794:INFO:Fetched range: start_byte=559438334, end_byte=580409855, delay=0.2845, throughput=73715180.8553619
+2024-06-23 22:02:07,794:INFO:Slow server throughput: 73715180.8553619
+2024-06-23 22:02:07,794:INFO:Small chunk size: 14367266
+2024-06-23 22:02:07,794:INFO:small_start_byte, small_end_byte: 619526383 and 633893650
+2024-06-23 22:02:07,794:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=619526383, end_byte=633893650
+2024-06-23 22:02:07,794:INFO:Fetching range::::: 619526383-633893650 from http://10.134.48.2/large
+2024-06-23 22:02:07,881:INFO:Delay 0.19621968269348145
+2024-06-23 22:02:07,881:INFO:Successfully fetched range 598554861-619526382 from http://10.137.132.2/large at 1719180127.8816867
+2024-06-23 22:02:07,881:INFO:Throughput: {'http://10.137.132.2/large': 106877764.31052545, 'http://10.134.48.2/large': 73715180.8553619, 'http://10.135.163.2/large': 62115038.750416405}
+2024-06-23 22:02:07,881:INFO:number_of_chunk: 36
+2024-06-23 22:02:07,881:INFO:Fetched range: start_byte=598554861, end_byte=619526382, delay=0.1962, throughput=106877764.31052545
+2024-06-23 22:02:07,882:INFO:Geometric mean of throughput: 78803774.36030363
+2024-06-23 22:02:07,882:INFO:start and end byte are: 633893651 and 633893650
+2024-06-23 22:02:07,882:INFO:Current throughput for http://10.137.132.2/large: 106877764.31052545
+2024-06-23 22:02:07,882:INFO:Fast server throughput: 106877764.31052545
+2024-06-23 22:02:07,882:INFO:Fast download time: 0.1962196733369983
+2024-06-23 22:02:07,882:INFO:Large chunk start byte: 633893651
+2024-06-23 22:02:07,882:INFO:Large chunk end byte: 654865172
+2024-06-23 22:02:07,882:INFO:Large_start_byte, Large_end_byte: 633893651 and 654865172
+2024-06-23 22:02:07,882:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=633893651, end_byte=654865172
+2024-06-23 22:02:07,882:INFO:Fetching range::::: 633893651-654865172 from http://10.137.132.2/large
+2024-06-23 22:02:07,970:INFO:Delay 0.17577409744262695
+2024-06-23 22:02:07,970:INFO:Successfully fetched range 619526383-633893650 from http://10.134.48.2/large at 1719180127.9702957
+2024-06-23 22:02:07,970:INFO:Throughput: {'http://10.137.132.2/large': 106877764.31052545, 'http://10.134.48.2/large': 81737111.49158087, 'http://10.135.163.2/large': 62115038.750416405}
+2024-06-23 22:02:07,970:INFO:number_of_chunk: 37
+2024-06-23 22:02:07,970:INFO:Fetched range: start_byte=619526383, end_byte=633893650, delay=0.1758, throughput=81737111.49158087
+2024-06-23 22:02:07,971:INFO:Geometric mean of throughput: 81564492.0125657
+2024-06-23 22:02:07,971:INFO:start and end byte are: 654865173 and 654865172
+2024-06-23 22:02:07,971:INFO:Current throughput for http://10.134.48.2/large: 81737111.49158087
+2024-06-23 22:02:07,971:INFO:Fast server throughput: 81737111.49158087
+2024-06-23 22:02:07,971:INFO:Fast download time: 0.2565728053915891
+2024-06-23 22:02:07,971:INFO:Large chunk start byte: 654865173
+2024-06-23 22:02:07,971:INFO:Large chunk end byte: 675836694
+2024-06-23 22:02:07,971:INFO:Large_start_byte, Large_end_byte: 654865173 and 675836694
+2024-06-23 22:02:07,971:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=654865173, end_byte=675836694
+2024-06-23 22:02:07,971:INFO:Fetching range::::: 654865173-675836694 from http://10.134.48.2/large
+2024-06-23 22:02:08,030:INFO:Delay 0.3546488285064697
+2024-06-23 22:02:08,030:INFO:Successfully fetched range 580409856-598554860 from http://10.135.163.2/large at 1719180128.0307271
+2024-06-23 22:02:08,030:INFO:Throughput: {'http://10.137.132.2/large': 106877764.31052545, 'http://10.134.48.2/large': 81737111.49158087, 'http://10.135.163.2/large': 51163298.85090537}
+2024-06-23 22:02:08,030:INFO:number_of_chunk: 38
+2024-06-23 22:02:08,030:INFO:Fetched range: start_byte=580409856, end_byte=598554860, delay=0.3546, throughput=51163298.85090537
+2024-06-23 22:02:08,031:INFO:Geometric mean of throughput: 76457787.85186884
+2024-06-23 22:02:08,031:INFO:start and end byte are: 675836695 and 675836694
+2024-06-23 22:02:08,031:INFO:Current throughput for http://10.135.163.2/large: 51163298.85090537
+2024-06-23 22:02:08,031:INFO:Slow server throughput: 51163298.85090537
+2024-06-23 22:02:08,031:INFO:Small chunk size: 13127111
+2024-06-23 22:02:08,031:INFO:small_start_byte, small_end_byte: 675836695 and 688963807
+2024-06-23 22:02:08,031:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=675836695, end_byte=688963807
+2024-06-23 22:02:08,031:INFO:Fetching range::::: 675836695-688963807 from http://10.135.163.2/large
+2024-06-23 22:02:08,074:INFO:Delay 0.19202661514282227
+2024-06-23 22:02:08,075:INFO:Successfully fetched range 633893651-654865172 from http://10.137.132.2/large at 1719180128.0750437
+2024-06-23 22:02:08,075:INFO:Throughput: {'http://10.137.132.2/large': 109211532.91382115, 'http://10.134.48.2/large': 81737111.49158087, 'http://10.135.163.2/large': 51163298.85090537}
+2024-06-23 22:02:08,075:INFO:number_of_chunk: 39
+2024-06-23 22:02:08,075:INFO:Fetched range: start_byte=633893651, end_byte=654865172, delay=0.1920, throughput=109211532.91382115
+2024-06-23 22:02:08,075:INFO:Geometric mean of throughput: 77010293.03096917
+2024-06-23 22:02:08,075:INFO:start and end byte are: 688963808 and 688963807
+2024-06-23 22:02:08,075:INFO:Current throughput for http://10.137.132.2/large: 109211532.91382115
+2024-06-23 22:02:08,075:INFO:Fast server throughput: 109211532.91382115
+2024-06-23 22:02:08,075:INFO:Fast download time: 0.19202660598628016
+2024-06-23 22:02:08,075:INFO:Large chunk start byte: 688963808
+2024-06-23 22:02:08,075:INFO:Large chunk end byte: 709935329
+2024-06-23 22:02:08,075:INFO:Large_start_byte, Large_end_byte: 688963808 and 709935329
+2024-06-23 22:02:08,076:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=688963808, end_byte=709935329
+2024-06-23 22:02:08,076:INFO:Fetching range::::: 688963808-709935329 from http://10.137.132.2/large
+2024-06-23 22:02:08,247:INFO:Delay 0.2760608196258545
+2024-06-23 22:02:08,247:INFO:Successfully fetched range 654865173-675836694 from http://10.134.48.2/large at 1719180128.247635
+2024-06-23 22:02:08,247:INFO:Throughput: {'http://10.137.132.2/large': 109211532.91382115, 'http://10.134.48.2/large': 75967031.57087892, 'http://10.135.163.2/large': 51163298.85090537}
+2024-06-23 22:02:08,247:INFO:number_of_chunk: 40
+2024-06-23 22:02:08,247:INFO:Fetched range: start_byte=654865173, end_byte=675836694, delay=0.2761, throughput=75967031.57087892
+2024-06-23 22:02:08,247:INFO:Slow server throughput: 75967031.57087892
+2024-06-23 22:02:08,247:INFO:Small chunk size: 14587691
+2024-06-23 22:02:08,247:INFO:small_start_byte, small_end_byte: 709935330 and 724523022
+2024-06-23 22:02:08,247:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=709935330, end_byte=724523022
+2024-06-23 22:02:08,247:INFO:Fetching range::::: 709935330-724523022 from http://10.134.48.2/large
+2024-06-23 22:02:08,254:INFO:Delay 0.2230513095855713
+2024-06-23 22:02:08,255:INFO:Successfully fetched range 675836695-688963807 from http://10.135.163.2/large at 1719180128.255023
+2024-06-23 22:02:08,255:INFO:Throughput: {'http://10.137.132.2/large': 109211532.91382115, 'http://10.134.48.2/large': 75967031.57087892, 'http://10.135.163.2/large': 58852431.86596903}
+2024-06-23 22:02:08,255:INFO:number_of_chunk: 41
+2024-06-23 22:02:08,255:INFO:Fetched range: start_byte=675836695, end_byte=688963807, delay=0.2231, throughput=58852431.86596903
+2024-06-23 22:02:08,255:INFO:Geometric mean of throughput: 78744341.86902378
+2024-06-23 22:02:08,255:INFO:start and end byte are: 724523023 and 724523022
+2024-06-23 22:02:08,255:INFO:Current throughput for http://10.135.163.2/large: 58852431.86596903
+2024-06-23 22:02:08,255:INFO:Slow server throughput: 58852431.86596903
+2024-06-23 22:02:08,255:INFO:Small chunk size: 11301232
+2024-06-23 22:02:08,255:INFO:small_start_byte, small_end_byte: 724523023 and 735824256
+2024-06-23 22:02:08,255:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=724523023, end_byte=735824256
+2024-06-23 22:02:08,255:INFO:Fetching range::::: 724523023-735824256 from http://10.135.163.2/large
+2024-06-23 22:02:08,269:INFO:Delay 0.19330191612243652
+2024-06-23 22:02:08,269:INFO:Successfully fetched range 688963808-709935329 from http://10.137.132.2/large at 1719180128.2697167
+2024-06-23 22:02:08,269:INFO:Throughput: {'http://10.137.132.2/large': 108491014.57802796, 'http://10.134.48.2/large': 75967031.57087892, 'http://10.135.163.2/large': 58852431.86596903}
+2024-06-23 22:02:08,269:INFO:number_of_chunk: 42
+2024-06-23 22:02:08,269:INFO:Fetched range: start_byte=688963808, end_byte=709935329, delay=0.1933, throughput=108491014.57802796
+2024-06-23 22:02:08,270:INFO:Geometric mean of throughput: 78570788.84852791
+2024-06-23 22:02:08,270:INFO:start and end byte are: 735824257 and 735824256
+2024-06-23 22:02:08,270:INFO:Current throughput for http://10.137.132.2/large: 108491014.57802796
+2024-06-23 22:02:08,270:INFO:Fast server throughput: 108491014.57802796
+2024-06-23 22:02:08,270:INFO:Fast download time: 0.19330190690508334
+2024-06-23 22:02:08,270:INFO:Large chunk start byte: 735824257
+2024-06-23 22:02:08,270:INFO:Large chunk end byte: 756795778
+2024-06-23 22:02:08,270:INFO:Large_start_byte, Large_end_byte: 735824257 and 756795778
+2024-06-23 22:02:08,270:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=735824257, end_byte=756795778
+2024-06-23 22:02:08,270:INFO:Fetching range::::: 735824257-756795778 from http://10.137.132.2/large
+2024-06-23 22:02:08,423:INFO:Delay 0.17545223236083984
+2024-06-23 22:02:08,423:INFO:Successfully fetched range 709935330-724523022 from http://10.134.48.2/large at 1719180128.4236553
+2024-06-23 22:02:08,423:INFO:Throughput: {'http://10.137.132.2/large': 108491014.57802796, 'http://10.134.48.2/large': 83143382.12578882, 'http://10.135.163.2/large': 58852431.86596903}
+2024-06-23 22:02:08,423:INFO:number_of_chunk: 43
+2024-06-23 22:02:08,423:INFO:Fetched range: start_byte=709935330, end_byte=724523022, delay=0.1755, throughput=83143382.12578882
+2024-06-23 22:02:08,424:INFO:Geometric mean of throughput: 80970836.05655639
+2024-06-23 22:02:08,424:INFO:start and end byte are: 756795779 and 756795778
+2024-06-23 22:02:08,424:INFO:Current throughput for http://10.134.48.2/large: 83143382.12578882
+2024-06-23 22:02:08,424:INFO:Fast server throughput: 83143382.12578882
+2024-06-23 22:02:08,424:INFO:Fast download time: 0.25223318397454514
+2024-06-23 22:02:08,424:INFO:Large chunk start byte: 756795779
+2024-06-23 22:02:08,424:INFO:Large chunk end byte: 777767300
+2024-06-23 22:02:08,424:INFO:Large_start_byte, Large_end_byte: 756795779 and 777767300
+2024-06-23 22:02:08,424:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=756795779, end_byte=777767300
+2024-06-23 22:02:08,424:INFO:Fetching range::::: 756795779-777767300 from http://10.134.48.2/large
+2024-06-23 22:02:08,436:INFO:Delay 0.18027949333190918
+2024-06-23 22:02:08,436:INFO:Successfully fetched range 724523023-735824256 from http://10.135.163.2/large at 1719180128.4365149
+2024-06-23 22:02:08,436:INFO:Throughput: {'http://10.137.132.2/large': 108491014.57802796, 'http://10.134.48.2/large': 83143382.12578882, 'http://10.135.163.2/large': 62687290.6681267}
+2024-06-23 22:02:08,436:INFO:number_of_chunk: 44
+2024-06-23 22:02:08,436:INFO:Fetched range: start_byte=724523023, end_byte=735824256, delay=0.1803, throughput=62687290.6681267
+2024-06-23 22:02:08,437:INFO:Geometric mean of throughput: 82692664.49962978
+2024-06-23 22:02:08,437:INFO:start and end byte are: 777767301 and 777767300
+2024-06-23 22:02:08,437:INFO:Current throughput for http://10.135.163.2/large: 62687290.6681267
+2024-06-23 22:02:08,437:INFO:Slow server throughput: 62687290.6681267
+2024-06-23 22:02:08,437:INFO:Small chunk size: 15811814
+2024-06-23 22:02:08,437:INFO:small_start_byte, small_end_byte: 777767301 and 793579116
+2024-06-23 22:02:08,437:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=777767301, end_byte=793579116
+2024-06-23 22:02:08,437:INFO:Fetching range::::: 777767301-793579116 from http://10.135.163.2/large
+2024-06-23 22:02:08,461:INFO:Delay 0.19079184532165527
+2024-06-23 22:02:08,461:INFO:Successfully fetched range 735824257-756795778 from http://10.137.132.2/large at 1719180128.461858
+2024-06-23 22:02:08,461:INFO:Throughput: {'http://10.137.132.2/large': 109918329.91941658, 'http://10.134.48.2/large': 83143382.12578882, 'http://10.135.163.2/large': 62687290.6681267}
+2024-06-23 22:02:08,461:INFO:number_of_chunk: 45
+2024-06-23 22:02:08,461:INFO:Fetched range: start_byte=735824257, end_byte=756795778, delay=0.1908, throughput=109918329.91941658
+2024-06-23 22:02:08,462:INFO:Geometric mean of throughput: 83053722.54743631
+2024-06-23 22:02:08,462:INFO:start and end byte are: 793579117 and 793579116
+2024-06-23 22:02:08,462:INFO:Current throughput for http://10.137.132.2/large: 109918329.91941658
+2024-06-23 22:02:08,462:INFO:Fast server throughput: 109918329.91941658
+2024-06-23 22:02:08,462:INFO:Fast download time: 0.19079183622399157
+2024-06-23 22:02:08,462:INFO:Large chunk start byte: 793579117
+2024-06-23 22:02:08,462:INFO:Large chunk end byte: 814550638
+2024-06-23 22:02:08,462:INFO:Large_start_byte, Large_end_byte: 793579117 and 814550638
+2024-06-23 22:02:08,462:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=793579117, end_byte=814550638
+2024-06-23 22:02:08,462:INFO:Fetching range::::: 793579117-814550638 from http://10.137.132.2/large
+2024-06-23 22:02:08,654:INFO:Delay 0.1913294792175293
+2024-06-23 22:02:08,654:INFO:Successfully fetched range 793579117-814550638 from http://10.137.132.2/large at 1719180128.654473
+2024-06-23 22:02:08,654:INFO:Throughput: {'http://10.137.132.2/large': 109609460.52728619, 'http://10.134.48.2/large': 83143382.12578882, 'http://10.135.163.2/large': 62687290.6681267}
+2024-06-23 22:02:08,654:INFO:number_of_chunk: 46
+2024-06-23 22:02:08,654:INFO:Fetched range: start_byte=793579117, end_byte=814550638, delay=0.1913, throughput=109609460.52728619
+2024-06-23 22:02:08,655:INFO:Geometric mean of throughput: 82975856.1946375
+2024-06-23 22:02:08,655:INFO:start and end byte are: 814550639 and 814550638
+2024-06-23 22:02:08,655:INFO:Current throughput for http://10.137.132.2/large: 109609460.52728619
+2024-06-23 22:02:08,655:INFO:Fast server throughput: 109609460.52728619
+2024-06-23 22:02:08,655:INFO:Fast download time: 0.1913294700942292
+2024-06-23 22:02:08,655:INFO:Large chunk start byte: 814550639
+2024-06-23 22:02:08,655:INFO:Large chunk end byte: 835522160
+2024-06-23 22:02:08,655:INFO:Large_start_byte, Large_end_byte: 814550639 and 835522160
+2024-06-23 22:02:08,655:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=814550639, end_byte=835522160
+2024-06-23 22:02:08,655:INFO:Fetching range::::: 814550639-835522160 from http://10.137.132.2/large
+2024-06-23 22:02:08,703:INFO:Delay 0.27840685844421387
+2024-06-23 22:02:08,703:INFO:Successfully fetched range 756795779-777767300 from http://10.134.48.2/large at 1719180128.7033288
+2024-06-23 22:02:08,703:INFO:Throughput: {'http://10.137.132.2/large': 109609460.52728619, 'http://10.134.48.2/large': 75326883.53007007, 'http://10.135.163.2/large': 62687290.6681267}
+2024-06-23 22:02:08,703:INFO:number_of_chunk: 47
+2024-06-23 22:02:08,703:INFO:Fetched range: start_byte=756795779, end_byte=777767300, delay=0.2784, throughput=75326883.53007007
+2024-06-23 22:02:08,703:INFO:Slow server throughput: 75326883.53007007
+2024-06-23 22:02:08,703:INFO:Small chunk size: 14412252
+2024-06-23 22:02:08,703:INFO:small_start_byte, small_end_byte: 835522161 and 849934414
+2024-06-23 22:02:08,703:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=835522161, end_byte=849934414
+2024-06-23 22:02:08,703:INFO:Fetching range::::: 835522161-849934414 from http://10.134.48.2/large
+2024-06-23 22:02:08,709:INFO:Delay 0.2720191478729248
+2024-06-23 22:02:08,709:INFO:Successfully fetched range 777767301-793579116 from http://10.135.163.2/large at 1719180128.7098258
+2024-06-23 22:02:08,709:INFO:Throughput: {'http://10.137.132.2/large': 109609460.52728619, 'http://10.134.48.2/large': 75326883.53007007, 'http://10.135.163.2/large': 58127580.81054858}
+2024-06-23 22:02:08,709:INFO:number_of_chunk: 48
+2024-06-23 22:02:08,709:INFO:Fetched range: start_byte=777767301, end_byte=793579116, delay=0.2720, throughput=58127580.81054858
+2024-06-23 22:02:08,710:INFO:Geometric mean of throughput: 78293690.17530096
+2024-06-23 22:02:08,710:INFO:start and end byte are: 849934415 and 849934414
+2024-06-23 22:02:08,710:INFO:Current throughput for http://10.135.163.2/large: 58127580.81054858
+2024-06-23 22:02:08,710:INFO:Slow server throughput: 58127580.81054858
+2024-06-23 22:02:08,710:INFO:Small chunk size: 11121519
+2024-06-23 22:02:08,710:INFO:small_start_byte, small_end_byte: 849934415 and 861055935
+2024-06-23 22:02:08,710:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=849934415, end_byte=861055935
+2024-06-23 22:02:08,710:INFO:Fetching range::::: 849934415-861055935 from http://10.135.163.2/large
+2024-06-23 22:02:08,852:INFO:Delay 0.19639897346496582
+2024-06-23 22:02:08,852:INFO:Successfully fetched range 814550639-835522160 from http://10.137.132.2/large at 1719180128.8521636
+2024-06-23 22:02:08,852:INFO:Throughput: {'http://10.137.132.2/large': 106780196.60698968, 'http://10.134.48.2/large': 75326883.53007007, 'http://10.135.163.2/large': 58127580.81054858}
+2024-06-23 22:02:08,852:INFO:number_of_chunk: 49
+2024-06-23 22:02:08,852:INFO:Fetched range: start_byte=814550639, end_byte=835522160, delay=0.1964, throughput=106780196.60698968
+2024-06-23 22:02:08,853:INFO:Geometric mean of throughput: 77614164.76138854
+2024-06-23 22:02:08,853:INFO:start and end byte are: 861055936 and 861055935
+2024-06-23 22:02:08,853:INFO:Current throughput for http://10.137.132.2/large: 106780196.60698968
+2024-06-23 22:02:08,853:INFO:Fast server throughput: 106780196.60698968
+2024-06-23 22:02:08,853:INFO:Fast download time: 0.19639896409993343
+2024-06-23 22:02:08,853:INFO:Large chunk start byte: 861055936
+2024-06-23 22:02:08,853:INFO:Large chunk end byte: 882027457
+2024-06-23 22:02:08,853:INFO:Large_start_byte, Large_end_byte: 861055936 and 882027457
+2024-06-23 22:02:08,853:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=861055936, end_byte=882027457
+2024-06-23 22:02:08,853:INFO:Fetching range::::: 861055936-882027457 from http://10.137.132.2/large
+2024-06-23 22:02:08,891:INFO:Delay 0.1808152198791504
+2024-06-23 22:02:08,891:INFO:Successfully fetched range 849934415-861055935 from http://10.135.163.2/large at 1719180128.8918617
+2024-06-23 22:02:08,891:INFO:Throughput: {'http://10.137.132.2/large': 106780196.60698968, 'http://10.134.48.2/large': 75326883.53007007, 'http://10.135.163.2/large': 61507654.098107316}
+2024-06-23 22:02:08,891:INFO:number_of_chunk: 50
+2024-06-23 22:02:08,891:INFO:Fetched range: start_byte=849934415, end_byte=861055935, delay=0.1808, throughput=61507654.098107316
+2024-06-23 22:02:08,892:INFO:Geometric mean of throughput: 79090312.7947168
+2024-06-23 22:02:08,892:INFO:start and end byte are: 882027458 and 882027457
+2024-06-23 22:02:08,892:INFO:Current throughput for http://10.135.163.2/large: 61507654.098107316
+2024-06-23 22:02:08,892:INFO:Slow server throughput: 61507654.098107316
+2024-06-23 22:02:08,892:INFO:Small chunk size: 12080039
+2024-06-23 22:02:08,892:INFO:small_start_byte, small_end_byte: 882027458 and 894107498
+2024-06-23 22:02:08,892:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=882027458, end_byte=894107498
+2024-06-23 22:02:08,892:INFO:Fetching range::::: 882027458-894107498 from http://10.135.163.2/large
+2024-06-23 22:02:08,908:INFO:Delay 0.20486068725585938
+2024-06-23 22:02:08,908:INFO:Successfully fetched range 835522161-849934414 from http://10.134.48.2/large at 1719180128.9087954
+2024-06-23 22:02:08,908:INFO:Throughput: {'http://10.137.132.2/large': 106780196.60698968, 'http://10.134.48.2/large': 70351482.23436306, 'http://10.135.163.2/large': 61507654.098107316}
+2024-06-23 22:02:08,908:INFO:number_of_chunk: 51
+2024-06-23 22:02:08,908:INFO:Fetched range: start_byte=835522161, end_byte=849934414, delay=0.2049, throughput=70351482.23436306
+2024-06-23 22:02:08,909:INFO:Geometric mean of throughput: 77309175.90616703
+2024-06-23 22:02:08,909:INFO:start and end byte are: 894107499 and 894107498
+2024-06-23 22:02:08,909:INFO:Current throughput for http://10.134.48.2/large: 70351482.23436306
+2024-06-23 22:02:08,909:INFO:Slow server throughput: 70351482.23436306
+2024-06-23 22:02:08,909:INFO:Small chunk size: 13816958
+2024-06-23 22:02:08,909:INFO:small_start_byte, small_end_byte: 894107499 and 907924458
+2024-06-23 22:02:08,909:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=894107499, end_byte=907924458
+2024-06-23 22:02:08,909:INFO:Fetching range::::: 894107499-907924458 from http://10.134.48.2/large
+2024-06-23 22:02:09,049:INFO:Delay 0.19607782363891602
+2024-06-23 22:02:09,049:INFO:Successfully fetched range 861055936-882027457 from http://10.137.132.2/large at 1719180129.0496838
+2024-06-23 22:02:09,049:INFO:Throughput: {'http://10.137.132.2/large': 106955088.60104327, 'http://10.134.48.2/large': 70351482.23436306, 'http://10.135.163.2/large': 61507654.098107316}
+2024-06-23 22:02:09,049:INFO:number_of_chunk: 52
+2024-06-23 22:02:09,049:INFO:Fetched range: start_byte=861055936, end_byte=882027457, delay=0.1961, throughput=106955088.60104327
+2024-06-23 22:02:09,050:INFO:Geometric mean of throughput: 77351360.3227806
+2024-06-23 22:02:09,050:INFO:start and end byte are: 907924459 and 907924458
+2024-06-23 22:02:09,050:INFO:Current throughput for http://10.137.132.2/large: 106955088.60104327
+2024-06-23 22:02:09,050:INFO:Fast server throughput: 106955088.60104327
+2024-06-23 22:02:09,050:INFO:Fast download time: 0.19607781428919724
+2024-06-23 22:02:09,050:INFO:Large chunk start byte: 907924459
+2024-06-23 22:02:09,050:INFO:Large chunk end byte: 928895980
+2024-06-23 22:02:09,050:INFO:Large_start_byte, Large_end_byte: 907924459 and 928895980
+2024-06-23 22:02:09,050:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=907924459, end_byte=928895980
+2024-06-23 22:02:09,050:INFO:Fetching range::::: 907924459-928895980 from http://10.137.132.2/large
+2024-06-23 22:02:09,090:INFO:Delay 0.18098831176757812
+2024-06-23 22:02:09,091:INFO:Successfully fetched range 894107499-907924458 from http://10.134.48.2/large at 1719180129.0910687
+2024-06-23 22:02:09,091:INFO:Throughput: {'http://10.137.132.2/large': 106955088.60104327, 'http://10.134.48.2/large': 76341719.88820739, 'http://10.135.163.2/large': 61507654.098107316}
+2024-06-23 22:02:09,091:INFO:number_of_chunk: 53
+2024-06-23 22:02:09,091:INFO:Fetched range: start_byte=894107499, end_byte=907924458, delay=0.1810, throughput=76341719.88820739
+2024-06-23 22:02:09,091:INFO:Geometric mean of throughput: 79487258.46961662
+2024-06-23 22:02:09,091:INFO:start and end byte are: 928895981 and 928895980
+2024-06-23 22:02:09,091:INFO:Current throughput for http://10.134.48.2/large: 76341719.88820739
+2024-06-23 22:02:09,091:INFO:Slow server throughput: 76341719.88820739
+2024-06-23 22:02:09,091:INFO:Small chunk size: 14968917
+2024-06-23 22:02:09,091:INFO:small_start_byte, small_end_byte: 928895981 and 943864899
+2024-06-23 22:02:09,091:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=928895981, end_byte=943864899
+2024-06-23 22:02:09,092:INFO:Fetching range::::: 928895981-943864899 from http://10.134.48.2/large
+2024-06-23 22:02:09,114:INFO:Delay 0.22180414199829102
+2024-06-23 22:02:09,114:INFO:Successfully fetched range 882027458-894107498 from http://10.135.163.2/large at 1719180129.1148615
+2024-06-23 22:02:09,114:INFO:Throughput: {'http://10.137.132.2/large': 106955088.60104327, 'http://10.134.48.2/large': 76341719.88820739, 'http://10.135.163.2/large': 54462643.89459903}
+2024-06-23 22:02:09,114:INFO:number_of_chunk: 54
+2024-06-23 22:02:09,114:INFO:Fetched range: start_byte=882027458, end_byte=894107498, delay=0.2218, throughput=54462643.89459903
+2024-06-23 22:02:09,115:INFO:Geometric mean of throughput: 76328612.99793294
+2024-06-23 22:02:09,115:INFO:start and end byte are: 943864900 and 943864899
+2024-06-23 22:02:09,115:INFO:Current throughput for http://10.135.163.2/large: 54462643.89459903
+2024-06-23 22:02:09,115:INFO:Slow server throughput: 54462643.89459903
+2024-06-23 22:02:09,115:INFO:Small chunk size: 10678916
+2024-06-23 22:02:09,115:INFO:small_start_byte, small_end_byte: 943864900 and 954543817
+2024-06-23 22:02:09,115:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=943864900, end_byte=954543817
+2024-06-23 22:02:09,115:INFO:Fetching range::::: 943864900-954543817 from http://10.135.163.2/large
+2024-06-23 22:02:09,242:INFO:Delay 0.19147276878356934
+2024-06-23 22:02:09,242:INFO:Successfully fetched range 907924459-928895980 from http://10.137.132.2/large at 1719180129.242411
+2024-06-23 22:02:09,242:INFO:Throughput: {'http://10.137.132.2/large': 109527433.76111668, 'http://10.134.48.2/large': 76341719.88820739, 'http://10.135.163.2/large': 54462643.89459903}
+2024-06-23 22:02:09,242:INFO:number_of_chunk: 55
+2024-06-23 22:02:09,242:INFO:Fetched range: start_byte=907924459, end_byte=928895980, delay=0.1915, throughput=109527433.76111668
+2024-06-23 22:02:09,243:INFO:Geometric mean of throughput: 76935690.77396938
+2024-06-23 22:02:09,243:INFO:start and end byte are: 954543818 and 954543817
+2024-06-23 22:02:09,243:INFO:Current throughput for http://10.137.132.2/large: 109527433.76111668
+2024-06-23 22:02:09,243:INFO:Fast server throughput: 109527433.76111668
+2024-06-23 22:02:09,243:INFO:Fast download time: 0.19147275965343666
+2024-06-23 22:02:09,243:INFO:Large chunk start byte: 954543818
+2024-06-23 22:02:09,243:INFO:Large chunk end byte: 975515339
+2024-06-23 22:02:09,243:INFO:Large_start_byte, Large_end_byte: 954543818 and 975515339
+2024-06-23 22:02:09,243:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=954543818, end_byte=975515339
+2024-06-23 22:02:09,243:INFO:Fetching range::::: 954543818-975515339 from http://10.137.132.2/large
+2024-06-23 22:02:09,296:INFO:Delay 0.20474791526794434
+2024-06-23 22:02:09,297:INFO:Successfully fetched range 928895981-943864899 from http://10.134.48.2/large at 1719180129.2970333
+2024-06-23 22:02:09,297:INFO:Throughput: {'http://10.137.132.2/large': 109527433.76111668, 'http://10.134.48.2/large': 73109013.0046543, 'http://10.135.163.2/large': 54462643.89459903}
+2024-06-23 22:02:09,297:INFO:number_of_chunk: 56
+2024-06-23 22:02:09,297:INFO:Fetched range: start_byte=928895981, end_byte=943864899, delay=0.2047, throughput=73109013.0046543
+2024-06-23 22:02:09,297:INFO:Geometric mean of throughput: 75834038.45866783
+2024-06-23 22:02:09,297:INFO:start and end byte are: 975515340 and 975515339
+2024-06-23 22:02:09,297:INFO:Current throughput for http://10.134.48.2/large: 73109013.0046543
+2024-06-23 22:02:09,297:INFO:Slow server throughput: 73109013.0046543
+2024-06-23 22:02:09,297:INFO:Small chunk size: 13998384
+2024-06-23 22:02:09,297:INFO:small_start_byte, small_end_byte: 975515340 and 989513725
+2024-06-23 22:02:09,297:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=975515340, end_byte=989513725
+2024-06-23 22:02:09,298:INFO:Fetching range::::: 975515340-989513725 from http://10.134.48.2/large
+2024-06-23 22:02:09,302:INFO:Delay 0.18617987632751465
+2024-06-23 22:02:09,302:INFO:Successfully fetched range 943864900-954543817 from http://10.135.163.2/large at 1719180129.3022418
+2024-06-23 22:02:09,302:INFO:Throughput: {'http://10.137.132.2/large': 109527433.76111668, 'http://10.134.48.2/large': 73109013.0046543, 'http://10.135.163.2/large': 57358062.59326542}
+2024-06-23 22:02:09,302:INFO:number_of_chunk: 57
+2024-06-23 22:02:09,302:INFO:Fetched range: start_byte=943864900, end_byte=954543817, delay=0.1862, throughput=57358062.59326542
+2024-06-23 22:02:09,302:INFO:Geometric mean of throughput: 77154767.8529051
+2024-06-23 22:02:09,302:INFO:start and end byte are: 989513726 and 989513725
+2024-06-23 22:02:09,303:INFO:Current throughput for http://10.135.163.2/large: 57358062.59326542
+2024-06-23 22:02:09,303:INFO:Slow server throughput: 57358062.59326542
+2024-06-23 22:02:09,303:INFO:Small chunk size: 10982506
+2024-06-23 22:02:09,303:INFO:small_start_byte, small_end_byte: 989513726 and 1000496233
+2024-06-23 22:02:09,303:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=989513726, end_byte=1000496233
+2024-06-23 22:02:09,303:INFO:Fetching range::::: 989513726-1000496233 from http://10.135.163.2/large
+2024-06-23 22:02:09,444:INFO:Delay 0.2005617618560791
+2024-06-23 22:02:09,444:INFO:Successfully fetched range 954543818-975515339 from http://10.137.132.2/large at 1719180129.4442432
+2024-06-23 22:02:09,444:INFO:Throughput: {'http://10.137.132.2/large': 104563904.93342859, 'http://10.134.48.2/large': 73109013.0046543, 'http://10.135.163.2/large': 57358062.59326542}
+2024-06-23 22:02:09,444:INFO:number_of_chunk: 58
+2024-06-23 22:02:09,444:INFO:Fetched range: start_byte=954543818, end_byte=975515339, delay=0.2006, throughput=104563904.93342859
+2024-06-23 22:02:09,444:INFO:Geometric mean of throughput: 75971213.35035916
+2024-06-23 22:02:09,445:INFO:start and end byte are: 1000496234 and 1000496233
+2024-06-23 22:02:09,445:INFO:Current throughput for http://10.137.132.2/large: 104563904.93342859
+2024-06-23 22:02:09,445:INFO:Fast server throughput: 104563904.93342859
+2024-06-23 22:02:09,445:INFO:Fast download time: 0.20056175229254952
+2024-06-23 22:02:09,445:INFO:Large chunk start byte: 1000496234
+2024-06-23 22:02:09,445:INFO:Large chunk end byte: 1021467755
+2024-06-23 22:02:09,445:INFO:Large_start_byte, Large_end_byte: 1000496234 and 1021467755
+2024-06-23 22:02:09,445:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1000496234, end_byte=1021467755
+2024-06-23 22:02:09,445:INFO:Fetching range::::: 1000496234-1021467755 from http://10.137.132.2/large
+2024-06-23 22:02:09,473:INFO:Delay 0.175032377243042
+2024-06-23 22:02:09,473:INFO:Successfully fetched range 975515340-989513725 from http://10.134.48.2/large at 1719180129.4733396
+2024-06-23 22:02:09,473:INFO:Throughput: {'http://10.137.132.2/large': 104563904.93342859, 'http://10.134.48.2/large': 79975974.84814183, 'http://10.135.163.2/large': 57358062.59326542}
+2024-06-23 22:02:09,473:INFO:number_of_chunk: 59
+2024-06-23 22:02:09,473:INFO:Fetched range: start_byte=975515340, end_byte=989513725, delay=0.1750, throughput=79975974.84814183
+2024-06-23 22:02:09,474:INFO:Geometric mean of throughput: 78279000.16207154
+2024-06-23 22:02:09,474:INFO:start and end byte are: 1021467756 and 1021467755
+2024-06-23 22:02:09,474:INFO:Current throughput for http://10.134.48.2/large: 79975974.84814183
+2024-06-23 22:02:09,474:INFO:Fast server throughput: 79975974.84814183
+2024-06-23 22:02:09,474:INFO:Fast download time: 0.2622227492671476
+2024-06-23 22:02:09,474:INFO:Large chunk start byte: 1021467756
+2024-06-23 22:02:09,474:INFO:Large chunk end byte: 1042439277
+2024-06-23 22:02:09,474:INFO:Large_start_byte, Large_end_byte: 1021467756 and 1042439277
+2024-06-23 22:02:09,474:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1021467756, end_byte=1042439277
+2024-06-23 22:02:09,474:INFO:Fetching range::::: 1021467756-1042439277 from http://10.134.48.2/large
+2024-06-23 22:02:09,524:INFO:Delay 0.22091197967529297
+2024-06-23 22:02:09,524:INFO:Successfully fetched range 989513726-1000496233 from http://10.135.163.2/large at 1719180129.5243125
+2024-06-23 22:02:09,524:INFO:Throughput: {'http://10.137.132.2/large': 104563904.93342859, 'http://10.134.48.2/large': 79975974.84814183, 'http://10.135.163.2/large': 49714402.16208562}
+2024-06-23 22:02:09,524:INFO:number_of_chunk: 60
+2024-06-23 22:02:09,524:INFO:Fetched range: start_byte=989513726, end_byte=1000496233, delay=0.2209, throughput=49714402.16208562
+2024-06-23 22:02:09,525:INFO:Geometric mean of throughput: 74634767.7594679
+2024-06-23 22:02:09,525:INFO:start and end byte are: 1042439278 and 1042439277
+2024-06-23 22:02:09,525:INFO:Current throughput for http://10.135.163.2/large: 49714402.16208562
+2024-06-23 22:02:09,525:INFO:Slow server throughput: 49714402.16208562
+2024-06-23 22:02:09,525:INFO:Small chunk size: 13036247
+2024-06-23 22:02:09,525:INFO:small_start_byte, small_end_byte: 1042439278 and 1055475526
+2024-06-23 22:02:09,525:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1042439278, end_byte=1055475526
+2024-06-23 22:02:09,525:INFO:Fetching range::::: 1042439278-1055475526 from http://10.135.163.2/large
+2024-06-23 22:02:09,639:INFO:Delay 0.1938037872314453
+2024-06-23 22:02:09,639:INFO:Successfully fetched range 1000496234-1021467755 from http://10.137.132.2/large at 1719180129.6393225
+2024-06-23 22:02:09,639:INFO:Throughput: {'http://10.137.132.2/large': 108210068.02594258, 'http://10.134.48.2/large': 79975974.84814183, 'http://10.135.163.2/large': 49714402.16208562}
+2024-06-23 22:02:09,639:INFO:number_of_chunk: 61
+2024-06-23 22:02:09,639:INFO:Fetched range: start_byte=1000496234, end_byte=1021467755, delay=0.1938, throughput=108210068.02594258
+2024-06-23 22:02:09,640:INFO:Geometric mean of throughput: 75492384.74174649
+2024-06-23 22:02:09,640:INFO:start and end byte are: 1055475527 and 1055475526
+2024-06-23 22:02:09,640:INFO:Current throughput for http://10.137.132.2/large: 108210068.02594258
+2024-06-23 22:02:09,640:INFO:Fast server throughput: 108210068.02594258
+2024-06-23 22:02:09,640:INFO:Fast download time: 0.19380377799016105
+2024-06-23 22:02:09,640:INFO:Large chunk start byte: 1055475527
+2024-06-23 22:02:09,640:INFO:Large chunk end byte: 1076447048
+2024-06-23 22:02:09,640:INFO:Large_start_byte, Large_end_byte: 1055475527 and 1076447048
+2024-06-23 22:02:09,640:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1055475527, end_byte=1076447048
+2024-06-23 22:02:09,640:INFO:Fetching range::::: 1055475527-1076447048 from http://10.137.132.2/large
+2024-06-23 22:02:09,718:INFO:Delay 0.24393033981323242
+2024-06-23 22:02:09,718:INFO:Successfully fetched range 1021467756-1042439277 from http://10.134.48.2/large at 1719180129.718564
+2024-06-23 22:02:09,718:INFO:Throughput: {'http://10.137.132.2/large': 108210068.02594258, 'http://10.134.48.2/large': 85973401.32456276, 'http://10.135.163.2/large': 49714402.16208562}
+2024-06-23 22:02:09,718:INFO:number_of_chunk: 62
+2024-06-23 22:02:09,718:INFO:Fetched range: start_byte=1021467756, end_byte=1042439277, delay=0.2439, throughput=85973401.32456276
+2024-06-23 22:02:09,719:INFO:Geometric mean of throughput: 77334153.01389214
+2024-06-23 22:02:09,719:INFO:start and end byte are: 1076447049 and 1076447048
+2024-06-23 22:02:09,719:INFO:Current throughput for http://10.134.48.2/large: 85973401.32456276
+2024-06-23 22:02:09,719:INFO:Fast server throughput: 85973401.32456276
+2024-06-23 22:02:09,719:INFO:Fast download time: 0.24393032818172797
+2024-06-23 22:02:09,719:INFO:Large chunk start byte: 1076447049
+2024-06-23 22:02:09,719:INFO:Large chunk end byte: 1097418570
+2024-06-23 22:02:09,719:INFO:Large_start_byte, Large_end_byte: 1076447049 and 1097418570
+2024-06-23 22:02:09,719:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1076447049, end_byte=1097418570
+2024-06-23 22:02:09,719:INFO:Fetching range::::: 1076447049-1097418570 from http://10.134.48.2/large
+2024-06-23 22:02:09,747:INFO:Delay 0.22254061698913574
+2024-06-23 22:02:09,748:INFO:Successfully fetched range 1042439278-1055475526 from http://10.135.163.2/large at 1719180129.748063
+2024-06-23 22:02:09,748:INFO:Throughput: {'http://10.137.132.2/large': 108210068.02594258, 'http://10.134.48.2/large': 85973401.32456276, 'http://10.135.163.2/large': 58579185.12303046}
+2024-06-23 22:02:09,748:INFO:number_of_chunk: 63
+2024-06-23 22:02:09,748:INFO:Fetched range: start_byte=1042439278, end_byte=1055475526, delay=0.2225, throughput=58579185.12303046
+2024-06-23 22:02:09,748:INFO:Geometric mean of throughput: 81681750.22940078
+2024-06-23 22:02:09,748:INFO:start and end byte are: 1097418571 and 1097418570
+2024-06-23 22:02:09,748:INFO:Current throughput for http://10.135.163.2/large: 58579185.12303046
+2024-06-23 22:02:09,748:INFO:Slow server throughput: 58579185.12303046
+2024-06-23 22:02:09,748:INFO:Small chunk size: 14289239
+2024-06-23 22:02:09,748:INFO:small_start_byte, small_end_byte: 1097418571 and 1111707811
+2024-06-23 22:02:09,748:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1097418571, end_byte=1111707811
+2024-06-23 22:02:09,749:INFO:Fetching range::::: 1097418571-1111707811 from http://10.135.163.2/large
+2024-06-23 22:02:09,856:INFO:Delay 0.21573209762573242
+2024-06-23 22:02:09,856:INFO:Successfully fetched range 1055475527-1076447048 from http://10.137.132.2/large at 1719180129.8563795
+2024-06-23 22:02:09,856:INFO:Throughput: {'http://10.137.132.2/large': 97210944.64293814, 'http://10.134.48.2/large': 85973401.32456276, 'http://10.135.163.2/large': 58579185.12303046}
+2024-06-23 22:02:09,856:INFO:number_of_chunk: 64
+2024-06-23 22:02:09,856:INFO:Fetched range: start_byte=1055475527, end_byte=1076447048, delay=0.2157, throughput=97210944.64293814
+2024-06-23 22:02:09,857:INFO:Geometric mean of throughput: 78814755.52662344
+2024-06-23 22:02:09,857:INFO:start and end byte are: 1111707812 and 1111707811
+2024-06-23 22:02:09,857:INFO:Current throughput for http://10.137.132.2/large: 97210944.64293814
+2024-06-23 22:02:09,857:INFO:Fast server throughput: 97210944.64293814
+2024-06-23 22:02:09,857:INFO:Fast download time: 0.21573208733882487
+2024-06-23 22:02:09,857:INFO:Large chunk start byte: 1111707812
+2024-06-23 22:02:09,857:INFO:Large chunk end byte: 1132679333
+2024-06-23 22:02:09,857:INFO:Large_start_byte, Large_end_byte: 1111707812 and 1132679333
+2024-06-23 22:02:09,857:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1111707812, end_byte=1132679333
+2024-06-23 22:02:09,857:INFO:Fetching range::::: 1111707812-1132679333 from http://10.137.132.2/large
+2024-06-23 22:02:09,974:INFO:Delay 0.22497248649597168
+2024-06-23 22:02:09,974:INFO:Successfully fetched range 1097418571-1111707811 from http://10.135.163.2/large at 1719180129.9742625
+2024-06-23 22:02:09,974:INFO:Throughput: {'http://10.137.132.2/large': 97210944.64293814, 'http://10.134.48.2/large': 85973401.32456276, 'http://10.135.163.2/large': 63515500.15097451}
+2024-06-23 22:02:09,974:INFO:number_of_chunk: 65
+2024-06-23 22:02:09,974:INFO:Fetched range: start_byte=1097418571, end_byte=1111707811, delay=0.2250, throughput=63515500.15097451
+2024-06-23 22:02:09,975:INFO:Geometric mean of throughput: 80969165.78952433
+2024-06-23 22:02:09,975:INFO:start and end byte are: 1132679334 and 1132679333
+2024-06-23 22:02:09,975:INFO:Current throughput for http://10.135.163.2/large: 63515500.15097451
+2024-06-23 22:02:09,975:INFO:Slow server throughput: 63515500.15097451
+2024-06-23 22:02:09,975:INFO:Small chunk size: 13702331
+2024-06-23 22:02:09,975:INFO:small_start_byte, small_end_byte: 1132679334 and 1146381666
+2024-06-23 22:02:09,975:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1132679334, end_byte=1146381666
+2024-06-23 22:02:09,975:INFO:Fetching range::::: 1132679334-1146381666 from http://10.135.163.2/large
+2024-06-23 22:02:09,994:INFO:Delay 0.27484679222106934
+2024-06-23 22:02:09,994:INFO:Successfully fetched range 1076447049-1097418570 from http://10.134.48.2/large at 1719180129.994676
+2024-06-23 22:02:09,994:INFO:Throughput: {'http://10.137.132.2/large': 97210944.64293814, 'http://10.134.48.2/large': 76302585.99900936, 'http://10.135.163.2/large': 63515500.15097451}
+2024-06-23 22:02:09,994:INFO:number_of_chunk: 66
+2024-06-23 22:02:09,994:INFO:Fetched range: start_byte=1076447049, end_byte=1097418570, delay=0.2748, throughput=76302585.99900936
+2024-06-23 22:02:09,994:INFO:Slow server throughput: 76302585.99900936
+2024-06-23 22:02:09,994:INFO:Small chunk size: 16460916
+2024-06-23 22:02:09,994:INFO:small_start_byte, small_end_byte: 1146381667 and 1162842584
+2024-06-23 22:02:09,994:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1146381667, end_byte=1162842584
+2024-06-23 22:02:09,994:INFO:Fetching range::::: 1146381667-1162842584 from http://10.134.48.2/large
+2024-06-23 22:02:10,068:INFO:Delay 0.2110912799835205
+2024-06-23 22:02:10,068:INFO:Successfully fetched range 1111707812-1132679333 from http://10.137.132.2/large at 1719180130.068861
+2024-06-23 22:02:10,068:INFO:Throughput: {'http://10.137.132.2/large': 99348116.14026503, 'http://10.134.48.2/large': 76302585.99900936, 'http://10.135.163.2/large': 63515500.15097451}
+2024-06-23 22:02:10,068:INFO:number_of_chunk: 67
+2024-06-23 22:02:10,068:INFO:Fetched range: start_byte=1111707812, end_byte=1132679333, delay=0.2111, throughput=99348116.14026503
+2024-06-23 22:02:10,069:INFO:Geometric mean of throughput: 78377764.42172626
+2024-06-23 22:02:10,069:INFO:start and end byte are: 1162842585 and 1162842584
+2024-06-23 22:02:10,069:INFO:Current throughput for http://10.137.132.2/large: 99348116.14026503
+2024-06-23 22:02:10,069:INFO:Fast server throughput: 99348116.14026503
+2024-06-23 22:02:10,069:INFO:Fast download time: 0.2110912699179044
+2024-06-23 22:02:10,069:INFO:Large chunk start byte: 1162842585
+2024-06-23 22:02:10,069:INFO:Large chunk end byte: 1183814106
+2024-06-23 22:02:10,069:INFO:Large_start_byte, Large_end_byte: 1162842585 and 1183814106
+2024-06-23 22:02:10,069:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1162842585, end_byte=1183814106
+2024-06-23 22:02:10,069:INFO:Fetching range::::: 1162842585-1183814106 from http://10.137.132.2/large
+2024-06-23 22:02:10,209:INFO:Delay 0.23401618003845215
+2024-06-23 22:02:10,209:INFO:Successfully fetched range 1132679334-1146381666 from http://10.135.163.2/large at 1719180130.20952
+2024-06-23 22:02:10,209:INFO:Throughput: {'http://10.137.132.2/large': 99348116.14026503, 'http://10.134.48.2/large': 76302585.99900936, 'http://10.135.163.2/large': 58552925.68978997}
+2024-06-23 22:02:10,209:INFO:number_of_chunk: 68
+2024-06-23 22:02:10,209:INFO:Fetched range: start_byte=1132679334, end_byte=1146381666, delay=0.2340, throughput=58552925.68978997
+2024-06-23 22:02:10,210:INFO:Geometric mean of throughput: 76280903.99665083
+2024-06-23 22:02:10,210:INFO:start and end byte are: 1183814107 and 1183814106
+2024-06-23 22:02:10,210:INFO:Current throughput for http://10.135.163.2/large: 58552925.68978997
+2024-06-23 22:02:10,210:INFO:Slow server throughput: 58552925.68978997
+2024-06-23 22:02:10,210:INFO:Small chunk size: 12360011
+2024-06-23 22:02:10,210:INFO:small_start_byte, small_end_byte: 1183814107 and 1196174119
+2024-06-23 22:02:10,210:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1183814107, end_byte=1196174119
+2024-06-23 22:02:10,210:INFO:Fetching range::::: 1183814107-1196174119 from http://10.135.163.2/large
+2024-06-23 22:02:10,216:INFO:Delay 0.22185659408569336
+2024-06-23 22:02:10,217:INFO:Successfully fetched range 1146381667-1162842584 from http://10.134.48.2/large at 1719180130.2170968
+2024-06-23 22:02:10,217:INFO:Throughput: {'http://10.137.132.2/large': 99348116.14026503, 'http://10.134.48.2/large': 74196203.48828523, 'http://10.135.163.2/large': 58552925.68978997}
+2024-06-23 22:02:10,217:INFO:number_of_chunk: 69
+2024-06-23 22:02:10,217:INFO:Fetched range: start_byte=1146381667, end_byte=1162842584, delay=0.2219, throughput=74196203.48828523
+2024-06-23 22:02:10,217:INFO:Geometric mean of throughput: 75572416.0288259
+2024-06-23 22:02:10,217:INFO:start and end byte are: 1196174120 and 1196174119
+2024-06-23 22:02:10,217:INFO:Current throughput for http://10.134.48.2/large: 74196203.48828523
+2024-06-23 22:02:10,218:INFO:Slow server throughput: 74196203.48828523
+2024-06-23 22:02:10,218:INFO:Small chunk size: 15662170
+2024-06-23 22:02:10,218:INFO:small_start_byte, small_end_byte: 1196174120 and 1211836291
+2024-06-23 22:02:10,218:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1196174120, end_byte=1211836291
+2024-06-23 22:02:10,218:INFO:Fetching range::::: 1196174120-1211836291 from http://10.134.48.2/large
+2024-06-23 22:02:10,262:INFO:Delay 0.1925969123840332
+2024-06-23 22:02:10,262:INFO:Successfully fetched range 1162842585-1183814106 from http://10.137.132.2/large at 1719180130.2628157
+2024-06-23 22:02:10,262:INFO:Throughput: {'http://10.137.132.2/large': 108888147.48069967, 'http://10.134.48.2/large': 74196203.48828523, 'http://10.135.163.2/large': 58552925.68978997}
+2024-06-23 22:02:10,262:INFO:number_of_chunk: 70
+2024-06-23 22:02:10,262:INFO:Fetched range: start_byte=1162842585, end_byte=1183814106, delay=0.1926, throughput=108888147.48069967
+2024-06-23 22:02:10,263:INFO:Geometric mean of throughput: 77917850.69132106
+2024-06-23 22:02:10,263:INFO:start and end byte are: 1211836292 and 1211836291
+2024-06-23 22:02:10,263:INFO:Current throughput for http://10.137.132.2/large: 108888147.48069967
+2024-06-23 22:02:10,263:INFO:Fast server throughput: 108888147.48069967
+2024-06-23 22:02:10,263:INFO:Fast download time: 0.1925969032002972
+2024-06-23 22:02:10,263:INFO:Large chunk start byte: 1211836292
+2024-06-23 22:02:10,263:INFO:Large chunk end byte: 1232807813
+2024-06-23 22:02:10,263:INFO:Large_start_byte, Large_end_byte: 1211836292 and 1232807813
+2024-06-23 22:02:10,263:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1211836292, end_byte=1232807813
+2024-06-23 22:02:10,263:INFO:Fetching range::::: 1211836292-1232807813 from http://10.137.132.2/large
+2024-06-23 22:02:10,424:INFO:Delay 0.2064056396484375
+2024-06-23 22:02:10,424:INFO:Successfully fetched range 1196174120-1211836291 from http://10.134.48.2/large at 1719180130.4247997
+2024-06-23 22:02:10,424:INFO:Throughput: {'http://10.137.132.2/large': 108888147.48069967, 'http://10.134.48.2/large': 75880538.08353662, 'http://10.135.163.2/large': 58552925.68978997}
+2024-06-23 22:02:10,424:INFO:number_of_chunk: 71
+2024-06-23 22:02:10,424:INFO:Fetched range: start_byte=1196174120, end_byte=1211836291, delay=0.2064, throughput=75880538.08353662
+2024-06-23 22:02:10,425:INFO:Geometric mean of throughput: 78503051.23006621
+2024-06-23 22:02:10,425:INFO:start and end byte are: 1232807814 and 1232807813
+2024-06-23 22:02:10,425:INFO:Current throughput for http://10.134.48.2/large: 75880538.08353662
+2024-06-23 22:02:10,425:INFO:Slow server throughput: 75880538.08353662
+2024-06-23 22:02:10,425:INFO:Small chunk size: 14614356
+2024-06-23 22:02:10,425:INFO:small_start_byte, small_end_byte: 1232807814 and 1247422171
+2024-06-23 22:02:10,425:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1232807814, end_byte=1247422171
+2024-06-23 22:02:10,425:INFO:Fetching range::::: 1232807814-1247422171 from http://10.134.48.2/large
+2024-06-23 22:02:10,434:INFO:Delay 0.22369170188903809
+2024-06-23 22:02:10,434:INFO:Successfully fetched range 1183814107-1196174119 from http://10.135.163.2/large at 1719180130.4344482
+2024-06-23 22:02:10,434:INFO:Throughput: {'http://10.137.132.2/large': 108888147.48069967, 'http://10.134.48.2/large': 75880538.08353662, 'http://10.135.163.2/large': 55254673.71217536}
+2024-06-23 22:02:10,434:INFO:number_of_chunk: 72
+2024-06-23 22:02:10,434:INFO:Fetched range: start_byte=1183814107, end_byte=1196174119, delay=0.2237, throughput=55254673.71217536
+2024-06-23 22:02:10,435:INFO:Geometric mean of throughput: 77000464.1849674
+2024-06-23 22:02:10,435:INFO:start and end byte are: 1247422172 and 1247422171
+2024-06-23 22:02:10,435:INFO:Current throughput for http://10.135.163.2/large: 55254673.71217536
+2024-06-23 22:02:10,435:INFO:Slow server throughput: 55254673.71217536
+2024-06-23 22:02:10,435:INFO:Small chunk size: 10641879
+2024-06-23 22:02:10,435:INFO:small_start_byte, small_end_byte: 1247422172 and 1258064052
+2024-06-23 22:02:10,435:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1247422172, end_byte=1258064052
+2024-06-23 22:02:10,435:INFO:Fetching range::::: 1247422172-1258064052 from http://10.135.163.2/large
+2024-06-23 22:02:10,474:INFO:Delay 0.21080827713012695
+2024-06-23 22:02:10,474:INFO:Successfully fetched range 1211836292-1232807813 from http://10.137.132.2/large at 1719180130.4749448
+2024-06-23 22:02:10,474:INFO:Throughput: {'http://10.137.132.2/large': 99481487.56538045, 'http://10.134.48.2/large': 75880538.08353662, 'http://10.135.163.2/large': 55254673.71217536}
+2024-06-23 22:02:10,475:INFO:number_of_chunk: 73
+2024-06-23 22:02:10,475:INFO:Fetched range: start_byte=1211836292, end_byte=1232807813, delay=0.2108, throughput=99481487.56538045
+2024-06-23 22:02:10,475:INFO:Geometric mean of throughput: 74716048.8026245
+2024-06-23 22:02:10,475:INFO:start and end byte are: 1258064053 and 1258064052
+2024-06-23 22:02:10,475:INFO:Current throughput for http://10.137.132.2/large: 99481487.56538045
+2024-06-23 22:02:10,475:INFO:Fast server throughput: 99481487.56538045
+2024-06-23 22:02:10,475:INFO:Fast download time: 0.21080826707800543
+2024-06-23 22:02:10,475:INFO:Large chunk start byte: 1258064053
+2024-06-23 22:02:10,475:INFO:Large chunk end byte: 1279035574
+2024-06-23 22:02:10,475:INFO:Large_start_byte, Large_end_byte: 1258064053 and 1279035574
+2024-06-23 22:02:10,475:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1258064053, end_byte=1279035574
+2024-06-23 22:02:10,475:INFO:Fetching range::::: 1258064053-1279035574 from http://10.137.132.2/large
+2024-06-23 22:02:10,614:INFO:Delay 0.17913413047790527
+2024-06-23 22:02:10,614:INFO:Successfully fetched range 1247422172-1258064052 from http://10.135.163.2/large at 1719180130.6148076
+2024-06-23 22:02:10,614:INFO:Throughput: {'http://10.137.132.2/large': 99481487.56538045, 'http://10.134.48.2/large': 75880538.08353662, 'http://10.135.163.2/large': 59407327.74714079}
+2024-06-23 22:02:10,614:INFO:number_of_chunk: 74
+2024-06-23 22:02:10,614:INFO:Fetched range: start_byte=1247422172, end_byte=1258064052, delay=0.1791, throughput=59407327.74714079
+2024-06-23 22:02:10,615:INFO:Geometric mean of throughput: 76542779.72900169
+2024-06-23 22:02:10,615:INFO:start and end byte are: 1279035575 and 1279035574
+2024-06-23 22:02:10,615:INFO:Current throughput for http://10.135.163.2/large: 59407327.74714079
+2024-06-23 22:02:10,615:INFO:Slow server throughput: 59407327.74714079
+2024-06-23 22:02:10,615:INFO:Small chunk size: 12523555
+2024-06-23 22:02:10,615:INFO:small_start_byte, small_end_byte: 1279035575 and 1291559131
+2024-06-23 22:02:10,615:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1279035575, end_byte=1291559131
+2024-06-23 22:02:10,615:INFO:Fetching range::::: 1279035575-1291559131 from http://10.135.163.2/large
+2024-06-23 22:02:10,630:INFO:Delay 0.20502305030822754
+2024-06-23 22:02:10,631:INFO:Successfully fetched range 1232807814-1247422171 from http://10.134.48.2/large at 1719180130.631091
+2024-06-23 22:02:10,631:INFO:Throughput: {'http://10.137.132.2/large': 99481487.56538045, 'http://10.134.48.2/large': 71281531.40843953, 'http://10.135.163.2/large': 59407327.74714079}
+2024-06-23 22:02:10,631:INFO:number_of_chunk: 75
+2024-06-23 22:02:10,631:INFO:Fetched range: start_byte=1232807814, end_byte=1247422171, delay=0.2050, throughput=71281531.40843953
+2024-06-23 22:02:10,631:INFO:Geometric mean of throughput: 74964060.62542675
+2024-06-23 22:02:10,631:INFO:start and end byte are: 1291559132 and 1291559131
+2024-06-23 22:02:10,631:INFO:Current throughput for http://10.134.48.2/large: 71281531.40843953
+2024-06-23 22:02:10,631:INFO:Slow server throughput: 71281531.40843953
+2024-06-23 22:02:10,631:INFO:Small chunk size: 15026736
+2024-06-23 22:02:10,631:INFO:small_start_byte, small_end_byte: 1291559132 and 1306585869
+2024-06-23 22:02:10,631:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1291559132, end_byte=1306585869
+2024-06-23 22:02:10,632:INFO:Fetching range::::: 1291559132-1306585869 from http://10.134.48.2/large
+2024-06-23 22:02:10,668:INFO:Delay 0.191941499710083
+2024-06-23 22:02:10,668:INFO:Successfully fetched range 1258064053-1279035574 from http://10.137.132.2/large at 1719180130.6681547
+2024-06-23 22:02:10,668:INFO:Throughput: {'http://10.137.132.2/large': 109259962.18470898, 'http://10.134.48.2/large': 71281531.40843953, 'http://10.135.163.2/large': 59407327.74714079}
+2024-06-23 22:02:10,668:INFO:number_of_chunk: 76
+2024-06-23 22:02:10,668:INFO:Fetched range: start_byte=1258064053, end_byte=1279035574, delay=0.1919, throughput=109259962.18470898
+2024-06-23 22:02:10,668:INFO:Geometric mean of throughput: 77343893.06283113
+2024-06-23 22:02:10,668:INFO:start and end byte are: 1306585870 and 1306585869
+2024-06-23 22:02:10,668:INFO:Current throughput for http://10.137.132.2/large: 109259962.18470898
+2024-06-23 22:02:10,669:INFO:Fast server throughput: 109259962.18470898
+2024-06-23 22:02:10,669:INFO:Fast download time: 0.19194149055759951
+2024-06-23 22:02:10,669:INFO:Large chunk start byte: 1306585870
+2024-06-23 22:02:10,669:INFO:Large chunk end byte: 1327557391
+2024-06-23 22:02:10,669:INFO:Large_start_byte, Large_end_byte: 1306585870 and 1327557391
+2024-06-23 22:02:10,669:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1306585870, end_byte=1327557391
+2024-06-23 22:02:10,669:INFO:Fetching range::::: 1306585870-1327557391 from http://10.137.132.2/large
+2024-06-23 22:02:10,839:INFO:Delay 0.2232682704925537
+2024-06-23 22:02:10,839:INFO:Successfully fetched range 1279035575-1291559131 from http://10.135.163.2/large at 1719180130.8393073
+2024-06-23 22:02:10,839:INFO:Throughput: {'http://10.137.132.2/large': 109259962.18470898, 'http://10.134.48.2/large': 71281531.40843953, 'http://10.135.163.2/large': 56091964.93694198}
+2024-06-23 22:02:10,839:INFO:number_of_chunk: 77
+2024-06-23 22:02:10,839:INFO:Fetched range: start_byte=1279035575, end_byte=1291559131, delay=0.2233, throughput=56091964.93694198
+2024-06-23 22:02:10,840:INFO:Geometric mean of throughput: 75877481.42691922
+2024-06-23 22:02:10,840:INFO:start and end byte are: 1327557392 and 1327557391
+2024-06-23 22:02:10,840:INFO:Current throughput for http://10.135.163.2/large: 56091964.93694198
+2024-06-23 22:02:10,840:INFO:Slow server throughput: 56091964.93694198
+2024-06-23 22:02:10,840:INFO:Small chunk size: 10766375
+2024-06-23 22:02:10,840:INFO:small_start_byte, small_end_byte: 1327557392 and 1338323768
+2024-06-23 22:02:10,840:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1327557392, end_byte=1338323768
+2024-06-23 22:02:10,840:INFO:Fetching range::::: 1327557392-1338323768 from http://10.135.163.2/large
+2024-06-23 22:02:10,845:INFO:Delay 0.21347355842590332
+2024-06-23 22:02:10,845:INFO:Successfully fetched range 1291559132-1306585869 from http://10.134.48.2/large at 1719180130.8457828
+2024-06-23 22:02:10,845:INFO:Throughput: {'http://10.137.132.2/large': 109259962.18470898, 'http://10.134.48.2/large': 70391560.95398007, 'http://10.135.163.2/large': 56091964.93694198}
+2024-06-23 22:02:10,845:INFO:number_of_chunk: 78
+2024-06-23 22:02:10,845:INFO:Fetched range: start_byte=1291559132, end_byte=1306585869, delay=0.2135, throughput=70391560.95398007
+2024-06-23 22:02:10,846:INFO:Geometric mean of throughput: 75560373.94471799
+2024-06-23 22:02:10,846:INFO:start and end byte are: 1338323769 and 1338323768
+2024-06-23 22:02:10,846:INFO:Current throughput for http://10.134.48.2/large: 70391560.95398007
+2024-06-23 22:02:10,846:INFO:Slow server throughput: 70391560.95398007
+2024-06-23 22:02:10,846:INFO:Small chunk size: 13511061
+2024-06-23 22:02:10,846:INFO:small_start_byte, small_end_byte: 1338323769 and 1351834831
+2024-06-23 22:02:10,846:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1338323769, end_byte=1351834831
+2024-06-23 22:02:10,846:INFO:Fetching range::::: 1338323769-1351834831 from http://10.134.48.2/large
+2024-06-23 22:02:10,861:INFO:Delay 0.1918468475341797
+2024-06-23 22:02:10,861:INFO:Successfully fetched range 1306585870-1327557391 from http://10.137.132.2/large at 1719180130.8612707
+2024-06-23 22:02:10,861:INFO:Throughput: {'http://10.137.132.2/large': 109313868.16905442, 'http://10.134.48.2/large': 70391560.95398007, 'http://10.135.163.2/large': 56091964.93694198}
+2024-06-23 22:02:10,861:INFO:number_of_chunk: 79
+2024-06-23 22:02:10,861:INFO:Fetched range: start_byte=1306585870, end_byte=1327557391, delay=0.1918, throughput=109313868.16905442
+2024-06-23 22:02:10,862:INFO:Geometric mean of throughput: 75572798.40034498
+2024-06-23 22:02:10,862:INFO:start and end byte are: 1351834832 and 1351834831
+2024-06-23 22:02:10,862:INFO:Current throughput for http://10.137.132.2/large: 109313868.16905442
+2024-06-23 22:02:10,862:INFO:Fast server throughput: 109313868.16905442
+2024-06-23 22:02:10,862:INFO:Fast download time: 0.19184683838620956
+2024-06-23 22:02:10,862:INFO:Large chunk start byte: 1351834832
+2024-06-23 22:02:10,862:INFO:Large chunk end byte: 1372806353
+2024-06-23 22:02:10,862:INFO:Large_start_byte, Large_end_byte: 1351834832 and 1372806353
+2024-06-23 22:02:10,862:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1351834832, end_byte=1372806353
+2024-06-23 22:02:10,862:INFO:Fetching range::::: 1351834832-1372806353 from http://10.137.132.2/large
+2024-06-23 22:02:11,020:INFO:Delay 0.1802527904510498
+2024-06-23 22:02:11,020:INFO:Successfully fetched range 1327557392-1338323768 from http://10.135.163.2/large at 1719180131.0207796
+2024-06-23 22:02:11,020:INFO:Throughput: {'http://10.137.132.2/large': 109313868.16905442, 'http://10.134.48.2/large': 70391560.95398007, 'http://10.135.163.2/large': 59729316.66166778}
+2024-06-23 22:02:11,020:INFO:number_of_chunk: 80
+2024-06-23 22:02:11,020:INFO:Fetched range: start_byte=1327557392, end_byte=1338323768, delay=0.1803, throughput=59729316.66166778
+2024-06-23 22:02:11,021:INFO:Geometric mean of throughput: 77172245.0830986
+2024-06-23 22:02:11,021:INFO:start and end byte are: 1372806354 and 1372806353
+2024-06-23 22:02:11,021:INFO:Current throughput for http://10.135.163.2/large: 59729316.66166778
+2024-06-23 22:02:11,021:INFO:Slow server throughput: 59729316.66166778
+2024-06-23 22:02:11,021:INFO:Small chunk size: 11458880
+2024-06-23 22:02:11,021:INFO:small_start_byte, small_end_byte: 1372806354 and 1384265235
+2024-06-23 22:02:11,021:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1372806354, end_byte=1384265235
+2024-06-23 22:02:11,021:INFO:Fetching range::::: 1372806354-1384265235 from http://10.135.163.2/large
+2024-06-23 22:02:11,026:INFO:Delay 0.18004322052001953
+2024-06-23 22:02:11,027:INFO:Successfully fetched range 1338323769-1351834831 from http://10.134.48.2/large at 1719180131.0270102
+2024-06-23 22:02:11,027:INFO:Throughput: {'http://10.137.132.2/large': 109313868.16905442, 'http://10.134.48.2/large': 75043436.57581745, 'http://10.135.163.2/large': 59729316.66166778}
+2024-06-23 22:02:11,027:INFO:number_of_chunk: 81
+2024-06-23 22:02:11,027:INFO:Fetched range: start_byte=1338323769, end_byte=1351834831, delay=0.1800, throughput=75043436.57581745
+2024-06-23 22:02:11,027:INFO:Geometric mean of throughput: 78836107.72410545
+2024-06-23 22:02:11,027:INFO:start and end byte are: 1384265236 and 1384265235
+2024-06-23 22:02:11,027:INFO:Current throughput for http://10.134.48.2/large: 75043436.57581745
+2024-06-23 22:02:11,027:INFO:Slow server throughput: 75043436.57581745
+2024-06-23 22:02:11,027:INFO:Small chunk size: 14396846
+2024-06-23 22:02:11,027:INFO:small_start_byte, small_end_byte: 1384265236 and 1398662083
+2024-06-23 22:02:11,027:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1384265236, end_byte=1398662083
+2024-06-23 22:02:11,027:INFO:Fetching range::::: 1384265236-1398662083 from http://10.134.48.2/large
+2024-06-23 22:02:11,074:INFO:Delay 0.21158075332641602
+2024-06-23 22:02:11,074:INFO:Successfully fetched range 1351834832-1372806353 from http://10.137.132.2/large at 1719180131.0741768
+2024-06-23 22:02:11,074:INFO:Throughput: {'http://10.137.132.2/large': 99118283.06824395, 'http://10.134.48.2/large': 75043436.57581745, 'http://10.135.163.2/large': 59729316.66166778}
+2024-06-23 22:02:11,074:INFO:number_of_chunk: 82
+2024-06-23 22:02:11,074:INFO:Fetched range: start_byte=1351834832, end_byte=1372806353, delay=0.2116, throughput=99118283.06824395
+2024-06-23 22:02:11,074:INFO:Geometric mean of throughput: 76304709.55964379
+2024-06-23 22:02:11,074:INFO:start and end byte are: 1398662084 and 1398662083
+2024-06-23 22:02:11,075:INFO:Current throughput for http://10.137.132.2/large: 99118283.06824395
+2024-06-23 22:02:11,075:INFO:Fast server throughput: 99118283.06824395
+2024-06-23 22:02:11,075:INFO:Fast download time: 0.21158074323745998
+2024-06-23 22:02:11,075:INFO:Large chunk start byte: 1398662084
+2024-06-23 22:02:11,075:INFO:Large chunk end byte: 1419633605
+2024-06-23 22:02:11,075:INFO:Large_start_byte, Large_end_byte: 1398662084 and 1419633605
+2024-06-23 22:02:11,075:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1398662084, end_byte=1419633605
+2024-06-23 22:02:11,075:INFO:Fetching range::::: 1398662084-1419633605 from http://10.137.132.2/large
+2024-06-23 22:02:11,203:INFO:Delay 0.17572999000549316
+2024-06-23 22:02:11,203:INFO:Successfully fetched range 1384265236-1398662083 from http://10.134.48.2/large at 1719180131.2039318
+2024-06-23 22:02:11,203:INFO:Throughput: {'http://10.137.132.2/large': 99118283.06824395, 'http://10.134.48.2/large': 81925953.55835374, 'http://10.135.163.2/large': 59729316.66166778}
+2024-06-23 22:02:11,203:INFO:number_of_chunk: 83
+2024-06-23 22:02:11,204:INFO:Fetched range: start_byte=1384265236, end_byte=1398662083, delay=0.1757, throughput=81925953.55835374
+2024-06-23 22:02:11,204:INFO:Geometric mean of throughput: 78569551.47151294
+2024-06-23 22:02:11,204:INFO:start and end byte are: 1419633606 and 1419633605
+2024-06-23 22:02:11,204:INFO:Current throughput for http://10.134.48.2/large: 81925953.55835374
+2024-06-23 22:02:11,204:INFO:Fast server throughput: 81925953.55835374
+2024-06-23 22:02:11,204:INFO:Fast download time: 0.2559813964821603
+2024-06-23 22:02:11,204:INFO:Large chunk start byte: 1419633606
+2024-06-23 22:02:11,204:INFO:Large chunk end byte: 1440605127
+2024-06-23 22:02:11,204:INFO:Large_start_byte, Large_end_byte: 1419633606 and 1440605127
+2024-06-23 22:02:11,204:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1419633606, end_byte=1440605127
+2024-06-23 22:02:11,204:INFO:Fetching range::::: 1419633606-1440605127 from http://10.134.48.2/large
+2024-06-23 22:02:11,209:INFO:Delay 0.18799281120300293
+2024-06-23 22:02:11,210:INFO:Successfully fetched range 1372806354-1384265235 from http://10.135.163.2/large at 1719180131.2100356
+2024-06-23 22:02:11,210:INFO:Throughput: {'http://10.137.132.2/large': 99118283.06824395, 'http://10.134.48.2/large': 81925953.55835374, 'http://10.135.163.2/large': 60953825.450411476}
+2024-06-23 22:02:11,210:INFO:number_of_chunk: 84
+2024-06-23 22:02:11,210:INFO:Fetched range: start_byte=1372806354, end_byte=1384265235, delay=0.1880, throughput=60953825.450411476
+2024-06-23 22:02:11,210:INFO:Geometric mean of throughput: 79102840.86765255
+2024-06-23 22:02:11,210:INFO:start and end byte are: 1440605128 and 1440605127
+2024-06-23 22:02:11,210:INFO:Current throughput for http://10.135.163.2/large: 60953825.450411476
+2024-06-23 22:02:11,210:INFO:Slow server throughput: 60953825.450411476
+2024-06-23 22:02:11,210:INFO:Small chunk size: 15603045
+2024-06-23 22:02:11,210:INFO:small_start_byte, small_end_byte: 1440605128 and 1456208174
+2024-06-23 22:02:11,210:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1440605128, end_byte=1456208174
+2024-06-23 22:02:11,210:INFO:Fetching range::::: 1440605128-1456208174 from http://10.135.163.2/large
+2024-06-23 22:02:11,272:INFO:Delay 0.19709086418151855
+2024-06-23 22:02:11,272:INFO:Successfully fetched range 1398662084-1419633605 from http://10.137.132.2/large at 1719180131.2725458
+2024-06-23 22:02:11,272:INFO:Throughput: {'http://10.137.132.2/large': 106405342.97259693, 'http://10.134.48.2/large': 81925953.55835374, 'http://10.135.163.2/large': 60953825.450411476}
+2024-06-23 22:02:11,272:INFO:number_of_chunk: 85
+2024-06-23 22:02:11,272:INFO:Fetched range: start_byte=1398662084, end_byte=1419633605, delay=0.1971, throughput=106405342.97259693
+2024-06-23 22:02:11,273:INFO:Geometric mean of throughput: 80995701.15155819
+2024-06-23 22:02:11,273:INFO:start and end byte are: 1456208175 and 1456208174
+2024-06-23 22:02:11,273:INFO:Current throughput for http://10.137.132.2/large: 106405342.97259693
+2024-06-23 22:02:11,273:INFO:Fast server throughput: 106405342.97259693
+2024-06-23 22:02:11,273:INFO:Fast download time: 0.19709085478349422
+2024-06-23 22:02:11,273:INFO:Large chunk start byte: 1456208175
+2024-06-23 22:02:11,273:INFO:Large chunk end byte: 1477179696
+2024-06-23 22:02:11,273:INFO:Large_start_byte, Large_end_byte: 1456208175 and 1477179696
+2024-06-23 22:02:11,273:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1456208175, end_byte=1477179696
+2024-06-23 22:02:11,273:INFO:Fetching range::::: 1456208175-1477179696 from http://10.137.132.2/large
+2024-06-23 22:02:11,465:INFO:Delay 0.19216084480285645
+2024-06-23 22:02:11,466:INFO:Successfully fetched range 1456208175-1477179696 from http://10.137.132.2/large at 1719180131.4660347
+2024-06-23 22:02:11,466:INFO:Throughput: {'http://10.137.132.2/large': 109135245.640262, 'http://10.134.48.2/large': 81925953.55835374, 'http://10.135.163.2/large': 60953825.450411476}
+2024-06-23 22:02:11,466:INFO:number_of_chunk: 86
+2024-06-23 22:02:11,466:INFO:Fetched range: start_byte=1456208175, end_byte=1477179696, delay=0.1922, throughput=109135245.640262
+2024-06-23 22:02:11,466:INFO:Geometric mean of throughput: 81682527.45900297
+2024-06-23 22:02:11,466:INFO:start and end byte are: 1477179697 and 1477179696
+2024-06-23 22:02:11,466:INFO:Current throughput for http://10.137.132.2/large: 109135245.640262
+2024-06-23 22:02:11,466:INFO:Fast server throughput: 109135245.640262
+2024-06-23 22:02:11,466:INFO:Fast download time: 0.19216083563991376
+2024-06-23 22:02:11,466:INFO:Large chunk start byte: 1477179697
+2024-06-23 22:02:11,466:INFO:Large chunk end byte: 1498151218
+2024-06-23 22:02:11,466:INFO:Large_start_byte, Large_end_byte: 1477179697 and 1498151218
+2024-06-23 22:02:11,467:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1477179697, end_byte=1498151218
+2024-06-23 22:02:11,467:INFO:Fetching range::::: 1477179697-1498151218 from http://10.137.132.2/large
+2024-06-23 22:02:11,478:INFO:Delay 0.2679014205932617
+2024-06-23 22:02:11,479:INFO:Successfully fetched range 1440605128-1456208174 from http://10.135.163.2/large at 1719180131.4791186
+2024-06-23 22:02:11,479:INFO:Throughput: {'http://10.137.132.2/large': 109135245.640262, 'http://10.134.48.2/large': 81925953.55835374, 'http://10.135.163.2/large': 58241744.16637061}
+2024-06-23 22:02:11,479:INFO:number_of_chunk: 87
+2024-06-23 22:02:11,479:INFO:Fetched range: start_byte=1440605128, end_byte=1456208174, delay=0.2679, throughput=58241744.16637061
+2024-06-23 22:02:11,479:INFO:Geometric mean of throughput: 80452640.51265271
+2024-06-23 22:02:11,479:INFO:start and end byte are: 1498151219 and 1498151218
+2024-06-23 22:02:11,479:INFO:Current throughput for http://10.135.163.2/large: 58241744.16637061
+2024-06-23 22:02:11,479:INFO:Slow server throughput: 58241744.16637061
+2024-06-23 22:02:11,479:INFO:Small chunk size: 11191782
+2024-06-23 22:02:11,480:INFO:small_start_byte, small_end_byte: 1498151219 and 1509343002
+2024-06-23 22:02:11,480:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1498151219, end_byte=1509343002
+2024-06-23 22:02:11,480:INFO:Fetching range::::: 1498151219-1509343002 from http://10.135.163.2/large
+2024-06-23 22:02:11,488:INFO:Delay 0.2835087776184082
+2024-06-23 22:02:11,488:INFO:Successfully fetched range 1419633606-1440605127 from http://10.134.48.2/large at 1719180131.4887457
+2024-06-23 22:02:11,488:INFO:Throughput: {'http://10.137.132.2/large': 109135245.640262, 'http://10.134.48.2/large': 73971328.77567147, 'http://10.135.163.2/large': 58241744.16637061}
+2024-06-23 22:02:11,488:INFO:number_of_chunk: 88
+2024-06-23 22:02:11,488:INFO:Fetched range: start_byte=1419633606, end_byte=1440605127, delay=0.2835, throughput=73971328.77567147
+2024-06-23 22:02:11,488:INFO:Slow server throughput: 73971328.77567147
+2024-06-23 22:02:11,488:INFO:Small chunk size: 14214392
+2024-06-23 22:02:11,488:INFO:small_start_byte, small_end_byte: 1509343003 and 1523557396
+2024-06-23 22:02:11,489:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1509343003, end_byte=1523557396
+2024-06-23 22:02:11,489:INFO:Fetching range::::: 1509343003-1523557396 from http://10.134.48.2/large
+2024-06-23 22:02:11,659:INFO:Delay 0.1918792724609375
+2024-06-23 22:02:11,659:INFO:Successfully fetched range 1477179697-1498151218 from http://10.137.132.2/large at 1719180131.6592216
+2024-06-23 22:02:11,659:INFO:Throughput: {'http://10.137.132.2/large': 109295395.6466004, 'http://10.134.48.2/large': 73971328.77567147, 'http://10.135.163.2/large': 58241744.16637061}
+2024-06-23 22:02:11,659:INFO:number_of_chunk: 89
+2024-06-23 22:02:11,659:INFO:Fetched range: start_byte=1477179697, end_byte=1498151218, delay=0.1919, throughput=109295395.6466004
+2024-06-23 22:02:11,659:INFO:Geometric mean of throughput: 77797663.32275164
+2024-06-23 22:02:11,660:INFO:start and end byte are: 1523557397 and 1523557396
+2024-06-23 22:02:11,660:INFO:Current throughput for http://10.137.132.2/large: 109295395.6466004
+2024-06-23 22:02:11,660:INFO:Fast server throughput: 109295395.6466004
+2024-06-23 22:02:11,660:INFO:Fast download time: 0.19187926331142124
+2024-06-23 22:02:11,660:INFO:Large chunk start byte: 1523557397
+2024-06-23 22:02:11,660:INFO:Large chunk end byte: 1544528918
+2024-06-23 22:02:11,660:INFO:Large_start_byte, Large_end_byte: 1523557397 and 1544528918
+2024-06-23 22:02:11,660:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1523557397, end_byte=1544528918
+2024-06-23 22:02:11,660:INFO:Fetching range::::: 1523557397-1544528918 from http://10.137.132.2/large
+2024-06-23 22:02:11,668:INFO:Delay 0.17978453636169434
+2024-06-23 22:02:11,669:INFO:Successfully fetched range 1509343003-1523557396 from http://10.134.48.2/large at 1719180131.6690974
+2024-06-23 22:02:11,669:INFO:Throughput: {'http://10.137.132.2/large': 109295395.6466004, 'http://10.134.48.2/large': 79063490.59633908, 'http://10.135.163.2/large': 58241744.16637061}
+2024-06-23 22:02:11,669:INFO:number_of_chunk: 90
+2024-06-23 22:02:11,669:INFO:Fetched range: start_byte=1509343003, end_byte=1523557396, delay=0.1798, throughput=79063490.59633908
+2024-06-23 22:02:11,669:INFO:Geometric mean of throughput: 79543386.05279385
+2024-06-23 22:02:11,669:INFO:start and end byte are: 1544528919 and 1544528918
+2024-06-23 22:02:11,669:INFO:Current throughput for http://10.134.48.2/large: 79063490.59633908
+2024-06-23 22:02:11,669:INFO:Slow server throughput: 79063490.59633908
+2024-06-23 22:02:11,670:INFO:Small chunk size: 15170644
+2024-06-23 22:02:11,670:INFO:small_start_byte, small_end_byte: 1544528919 and 1559699564
+2024-06-23 22:02:11,670:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1544528919, end_byte=1559699564
+2024-06-23 22:02:11,670:INFO:Fetching range::::: 1544528919-1559699564 from http://10.134.48.2/large
+2024-06-23 22:02:11,674:INFO:Delay 0.19408512115478516
+2024-06-23 22:02:11,674:INFO:Successfully fetched range 1498151219-1509343002 from http://10.135.163.2/large at 1719180131.674388
+2024-06-23 22:02:11,674:INFO:Throughput: {'http://10.137.132.2/large': 109295395.6466004, 'http://10.134.48.2/large': 79063490.59633908, 'http://10.135.163.2/large': 57664301.7940279}
+2024-06-23 22:02:11,674:INFO:number_of_chunk: 91
+2024-06-23 22:02:11,674:INFO:Fetched range: start_byte=1498151219, end_byte=1509343002, delay=0.1941, throughput=57664301.7940279
+2024-06-23 22:02:11,675:INFO:Geometric mean of throughput: 79279632.72726776
+2024-06-23 22:02:11,675:INFO:start and end byte are: 1559699565 and 1559699564
+2024-06-23 22:02:11,675:INFO:Current throughput for http://10.135.163.2/large: 57664301.7940279
+2024-06-23 22:02:11,675:INFO:Slow server throughput: 57664301.7940279
+2024-06-23 22:02:11,675:INFO:Small chunk size: 11064583
+2024-06-23 22:02:11,675:INFO:small_start_byte, small_end_byte: 1559699565 and 1570764149
+2024-06-23 22:02:11,675:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1559699565, end_byte=1570764149
+2024-06-23 22:02:11,675:INFO:Fetching range::::: 1559699565-1570764149 from http://10.135.163.2/large
+2024-06-23 22:02:11,851:INFO:Delay 0.1915299892425537
+2024-06-23 22:02:11,852:INFO:Successfully fetched range 1523557397-1544528918 from http://10.137.132.2/large at 1719180131.8520613
+2024-06-23 22:02:11,852:INFO:Throughput: {'http://10.137.132.2/large': 109494711.9400798, 'http://10.134.48.2/large': 79063490.59633908, 'http://10.135.163.2/large': 57664301.7940279}
+2024-06-23 22:02:11,852:INFO:number_of_chunk: 92
+2024-06-23 22:02:11,852:INFO:Fetched range: start_byte=1523557397, end_byte=1544528918, delay=0.1915, throughput=109494711.9400798
+2024-06-23 22:02:11,852:INFO:Geometric mean of throughput: 79327796.1672086
+2024-06-23 22:02:11,852:INFO:start and end byte are: 1570764150 and 1570764149
+2024-06-23 22:02:11,852:INFO:Current throughput for http://10.137.132.2/large: 109494711.9400798
+2024-06-23 22:02:11,852:INFO:Fast server throughput: 109494711.9400798
+2024-06-23 22:02:11,852:INFO:Fast download time: 0.19152998010969258
+2024-06-23 22:02:11,852:INFO:Large chunk start byte: 1570764150
+2024-06-23 22:02:11,852:INFO:Large chunk end byte: 1591735671
+2024-06-23 22:02:11,852:INFO:Large_start_byte, Large_end_byte: 1570764150 and 1591735671
+2024-06-23 22:02:11,853:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1570764150, end_byte=1591735671
+2024-06-23 22:02:11,853:INFO:Fetching range::::: 1570764150-1591735671 from http://10.137.132.2/large
+2024-06-23 22:02:11,858:INFO:Delay 0.18350696563720703
+2024-06-23 22:02:11,859:INFO:Successfully fetched range 1559699565-1570764149 from http://10.135.163.2/large at 1719180131.8590546
+2024-06-23 22:02:11,859:INFO:Throughput: {'http://10.137.132.2/large': 109494711.9400798, 'http://10.134.48.2/large': 79063490.59633908, 'http://10.135.163.2/large': 60295171.693235144}
+2024-06-23 22:02:11,859:INFO:number_of_chunk: 93
+2024-06-23 22:02:11,859:INFO:Fetched range: start_byte=1559699565, end_byte=1570764149, delay=0.1835, throughput=60295171.693235144
+2024-06-23 22:02:11,859:INFO:Geometric mean of throughput: 80516314.6898718
+2024-06-23 22:02:11,859:INFO:start and end byte are: 1591735672 and 1591735671
+2024-06-23 22:02:11,859:INFO:Current throughput for http://10.135.163.2/large: 60295171.693235144
+2024-06-23 22:02:11,859:INFO:Slow server throughput: 60295171.693235144
+2024-06-23 22:02:11,859:INFO:Small chunk size: 11548333
+2024-06-23 22:02:11,860:INFO:small_start_byte, small_end_byte: 1591735672 and 1603284006
+2024-06-23 22:02:11,860:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1591735672, end_byte=1603284006
+2024-06-23 22:02:11,860:INFO:Fetching range::::: 1591735672-1603284006 from http://10.135.163.2/large
+2024-06-23 22:02:11,875:INFO:Delay 0.2057204246520996
+2024-06-23 22:02:11,876:INFO:Successfully fetched range 1544528919-1559699564 from http://10.134.48.2/large at 1719180131.8760664
+2024-06-23 22:02:11,876:INFO:Throughput: {'http://10.137.132.2/large': 109494711.9400798, 'http://10.134.48.2/large': 73743990.29972626, 'http://10.135.163.2/large': 60295171.693235144}
+2024-06-23 22:02:11,876:INFO:number_of_chunk: 94
+2024-06-23 22:02:11,876:INFO:Fetched range: start_byte=1544528919, end_byte=1559699564, delay=0.2057, throughput=73743990.29972626
+2024-06-23 22:02:11,876:INFO:Geometric mean of throughput: 78668482.30842553
+2024-06-23 22:02:11,876:INFO:start and end byte are: 1603284007 and 1603284006
+2024-06-23 22:02:11,876:INFO:Current throughput for http://10.134.48.2/large: 73743990.29972626
+2024-06-23 22:02:11,876:INFO:Slow server throughput: 73743990.29972626
+2024-06-23 22:02:11,876:INFO:Small chunk size: 14124184
+2024-06-23 22:02:11,876:INFO:small_start_byte, small_end_byte: 1603284007 and 1617408192
+2024-06-23 22:02:11,876:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1603284007, end_byte=1617408192
+2024-06-23 22:02:11,876:INFO:Fetching range::::: 1603284007-1617408192 from http://10.134.48.2/large
+2024-06-23 22:02:12,040:INFO:Delay 0.18080878257751465
+2024-06-23 22:02:12,041:INFO:Successfully fetched range 1591735672-1603284006 from http://10.135.163.2/large at 1719180132.0411444
+2024-06-23 22:02:12,041:INFO:Throughput: {'http://10.137.132.2/large': 109494711.9400798, 'http://10.134.48.2/large': 73743990.29972626, 'http://10.135.163.2/large': 63870426.178269885}
+2024-06-23 22:02:12,041:INFO:number_of_chunk: 95
+2024-06-23 22:02:12,041:INFO:Fetched range: start_byte=1591735672, end_byte=1603284006, delay=0.1808, throughput=63870426.178269885
+2024-06-23 22:02:12,041:INFO:Geometric mean of throughput: 80193628.50391178
+2024-06-23 22:02:12,041:INFO:start and end byte are: 1617408193 and 1617408192
+2024-06-23 22:02:12,041:INFO:Current throughput for http://10.135.163.2/large: 63870426.178269885
+2024-06-23 22:02:12,042:INFO:Slow server throughput: 63870426.178269885
+2024-06-23 22:02:12,042:INFO:Small chunk size: 12233101
+2024-06-23 22:02:12,042:INFO:small_start_byte, small_end_byte: 1617408193 and 1629641295
+2024-06-23 22:02:12,042:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1617408193, end_byte=1629641295
+2024-06-23 22:02:12,042:INFO:Fetching range::::: 1617408193-1629641295 from http://10.135.163.2/large
+2024-06-23 22:02:12,050:INFO:Delay 0.19694828987121582
+2024-06-23 22:02:12,050:INFO:Successfully fetched range 1570764150-1591735671 from http://10.137.132.2/large at 1719180132.050256
+2024-06-23 22:02:12,050:INFO:Throughput: {'http://10.137.132.2/large': 106482371.66066913, 'http://10.134.48.2/large': 73743990.29972626, 'http://10.135.163.2/large': 63870426.178269885}
+2024-06-23 22:02:12,050:INFO:number_of_chunk: 96
+2024-06-23 22:02:12,050:INFO:Fetched range: start_byte=1570764150, end_byte=1591735671, delay=0.1969, throughput=106482371.66066913
+2024-06-23 22:02:12,051:INFO:Geometric mean of throughput: 79451369.53823358
+2024-06-23 22:02:12,051:INFO:start and end byte are: 1629641296 and 1629641295
+2024-06-23 22:02:12,051:INFO:Current throughput for http://10.137.132.2/large: 106482371.66066913
+2024-06-23 22:02:12,051:INFO:Fast server throughput: 106482371.66066913
+2024-06-23 22:02:12,051:INFO:Fast download time: 0.19694828047998997
+2024-06-23 22:02:12,051:INFO:Large chunk start byte: 1629641296
+2024-06-23 22:02:12,051:INFO:Large chunk end byte: 1650612817
+2024-06-23 22:02:12,051:INFO:Large_start_byte, Large_end_byte: 1629641296 and 1650612817
+2024-06-23 22:02:12,051:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1629641296, end_byte=1650612817
+2024-06-23 22:02:12,051:INFO:Fetching range::::: 1629641296-1650612817 from http://10.137.132.2/large
+2024-06-23 22:02:12,057:INFO:Delay 0.18067193031311035
+2024-06-23 22:02:12,057:INFO:Successfully fetched range 1603284007-1617408192 from http://10.134.48.2/large at 1719180132.0579312
+2024-06-23 22:02:12,057:INFO:Throughput: {'http://10.137.132.2/large': 106482371.66066913, 'http://10.134.48.2/large': 78175868.13581018, 'http://10.135.163.2/large': 63870426.178269885}
+2024-06-23 22:02:12,058:INFO:number_of_chunk: 97
+2024-06-23 22:02:12,058:INFO:Fetched range: start_byte=1603284007, end_byte=1617408192, delay=0.1807, throughput=78175868.13581018
+2024-06-23 22:02:12,058:INFO:Geometric mean of throughput: 81012135.56144772
+2024-06-23 22:02:12,058:INFO:start and end byte are: 1650612818 and 1650612817
+2024-06-23 22:02:12,058:INFO:Current throughput for http://10.134.48.2/large: 78175868.13581018
+2024-06-23 22:02:12,058:INFO:Slow server throughput: 78175868.13581018
+2024-06-23 22:02:12,058:INFO:Small chunk size: 15396602
+2024-06-23 22:02:12,058:INFO:small_start_byte, small_end_byte: 1650612818 and 1666009421
+2024-06-23 22:02:12,058:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1650612818, end_byte=1666009421
+2024-06-23 22:02:12,058:INFO:Fetching range::::: 1650612818-1666009421 from http://10.134.48.2/large
+2024-06-23 22:02:12,235:INFO:Delay 0.17678236961364746
+2024-06-23 22:02:12,235:INFO:Successfully fetched range 1650612818-1666009421 from http://10.134.48.2/large at 1719180132.2359807
+2024-06-23 22:02:12,236:INFO:Throughput: {'http://10.137.132.2/large': 106482371.66066913, 'http://10.134.48.2/large': 87093543.51143053, 'http://10.135.163.2/large': 63870426.178269885}
+2024-06-23 22:02:12,236:INFO:number_of_chunk: 98
+2024-06-23 22:02:12,236:INFO:Fetched range: start_byte=1650612818, end_byte=1666009421, delay=0.1768, throughput=87093543.51143053
+2024-06-23 22:02:12,236:INFO:Geometric mean of throughput: 83982312.70976979
+2024-06-23 22:02:12,236:INFO:start and end byte are: 1666009422 and 1666009421
+2024-06-23 22:02:12,236:INFO:Current throughput for http://10.134.48.2/large: 87093543.51143053
+2024-06-23 22:02:12,236:INFO:Fast server throughput: 87093543.51143053
+2024-06-23 22:02:12,236:INFO:Fast download time: 0.24079305025920328
+2024-06-23 22:02:12,236:INFO:Large chunk start byte: 1666009422
+2024-06-23 22:02:12,236:INFO:Large chunk end byte: 1686980943
+2024-06-23 22:02:12,236:INFO:Large_start_byte, Large_end_byte: 1666009422 and 1686980943
+2024-06-23 22:02:12,236:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1666009422, end_byte=1686980943
+2024-06-23 22:02:12,237:INFO:Fetching range::::: 1666009422-1686980943 from http://10.134.48.2/large
+2024-06-23 22:02:12,246:INFO:Delay 0.19485235214233398
+2024-06-23 22:02:12,246:INFO:Successfully fetched range 1629641296-1650612817 from http://10.137.132.2/large at 1719180132.2463968
+2024-06-23 22:02:12,246:INFO:Throughput: {'http://10.137.132.2/large': 107627753.88351952, 'http://10.134.48.2/large': 87093543.51143053, 'http://10.135.163.2/large': 63870426.178269885}
+2024-06-23 22:02:12,246:INFO:number_of_chunk: 99
+2024-06-23 22:02:12,246:INFO:Fetched range: start_byte=1629641296, end_byte=1650612817, delay=0.1949, throughput=107627753.88351952
+2024-06-23 22:02:12,247:INFO:Geometric mean of throughput: 84282359.2359551
+2024-06-23 22:02:12,247:INFO:start and end byte are: 1686980944 and 1686980943
+2024-06-23 22:02:12,247:INFO:Current throughput for http://10.137.132.2/large: 107627753.88351952
+2024-06-23 22:02:12,247:INFO:Fast server throughput: 107627753.88351952
+2024-06-23 22:02:12,247:INFO:Fast download time: 0.19485234285105024
+2024-06-23 22:02:12,247:INFO:Large chunk start byte: 1686980944
+2024-06-23 22:02:12,247:INFO:Large chunk end byte: 1707952465
+2024-06-23 22:02:12,247:INFO:Large_start_byte, Large_end_byte: 1686980944 and 1707952465
+2024-06-23 22:02:12,247:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1686980944, end_byte=1707952465
+2024-06-23 22:02:12,247:INFO:Fetching range::::: 1686980944-1707952465 from http://10.137.132.2/large
+2024-06-23 22:02:12,264:INFO:Delay 0.22179317474365234
+2024-06-23 22:02:12,264:INFO:Successfully fetched range 1617408193-1629641295 from http://10.135.163.2/large at 1719180132.2641447
+2024-06-23 22:02:12,264:INFO:Throughput: {'http://10.137.132.2/large': 107627753.88351952, 'http://10.134.48.2/large': 87093543.51143053, 'http://10.135.163.2/large': 55155448.377250426}
+2024-06-23 22:02:12,264:INFO:number_of_chunk: 100
+2024-06-23 22:02:12,264:INFO:Fetched range: start_byte=1617408193, end_byte=1629641295, delay=0.2218, throughput=55155448.377250426
+2024-06-23 22:02:12,264:INFO:Geometric mean of throughput: 80260073.3647985
+2024-06-23 22:02:12,264:INFO:start and end byte are: 1707952466 and 1707952465
+2024-06-23 22:02:12,264:INFO:Current throughput for http://10.135.163.2/large: 55155448.377250426
+2024-06-23 22:02:12,264:INFO:Slow server throughput: 55155448.377250426
+2024-06-23 22:02:12,264:INFO:Small chunk size: 10747168
+2024-06-23 22:02:12,264:INFO:small_start_byte, small_end_byte: 1707952466 and 1718699635
+2024-06-23 22:02:12,265:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1707952466, end_byte=1718699635
+2024-06-23 22:02:12,265:INFO:Fetching range::::: 1707952466-1718699635 from http://10.135.163.2/large
+2024-06-23 22:02:12,439:INFO:Delay 0.19184255599975586
+2024-06-23 22:02:12,439:INFO:Successfully fetched range 1686980944-1707952465 from http://10.137.132.2/large at 1719180132.4396229
+2024-06-23 22:02:12,439:INFO:Throughput: {'http://10.137.132.2/large': 109316313.52965651, 'http://10.134.48.2/large': 87093543.51143053, 'http://10.135.163.2/large': 55155448.377250426}
+2024-06-23 22:02:12,439:INFO:number_of_chunk: 101
+2024-06-23 22:02:12,439:INFO:Fetched range: start_byte=1686980944, end_byte=1707952465, delay=0.1918, throughput=109316313.52965651
+2024-06-23 22:02:12,440:INFO:Geometric mean of throughput: 80677627.66633126
+2024-06-23 22:02:12,440:INFO:start and end byte are: 1718699636 and 1718699635
+2024-06-23 22:02:12,440:INFO:Current throughput for http://10.137.132.2/large: 109316313.52965651
+2024-06-23 22:02:12,440:INFO:Fast server throughput: 109316313.52965651
+2024-06-23 22:02:12,440:INFO:Fast download time: 0.19184254685199037
+2024-06-23 22:02:12,440:INFO:Large chunk start byte: 1718699636
+2024-06-23 22:02:12,440:INFO:Large chunk end byte: 1739671157
+2024-06-23 22:02:12,440:INFO:Large_start_byte, Large_end_byte: 1718699636 and 1739671157
+2024-06-23 22:02:12,440:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1718699636, end_byte=1739671157
+2024-06-23 22:02:12,440:INFO:Fetching range::::: 1718699636-1739671157 from http://10.137.132.2/large
+2024-06-23 22:02:12,448:INFO:Delay 0.1833500862121582
+2024-06-23 22:02:12,448:INFO:Successfully fetched range 1707952466-1718699635 from http://10.135.163.2/large at 1719180132.4486687
+2024-06-23 22:02:12,448:INFO:Throughput: {'http://10.137.132.2/large': 109316313.52965651, 'http://10.134.48.2/large': 87093543.51143053, 'http://10.135.163.2/large': 58615565.56654261}
+2024-06-23 22:02:12,448:INFO:number_of_chunk: 102
+2024-06-23 22:02:12,448:INFO:Fetched range: start_byte=1707952466, end_byte=1718699635, delay=0.1834, throughput=58615565.56654261
+2024-06-23 22:02:12,449:INFO:Geometric mean of throughput: 82330603.58669499
+2024-06-23 22:02:12,449:INFO:start and end byte are: 1739671158 and 1739671157
+2024-06-23 22:02:12,449:INFO:Current throughput for http://10.135.163.2/large: 58615565.56654261
+2024-06-23 22:02:12,449:INFO:Slow server throughput: 58615565.56654261
+2024-06-23 22:02:12,449:INFO:Small chunk size: 11244959
+2024-06-23 22:02:12,449:INFO:small_start_byte, small_end_byte: 1739671158 and 1750916118
+2024-06-23 22:02:12,449:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1739671158, end_byte=1750916118
+2024-06-23 22:02:12,449:INFO:Fetching range::::: 1739671158-1750916118 from http://10.135.163.2/large
+2024-06-23 22:02:12,511:INFO:Delay 0.274003267288208
+2024-06-23 22:02:12,511:INFO:Successfully fetched range 1666009422-1686980943 from http://10.134.48.2/large at 1719180132.5112817
+2024-06-23 22:02:12,511:INFO:Throughput: {'http://10.137.132.2/large': 109316313.52965651, 'http://10.134.48.2/large': 76537485.1459026, 'http://10.135.163.2/large': 58615565.56654261}
+2024-06-23 22:02:12,511:INFO:number_of_chunk: 103
+2024-06-23 22:02:12,511:INFO:Fetched range: start_byte=1666009422, end_byte=1686980943, delay=0.2740, throughput=76537485.1459026
+2024-06-23 22:02:12,511:INFO:Slow server throughput: 76537485.1459026
+2024-06-23 22:02:12,511:INFO:Small chunk size: 14683146
+2024-06-23 22:02:12,511:INFO:small_start_byte, small_end_byte: 1750916119 and 1765599266
+2024-06-23 22:02:12,511:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1750916119, end_byte=1765599266
+2024-06-23 22:02:12,511:INFO:Fetching range::::: 1750916119-1765599266 from http://10.134.48.2/large
+2024-06-23 22:02:12,632:INFO:Delay 0.19194531440734863
+2024-06-23 22:02:12,632:INFO:Successfully fetched range 1718699636-1739671157 from http://10.137.132.2/large at 1719180132.6328633
+2024-06-23 22:02:12,632:INFO:Throughput: {'http://10.137.132.2/large': 109257790.76583233, 'http://10.134.48.2/large': 76537485.1459026, 'http://10.135.163.2/large': 58615565.56654261}
+2024-06-23 22:02:12,632:INFO:number_of_chunk: 104
+2024-06-23 22:02:12,632:INFO:Fetched range: start_byte=1718699636, end_byte=1739671157, delay=0.1919, throughput=109257790.76583233
+2024-06-23 22:02:12,633:INFO:Geometric mean of throughput: 78846034.22347642
+2024-06-23 22:02:12,633:INFO:start and end byte are: 1765599267 and 1765599266
+2024-06-23 22:02:12,633:INFO:Current throughput for http://10.137.132.2/large: 109257790.76583233
+2024-06-23 22:02:12,633:INFO:Fast server throughput: 109257790.76583233
+2024-06-23 22:02:12,633:INFO:Fast download time: 0.19194530525468326
+2024-06-23 22:02:12,633:INFO:Large chunk start byte: 1765599267
+2024-06-23 22:02:12,633:INFO:Large chunk end byte: 1786570788
+2024-06-23 22:02:12,633:INFO:Large_start_byte, Large_end_byte: 1765599267 and 1786570788
+2024-06-23 22:02:12,633:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1765599267, end_byte=1786570788
+2024-06-23 22:02:12,633:INFO:Fetching range::::: 1765599267-1786570788 from http://10.137.132.2/large
+2024-06-23 22:02:12,670:INFO:Delay 0.22098875045776367
+2024-06-23 22:02:12,670:INFO:Successfully fetched range 1739671158-1750916118 from http://10.135.163.2/large at 1719180132.670894
+2024-06-23 22:02:12,670:INFO:Throughput: {'http://10.137.132.2/large': 109257790.76583233, 'http://10.134.48.2/large': 76537485.1459026, 'http://10.135.163.2/large': 50884762.12796717}
+2024-06-23 22:02:12,670:INFO:number_of_chunk: 105
+2024-06-23 22:02:12,670:INFO:Fetched range: start_byte=1739671158, end_byte=1750916118, delay=0.2210, throughput=50884762.12796717
+2024-06-23 22:02:12,671:INFO:Geometric mean of throughput: 75215056.11051115
+2024-06-23 22:02:12,671:INFO:start and end byte are: 1786570789 and 1786570788
+2024-06-23 22:02:12,671:INFO:Current throughput for http://10.135.163.2/large: 50884762.12796717
+2024-06-23 22:02:12,671:INFO:Slow server throughput: 50884762.12796717
+2024-06-23 22:02:12,671:INFO:Small chunk size: 9767091
+2024-06-23 22:02:12,671:INFO:small_start_byte, small_end_byte: 1786570789 and 1796337881
+2024-06-23 22:02:12,671:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1786570789, end_byte=1796337881
+2024-06-23 22:02:12,671:INFO:Fetching range::::: 1786570789-1796337881 from http://10.135.163.2/large
+2024-06-23 22:02:12,717:INFO:Delay 0.20550322532653809
+2024-06-23 22:02:12,717:INFO:Successfully fetched range 1750916119-1765599266 from http://10.134.48.2/large at 1719180132.7173634
+2024-06-23 22:02:12,717:INFO:Throughput: {'http://10.137.132.2/large': 109257790.76583233, 'http://10.134.48.2/large': 71449715.57827838, 'http://10.135.163.2/large': 50884762.12796717}
+2024-06-23 22:02:12,717:INFO:number_of_chunk: 106
+2024-06-23 22:02:12,717:INFO:Fetched range: start_byte=1750916119, end_byte=1765599266, delay=0.2055, throughput=71449715.57827838
+2024-06-23 22:02:12,718:INFO:Geometric mean of throughput: 73510078.95530674
+2024-06-23 22:02:12,718:INFO:start and end byte are: 1796337882 and 1796337881
+2024-06-23 22:02:12,718:INFO:Current throughput for http://10.134.48.2/large: 71449715.57827838
+2024-06-23 22:02:12,718:INFO:Slow server throughput: 71449715.57827838
+2024-06-23 22:02:12,718:INFO:Small chunk size: 13714437
+2024-06-23 22:02:12,718:INFO:small_start_byte, small_end_byte: 1796337882 and 1810052320
+2024-06-23 22:02:12,718:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1796337882, end_byte=1810052320
+2024-06-23 22:02:12,718:INFO:Fetching range::::: 1796337882-1810052320 from http://10.134.48.2/large
+2024-06-23 22:02:12,846:INFO:Delay 0.21270513534545898
+2024-06-23 22:02:12,846:INFO:Successfully fetched range 1765599267-1786570788 from http://10.137.132.2/large at 1719180132.8469512
+2024-06-23 22:02:12,846:INFO:Throughput: {'http://10.137.132.2/large': 98594333.25829065, 'http://10.134.48.2/large': 71449715.57827838, 'http://10.135.163.2/large': 50884762.12796717}
+2024-06-23 22:02:12,847:INFO:number_of_chunk: 107
+2024-06-23 22:02:12,847:INFO:Fetched range: start_byte=1765599267, end_byte=1786570788, delay=0.2127, throughput=98594333.25829065
+2024-06-23 22:02:12,847:INFO:Geometric mean of throughput: 71036256.89380124
+2024-06-23 22:02:12,847:INFO:start and end byte are: 1810052321 and 1810052320
+2024-06-23 22:02:12,847:INFO:Current throughput for http://10.137.132.2/large: 98594333.25829065
+2024-06-23 22:02:12,847:INFO:Fast server throughput: 98594333.25829065
+2024-06-23 22:02:12,847:INFO:Fast download time: 0.21270512520288823
+2024-06-23 22:02:12,847:INFO:Large chunk start byte: 1810052321
+2024-06-23 22:02:12,847:INFO:Large chunk end byte: 1831023842
+2024-06-23 22:02:12,847:INFO:Large_start_byte, Large_end_byte: 1810052321 and 1831023842
+2024-06-23 22:02:12,847:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1810052321, end_byte=1831023842
+2024-06-23 22:02:12,847:INFO:Fetching range::::: 1810052321-1831023842 from http://10.137.132.2/large
+2024-06-23 22:02:12,852:INFO:Delay 0.18063116073608398
+2024-06-23 22:02:12,852:INFO:Successfully fetched range 1786570789-1796337881 from http://10.135.163.2/large at 1719180132.852684
+2024-06-23 22:02:12,852:INFO:Throughput: {'http://10.137.132.2/large': 98594333.25829065, 'http://10.134.48.2/large': 71449715.57827838, 'http://10.135.163.2/large': 54072021.46184773}
+2024-06-23 22:02:12,852:INFO:number_of_chunk: 108
+2024-06-23 22:02:12,852:INFO:Fetched range: start_byte=1786570789, end_byte=1796337881, delay=0.1806, throughput=54072021.46184773
+2024-06-23 22:02:12,853:INFO:Geometric mean of throughput: 72489486.20143951
+2024-06-23 22:02:12,853:INFO:start and end byte are: 1831023843 and 1831023842
+2024-06-23 22:02:12,853:INFO:Current throughput for http://10.135.163.2/large: 54072021.46184773
+2024-06-23 22:02:12,853:INFO:Slow server throughput: 54072021.46184773
+2024-06-23 22:02:12,853:INFO:Small chunk size: 11501396
+2024-06-23 22:02:12,853:INFO:small_start_byte, small_end_byte: 1831023843 and 1842525240
+2024-06-23 22:02:12,853:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1831023843, end_byte=1842525240
+2024-06-23 22:02:12,853:INFO:Fetching range::::: 1831023843-1842525240 from http://10.135.163.2/large
+2024-06-23 22:02:12,893:INFO:Delay 0.17530560493469238
+2024-06-23 22:02:12,893:INFO:Successfully fetched range 1796337882-1810052320 from http://10.134.48.2/large at 1719180132.8938947
+2024-06-23 22:02:12,893:INFO:Throughput: {'http://10.137.132.2/large': 98594333.25829065, 'http://10.134.48.2/large': 78231600.21100934, 'http://10.135.163.2/large': 54072021.46184773}
+2024-06-23 22:02:12,893:INFO:number_of_chunk: 109
+2024-06-23 22:02:12,894:INFO:Fetched range: start_byte=1796337882, end_byte=1810052320, delay=0.1753, throughput=78231600.21100934
+2024-06-23 22:02:12,894:INFO:Geometric mean of throughput: 74714046.43743744
+2024-06-23 22:02:12,894:INFO:start and end byte are: 1842525241 and 1842525240
+2024-06-23 22:02:12,894:INFO:Current throughput for http://10.134.48.2/large: 78231600.21100934
+2024-06-23 22:02:12,894:INFO:Fast server throughput: 78231600.21100934
+2024-06-23 22:02:12,894:INFO:Fast download time: 0.26806967955959987
+2024-06-23 22:02:12,894:INFO:Large chunk start byte: 1842525241
+2024-06-23 22:02:12,894:INFO:Large chunk end byte: 1863496762
+2024-06-23 22:02:12,894:INFO:Large_start_byte, Large_end_byte: 1842525241 and 1863496762
+2024-06-23 22:02:12,894:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1842525241, end_byte=1863496762
+2024-06-23 22:02:12,894:INFO:Fetching range::::: 1842525241-1863496762 from http://10.134.48.2/large
+2024-06-23 22:02:13,036:INFO:Delay 0.18261194229125977
+2024-06-23 22:02:13,036:INFO:Successfully fetched range 1831023843-1842525240 from http://10.135.163.2/large at 1719180133.0364745
+2024-06-23 22:02:13,036:INFO:Throughput: {'http://10.137.132.2/large': 98594333.25829065, 'http://10.134.48.2/large': 78231600.21100934, 'http://10.135.163.2/large': 62982720.93100936}
+2024-06-23 22:02:13,036:INFO:number_of_chunk: 110
+2024-06-23 22:02:13,036:INFO:Fetched range: start_byte=1831023843, end_byte=1842525240, delay=0.1826, throughput=62982720.93100936
+2024-06-23 22:02:13,037:INFO:Geometric mean of throughput: 78611339.34363069
+2024-06-23 22:02:13,037:INFO:start and end byte are: 1863496763 and 1863496762
+2024-06-23 22:02:13,037:INFO:Current throughput for http://10.135.163.2/large: 62982720.93100936
+2024-06-23 22:02:13,037:INFO:Slow server throughput: 62982720.93100936
+2024-06-23 22:02:13,037:INFO:Small chunk size: 16883757
+2024-06-23 22:02:13,037:INFO:small_start_byte, small_end_byte: 1863496763 and 1880380521
+2024-06-23 22:02:13,037:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1863496763, end_byte=1880380521
+2024-06-23 22:02:13,037:INFO:Fetching range::::: 1863496763-1880380521 from http://10.135.163.2/large
+2024-06-23 22:02:13,045:INFO:Delay 0.19757366180419922
+2024-06-23 22:02:13,045:INFO:Successfully fetched range 1810052321-1831023842 from http://10.137.132.2/large at 1719180133.0457737
+2024-06-23 22:02:13,045:INFO:Throughput: {'http://10.137.132.2/large': 106145327.30978757, 'http://10.134.48.2/large': 78231600.21100934, 'http://10.135.163.2/large': 62982720.93100936}
+2024-06-23 22:02:13,045:INFO:number_of_chunk: 111
+2024-06-23 22:02:13,045:INFO:Fetched range: start_byte=1810052321, end_byte=1831023842, delay=0.1976, throughput=106145327.30978757
+2024-06-23 22:02:13,046:INFO:Geometric mean of throughput: 80569036.67471297
+2024-06-23 22:02:13,046:INFO:start and end byte are: 1880380522 and 1880380521
+2024-06-23 22:02:13,046:INFO:Current throughput for http://10.137.132.2/large: 106145327.30978757
+2024-06-23 22:02:13,046:INFO:Fast server throughput: 106145327.30978757
+2024-06-23 22:02:13,046:INFO:Fast download time: 0.1975736523831533
+2024-06-23 22:02:13,046:INFO:Large chunk start byte: 1880380522
+2024-06-23 22:02:13,046:INFO:Large chunk end byte: 1901352043
+2024-06-23 22:02:13,046:INFO:Large_start_byte, Large_end_byte: 1880380522 and 1901352043
+2024-06-23 22:02:13,046:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1880380522, end_byte=1901352043
+2024-06-23 22:02:13,046:INFO:Fetching range::::: 1880380522-1901352043 from http://10.137.132.2/large
+2024-06-23 22:02:13,169:INFO:Delay 0.2745239734649658
+2024-06-23 22:02:13,169:INFO:Successfully fetched range 1842525241-1863496762 from http://10.134.48.2/large at 1719180133.1697574
+2024-06-23 22:02:13,169:INFO:Throughput: {'http://10.137.132.2/large': 106145327.30978757, 'http://10.134.48.2/large': 76392311.88192146, 'http://10.135.163.2/large': 62982720.93100936}
+2024-06-23 22:02:13,169:INFO:number_of_chunk: 112
+2024-06-23 22:02:13,169:INFO:Fetched range: start_byte=1842525241, end_byte=1863496762, delay=0.2745, throughput=76392311.88192146
+2024-06-23 22:02:13,169:INFO:Slow server throughput: 76392311.88192146
+2024-06-23 22:02:13,169:INFO:Small chunk size: 15093108
+2024-06-23 22:02:13,170:INFO:small_start_byte, small_end_byte: 1901352044 and 1916445153
+2024-06-23 22:02:13,170:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1901352044, end_byte=1916445153
+2024-06-23 22:02:13,170:INFO:Fetching range::::: 1901352044-1916445153 from http://10.134.48.2/large
+2024-06-23 22:02:13,239:INFO:Delay 0.19256591796875
+2024-06-23 22:02:13,239:INFO:Successfully fetched range 1880380522-1901352043 from http://10.137.132.2/large at 1719180133.2396123
+2024-06-23 22:02:13,239:INFO:Throughput: {'http://10.137.132.2/large': 108905673.55435815, 'http://10.134.48.2/large': 76392311.88192146, 'http://10.135.163.2/large': 62982720.93100936}
+2024-06-23 22:02:13,239:INFO:number_of_chunk: 113
+2024-06-23 22:02:13,239:INFO:Fetched range: start_byte=1880380522, end_byte=1901352043, delay=0.1926, throughput=108905673.55435815
+2024-06-23 22:02:13,240:INFO:Geometric mean of throughput: 80619578.98723842
+2024-06-23 22:02:13,240:INFO:start and end byte are: 1916445154 and 1916445153
+2024-06-23 22:02:13,240:INFO:Current throughput for http://10.137.132.2/large: 108905673.55435815
+2024-06-23 22:02:13,240:INFO:Fast server throughput: 108905673.55435815
+2024-06-23 22:02:13,240:INFO:Fast download time: 0.19256590878649193
+2024-06-23 22:02:13,240:INFO:Large chunk start byte: 1916445154
+2024-06-23 22:02:13,240:INFO:Large chunk end byte: 1937416675
+2024-06-23 22:02:13,240:INFO:Large_start_byte, Large_end_byte: 1916445154 and 1937416675
+2024-06-23 22:02:13,240:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1916445154, end_byte=1937416675
+2024-06-23 22:02:13,240:INFO:Fetching range::::: 1916445154-1937416675 from http://10.137.132.2/large
+2024-06-23 22:02:13,310:INFO:Delay 0.2724761962890625
+2024-06-23 22:02:13,310:INFO:Successfully fetched range 1863496763-1880380521 from http://10.135.163.2/large at 1719180133.3101585
+2024-06-23 22:02:13,310:INFO:Throughput: {'http://10.137.132.2/large': 108905673.55435815, 'http://10.134.48.2/large': 76392311.88192146, 'http://10.135.163.2/large': 61964157.71338971}
+2024-06-23 22:02:13,310:INFO:number_of_chunk: 114
+2024-06-23 22:02:13,310:INFO:Fetched range: start_byte=1863496763, end_byte=1880380521, delay=0.2725, throughput=61964157.71338971
+2024-06-23 22:02:13,310:INFO:Geometric mean of throughput: 80182618.81424008
+2024-06-23 22:02:13,310:INFO:start and end byte are: 1937416676 and 1937416675
+2024-06-23 22:02:13,310:INFO:Current throughput for http://10.135.163.2/large: 61964157.71338971
+2024-06-23 22:02:13,311:INFO:Slow server throughput: 61964157.71338971
+2024-06-23 22:02:13,311:INFO:Small chunk size: 11932184
+2024-06-23 22:02:13,311:INFO:small_start_byte, small_end_byte: 1937416676 and 1949348861
+2024-06-23 22:02:13,311:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1937416676, end_byte=1949348861
+2024-06-23 22:02:13,311:INFO:Fetching range::::: 1937416676-1949348861 from http://10.135.163.2/large
+2024-06-23 22:02:13,385:INFO:Delay 0.21558475494384766
+2024-06-23 22:02:13,385:INFO:Successfully fetched range 1901352044-1916445153 from http://10.134.48.2/large at 1719180133.3859177
+2024-06-23 22:02:13,385:INFO:Throughput: {'http://10.137.132.2/large': 108905673.55435815, 'http://10.134.48.2/large': 70010094.19210199, 'http://10.135.163.2/large': 61964157.71338971}
+2024-06-23 22:02:13,385:INFO:number_of_chunk: 115
+2024-06-23 22:02:13,386:INFO:Fetched range: start_byte=1901352044, end_byte=1916445153, delay=0.2156, throughput=70010094.19210199
+2024-06-23 22:02:13,386:INFO:Geometric mean of throughput: 77884416.87410164
+2024-06-23 22:02:13,386:INFO:start and end byte are: 1949348862 and 1949348861
+2024-06-23 22:02:13,386:INFO:Current throughput for http://10.134.48.2/large: 70010094.19210199
+2024-06-23 22:02:13,386:INFO:Slow server throughput: 70010094.19210199
+2024-06-23 22:02:13,386:INFO:Small chunk size: 13481557
+2024-06-23 22:02:13,386:INFO:small_start_byte, small_end_byte: 1949348862 and 1962830420
+2024-06-23 22:02:13,386:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1949348862, end_byte=1962830420
+2024-06-23 22:02:13,386:INFO:Fetching range::::: 1949348862-1962830420 from http://10.134.48.2/large
+2024-06-23 22:02:13,451:INFO:Delay 0.21050381660461426
+2024-06-23 22:02:13,451:INFO:Successfully fetched range 1916445154-1937416675 from http://10.137.132.2/large at 1719180133.451424
+2024-06-23 22:02:13,451:INFO:Throughput: {'http://10.137.132.2/large': 99625371.82587264, 'http://10.134.48.2/large': 70010094.19210199, 'http://10.135.163.2/large': 61964157.71338971}
+2024-06-23 22:02:13,451:INFO:number_of_chunk: 116
+2024-06-23 22:02:13,451:INFO:Fetched range: start_byte=1916445154, end_byte=1937416675, delay=0.2105, throughput=99625371.82587264
+2024-06-23 22:02:13,452:INFO:Geometric mean of throughput: 75606138.23037039
+2024-06-23 22:02:13,452:INFO:start and end byte are: 1962830421 and 1962830420
+2024-06-23 22:02:13,452:INFO:Current throughput for http://10.137.132.2/large: 99625371.82587264
+2024-06-23 22:02:13,452:INFO:Fast server throughput: 99625371.82587264
+2024-06-23 22:02:13,452:INFO:Fast download time: 0.21050380656701057
+2024-06-23 22:02:13,452:INFO:Large chunk start byte: 1962830421
+2024-06-23 22:02:13,452:INFO:Large chunk end byte: 1983801942
+2024-06-23 22:02:13,452:INFO:Large_start_byte, Large_end_byte: 1962830421 and 1983801942
+2024-06-23 22:02:13,452:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=1962830421, end_byte=1983801942
+2024-06-23 22:02:13,452:INFO:Fetching range::::: 1962830421-1983801942 from http://10.137.132.2/large
+2024-06-23 22:02:13,493:INFO:Delay 0.18247199058532715
+2024-06-23 22:02:13,493:INFO:Successfully fetched range 1937416676-1949348861 from http://10.135.163.2/large at 1719180133.493854
+2024-06-23 22:02:13,493:INFO:Throughput: {'http://10.137.132.2/large': 99625371.82587264, 'http://10.134.48.2/large': 70010094.19210199, 'http://10.135.163.2/large': 65391871.71534854}
+2024-06-23 22:02:13,493:INFO:number_of_chunk: 117
+2024-06-23 22:02:13,493:INFO:Fetched range: start_byte=1937416676, end_byte=1949348861, delay=0.1825, throughput=65391871.71534854
+2024-06-23 22:02:13,494:INFO:Geometric mean of throughput: 76975312.70810549
+2024-06-23 22:02:13,494:INFO:start and end byte are: 1983801943 and 1983801942
+2024-06-23 22:02:13,494:INFO:Current throughput for http://10.135.163.2/large: 65391871.71534854
+2024-06-23 22:02:13,494:INFO:Slow server throughput: 65391871.71534854
+2024-06-23 22:02:13,494:INFO:Small chunk size: 13765237
+2024-06-23 22:02:13,494:INFO:small_start_byte, small_end_byte: 1983801943 and 1997567181
+2024-06-23 22:02:13,494:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=1983801943, end_byte=1997567181
+2024-06-23 22:02:13,494:INFO:Fetching range::::: 1983801943-1997567181 from http://10.135.163.2/large
+2024-06-23 22:02:13,561:INFO:Delay 0.17403697967529297
+2024-06-23 22:02:13,561:INFO:Successfully fetched range 1949348862-1962830420 from http://10.134.48.2/large at 1719180133.561177
+2024-06-23 22:02:13,561:INFO:Throughput: {'http://10.137.132.2/large': 99625371.82587264, 'http://10.134.48.2/large': 77463755.2613992, 'http://10.135.163.2/large': 65391871.71534854}
+2024-06-23 22:02:13,561:INFO:number_of_chunk: 118
+2024-06-23 22:02:13,561:INFO:Fetched range: start_byte=1949348862, end_byte=1962830420, delay=0.1740, throughput=77463755.2613992
+2024-06-23 22:02:13,561:INFO:Geometric mean of throughput: 79615462.70762013
+2024-06-23 22:02:13,562:INFO:start and end byte are: 1997567182 and 1997567181
+2024-06-23 22:02:13,562:INFO:Current throughput for http://10.134.48.2/large: 77463755.2613992
+2024-06-23 22:02:13,562:INFO:Slow server throughput: 77463755.2613992
+2024-06-23 22:02:13,562:INFO:Small chunk size: 16306415
+2024-06-23 22:02:13,562:INFO:small_start_byte, small_end_byte: 1997567182 and 2013873598
+2024-06-23 22:02:13,562:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=1997567182, end_byte=2013873598
+2024-06-23 22:02:13,562:INFO:Fetching range::::: 1997567182-2013873598 from http://10.134.48.2/large
+2024-06-23 22:02:13,664:INFO:Delay 0.21199274063110352
+2024-06-23 22:02:13,664:INFO:Successfully fetched range 1962830421-1983801942 from http://10.137.132.2/large at 1719180133.6646976
+2024-06-23 22:02:13,664:INFO:Throughput: {'http://10.137.132.2/large': 98925656.31053059, 'http://10.134.48.2/large': 77463755.2613992, 'http://10.135.163.2/large': 65391871.71534854}
+2024-06-23 22:02:13,664:INFO:number_of_chunk: 119
+2024-06-23 22:02:13,664:INFO:Fetched range: start_byte=1962830421, end_byte=1983801942, delay=0.2120, throughput=98925656.31053059
+2024-06-23 22:02:13,665:INFO:Geometric mean of throughput: 79428632.43104273
+2024-06-23 22:02:13,665:INFO:start and end byte are: 2013873599 and 2013873598
+2024-06-23 22:02:13,665:INFO:Current throughput for http://10.137.132.2/large: 98925656.31053059
+2024-06-23 22:02:13,665:INFO:Fast server throughput: 98925656.31053059
+2024-06-23 22:02:13,665:INFO:Fast download time: 0.2119927305225024
+2024-06-23 22:02:13,665:INFO:Large chunk start byte: 2013873599
+2024-06-23 22:02:13,665:INFO:Large chunk end byte: 2034845120
+2024-06-23 22:02:13,665:INFO:Large_start_byte, Large_end_byte: 2013873599 and 2034845120
+2024-06-23 22:02:13,665:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=2013873599, end_byte=2034845120
+2024-06-23 22:02:13,665:INFO:Fetching range::::: 2013873599-2034845120 from http://10.137.132.2/large
+2024-06-23 22:02:13,720:INFO:Delay 0.22541022300720215
+2024-06-23 22:02:13,720:INFO:Successfully fetched range 1983801943-1997567181 from http://10.135.163.2/large at 1719180133.720468
+2024-06-23 22:02:13,720:INFO:Throughput: {'http://10.137.132.2/large': 98925656.31053059, 'http://10.134.48.2/large': 77463755.2613992, 'http://10.135.163.2/large': 61067496.479785584}
+2024-06-23 22:02:13,720:INFO:number_of_chunk: 120
+2024-06-23 22:02:13,720:INFO:Fetched range: start_byte=1983801943, end_byte=1997567181, delay=0.2254, throughput=61067496.479785584
+2024-06-23 22:02:13,721:INFO:Geometric mean of throughput: 77637677.35168949
+2024-06-23 22:02:13,721:INFO:start and end byte are: 2034845121 and 2034845120
+2024-06-23 22:02:13,721:INFO:Current throughput for http://10.135.163.2/large: 61067496.479785584
+2024-06-23 22:02:13,721:INFO:Slow server throughput: 61067496.479785584
+2024-06-23 22:02:13,721:INFO:Small chunk size: 12945865
+2024-06-23 22:02:13,721:INFO:small_start_byte, small_end_byte: 2034845121 and 2047790987
+2024-06-23 22:02:13,721:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=2034845121, end_byte=2047790987
+2024-06-23 22:02:13,721:INFO:Fetching range::::: 2034845121-2047790987 from http://10.135.163.2/large
+2024-06-23 22:02:13,774:INFO:Delay 0.21175718307495117
+2024-06-23 22:02:13,774:INFO:Successfully fetched range 1997567182-2013873598 from http://10.134.48.2/large at 1719180133.774229
+2024-06-23 22:02:13,774:INFO:Throughput: {'http://10.137.132.2/large': 98925656.31053059, 'http://10.134.48.2/large': 77005255.56305858, 'http://10.135.163.2/large': 61067496.479785584}
+2024-06-23 22:02:13,774:INFO:number_of_chunk: 121
+2024-06-23 22:02:13,774:INFO:Fetched range: start_byte=1997567182, end_byte=2013873598, delay=0.2118, throughput=77005255.56305858
+2024-06-23 22:02:13,775:INFO:Geometric mean of throughput: 77484197.76758382
+2024-06-23 22:02:13,775:INFO:start and end byte are: 2047790988 and 2047790987
+2024-06-23 22:02:13,775:INFO:Current throughput for http://10.134.48.2/large: 77005255.56305858
+2024-06-23 22:02:13,775:INFO:Slow server throughput: 77005255.56305858
+2024-06-23 22:02:13,775:INFO:Small chunk size: 16324554
+2024-06-23 22:02:13,775:INFO:small_start_byte, small_end_byte: 2047790988 and 2064115543
+2024-06-23 22:02:13,775:INFO:Fetching range for URL: http://10.134.48.2/large, start_byte=2047790988, end_byte=2064115543
+2024-06-23 22:02:13,775:INFO:Fetching range::::: 2047790988-2064115543 from http://10.134.48.2/large
+2024-06-23 22:02:13,886:INFO:Delay 0.2201848030090332
+2024-06-23 22:02:13,886:INFO:Successfully fetched range 2013873599-2034845120 from http://10.137.132.2/large at 1719180133.8861465
+2024-06-23 22:02:13,886:INFO:Throughput: {'http://10.137.132.2/large': 95245088.27768478, 'http://10.134.48.2/large': 77005255.56305858, 'http://10.135.163.2/large': 61067496.479785584}
+2024-06-23 22:02:13,886:INFO:number_of_chunk: 122
+2024-06-23 22:02:13,886:INFO:Fetched range: start_byte=2013873599, end_byte=2034845120, delay=0.2202, throughput=95245088.27768478
+2024-06-23 22:02:13,886:INFO:Geometric mean of throughput: 76511084.35892063
+2024-06-23 22:02:13,886:INFO:start and end byte are: 2064115544 and 2064115543
+2024-06-23 22:02:13,886:INFO:Current throughput for http://10.137.132.2/large: 95245088.27768478
+2024-06-23 22:02:13,886:INFO:Fast server throughput: 95245088.27768478
+2024-06-23 22:02:13,886:INFO:Fast download time: 0.22018479250980413
+2024-06-23 22:02:13,887:INFO:Large chunk start byte: 2064115544
+2024-06-23 22:02:13,887:INFO:Large chunk end byte: 2085087065
+2024-06-23 22:02:13,887:INFO:Large_start_byte, Large_end_byte: 2064115544 and 2085087065
+2024-06-23 22:02:13,887:INFO:Fetching range for URL: http://10.137.132.2/large, start_byte=2064115544, end_byte=2085087065
+2024-06-23 22:02:13,887:INFO:Fetching range::::: 2064115544-2085087065 from http://10.137.132.2/large
+2024-06-23 22:02:13,945:INFO:Delay 0.22369885444641113
+2024-06-23 22:02:13,945:INFO:Successfully fetched range 2034845121-2047790987 from http://10.135.163.2/large at 1719180133.9454541
+2024-06-23 22:02:13,945:INFO:Throughput: {'http://10.137.132.2/large': 95245088.27768478, 'http://10.134.48.2/large': 77005255.56305858, 'http://10.135.163.2/large': 57871847.542702936}
+2024-06-23 22:02:13,945:INFO:number_of_chunk: 123
+2024-06-23 22:02:13,945:INFO:Fetched range: start_byte=2034845121, end_byte=2047790987, delay=0.2237, throughput=57871847.542702936
+2024-06-23 22:02:13,946:INFO:Geometric mean of throughput: 75152500.32844391
+2024-06-23 22:02:13,946:INFO:start and end byte are: 2085087066 and 2085087065
+2024-06-23 22:02:13,946:INFO:Current throughput for http://10.135.163.2/large: 57871847.542702936
+2024-06-23 22:02:13,946:INFO:Slow server throughput: 57871847.542702936
+2024-06-23 22:02:13,946:INFO:Small chunk size: 12742500
+2024-06-23 22:02:13,946:INFO:small_start_byte, small_end_byte: 2085087066 and 2093168814
+2024-06-23 22:02:13,946:INFO:Fetching range for URL: http://10.135.163.2/large, start_byte=2085087066, end_byte=2093168814
+2024-06-23 22:02:13,946:INFO:Fetching range::::: 2085087066-2093168814 from http://10.135.163.2/large
+2024-06-23 22:02:13,988:INFO:Delay 0.21355795860290527
+2024-06-23 22:02:13,989:INFO:Successfully fetched range 2047790988-2064115543 from http://10.134.48.2/large at 1719180133.9890356
+2024-06-23 22:02:13,989:INFO:Throughput: {'http://10.137.132.2/large': 95245088.27768478, 'http://10.134.48.2/large': 76440864.61022164, 'http://10.135.163.2/large': 57871847.542702936}
+2024-06-23 22:02:13,989:INFO:number_of_chunk: 124
+2024-06-23 22:02:13,989:INFO:Fetched range: start_byte=2047790988, end_byte=2064115543, delay=0.2136, throughput=76440864.61022164
+2024-06-23 22:02:14,082:INFO:Delay 0.19494056701660156
+2024-06-23 22:02:14,082:INFO:Successfully fetched range 2064115544-2085087065 from http://10.137.132.2/large at 1719180134.0823214
+2024-06-23 22:02:14,082:INFO:Throughput: {'http://10.137.132.2/large': 107579049.96867082, 'http://10.134.48.2/large': 76440864.61022164, 'http://10.135.163.2/large': 57871847.542702936}
+2024-06-23 22:02:14,082:INFO:number_of_chunk: 125
+2024-06-23 22:02:14,082:INFO:Fetched range: start_byte=2064115544, end_byte=2085087065, delay=0.1949, throughput=107579049.96867082
+2024-06-23 22:02:14,087:INFO:Delay 0.14081621170043945
+2024-06-23 22:02:14,087:INFO:Successfully fetched range 2085087066-2093168814 from http://10.135.163.2/large at 1719180134.0874183
+2024-06-23 22:02:14,087:INFO:Throughput: {'http://10.137.132.2/large': 107579049.96867082, 'http://10.134.48.2/large': 76440864.61022164, 'http://10.135.163.2/large': 57392170.2793172}
+2024-06-23 22:02:14,087:INFO:number_of_chunk: 126
+2024-06-23 22:02:14,087:INFO:Fetched range: start_byte=2085087066, end_byte=2093168814, delay=0.1408, throughput=57392170.2793172
+2024-06-23 22:02:14,087:INFO:All chunks downloaded, writing to disk.
+2024-06-23 22:02:19,155:INFO:Total download delay: 14.142009735107422
+2024-06-23 22:02:19,156:INFO:Total download throughput: 148010703.7971927
