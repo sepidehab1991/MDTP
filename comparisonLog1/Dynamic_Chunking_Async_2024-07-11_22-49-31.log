@@ -1,0 +1,603 @@
+2024-07-11 22:49:31,707:INFO:Downloading file from URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:31,707:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=0, end_byte=5242879
+2024-07-11 22:49:31,707:INFO:Fetching range::::: 0-5242879 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:31,707:INFO:Downloading file from URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:31,707:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=5242880, end_byte=10485759
+2024-07-11 22:49:31,707:INFO:Fetching range::::: 5242880-10485759 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:31,708:INFO:Downloading file from URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:31,708:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=10485760, end_byte=15728639
+2024-07-11 22:49:31,708:INFO:Fetching range::::: 10485760-15728639 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:31,986:INFO:Delay 0.2794322967529297
+2024-07-11 22:49:31,987:INFO:Successfully fetched range 0-5242879 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738171.987019
+2024-07-11 22:49:31,987:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 18762609.26501164}
+2024-07-11 22:49:31,987:INFO:number_of_chunk: 1
+2024-07-11 22:49:31,987:INFO:Fetched range: start_byte=0, end_byte=5242879, delay=0.2794, throughput=18762609.26501164
+2024-07-11 22:49:31,988:INFO:Geometric mean of throughput: 18762609.265011657
+2024-07-11 22:49:31,988:INFO:start and end byte are: 15728640 and 15728639
+2024-07-11 22:49:31,988:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 18762609.26501164
+2024-07-11 22:49:31,988:INFO:Fast server throughput: 18762609.26501164
+2024-07-11 22:49:31,988:INFO:Fast download time: 1.117729400201683
+2024-07-11 22:49:31,988:INFO:Large chunk start byte: 15728640
+2024-07-11 22:49:31,988:INFO:Large chunk end byte: 36700161
+2024-07-11 22:49:31,988:INFO:Large_start_byte, Large_end_byte: 15728640 and 36700161
+2024-07-11 22:49:31,988:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=15728640, end_byte=36700161
+2024-07-11 22:49:31,988:INFO:Fetching range::::: 15728640-36700161 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,066:INFO:Delay 0.3575899600982666
+2024-07-11 22:49:32,066:INFO:Successfully fetched range 10485760-15728639 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.0662882
+2024-07-11 22:49:32,066:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 18762609.26501164, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 14661706.381687125}
+2024-07-11 22:49:32,066:INFO:number_of_chunk: 2
+2024-07-11 22:49:32,066:INFO:Fetched range: start_byte=10485760, end_byte=15728639, delay=0.3576, throughput=14661706.381687125
+2024-07-11 22:49:32,067:INFO:Geometric mean of throughput: 16585893.64483935
+2024-07-11 22:49:32,067:INFO:start and end byte are: 36700162 and 36700161
+2024-07-11 22:49:32,067:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 14661706.381687125
+2024-07-11 22:49:32,067:INFO:Slow server throughput: 14661706.381687125
+2024-07-11 22:49:32,067:INFO:Small chunk size: 16387820
+2024-07-11 22:49:32,067:INFO:small_start_byte, small_end_byte: 36700162 and 53087983
+2024-07-11 22:49:32,067:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=36700162, end_byte=53087983
+2024-07-11 22:49:32,067:INFO:Fetching range::::: 36700162-53087983 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,166:INFO:Delay 0.4580070972442627
+2024-07-11 22:49:32,166:INFO:Successfully fetched range 5242880-10485759 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.1663737
+2024-07-11 22:49:32,166:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 18762609.26501164, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 14661706.381687125, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 11447156.674089456}
+2024-07-11 22:49:32,166:INFO:number_of_chunk: 3
+2024-07-11 22:49:32,166:INFO:Fetched range: start_byte=5242880, end_byte=10485759, delay=0.4580, throughput=11447156.674089456
+2024-07-11 22:49:32,167:INFO:Geometric mean of throughput: 14657451.295713771
+2024-07-11 22:49:32,167:INFO:start and end byte are: 53087984 and 53087983
+2024-07-11 22:49:32,167:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 11447156.674089456
+2024-07-11 22:49:32,167:INFO:Slow server throughput: 11447156.674089456
+2024-07-11 22:49:32,167:INFO:Small chunk size: 12794823
+2024-07-11 22:49:32,167:INFO:small_start_byte, small_end_byte: 53087984 and 65882808
+2024-07-11 22:49:32,167:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=53087984, end_byte=65882808
+2024-07-11 22:49:32,167:INFO:Fetching range::::: 53087984-65882808 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,221:INFO:Delay 0.2321300506591797
+2024-07-11 22:49:32,221:INFO:Successfully fetched range 15728640-36700161 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.221369
+2024-07-11 22:49:32,221:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90343843.63613059, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 14661706.381687125, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 11447156.674089456}
+2024-07-11 22:49:32,221:INFO:number_of_chunk: 4
+2024-07-11 22:49:32,221:INFO:Fetched range: start_byte=15728640, end_byte=36700161, delay=0.2321, throughput=90343843.63613059
+2024-07-11 22:49:32,222:INFO:Geometric mean of throughput: 24751046.692774378
+2024-07-11 22:49:32,222:INFO:start and end byte are: 65882809 and 65882808
+2024-07-11 22:49:32,222:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 90343843.63613059
+2024-07-11 22:49:32,222:INFO:Fast server throughput: 90343843.63613059
+2024-07-11 22:49:32,222:INFO:Fast download time: 0.23213003959035683
+2024-07-11 22:49:32,222:INFO:Large chunk start byte: 65882809
+2024-07-11 22:49:32,222:INFO:Large chunk end byte: 86854330
+2024-07-11 22:49:32,222:INFO:Large_start_byte, Large_end_byte: 65882809 and 86854330
+2024-07-11 22:49:32,222:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=65882809, end_byte=86854330
+2024-07-11 22:49:32,222:INFO:Fetching range::::: 65882809-86854330 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,324:INFO:Delay 0.25635313987731934
+2024-07-11 22:49:32,324:INFO:Successfully fetched range 36700162-53087983 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.32446
+2024-07-11 22:49:32,324:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90343843.63613059, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 63926741.868044116, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 11447156.674089456}
+2024-07-11 22:49:32,324:INFO:number_of_chunk: 5
+2024-07-11 22:49:32,324:INFO:Fetched range: start_byte=36700162, end_byte=53087983, delay=0.2564, throughput=63926741.868044116
+2024-07-11 22:49:32,325:INFO:Geometric mean of throughput: 40435199.1994354
+2024-07-11 22:49:32,325:INFO:start and end byte are: 86854331 and 86854330
+2024-07-11 22:49:32,325:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 63926741.868044116
+2024-07-11 22:49:32,325:INFO:Fast server throughput: 63926741.868044116
+2024-07-11 22:49:32,325:INFO:Fast download time: 0.3280555114679371
+2024-07-11 22:49:32,325:INFO:Large chunk start byte: 86854331
+2024-07-11 22:49:32,325:INFO:Large chunk end byte: 107825852
+2024-07-11 22:49:32,325:INFO:Large_start_byte, Large_end_byte: 86854331 and 107825852
+2024-07-11 22:49:32,325:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=86854331, end_byte=107825852
+2024-07-11 22:49:32,325:INFO:Fetching range::::: 86854331-107825852 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,454:INFO:Delay 0.2314159870147705
+2024-07-11 22:49:32,454:INFO:Successfully fetched range 65882809-86854330 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.4547596
+2024-07-11 22:49:32,454:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90622611.12781918, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 63926741.868044116, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 11447156.674089456}
+2024-07-11 22:49:32,454:INFO:number_of_chunk: 6
+2024-07-11 22:49:32,454:INFO:Fetched range: start_byte=65882809, end_byte=86854330, delay=0.2314, throughput=90622611.12781918
+2024-07-11 22:49:32,455:INFO:Geometric mean of throughput: 40476745.82355019
+2024-07-11 22:49:32,455:INFO:start and end byte are: 107825853 and 107825852
+2024-07-11 22:49:32,455:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 90622611.12781918
+2024-07-11 22:49:32,455:INFO:Fast server throughput: 90622611.12781918
+2024-07-11 22:49:32,455:INFO:Fast download time: 0.23141597597999686
+2024-07-11 22:49:32,455:INFO:Large chunk start byte: 107825853
+2024-07-11 22:49:32,456:INFO:Large chunk end byte: 128797374
+2024-07-11 22:49:32,456:INFO:Large_start_byte, Large_end_byte: 107825853 and 128797374
+2024-07-11 22:49:32,456:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=107825853, end_byte=128797374
+2024-07-11 22:49:32,456:INFO:Fetching range::::: 107825853-128797374 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,491:INFO:Delay 0.32374072074890137
+2024-07-11 22:49:32,491:INFO:Successfully fetched range 53087984-65882808 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.4918654
+2024-07-11 22:49:32,491:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90622611.12781918, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 63926741.868044116, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 39521824.6577139}
+2024-07-11 22:49:32,491:INFO:number_of_chunk: 7
+2024-07-11 22:49:32,492:INFO:Fetched range: start_byte=53087984, end_byte=65882808, delay=0.3237, throughput=39521824.6577139
+2024-07-11 22:49:32,492:INFO:Geometric mean of throughput: 61176605.59159266
+2024-07-11 22:49:32,493:INFO:start and end byte are: 128797375 and 128797374
+2024-07-11 22:49:32,493:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 39521824.6577139
+2024-07-11 22:49:32,493:INFO:Slow server throughput: 39521824.6577139
+2024-07-11 22:49:32,493:INFO:Small chunk size: 9145981
+2024-07-11 22:49:32,493:INFO:small_start_byte, small_end_byte: 128797375 and 137943357
+2024-07-11 22:49:32,493:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=128797375, end_byte=137943357
+2024-07-11 22:49:32,493:INFO:Fetching range::::: 128797375-137943357 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,623:INFO:Delay 0.2973029613494873
+2024-07-11 22:49:32,623:INFO:Successfully fetched range 86854331-107825852 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.623677
+2024-07-11 22:49:32,623:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90622611.12781918, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 70539226.73628345, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 39521824.6577139}
+2024-07-11 22:49:32,623:INFO:number_of_chunk: 8
+2024-07-11 22:49:32,623:INFO:Fetched range: start_byte=86854331, end_byte=107825852, delay=0.2973, throughput=70539226.73628345
+2024-07-11 22:49:32,624:INFO:Geometric mean of throughput: 63217126.452604875
+2024-07-11 22:49:32,624:INFO:start and end byte are: 137943358 and 137943357
+2024-07-11 22:49:32,624:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 70539226.73628345
+2024-07-11 22:49:32,624:INFO:Fast server throughput: 70539226.73628345
+2024-07-11 22:49:32,624:INFO:Fast download time: 0.29730294717297806
+2024-07-11 22:49:32,624:INFO:Large chunk start byte: 137943358
+2024-07-11 22:49:32,624:INFO:Large chunk end byte: 158914879
+2024-07-11 22:49:32,624:INFO:Large_start_byte, Large_end_byte: 137943358 and 158914879
+2024-07-11 22:49:32,625:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=137943358, end_byte=158914879
+2024-07-11 22:49:32,625:INFO:Fetching range::::: 137943358-158914879 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,681:INFO:Delay 0.18834996223449707
+2024-07-11 22:49:32,682:INFO:Successfully fetched range 128797375-137943357 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.6820002
+2024-07-11 22:49:32,682:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90622611.12781918, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 70539226.73628345, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 48558448.812499285}
+2024-07-11 22:49:32,682:INFO:number_of_chunk: 9
+2024-07-11 22:49:32,682:INFO:Fetched range: start_byte=128797375, end_byte=137943357, delay=0.1883, throughput=48558448.812499285
+2024-07-11 22:49:32,683:INFO:Geometric mean of throughput: 67708629.55365622
+2024-07-11 22:49:32,683:INFO:start and end byte are: 158914880 and 158914879
+2024-07-11 22:49:32,683:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 48558448.812499285
+2024-07-11 22:49:32,683:INFO:Slow server throughput: 48558448.812499285
+2024-07-11 22:49:32,683:INFO:Small chunk size: 14436569
+2024-07-11 22:49:32,683:INFO:small_start_byte, small_end_byte: 158914880 and 173351450
+2024-07-11 22:49:32,683:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=158914880, end_byte=173351450
+2024-07-11 22:49:32,683:INFO:Fetching range::::: 158914880-173351450 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,694:INFO:Delay 0.23808073997497559
+2024-07-11 22:49:32,694:INFO:Successfully fetched range 107825853-128797374 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.6947634
+2024-07-11 22:49:32,694:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 88085751.92686437, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 70539226.73628345, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 48558448.812499285}
+2024-07-11 22:49:32,694:INFO:number_of_chunk: 10
+2024-07-11 22:49:32,694:INFO:Fetched range: start_byte=107825853, end_byte=128797374, delay=0.2381, throughput=88085751.92686437
+2024-07-11 22:49:32,695:INFO:Geometric mean of throughput: 67070836.33648405
+2024-07-11 22:49:32,695:INFO:start and end byte are: 173351451 and 173351450
+2024-07-11 22:49:32,695:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 88085751.92686437
+2024-07-11 22:49:32,695:INFO:Fast server throughput: 88085751.92686437
+2024-07-11 22:49:32,695:INFO:Fast download time: 0.23808072862240176
+2024-07-11 22:49:32,695:INFO:Large chunk start byte: 173351451
+2024-07-11 22:49:32,696:INFO:Large chunk end byte: 194322972
+2024-07-11 22:49:32,696:INFO:Large_start_byte, Large_end_byte: 173351451 and 194322972
+2024-07-11 22:49:32,696:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=173351451, end_byte=194322972
+2024-07-11 22:49:32,696:INFO:Fetching range::::: 173351451-194322972 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,926:INFO:Delay 0.23015785217285156
+2024-07-11 22:49:32,926:INFO:Successfully fetched range 173351451-194322972 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.926768
+2024-07-11 22:49:32,926:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 91117990.55306666, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 70539226.73628345, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 48558448.812499285}
+2024-07-11 22:49:32,926:INFO:number_of_chunk: 11
+2024-07-11 22:49:32,926:INFO:Fetched range: start_byte=173351451, end_byte=194322972, delay=0.2302, throughput=91117990.55306666
+2024-07-11 22:49:32,927:INFO:Geometric mean of throughput: 67831779.57656932
+2024-07-11 22:49:32,927:INFO:start and end byte are: 194322973 and 194322972
+2024-07-11 22:49:32,927:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 91117990.55306666
+2024-07-11 22:49:32,928:INFO:Fast server throughput: 91117990.55306666
+2024-07-11 22:49:32,928:INFO:Fast download time: 0.23015784119807045
+2024-07-11 22:49:32,928:INFO:Large chunk start byte: 194322973
+2024-07-11 22:49:32,928:INFO:Large chunk end byte: 215294494
+2024-07-11 22:49:32,928:INFO:Large_start_byte, Large_end_byte: 194322973 and 215294494
+2024-07-11 22:49:32,928:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=194322973, end_byte=215294494
+2024-07-11 22:49:32,928:INFO:Fetching range::::: 194322973-215294494 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,954:INFO:Delay 0.32877206802368164
+2024-07-11 22:49:32,954:INFO:Successfully fetched range 137943358-158914879 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.9542897
+2024-07-11 22:49:32,954:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 91117990.55306666, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 63787416.99702241, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 48558448.812499285}
+2024-07-11 22:49:32,954:INFO:number_of_chunk: 12
+2024-07-11 22:49:32,954:INFO:Fetched range: start_byte=137943358, end_byte=158914879, delay=0.3288, throughput=63787416.99702241
+2024-07-11 22:49:32,954:INFO:Slow server throughput: 63787416.99702241
+2024-07-11 22:49:32,954:INFO:Small chunk size: 14681174
+2024-07-11 22:49:32,954:INFO:small_start_byte, small_end_byte: 215294495 and 229975670
+2024-07-11 22:49:32,954:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=215294495, end_byte=229975670
+2024-07-11 22:49:32,954:INFO:Fetching range::::: 215294495-229975670 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:32,963:INFO:Delay 0.2804417610168457
+2024-07-11 22:49:32,964:INFO:Successfully fetched range 158914880-173351450 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738172.964176
+2024-07-11 22:49:32,964:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 91117990.55306666, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 63787416.99702241, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51477960.87021725}
+2024-07-11 22:49:32,964:INFO:number_of_chunk: 13
+2024-07-11 22:49:32,964:INFO:Fetched range: start_byte=158914880, end_byte=173351450, delay=0.2804, throughput=51477960.87021725
+2024-07-11 22:49:32,965:INFO:Geometric mean of throughput: 66883680.21265587
+2024-07-11 22:49:32,965:INFO:start and end byte are: 229975671 and 229975670
+2024-07-11 22:49:32,965:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 51477960.87021725
+2024-07-11 22:49:32,965:INFO:Slow server throughput: 51477960.87021725
+2024-07-11 22:49:32,965:INFO:Small chunk size: 11848056
+2024-07-11 22:49:32,965:INFO:small_start_byte, small_end_byte: 229975671 and 241823728
+2024-07-11 22:49:32,965:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=229975671, end_byte=241823728
+2024-07-11 22:49:32,965:INFO:Fetching range::::: 229975671-241823728 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,168:INFO:Delay 0.23985648155212402
+2024-07-11 22:49:33,168:INFO:Successfully fetched range 194322973-215294494 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.1684816
+2024-07-11 22:49:33,168:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 87433622.24065064, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 63787416.99702241, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51477960.87021725}
+2024-07-11 22:49:33,168:INFO:number_of_chunk: 14
+2024-07-11 22:49:33,168:INFO:Fetched range: start_byte=194322973, end_byte=215294494, delay=0.2399, throughput=87433622.24065064
+2024-07-11 22:49:33,169:INFO:Geometric mean of throughput: 65969765.58185716
+2024-07-11 22:49:33,169:INFO:start and end byte are: 241823729 and 241823728
+2024-07-11 22:49:33,169:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 87433622.24065064
+2024-07-11 22:49:33,169:INFO:Fast server throughput: 87433622.24065064
+2024-07-11 22:49:33,169:INFO:Fast download time: 0.23985647011487626
+2024-07-11 22:49:33,169:INFO:Large chunk start byte: 241823729
+2024-07-11 22:49:33,169:INFO:Large chunk end byte: 262795250
+2024-07-11 22:49:33,169:INFO:Large_start_byte, Large_end_byte: 241823729 and 262795250
+2024-07-11 22:49:33,169:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=241823729, end_byte=262795250
+2024-07-11 22:49:33,169:INFO:Fetching range::::: 241823729-262795250 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,176:INFO:Delay 0.22166943550109863
+2024-07-11 22:49:33,176:INFO:Successfully fetched range 215294495-229975670 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.1767185
+2024-07-11 22:49:33,176:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 87433622.24065064, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 66230037.38342284, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51477960.87021725}
+2024-07-11 22:49:33,176:INFO:number_of_chunk: 15
+2024-07-11 22:49:33,176:INFO:Fetched range: start_byte=215294495, end_byte=229975670, delay=0.2217, throughput=66230037.38342284
+2024-07-11 22:49:33,177:INFO:Geometric mean of throughput: 66801303.27269596
+2024-07-11 22:49:33,177:INFO:start and end byte are: 262795251 and 262795250
+2024-07-11 22:49:33,177:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 66230037.38342284
+2024-07-11 22:49:33,177:INFO:Slow server throughput: 66230037.38342284
+2024-07-11 22:49:33,177:INFO:Small chunk size: 15885702
+2024-07-11 22:49:33,177:INFO:small_start_byte, small_end_byte: 262795251 and 278680954
+2024-07-11 22:49:33,177:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=262795251, end_byte=278680954
+2024-07-11 22:49:33,178:INFO:Fetching range::::: 262795251-278680954 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,200:INFO:Delay 0.2345900535583496
+2024-07-11 22:49:33,200:INFO:Successfully fetched range 229975671-241823728 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.200405
+2024-07-11 22:49:33,200:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 87433622.24065064, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 66230037.38342284, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 50505368.067760095}
+2024-07-11 22:49:33,200:INFO:number_of_chunk: 16
+2024-07-11 22:49:33,200:INFO:Fetched range: start_byte=229975671, end_byte=241823728, delay=0.2346, throughput=50505368.067760095
+2024-07-11 22:49:33,201:INFO:Geometric mean of throughput: 66377924.76325695
+2024-07-11 22:49:33,201:INFO:start and end byte are: 278680955 and 278680954
+2024-07-11 22:49:33,201:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 50505368.067760095
+2024-07-11 22:49:33,201:INFO:Slow server throughput: 50505368.067760095
+2024-07-11 22:49:33,201:INFO:Small chunk size: 12114039
+2024-07-11 22:49:33,201:INFO:small_start_byte, small_end_byte: 278680955 and 290794995
+2024-07-11 22:49:33,201:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=278680955, end_byte=290794995
+2024-07-11 22:49:33,201:INFO:Fetching range::::: 278680955-290794995 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,406:INFO:Delay 0.23651480674743652
+2024-07-11 22:49:33,406:INFO:Successfully fetched range 241823729-262795250 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.406748
+2024-07-11 22:49:33,406:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 88668956.03028584, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 66230037.38342284, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 50505368.067760095}
+2024-07-11 22:49:33,406:INFO:number_of_chunk: 17
+2024-07-11 22:49:33,406:INFO:Fetched range: start_byte=241823729, end_byte=262795250, delay=0.2365, throughput=88668956.03028584
+2024-07-11 22:49:33,407:INFO:Geometric mean of throughput: 66689077.81009354
+2024-07-11 22:49:33,407:INFO:start and end byte are: 290794996 and 290794995
+2024-07-11 22:49:33,407:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 88668956.03028584
+2024-07-11 22:49:33,407:INFO:Fast server throughput: 88668956.03028584
+2024-07-11 22:49:33,407:INFO:Fast download time: 0.23651479546953222
+2024-07-11 22:49:33,407:INFO:Large chunk start byte: 290794996
+2024-07-11 22:49:33,407:INFO:Large chunk end byte: 311766517
+2024-07-11 22:49:33,407:INFO:Large_start_byte, Large_end_byte: 290794996 and 311766517
+2024-07-11 22:49:33,408:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=290794996, end_byte=311766517
+2024-07-11 22:49:33,408:INFO:Fetching range::::: 290794996-311766517 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,432:INFO:Delay 0.25411343574523926
+2024-07-11 22:49:33,432:INFO:Successfully fetched range 262795251-278680954 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.432537
+2024-07-11 22:49:33,432:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 88668956.03028584, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 62514219.10617182, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 50505368.067760095}
+2024-07-11 22:49:33,432:INFO:number_of_chunk: 18
+2024-07-11 22:49:33,432:INFO:Fetched range: start_byte=262795251, end_byte=278680954, delay=0.2541, throughput=62514219.10617182
+2024-07-11 22:49:33,433:INFO:Geometric mean of throughput: 65417807.134564765
+2024-07-11 22:49:33,433:INFO:start and end byte are: 311766518 and 311766517
+2024-07-11 22:49:33,433:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 62514219.10617182
+2024-07-11 22:49:33,433:INFO:Slow server throughput: 62514219.10617182
+2024-07-11 22:49:33,433:INFO:Small chunk size: 14785537
+2024-07-11 22:49:33,433:INFO:small_start_byte, small_end_byte: 311766518 and 326552056
+2024-07-11 22:49:33,433:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=311766518, end_byte=326552056
+2024-07-11 22:49:33,433:INFO:Fetching range::::: 311766518-326552056 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,441:INFO:Delay 0.23944997787475586
+2024-07-11 22:49:33,441:INFO:Successfully fetched range 278680955-290794995 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.4415948
+2024-07-11 22:49:33,441:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 88668956.03028584, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 62514219.10617182, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 50591109.289374165}
+2024-07-11 22:49:33,441:INFO:number_of_chunk: 19
+2024-07-11 22:49:33,441:INFO:Fetched range: start_byte=278680955, end_byte=290794995, delay=0.2394, throughput=50591109.289374165
+2024-07-11 22:49:33,442:INFO:Geometric mean of throughput: 65454805.390615195
+2024-07-11 22:49:33,442:INFO:start and end byte are: 326552057 and 326552056
+2024-07-11 22:49:33,442:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 50591109.289374165
+2024-07-11 22:49:33,442:INFO:Slow server throughput: 50591109.289374165
+2024-07-11 22:49:33,442:INFO:Small chunk size: 11965545
+2024-07-11 22:49:33,442:INFO:small_start_byte, small_end_byte: 326552057 and 338517603
+2024-07-11 22:49:33,442:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=326552057, end_byte=338517603
+2024-07-11 22:49:33,442:INFO:Fetching range::::: 326552057-338517603 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,647:INFO:Delay 0.23875713348388672
+2024-07-11 22:49:33,647:INFO:Successfully fetched range 290794996-311766517 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.6472988
+2024-07-11 22:49:33,647:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 87836207.00244053, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 62514219.10617182, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 50591109.289374165}
+2024-07-11 22:49:33,647:INFO:number_of_chunk: 20
+2024-07-11 22:49:33,647:INFO:Fetched range: start_byte=290794996, end_byte=311766517, delay=0.2388, throughput=87836207.00244053
+2024-07-11 22:49:33,648:INFO:Geometric mean of throughput: 65249250.69814991
+2024-07-11 22:49:33,648:INFO:start and end byte are: 338517604 and 338517603
+2024-07-11 22:49:33,648:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 87836207.00244053
+2024-07-11 22:49:33,648:INFO:Fast server throughput: 87836207.00244053
+2024-07-11 22:49:33,648:INFO:Fast download time: 0.23875712209905997
+2024-07-11 22:49:33,648:INFO:Large chunk start byte: 338517604
+2024-07-11 22:49:33,648:INFO:Large chunk end byte: 359489125
+2024-07-11 22:49:33,648:INFO:Large_start_byte, Large_end_byte: 338517604 and 359489125
+2024-07-11 22:49:33,648:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=338517604, end_byte=359489125
+2024-07-11 22:49:33,648:INFO:Fetching range::::: 338517604-359489125 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,656:INFO:Delay 0.22216033935546875
+2024-07-11 22:49:33,656:INFO:Successfully fetched range 311766518-326552056 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.656463
+2024-07-11 22:49:33,656:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 87836207.00244053, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 66553454.33345925, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 50591109.289374165}
+2024-07-11 22:49:33,656:INFO:number_of_chunk: 21
+2024-07-11 22:49:33,656:INFO:Fetched range: start_byte=311766518, end_byte=326552056, delay=0.2222, throughput=66553454.33345925
+2024-07-11 22:49:33,657:INFO:Geometric mean of throughput: 66625343.18755467
+2024-07-11 22:49:33,657:INFO:start and end byte are: 359489126 and 359489125
+2024-07-11 22:49:33,657:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 66553454.33345925
+2024-07-11 22:49:33,657:INFO:Slow server throughput: 66553454.33345925
+2024-07-11 22:49:33,657:INFO:Small chunk size: 15890111
+2024-07-11 22:49:33,657:INFO:small_start_byte, small_end_byte: 359489126 and 375379238
+2024-07-11 22:49:33,657:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=359489126, end_byte=375379238
+2024-07-11 22:49:33,657:INFO:Fetching range::::: 359489126-375379238 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,676:INFO:Delay 0.23392462730407715
+2024-07-11 22:49:33,677:INFO:Successfully fetched range 326552057-338517603 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.677155
+2024-07-11 22:49:33,677:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 87836207.00244053, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 66553454.33345925, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51151288.07898478}
+2024-07-11 22:49:33,677:INFO:number_of_chunk: 22
+2024-07-11 22:49:33,677:INFO:Fetched range: start_byte=326552057, end_byte=338517603, delay=0.2339, throughput=51151288.07898478
+2024-07-11 22:49:33,678:INFO:Geometric mean of throughput: 66870347.98508233
+2024-07-11 22:49:33,678:INFO:start and end byte are: 375379239 and 375379238
+2024-07-11 22:49:33,678:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 51151288.07898478
+2024-07-11 22:49:33,678:INFO:Slow server throughput: 51151288.07898478
+2024-07-11 22:49:33,678:INFO:Small chunk size: 12212734
+2024-07-11 22:49:33,678:INFO:small_start_byte, small_end_byte: 375379239 and 387591974
+2024-07-11 22:49:33,678:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=375379239, end_byte=387591974
+2024-07-11 22:49:33,678:INFO:Fetching range::::: 375379239-387591974 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,878:INFO:Delay 0.22039127349853516
+2024-07-11 22:49:33,878:INFO:Successfully fetched range 359489126-375379238 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.8786168
+2024-07-11 22:49:33,878:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 87836207.00244053, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 72099551.61906905, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51151288.07898478}
+2024-07-11 22:49:33,878:INFO:number_of_chunk: 23
+2024-07-11 22:49:33,878:INFO:Fetched range: start_byte=359489126, end_byte=375379238, delay=0.2204, throughput=72099551.61906905
+2024-07-11 22:49:33,879:INFO:Geometric mean of throughput: 68678516.24980487
+2024-07-11 22:49:33,879:INFO:start and end byte are: 387591975 and 387591974
+2024-07-11 22:49:33,879:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 72099551.61906905
+2024-07-11 22:49:33,879:INFO:Fast server throughput: 72099551.61906905
+2024-07-11 22:49:33,879:INFO:Fast download time: 0.2908689378652586
+2024-07-11 22:49:33,879:INFO:Large chunk start byte: 387591975
+2024-07-11 22:49:33,879:INFO:Large chunk end byte: 408563496
+2024-07-11 22:49:33,879:INFO:Large_start_byte, Large_end_byte: 387591975 and 408563496
+2024-07-11 22:49:33,879:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=387591975, end_byte=408563496
+2024-07-11 22:49:33,879:INFO:Fetching range::::: 387591975-408563496 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,890:INFO:Delay 0.2416853904724121
+2024-07-11 22:49:33,890:INFO:Successfully fetched range 338517604-359489125 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.8907464
+2024-07-11 22:49:33,890:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 86771984.68226758, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 72099551.61906905, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51151288.07898478}
+2024-07-11 22:49:33,890:INFO:number_of_chunk: 24
+2024-07-11 22:49:33,890:INFO:Fetched range: start_byte=338517604, end_byte=359489125, delay=0.2417, throughput=86771984.68226758
+2024-07-11 22:49:33,891:INFO:Geometric mean of throughput: 68400019.11616427
+2024-07-11 22:49:33,891:INFO:start and end byte are: 408563497 and 408563496
+2024-07-11 22:49:33,891:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 86771984.68226758
+2024-07-11 22:49:33,891:INFO:Fast server throughput: 86771984.68226758
+2024-07-11 22:49:33,891:INFO:Fast download time: 0.24168537894795517
+2024-07-11 22:49:33,892:INFO:Large chunk start byte: 408563497
+2024-07-11 22:49:33,892:INFO:Large chunk end byte: 429535018
+2024-07-11 22:49:33,892:INFO:Large_start_byte, Large_end_byte: 408563497 and 429535018
+2024-07-11 22:49:33,892:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=408563497, end_byte=429535018
+2024-07-11 22:49:33,892:INFO:Fetching range::::: 408563497-429535018 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:33,914:INFO:Delay 0.23594880104064941
+2024-07-11 22:49:33,914:INFO:Successfully fetched range 375379239-387591974 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738173.9147942
+2024-07-11 22:49:33,914:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 86771984.68226758, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 72099551.61906905, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51760106.20158219}
+2024-07-11 22:49:33,914:INFO:number_of_chunk: 25
+2024-07-11 22:49:33,914:INFO:Fetched range: start_byte=375379239, end_byte=387591974, delay=0.2359, throughput=51760106.20158219
+2024-07-11 22:49:33,915:INFO:Geometric mean of throughput: 68670322.10766885
+2024-07-11 22:49:33,915:INFO:start and end byte are: 429535019 and 429535018
+2024-07-11 22:49:33,915:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 51760106.20158219
+2024-07-11 22:49:33,915:INFO:Slow server throughput: 51760106.20158219
+2024-07-11 22:49:33,915:INFO:Small chunk size: 12509660
+2024-07-11 22:49:33,916:INFO:small_start_byte, small_end_byte: 429535019 and 442044680
+2024-07-11 22:49:33,916:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=429535019, end_byte=442044680
+2024-07-11 22:49:33,916:INFO:Fetching range::::: 429535019-442044680 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,121:INFO:Delay 0.22916817665100098
+2024-07-11 22:49:34,121:INFO:Successfully fetched range 408563497-429535018 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.1219716
+2024-07-11 22:49:34,122:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 91511488.66510126, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 72099551.61906905, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51760106.20158219}
+2024-07-11 22:49:34,122:INFO:number_of_chunk: 26
+2024-07-11 22:49:34,122:INFO:Fetched range: start_byte=408563497, end_byte=429535018, delay=0.2292, throughput=91511488.66510126
+2024-07-11 22:49:34,123:INFO:Geometric mean of throughput: 69898487.92222491
+2024-07-11 22:49:34,123:INFO:start and end byte are: 442044681 and 442044680
+2024-07-11 22:49:34,123:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 91511488.66510126
+2024-07-11 22:49:34,123:INFO:Fast server throughput: 91511488.66510126
+2024-07-11 22:49:34,123:INFO:Fast download time: 0.2291681657234113
+2024-07-11 22:49:34,123:INFO:Large chunk start byte: 442044681
+2024-07-11 22:49:34,123:INFO:Large chunk end byte: 463016202
+2024-07-11 22:49:34,123:INFO:Large_start_byte, Large_end_byte: 442044681 and 463016202
+2024-07-11 22:49:34,123:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=442044681, end_byte=463016202
+2024-07-11 22:49:34,123:INFO:Fetching range::::: 442044681-463016202 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,150:INFO:Delay 0.23453927040100098
+2024-07-11 22:49:34,151:INFO:Successfully fetched range 429535019-442044680 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.1510594
+2024-07-11 22:49:34,151:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 91511488.66510126, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 72099551.61906905, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 53337170.26838082}
+2024-07-11 22:49:34,151:INFO:number_of_chunk: 27
+2024-07-11 22:49:34,151:INFO:Fetched range: start_byte=429535019, end_byte=442044680, delay=0.2345, throughput=53337170.26838082
+2024-07-11 22:49:34,152:INFO:Geometric mean of throughput: 70601303.33485003
+2024-07-11 22:49:34,152:INFO:start and end byte are: 463016203 and 463016202
+2024-07-11 22:49:34,152:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 53337170.26838082
+2024-07-11 22:49:34,152:INFO:Slow server throughput: 53337170.26838082
+2024-07-11 22:49:34,152:INFO:Small chunk size: 12223181
+2024-07-11 22:49:34,152:INFO:small_start_byte, small_end_byte: 463016203 and 475239385
+2024-07-11 22:49:34,152:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=463016203, end_byte=475239385
+2024-07-11 22:49:34,152:INFO:Fetching range::::: 463016203-475239385 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,173:INFO:Delay 0.29358434677124023
+2024-07-11 22:49:34,174:INFO:Successfully fetched range 387591975-408563496 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.1740217
+2024-07-11 22:49:34,174:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 91511488.66510126, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 71432694.66045792, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 53337170.26838082}
+2024-07-11 22:49:34,174:INFO:number_of_chunk: 28
+2024-07-11 22:49:34,174:INFO:Fetched range: start_byte=387591975, end_byte=408563496, delay=0.2936, throughput=71432694.66045792
+2024-07-11 22:49:34,175:INFO:Geometric mean of throughput: 70382962.2945602
+2024-07-11 22:49:34,175:INFO:start and end byte are: 475239386 and 475239385
+2024-07-11 22:49:34,175:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 71432694.66045792
+2024-07-11 22:49:34,175:INFO:Fast server throughput: 71432694.66045792
+2024-07-11 22:49:34,175:INFO:Fast download time: 0.2935843327720483
+2024-07-11 22:49:34,175:INFO:Large chunk start byte: 475239386
+2024-07-11 22:49:34,175:INFO:Large chunk end byte: 496210907
+2024-07-11 22:49:34,175:INFO:Large_start_byte, Large_end_byte: 475239386 and 496210907
+2024-07-11 22:49:34,175:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=475239386, end_byte=496210907
+2024-07-11 22:49:34,175:INFO:Fetching range::::: 475239386-496210907 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,355:INFO:Delay 0.2318427562713623
+2024-07-11 22:49:34,355:INFO:Successfully fetched range 442044681-463016202 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.3556604
+2024-07-11 22:49:34,355:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90455795.71808448, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 71432694.66045792, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 53337170.26838082}
+2024-07-11 22:49:34,355:INFO:number_of_chunk: 29
+2024-07-11 22:49:34,355:INFO:Fetched range: start_byte=442044681, end_byte=463016202, delay=0.2318, throughput=90455795.71808448
+2024-07-11 22:49:34,356:INFO:Geometric mean of throughput: 70111264.65732494
+2024-07-11 22:49:34,356:INFO:start and end byte are: 496210908 and 496210907
+2024-07-11 22:49:34,356:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 90455795.71808448
+2024-07-11 22:49:34,356:INFO:Fast server throughput: 90455795.71808448
+2024-07-11 22:49:34,356:INFO:Fast download time: 0.23184274521623874
+2024-07-11 22:49:34,356:INFO:Large chunk start byte: 496210908
+2024-07-11 22:49:34,356:INFO:Large chunk end byte: 517182429
+2024-07-11 22:49:34,356:INFO:Large_start_byte, Large_end_byte: 496210908 and 517182429
+2024-07-11 22:49:34,357:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=496210908, end_byte=517182429
+2024-07-11 22:49:34,357:INFO:Fetching range::::: 496210908-517182429 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,386:INFO:Delay 0.2340383529663086
+2024-07-11 22:49:34,386:INFO:Successfully fetched range 463016203-475239385 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.3868315
+2024-07-11 22:49:34,386:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90455795.71808448, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 71432694.66045792, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 52227260.383086056}
+2024-07-11 22:49:34,386:INFO:number_of_chunk: 30
+2024-07-11 22:49:34,386:INFO:Fetched range: start_byte=463016203, end_byte=475239385, delay=0.2340, throughput=52227260.383086056
+2024-07-11 22:49:34,387:INFO:Geometric mean of throughput: 69621529.34091735
+2024-07-11 22:49:34,388:INFO:start and end byte are: 517182430 and 517182429
+2024-07-11 22:49:34,388:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 52227260.383086056
+2024-07-11 22:49:34,388:INFO:Slow server throughput: 52227260.383086056
+2024-07-11 22:49:34,388:INFO:Small chunk size: 12108511
+2024-07-11 22:49:34,388:INFO:small_start_byte, small_end_byte: 517182430 and 529290942
+2024-07-11 22:49:34,388:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=517182430, end_byte=529290942
+2024-07-11 22:49:34,388:INFO:Fetching range::::: 517182430-529290942 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,467:INFO:Delay 0.29187488555908203
+2024-07-11 22:49:34,467:INFO:Successfully fetched range 475239386-496210907 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.467688
+2024-07-11 22:49:34,467:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90455795.71808448, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 71851063.71803577, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 52227260.383086056}
+2024-07-11 22:49:34,467:INFO:number_of_chunk: 31
+2024-07-11 22:49:34,467:INFO:Fetched range: start_byte=475239386, end_byte=496210907, delay=0.2919, throughput=71851063.71803577
+2024-07-11 22:49:34,468:INFO:Geometric mean of throughput: 69757185.30419554
+2024-07-11 22:49:34,468:INFO:start and end byte are: 529290943 and 529290942
+2024-07-11 22:49:34,468:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 71851063.71803577
+2024-07-11 22:49:34,468:INFO:Fast server throughput: 71851063.71803577
+2024-07-11 22:49:34,468:INFO:Fast download time: 0.2918748716414036
+2024-07-11 22:49:34,468:INFO:Large chunk start byte: 529290943
+2024-07-11 22:49:34,468:INFO:Large chunk end byte: 550262464
+2024-07-11 22:49:34,468:INFO:Large_start_byte, Large_end_byte: 529290943 and 550262464
+2024-07-11 22:49:34,468:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=529290943, end_byte=550262464
+2024-07-11 22:49:34,469:INFO:Fetching range::::: 529290943-550262464 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,591:INFO:Delay 0.23440289497375488
+2024-07-11 22:49:34,591:INFO:Successfully fetched range 496210908-517182429 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.591927
+2024-07-11 22:49:34,591:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 89467841.26684141, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 71851063.71803577, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 52227260.383086056}
+2024-07-11 22:49:34,592:INFO:number_of_chunk: 32
+2024-07-11 22:49:34,592:INFO:Fetched range: start_byte=496210908, end_byte=517182429, delay=0.2344, throughput=89467841.26684141
+2024-07-11 22:49:34,593:INFO:Geometric mean of throughput: 69502293.3710476
+2024-07-11 22:49:34,593:INFO:start and end byte are: 550262465 and 550262464
+2024-07-11 22:49:34,593:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 89467841.26684141
+2024-07-11 22:49:34,593:INFO:Fast server throughput: 89467841.26684141
+2024-07-11 22:49:34,593:INFO:Fast download time: 0.23440288379655438
+2024-07-11 22:49:34,593:INFO:Large chunk start byte: 550262465
+2024-07-11 22:49:34,593:INFO:Large chunk end byte: 571233986
+2024-07-11 22:49:34,593:INFO:Large_start_byte, Large_end_byte: 550262465 and 571233986
+2024-07-11 22:49:34,593:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=550262465, end_byte=571233986
+2024-07-11 22:49:34,593:INFO:Fetching range::::: 550262465-571233986 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,621:INFO:Delay 0.2335062026977539
+2024-07-11 22:49:34,622:INFO:Successfully fetched range 517182430-529290942 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.6221094
+2024-07-11 22:49:34,622:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 89467841.26684141, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 71851063.71803577, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51855204.95861531}
+2024-07-11 22:49:34,622:INFO:number_of_chunk: 33
+2024-07-11 22:49:34,622:INFO:Fetched range: start_byte=517182430, end_byte=529290942, delay=0.2335, throughput=51855204.95861531
+2024-07-11 22:49:34,623:INFO:Geometric mean of throughput: 69336860.2674548
+2024-07-11 22:49:34,623:INFO:start and end byte are: 571233987 and 571233986
+2024-07-11 22:49:34,623:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 51855204.95861531
+2024-07-11 22:49:34,623:INFO:Slow server throughput: 51855204.95861531
+2024-07-11 22:49:34,623:INFO:Small chunk size: 12155009
+2024-07-11 22:49:34,623:INFO:small_start_byte, small_end_byte: 571233987 and 583388997
+2024-07-11 22:49:34,623:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=571233987, end_byte=583388997
+2024-07-11 22:49:34,623:INFO:Fetching range::::: 571233987-583388997 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,730:INFO:Delay 0.26076745986938477
+2024-07-11 22:49:34,730:INFO:Successfully fetched range 529290943-550262464 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.7302208
+2024-07-11 22:49:34,730:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 89467841.26684141, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80422308.09973139, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51855204.95861531}
+2024-07-11 22:49:34,730:INFO:number_of_chunk: 34
+2024-07-11 22:49:34,730:INFO:Fetched range: start_byte=529290943, end_byte=550262464, delay=0.2608, throughput=80422308.09973139
+2024-07-11 22:49:34,731:INFO:Geometric mean of throughput: 71991067.85974899
+2024-07-11 22:49:34,731:INFO:start and end byte are: 583388998 and 583388997
+2024-07-11 22:49:34,731:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 80422308.09973139
+2024-07-11 22:49:34,731:INFO:Fast server throughput: 80422308.09973139
+2024-07-11 22:49:34,731:INFO:Fast download time: 0.2607674474350239
+2024-07-11 22:49:34,731:INFO:Large chunk start byte: 583388998
+2024-07-11 22:49:34,731:INFO:Large chunk end byte: 604360519
+2024-07-11 22:49:34,731:INFO:Large_start_byte, Large_end_byte: 583388998 and 604360519
+2024-07-11 22:49:34,731:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=583388998, end_byte=604360519
+2024-07-11 22:49:34,731:INFO:Fetching range::::: 583388998-604360519 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,824:INFO:Delay 0.23094439506530762
+2024-07-11 22:49:34,824:INFO:Successfully fetched range 550262465-571233986 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.8245943
+2024-07-11 22:49:34,824:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90807663.87107843, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80422308.09973139, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51855204.95861531}
+2024-07-11 22:49:34,824:INFO:number_of_chunk: 35
+2024-07-11 22:49:34,824:INFO:Fetched range: start_byte=550262465, end_byte=571233986, delay=0.2309, throughput=90807663.87107843
+2024-07-11 22:49:34,825:INFO:Geometric mean of throughput: 72348655.33644007
+2024-07-11 22:49:34,825:INFO:start and end byte are: 604360520 and 604360519
+2024-07-11 22:49:34,825:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 90807663.87107843
+2024-07-11 22:49:34,825:INFO:Fast server throughput: 90807663.87107843
+2024-07-11 22:49:34,825:INFO:Fast download time: 0.23094438405302126
+2024-07-11 22:49:34,825:INFO:Large chunk start byte: 604360520
+2024-07-11 22:49:34,825:INFO:Large chunk end byte: 625332041
+2024-07-11 22:49:34,825:INFO:Large_start_byte, Large_end_byte: 604360520 and 625332041
+2024-07-11 22:49:34,825:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=604360520, end_byte=625332041
+2024-07-11 22:49:34,825:INFO:Fetching range::::: 604360520-625332041 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,857:INFO:Delay 0.2340688705444336
+2024-07-11 22:49:34,857:INFO:Successfully fetched range 571233987-583388997 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.8578665
+2024-07-11 22:49:34,857:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90807663.87107843, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80422308.09973139, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51929203.45079633}
+2024-07-11 22:49:34,857:INFO:number_of_chunk: 36
+2024-07-11 22:49:34,857:INFO:Fetched range: start_byte=571233987, end_byte=583388997, delay=0.2341, throughput=51929203.45079633
+2024-07-11 22:49:34,859:INFO:Geometric mean of throughput: 72383053.34153001
+2024-07-11 22:49:34,859:INFO:start and end byte are: 625332042 and 625332041
+2024-07-11 22:49:34,859:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 51929203.45079633
+2024-07-11 22:49:34,859:INFO:Slow server throughput: 51929203.45079633
+2024-07-11 22:49:34,859:INFO:Small chunk size: 11992757
+2024-07-11 22:49:34,859:INFO:small_start_byte, small_end_byte: 625332042 and 637324800
+2024-07-11 22:49:34,859:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=625332042, end_byte=637324800
+2024-07-11 22:49:34,859:INFO:Fetching range::::: 625332042-637324800 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:34,992:INFO:Delay 0.26077795028686523
+2024-07-11 22:49:34,992:INFO:Successfully fetched range 583388998-604360519 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738174.9927473
+2024-07-11 22:49:34,992:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 90807663.87107843, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80419072.91981766, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51929203.45079633}
+2024-07-11 22:49:34,992:INFO:number_of_chunk: 37
+2024-07-11 22:49:34,992:INFO:Fetched range: start_byte=583388998, end_byte=604360519, delay=0.2608, throughput=80419072.91981766
+2024-07-11 22:49:34,993:INFO:Geometric mean of throughput: 72382082.73463441
+2024-07-11 22:49:34,993:INFO:start and end byte are: 637324801 and 637324800
+2024-07-11 22:49:34,993:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 80419072.91981766
+2024-07-11 22:49:34,993:INFO:Fast server throughput: 80419072.91981766
+2024-07-11 22:49:34,993:INFO:Fast download time: 0.26077793785200415
+2024-07-11 22:49:34,993:INFO:Large chunk start byte: 637324801
+2024-07-11 22:49:34,994:INFO:Large chunk end byte: 658296322
+2024-07-11 22:49:34,994:INFO:Large_start_byte, Large_end_byte: 637324801 and 658296322
+2024-07-11 22:49:34,994:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=637324801, end_byte=658296322
+2024-07-11 22:49:34,994:INFO:Fetching range::::: 637324801-658296322 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:35,062:INFO:Delay 0.2362656593322754
+2024-07-11 22:49:35,062:INFO:Successfully fetched range 604360520-625332041 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738175.0626523
+2024-07-11 22:49:35,062:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 88762459.42499168, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80419072.91981766, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51929203.45079633}
+2024-07-11 22:49:35,062:INFO:number_of_chunk: 38
+2024-07-11 22:49:35,062:INFO:Fetched range: start_byte=604360520, end_byte=625332041, delay=0.2363, throughput=88762459.42499168
+2024-07-11 22:49:35,063:INFO:Geometric mean of throughput: 71834545.79494934
+2024-07-11 22:49:35,063:INFO:start and end byte are: 658296323 and 658296322
+2024-07-11 22:49:35,063:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 88762459.42499168
+2024-07-11 22:49:35,063:INFO:Fast server throughput: 88762459.42499168
+2024-07-11 22:49:35,063:INFO:Fast download time: 0.23626564806625136
+2024-07-11 22:49:35,063:INFO:Large chunk start byte: 658296323
+2024-07-11 22:49:35,063:INFO:Large chunk end byte: 679267844
+2024-07-11 22:49:35,063:INFO:Large_start_byte, Large_end_byte: 658296323 and 679267844
+2024-07-11 22:49:35,064:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=658296323, end_byte=679267844
+2024-07-11 22:49:35,064:INFO:Fetching range::::: 658296323-679267844 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:35,094:INFO:Delay 0.23464608192443848
+2024-07-11 22:49:35,094:INFO:Successfully fetched range 625332042-637324800 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738175.094653
+2024-07-11 22:49:35,094:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 88762459.42499168, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80419072.91981766, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51109986.161464855}
+2024-07-11 22:49:35,094:INFO:number_of_chunk: 39
+2024-07-11 22:49:35,094:INFO:Fetched range: start_byte=625332042, end_byte=637324800, delay=0.2346, throughput=51109986.161464855
+2024-07-11 22:49:35,095:INFO:Geometric mean of throughput: 71454796.09226894
+2024-07-11 22:49:35,095:INFO:start and end byte are: 679267845 and 679267844
+2024-07-11 22:49:35,095:INFO:Current throughput for http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 51109986.161464855
+2024-07-11 22:49:35,095:INFO:Slow server throughput: 51109986.161464855
+2024-07-11 22:49:35,095:INFO:Small chunk size: 12075534
+2024-07-11 22:49:35,095:INFO:small_start_byte, small_end_byte: 679267845 and 691343380
+2024-07-11 22:49:35,095:INFO:Fetching range for URL: http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=679267845, end_byte=691343380
+2024-07-11 22:49:35,095:INFO:Fetching range::::: 679267845-691343380 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:35,256:INFO:Delay 0.26189517974853516
+2024-07-11 22:49:35,256:INFO:Successfully fetched range 637324801-658296322 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738175.256459
+2024-07-11 22:49:35,256:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 88762459.42499168, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80076009.87592174, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51109986.161464855}
+2024-07-11 22:49:35,256:INFO:number_of_chunk: 40
+2024-07-11 22:49:35,256:INFO:Fetched range: start_byte=637324801, end_byte=658296322, delay=0.2619, throughput=80076009.87592174
+2024-07-11 22:49:35,257:INFO:Geometric mean of throughput: 71353043.94350845
+2024-07-11 22:49:35,257:INFO:start and end byte are: 691343381 and 691343380
+2024-07-11 22:49:35,257:INFO:Current throughput for http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 80076009.87592174
+2024-07-11 22:49:35,257:INFO:Fast server throughput: 80076009.87592174
+2024-07-11 22:49:35,257:INFO:Fast download time: 0.2618951672604004
+2024-07-11 22:49:35,257:INFO:Large chunk start byte: 691343381
+2024-07-11 22:49:35,257:INFO:Large chunk end byte: 712314902
+2024-07-11 22:49:35,257:INFO:Large_start_byte, Large_end_byte: 691343381 and 712314902
+2024-07-11 22:49:35,257:INFO:Fetching range for URL: http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=691343381, end_byte=712314902
+2024-07-11 22:49:35,257:INFO:Fetching range::::: 691343381-712314902 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:35,299:INFO:Delay 0.23485755920410156
+2024-07-11 22:49:35,299:INFO:Successfully fetched range 658296323-679267844 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738175.2993324
+2024-07-11 22:49:35,299:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 89294639.14667879, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80076009.87592174, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51109986.161464855}
+2024-07-11 22:49:35,299:INFO:number_of_chunk: 41
+2024-07-11 22:49:35,299:INFO:Fetched range: start_byte=658296323, end_byte=679267844, delay=0.2349, throughput=89294639.14667879
+2024-07-11 22:49:35,300:INFO:Geometric mean of throughput: 71495360.13636905
+2024-07-11 22:49:35,300:INFO:start and end byte are: 712314903 and 712314902
+2024-07-11 22:49:35,300:INFO:Current throughput for http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso: 89294639.14667879
+2024-07-11 22:49:35,300:INFO:Fast server throughput: 89294639.14667879
+2024-07-11 22:49:35,300:INFO:Fast download time: 0.234857548005221
+2024-07-11 22:49:35,300:INFO:Large chunk start byte: 712314903
+2024-07-11 22:49:35,300:INFO:Large chunk end byte: 733286424
+2024-07-11 22:49:35,300:INFO:Large_start_byte, Large_end_byte: 712314903 and 718284800
+2024-07-11 22:49:35,300:INFO:Fetching range for URL: http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso, start_byte=712314903, end_byte=718284800
+2024-07-11 22:49:35,300:INFO:Fetching range::::: 712314903-718284800 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso
+2024-07-11 22:49:35,329:INFO:Delay 0.23357391357421875
+2024-07-11 22:49:35,329:INFO:Successfully fetched range 679267845-691343380 from http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738175.3299353
+2024-07-11 22:49:35,329:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 89294639.14667879, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80076009.87592174, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51698988.19271599}
+2024-07-11 22:49:35,330:INFO:number_of_chunk: 42
+2024-07-11 22:49:35,330:INFO:Fetched range: start_byte=679267845, end_byte=691343380, delay=0.2336, throughput=51698988.19271599
+2024-07-11 22:49:35,362:INFO:Delay 0.062122344970703125
+2024-07-11 22:49:35,363:INFO:Successfully fetched range 712314903-718284800 from http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738175.3630543
+2024-07-11 22:49:35,363:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 96099028.50279398, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 80076009.87592174, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51698988.19271599}
+2024-07-11 22:49:35,363:INFO:number_of_chunk: 43
+2024-07-11 22:49:35,363:INFO:Fetched range: start_byte=712314903, end_byte=718284800, delay=0.0621, throughput=96099028.50279398
+2024-07-11 22:49:35,527:INFO:Delay 0.2691969871520996
+2024-07-11 22:49:35,527:INFO:Successfully fetched range 691343381-712314902 from http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso at 1720738175.5274289
+2024-07-11 22:49:35,527:INFO:Throughput: {'http://10.137.132.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 96099028.50279398, 'http://10.134.48.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 77903995.9617038, 'http://10.135.163.2/Fedora-Everything-netinst-x86_64-38-1.6.iso': 51698988.19271599}
+2024-07-11 22:49:35,527:INFO:number_of_chunk: 44
+2024-07-11 22:49:35,527:INFO:Fetched range: start_byte=691343381, end_byte=712314902, delay=0.2692, throughput=77903995.9617038
+2024-07-11 22:49:35,528:INFO:All chunks downloaded, writing to disk.
+2024-07-11 22:49:36,289:INFO:Total download delay: 4.583118200302124
+2024-07-11 22:49:36,290:INFO:Total download throughput: 156724039.96751598
